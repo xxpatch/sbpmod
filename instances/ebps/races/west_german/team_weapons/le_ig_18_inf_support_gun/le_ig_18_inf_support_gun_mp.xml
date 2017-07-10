@@ -20,6 +20,7 @@
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_vet_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_smoke_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_hollow_charge_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">

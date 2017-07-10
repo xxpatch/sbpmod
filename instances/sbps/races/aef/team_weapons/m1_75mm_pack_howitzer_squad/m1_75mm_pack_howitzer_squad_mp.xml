@@ -447,7 +447,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\aef\team_weapons\field_artillery\m1_75mm_pack_howitzer_mp" />
+					<instance_reference name="type" value="ebps\races\aef\team_weapons\field_artillery\m1_75mm_pack_howitzer_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="6" />
@@ -969,7 +969,6 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_howitzer" />
-				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_pack_howitzer_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

@@ -210,6 +210,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\mortar_counter_barrage_attack_mp" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_incendiary_barrage_mp" />
+				<instance_reference name="ability" value="abilities\german\toggle_ability\german_mortar_hold_fire_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
