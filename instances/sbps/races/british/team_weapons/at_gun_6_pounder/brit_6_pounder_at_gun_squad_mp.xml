@@ -474,6 +474,49 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_race">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<instance_reference name="race" value="racebps\soviet" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\spawn_entity">
+							<float name="duration" value="999999" />
+							<instance_reference name="entity_blueprint" value="ebps\races\soviet\buildings\defensive_structures\soviet_popcap_reducer_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<bool name="permanent" value="False" />
+							<bool name="player_owned" value="True" />
+							<group name="target_info">
+								<template_reference name="target_info" value="type_ability_target_type\all">
+								</template_reference>
+							</group>
+							<uniqueid name="id" value="1073760525" />
+							<template_reference name="spawn_attached_option" value="options\none">
+							</template_reference>
+							<list name="spawned_entity_actions">
+							</list>
+							<group name="offset">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073760526" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
+				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
