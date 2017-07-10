@@ -34,7 +34,7 @@
 			<bool name="remove_from_pathfinding_on_death" value="True" />
 			<bool name="reveal_to_all_on_death" value="False" />
 			<bool name="ui_can_scuttle" value="False" />
-			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_british_glider_hq_mp" />
+			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_british_glider_mp" />
 			<list name="death_actions">
 			</list>
 			<float name="armor" value="5" />
@@ -165,7 +165,7 @@
 			<bool name="obb_selectable" value="False" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11095507" />
+			<locstring name="screen_name" value="11095506" />
 			<enum name="selection_name" value="" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="single_entity_select" />
@@ -176,13 +176,13 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_2">
-				<string name="code_1" value="fh" />
-				<string name="code_2" value="pl" />
+				<string name="code_1" value="pl" />
+				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="fhq" />
-				<string name="code_2" value="pln" />
+				<string name="code_1" value="pln" />
+				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_cover">
@@ -215,9 +215,9 @@
 			<enum name="occlusion_state" value="can_be_occluded" />
 			<enum name="decorator_visibility" value="default" />
 			<string name="decorator_marker_name" value="fx_ui" />
-			<bool name="skin_pack_override" value="True" />
-			<string name="skin_summer" value="forward_hq" />
-			<string name="skin_winter" value="forward_hq" />
+			<bool name="skin_pack_override" value="False" />
+			<string name="skin_summer" value="" />
+			<string name="skin_winter" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
@@ -264,10 +264,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757608" />
+							<uniqueid name="id" value="1073760823" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757609" />
+					<uniqueid name="id" value="1073760824" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -278,7 +278,7 @@
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<bool name="trigger_publish_event" value="False" />
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_glider_not_stopped" />
-					<uniqueid name="id" value="1073757610" />
+					<uniqueid name="id" value="1073760825" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action" comment="Reinforce disabled if not in connected territory, not finished landing, or hard a hard landing">
 					<bool name="check_self" value="False" />
@@ -338,7 +338,7 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\reinforce_radius_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757611" />
+							<uniqueid name="id" value="1073760826" />
 						</template_reference>
 						<template_reference name="action" value="action\animator_set_state">
 							<bool name="apply_to_leader_only" value="False" />
@@ -346,7 +346,7 @@
 							<bool name="retrigger" value="False" />
 							<string name="state_machine_name" value="ability_reinforce_state" />
 							<string name="undo_action_state_name" value="off" />
-							<uniqueid name="id" value="1073757612" />
+							<uniqueid name="id" value="1073760827" />
 						</template_reference>
 						<template_reference name="action" value="action\change_target_action">
 							<list name="actions">
@@ -354,18 +354,18 @@
 									<bool name="die_with_creator" value="False" />
 									<template_reference name="ui_info" value="tables\ui_info">
 										<locstring name="screen_name" value="11095447" />
-										<locstring name="help_text" value="11095698" />
+										<locstring name="help_text" value="11095779" />
 										<icon name="icon_name" value="Icons_odds_reinforce" />
 										<string name="hotkey_name" value="" />
 									</template_reference>
-									<uniqueid name="id" value="1073757613" />
+									<uniqueid name="id" value="1073760828" />
 								</template_reference>
 							</list>
 							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073757614" />
+							<uniqueid name="id" value="1073760829" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757615" />
+					<uniqueid name="id" value="1073760830" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -412,7 +412,7 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\sight_radius_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757616" />
+							<uniqueid name="id" value="1073760831" />
 						</template_reference>
 						<template_reference name="action" value="action\target_occupants_action">
 							<list name="subactions">
@@ -430,13 +430,13 @@
 											<instance_reference name="tooltip" value="modifier_tooltip\sight_radius_modifier" />
 										</template_reference>
 									</list>
-									<uniqueid name="id" value="1073757617" />
+									<uniqueid name="id" value="1073760832" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757618" />
+							<uniqueid name="id" value="1073760833" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757619" />
+					<uniqueid name="id" value="1073760834" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -445,11 +445,11 @@
 				</template_reference>
 				<template_reference name="action" value="action\animator_set_state" comment="Set the &quot;variant_type&quot; for HQ or default glider">
 					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="headquarters" />
+					<string name="do_action_state_name" value="default" />
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="variant_type" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073757620" />
+					<uniqueid name="id" value="1073760835" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
@@ -474,15 +474,15 @@
 									<bool name="die_with_creator" value="False" />
 									<template_reference name="ui_info" value="tables\ui_info">
 										<locstring name="screen_name" value="11095780" />
-										<locstring name="help_text" value="11095781" />
+										<locstring name="help_text" value="11095782" />
 										<icon name="icon_name" value="Icons_odds_reinforce" />
 										<string name="hotkey_name" value="" />
 									</template_reference>
-									<uniqueid name="id" value="1073757621" />
+									<uniqueid name="id" value="1073760867" />
 								</template_reference>
 							</list>
 							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073757622" />
+							<uniqueid name="id" value="1073760868" />
 						</template_reference>
 						<template_reference name="action" value="action\delay">
 							<float name="delay" value="10" />
@@ -496,14 +496,14 @@
 									<bool name="destroy" value="False" />
 									<list name="death_reaction_table">
 									</list>
-									<uniqueid name="id" value="1073757658" />
+									<uniqueid name="id" value="1073760869" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757659" />
+							<uniqueid name="id" value="1073760870" />
 							<bool name="can_prevent_refund" value="True" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757623" />
+					<uniqueid name="id" value="1073760838" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -511,13 +511,8 @@
 					</template_reference>
 				</template_reference>
 				<template_reference name="action" value="action\garrison_squad_action">
-					<instance_reference name="squad_blueprint" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" />
-					<uniqueid name="id" value="1073760822" />
-				</template_reference>
-				<template_reference name="action" value="action\set_production_disabled">
-					<bool name="production_disabled" value="True" />
-					<uniqueid name="id" value="1073757625" />
-					<locstring name="disabled_reason" value="0" />
+					<instance_reference name="squad_blueprint" value="sbps\races\british\soldiers\commando_squad\commando_squad_mp" />
+					<uniqueid name="id" value="1073760839" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -589,7 +584,7 @@
 						<bool name="retrigger" value="False" />
 						<string name="state_machine_name" value="wing_destroy_left" />
 						<string name="undo_action_state_name" value="wreck" />
-						<uniqueid name="id" value="1073757626" />
+						<uniqueid name="id" value="1073760840" />
 					</template_reference>
 				</list>
 				<list name="right_wing_break_actions">
@@ -599,7 +594,7 @@
 						<bool name="retrigger" value="False" />
 						<string name="state_machine_name" value="wing_destroy_right" />
 						<string name="undo_action_state_name" value="wreck" />
-						<uniqueid name="id" value="1073757627" />
+						<uniqueid name="id" value="1073760841" />
 					</template_reference>
 				</list>
 				<list name="touchdown_actions">
@@ -607,7 +602,7 @@
 						<float name="max_swerve_angle" value="0" />
 						<float name="acceleration" value="0" />
 						<float name="deceleration" value="0" />
-						<uniqueid name="id" value="1073757628" />
+						<uniqueid name="id" value="1073760842" />
 						<float name="min_swerve_angle" value="0" />
 						<bool name="fire_and_forget" value="False" />
 						<list name="deform_options">
@@ -948,11 +943,11 @@
 								<bool name="retrigger" value="False" />
 								<string name="state_machine_name" value="glider_touchdown" />
 								<string name="undo_action_state_name" value="" />
-								<uniqueid name="id" value="1073757631" />
+								<uniqueid name="id" value="1073760843" />
 							</template_reference>
 						</list>
 						<enum name="change_target_type" value="self" />
-						<uniqueid name="id" value="1073757632" />
+						<uniqueid name="id" value="1073760844" />
 					</template_reference>
 				</list>
 				<float name="touchdown_height_offset" value="0" />
@@ -977,11 +972,11 @@
 						<bool name="retrigger" value="False" />
 						<string name="state_machine_name" value="doors" />
 						<string name="undo_action_state_name" value="" />
-						<uniqueid name="id" value="1073757633" />
+						<uniqueid name="id" value="1073760845" />
 					</template_reference>
 					<template_reference name="actions" value="action\enable_hold_action">
 						<bool name="switch_on" value="False" />
-						<uniqueid name="id" value="1073757634" />
+						<uniqueid name="id" value="1073760846" />
 					</template_reference>
 					<template_reference name="actions" value="action\apply_modifiers_action">
 						<float name="duration" value="0" />
@@ -997,7 +992,7 @@
 								<instance_reference name="tooltip" value="modifier_tooltip\move_enable_modifier" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073757635" />
+						<uniqueid name="id" value="1073760847" />
 					</template_reference>
 					<template_reference name="actions" value="action\delay">
 						<float name="delay" value="1.25" />
@@ -1008,53 +1003,11 @@
 							<template_reference name="action" value="action\upgrade_remove" comment="Removing this upgade should allow the glider to be vulnerable again, if it was invulnerable.">
 								<bool name="apply_to_entities_in_squad" value="False" />
 								<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_glider_not_stopped" />
-								<uniqueid name="id" value="1073757636" />
+								<uniqueid name="id" value="1073760848" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073757637" />
+						<uniqueid name="id" value="1073760849" />
 						<bool name="can_prevent_refund" value="True" />
-					</template_reference>
-					<template_reference name="actions" value="action\upgrade_add">
-						<bool name="apply_to_entities_in_squad" value="False" />
-						<bool name="trigger_publish_event" value="False" />
-						<instance_reference name="upgrade" value="upgrade\british\research\fwd_hq_retreat_mp" />
-						<uniqueid name="id" value="1073757638" />
-					</template_reference>
-					<template_reference name="actions" value="action\requirement_action">
-						<bool name="check_self" value="False" />
-						<bool name="global_fire_and_forget_on_success" value="False" />
-						<bool name="instant_requirement_check" value="False" />
-						<bool name="kill_action_on_failed_requirements" value="False" />
-						<bool name="no_retrigger" value="False" />
-						<bool name="validate_all_sub_actions" value="True" />
-						<list name="requirement_table" comment="If you haven't done a hard landing, allow units to be produced by the glider">
-							<template_reference name="required" value="requirements\required_not">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<list name="requirement_table">
-									<template_reference name="required" value="requirements\required_entity_upgrade">
-										<enum name="reason" value="usage" />
-										<locstring name="ui_name" value="0" />
-										<bool name="is_present" value="True" />
-										<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_lock_out_glider_hard_landed" />
-										<bool name="include_queued" value="False" />
-									</template_reference>
-								</list>
-							</template_reference>
-						</list>
-						<list name="action_table">
-							<template_reference name="action" value="action\set_production_disabled">
-								<bool name="production_disabled" value="False" />
-								<uniqueid name="id" value="1073757639" />
-								<locstring name="disabled_reason" value="0" />
-							</template_reference>
-						</list>
-						<uniqueid name="id" value="1073757640" />
-						<bool name="fire_and_forget_non_global" value="False" />
-						<template_reference name="ui_help_text" value="tables\help_text_phrase">
-							<int name="phrase_order" value="0" />
-							<locstring name="phrase" value="0" />
-						</template_reference>
 					</template_reference>
 				</list>
 				<group name="height_above_ground_actions">
@@ -1081,7 +1034,7 @@
 									<bool name="retrigger" value="False" />
 									<string name="state_machine_name" value="landing_state" />
 									<string name="undo_action_state_name" value="" />
-									<uniqueid name="id" value="1073757641" />
+									<uniqueid name="id" value="1073760850" />
 								</template_reference>
 								<template_reference name="action" value="action\change_target_action" comment="Tags the glider as having hard landed - this locks out certain things">
 									<list name="actions">
@@ -1089,14 +1042,14 @@
 											<bool name="apply_to_entities_in_squad" value="False" />
 											<bool name="trigger_publish_event" value="False" />
 											<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_glider_hard_landed" />
-											<uniqueid name="id" value="1073757642" />
+											<uniqueid name="id" value="1073760851" />
 										</template_reference>
 									</list>
 									<enum name="change_target_type" value="entities" />
-									<uniqueid name="id" value="1073757643" />
+									<uniqueid name="id" value="1073760852" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757644" />
+							<uniqueid name="id" value="1073760853" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -1109,7 +1062,7 @@
 							<bool name="retrigger" value="False" />
 							<string name="state_machine_name" value="glider_state" />
 							<string name="undo_action_state_name" value="touchdown" />
-							<uniqueid name="id" value="1073757645" />
+							<uniqueid name="id" value="1073760854" />
 						</template_reference>
 					</list>
 					<float name="height_above_ground" value="10" />
@@ -1140,10 +1093,10 @@
 								<template_reference name="action" value="action\sound_action">
 									<bool name="fire_and_forget" value="False" />
 									<string name="sound_container" value="sound\speech\mp\british\pil\events\landing\cb_pil_shl_gengen_nt_s" />
-									<uniqueid name="id" value="1073757646" />
+									<uniqueid name="id" value="1073760855" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757647" />
+							<uniqueid name="id" value="1073760856" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -1169,10 +1122,10 @@
 								<template_reference name="action" value="action\sound_action">
 									<bool name="fire_and_forget" value="False" />
 									<string name="sound_container" value="sound\speech\mp\british\pil\events\landing\cb_pil_hld_gengen_nt_s" />
-									<uniqueid name="id" value="1073757648" />
+									<uniqueid name="id" value="1073760857" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757649" />
+							<uniqueid name="id" value="1073760858" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -1184,7 +1137,7 @@
 						<template_reference name="actions" value="action\sound_action">
 							<bool name="fire_and_forget" value="False" />
 							<string name="sound_container" value="sound\speech\mp\british\pil\events\landing\cb_pil_hld_gengen_nt_s" />
-							<uniqueid name="id" value="1073757650" />
+							<uniqueid name="id" value="1073760859" />
 						</template_reference>
 					</list>
 					<list name="soft_intensity_stop_actions">
@@ -1207,10 +1160,10 @@
 								<template_reference name="action" value="action\sound_action">
 									<bool name="fire_and_forget" value="False" />
 									<string name="sound_container" value="sound\speech\mp\british\pil\events\landing\cb_pil_sld_gengen_nt_s" />
-									<uniqueid name="id" value="1073757651" />
+									<uniqueid name="id" value="1073760860" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757652" />
+							<uniqueid name="id" value="1073760861" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -1236,10 +1189,10 @@
 								<template_reference name="action" value="action\sound_action">
 									<bool name="fire_and_forget" value="False" />
 									<string name="sound_container" value="sound\speech\mp\british\pil\events\landing\cb_pil_shl_gengen_nt_s" />
-									<uniqueid name="id" value="1073757653" />
+									<uniqueid name="id" value="1073760862" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073757654" />
+							<uniqueid name="id" value="1073760863" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -1674,7 +1627,7 @@
 						<float name="max_swerve_angle" value="-25" />
 						<float name="acceleration" value="0" />
 						<float name="deceleration" value="0" />
-						<uniqueid name="id" value="1073757655" />
+						<uniqueid name="id" value="1073760864" />
 						<float name="min_swerve_angle" value="-10" />
 						<bool name="fire_and_forget" value="True" />
 						<list name="deform_options">
@@ -1686,7 +1639,7 @@
 						<float name="max_swerve_angle" value="25" />
 						<float name="acceleration" value="0" />
 						<float name="deceleration" value="0" />
-						<uniqueid name="id" value="1073757656" />
+						<uniqueid name="id" value="1073760865" />
 						<float name="min_swerve_angle" value="10" />
 						<bool name="fire_and_forget" value="False" />
 						<list name="deform_options">
@@ -1720,7 +1673,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\british\toggle_ability\forward_hq_retreat_point_glider_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hold_ext">
@@ -1790,7 +1742,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\sight_radius_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757657" />
+					<uniqueid name="id" value="1073760866" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -1813,7 +1765,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext">
 			<bool name="must_be_in_supply" value="False" />
-			<float name="number_of_standard_slots" value="-1" />
+			<float name="number_of_standard_slots" value="0" />
 			<list name="standard_upgrades">
 			</list>
 		</template_reference>
@@ -1823,24 +1775,6 @@
 			<bool name="must_be_in_supply" value="True" />
 			<float name="reinforce_radius" value="0" />
 			<list name="spawn_items">
-				<group name="spawn_item">
-					<int name="ui_position" value="11" />
-					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\british\soldiers\commando_squad\commando_squad_mp" />
-					<bool name="spawn_at_map_entry_point" value="False" />
-				</group>
-				<group name="spawn_item">
-					<int name="ui_position" value="12" />
-					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\british\soldiers\brit_medic_squad\brit_medic_squad_mp" />
-					<bool name="spawn_at_map_entry_point" value="False" />
-				</group>
-				<group name="spawn_item">
-					<int name="ui_position" value="13" />
-					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-					<bool name="spawn_at_map_entry_point" value="False" />
-				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
 			</list>
@@ -1848,54 +1782,6 @@
 			</list>
 			<bool name="spawn_to_hold_try_first" value="False" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\resource_ext">
-			<enum name="default_choice" value="fuel" />
-			<group name="fuel_choice_ui_info">
-				<locstring name="extra_text" value="0" />
-				<locstring name="help_text" value="0" />
-				<string name="hotkey_name" value="" />
-				<icon name="icon_name" value="" />
-				<string name="overlay_name" value="" />
-				<bool name="reveal_for_decryption" value="False" />
-				<locstring name="screen_name" value="0" />
-			</group>
-			<group name="manpower_choice_ui_info">
-				<locstring name="extra_text" value="0" />
-				<locstring name="help_text" value="0" />
-				<string name="hotkey_name" value="" />
-				<icon name="icon_name" value="" />
-				<string name="overlay_name" value="" />
-				<bool name="reveal_for_decryption" value="False" />
-				<locstring name="screen_name" value="0" />
-			</group>
-			<group name="munition_choice_ui_info">
-				<locstring name="extra_text" value="0" />
-				<locstring name="help_text" value="0" />
-				<string name="hotkey_name" value="" />
-				<icon name="icon_name" value="" />
-				<string name="overlay_name" value="" />
-				<bool name="reveal_for_decryption" value="False" />
-				<locstring name="screen_name" value="0" />
-			</group>
-			<group name="resource_choice_per_second">
-				<float name="action" value="0" />
-				<float name="command" value="0" />
-				<float name="fuel" value="0" />
-				<float name="manpower" value="0" />
-				<float name="munition" value="0" />
-				<float name="popcap" value="0" />
-			</group>
-			<group name="total_amount_of_resources">
-				<float name="action" value="0" />
-				<float name="command" value="0" />
-				<float name="fuel" value="0" />
-				<float name="manpower" value="0" />
-				<float name="munition" value="0" />
-				<float name="popcap" value="0" />
-			</group>
-			<bool name="resources_divided_by_team_size" value="False" />
-			<bool name="enable_sector_linked_resourcing" value="False" />
-		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="93456" />
+	<uniqueid name="pbgid" value="91548" />
 </instance>
