@@ -773,7 +773,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -790,7 +790,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\aef" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -807,7 +807,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\west_german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -824,7 +824,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">

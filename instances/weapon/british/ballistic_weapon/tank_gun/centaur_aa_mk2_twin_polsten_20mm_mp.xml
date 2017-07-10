@@ -46,7 +46,7 @@
 				<float name="radius" value="0.5" />
 			</group>
 			<group name="damage">
-				<float name="far" value="1" />
+				<float name="far" value="0.05" />
 				<float name="near" value="1" />
 				<float name="mid" value="1" />
 			</group>
@@ -72,7 +72,7 @@
 				<float name="near" value="0.1" />
 				<float name="mid" value="0.1" />
 			</group>
-			<bool name="damage_all_in_hold" value="False" />
+			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
 				<float name="far" value="10" />
 				<float name="mid" value="12.5" />
@@ -175,8 +175,8 @@
 				<float name="suppression_multiplier" value="1" />
 			</group>
 			<group name="tp_garrison_cover">
-				<float name="accuracy_multiplier" value="0.4" />
-				<float name="damage_multiplier" value="0.5" />
+				<float name="accuracy_multiplier" value="0.5" />
+				<float name="damage_multiplier" value="0.35" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
@@ -193,7 +193,7 @@
 				<float name="suppression_multiplier" value="0.1" />
 			</group>
 			<group name="tp_light">
-				<float name="accuracy_multiplier" value="1" />
+				<float name="accuracy_multiplier" value="0.5" />
 				<float name="damage_multiplier" value="1" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0.5" />
@@ -296,10 +296,10 @@
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
 							<instance_reference name="critical" value="critical\vehicle_vision" />
-							<uniqueid name="id" value="1073758432" />
+							<uniqueid name="id" value="1073760108" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073758433" />
+					<uniqueid name="id" value="1073760109" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -339,10 +339,10 @@
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
 							<instance_reference name="critical" value="critical\vehicle_vision" />
-							<uniqueid name="id" value="1073758438" />
+							<uniqueid name="id" value="1073760110" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073758439" />
+					<uniqueid name="id" value="1073760111" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -397,7 +397,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="" />
+			<instance_reference name="projectile" value="ebps\projectile\centuar_20mm_mp" />
 		</group>
 		<group name="range">
 			<float name="max" value="40" />
