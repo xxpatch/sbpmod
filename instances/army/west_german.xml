@@ -242,7 +242,7 @@
 		</list>
 		<group name="ai_production_info">
 			<list name="base_building_list">
-				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" />
+				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\light_armor_support_mp" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
@@ -251,7 +251,7 @@
 				<group name="unlocking_upgrade_info">
 					<instance_reference name="upgrade_pbg" value="upgrade\west_german\research\medic_healing_mp" />
 					<instance_reference name="unlocked_ability" value="" />
-					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" />
+					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 					<list name="upgraded_squads">
 					</list>
 				</group>
@@ -366,7 +366,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="tier3" />
-				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" />
+				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">
