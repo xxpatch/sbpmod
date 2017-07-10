@@ -65,11 +65,11 @@
 									<string name="modifier_id" value="xp_discount" />
 									<string name="target_type_name" value="" />
 									<enum name="usage_type" value="multiply_add" />
-									<float name="value" value="-0.076923" />
+									<float name="value" value="-0.2" />
 									<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073758862" />
+							<uniqueid name="id" value="1073760376" />
 						</template_reference>
 					</list>
 					<enum name="change_target_type" value="squad" />

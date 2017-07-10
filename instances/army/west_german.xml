@@ -265,8 +265,8 @@
 			</list>
 			<group name="builder_squads">
 				<instance_reference name="base_builder_squad" value="sbps\races\west_german\vehicles\sws_halftrack_squad\sws_halftrack_squad_mp" />
-				<instance_reference name="obs_post_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" />
-				<instance_reference name="defense_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" />
+				<instance_reference name="obs_post_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="defense_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</group>
 		</group>
 		<list name="team_size_point_resource_multiplier">
@@ -317,7 +317,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -329,7 +329,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -385,7 +385,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\west_german_base_stamper" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
