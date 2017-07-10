@@ -7,7 +7,7 @@
 				<d2p1:anyType i:type="Folder">
 					<Children>
 						<d2p1:anyType i:type="BurnAttributes">
-							<RelativeName>summer_balance.xml</RelativeName>
+							<RelativeName>sbpmod.xml</RelativeName>
 						</d2p1:anyType>
 					</Children>
 					<IsExpanded>true</IsExpanded>
