@@ -142,7 +142,7 @@
 				<bool name="display_requirement" value="True" />
 				<float name="max_owned" value="10" />
 				<float name="min_owned" value="1" />
-				<instance_reference name="slot_item" value="" />
+				<instance_reference name="slot_item" value="slot_item\soviet\anti_tank_weapon\ptrs_41_anti_tank_rifle_penal_mp" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_not">
 				<enum name="reason" value="usage" />
