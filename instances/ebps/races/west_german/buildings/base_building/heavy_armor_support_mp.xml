@@ -111,7 +111,7 @@
 		<template_reference name="exts" value="ebpextensions\modifier_ext">
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext">
-			<float name="extra_build_test_footprint" value="0" />
+			<float name="extra_build_test_footprint" value="2" />
 			<bool name="require_all_cells_clear" value="True" />
 			<bool name="snap_to_terrain" value="False" />
 			<bool name="ignore_impass" value="False" />
