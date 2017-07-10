@@ -242,7 +242,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" />
+			<instance_reference name="on_construction_squad" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -1358,7 +1358,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
