@@ -182,7 +182,7 @@
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\german\items\panzer_grenadier_panzershreck_atw_item_mp" />
 				<instance_reference name="upgrade" value="upgrade\german\commander\ability\light_infantry_panzergren_package" />
-				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_package" />
+				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_package" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="upgrade" value="upgrade\german\items\panzerbusche_39_mp" />
 				<instance_reference name="upgrade" value="upgrade\german\items\panzer_grenadier_panzershreck_atw_item_1_schrek_mp" />
 			</list>
