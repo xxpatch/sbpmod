@@ -424,7 +424,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\aef_pack_howitzer_75mm_heat_m66_round_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="projectile" value="ebps\projectile\aef_pack_howitzer_75mm_round_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 		</group>
 		<group name="range">
 			<float name="max" value="160" />
