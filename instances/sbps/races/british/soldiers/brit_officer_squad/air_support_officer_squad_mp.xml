@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="3" />
-					<instance_reference name="type" value="ebps\races\british\soldiers\commando\commando_air_landing_mp" />
+					<instance_reference name="type" value="ebps\races\british\soldiers\commando\commando_air_landing_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="1" />
@@ -999,6 +999,9 @@
 			<float name="multiplier_pct_share" value="0.5" />
 			<float name="radius" value="35" />
 			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
+			<float name="personnel_pop" value="5" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="93511" />

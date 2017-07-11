@@ -119,12 +119,12 @@
 			</template_reference>
 		</list>
 		<list name="abilities">
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jagdtiger" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jagdtiger" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\wg_hq_pioneer_call_in" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\fallschirmjaeger" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\panzerfusiliers_dispatch" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\okw_stuka_aerial_superiority_recon" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\command_panther" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\command_panther" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\terror_officer" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\valiant_assault" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\heavy_fortifications" />
@@ -135,12 +135,12 @@
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\flare_artillery" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\infrared_stg44" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\breakthrough_tactics" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\sturmtiger_dispatch" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\sturmtiger_dispatch" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\signal_flags" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\vehicle_critical_repair_unlock" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\through_salvage" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\howitzer_105mm_offmap_barrage" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\ostwind_dispatch" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\ostwind_dispatch" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jaeger_light_infantry_recon_dispatch" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\field_defenses" />
 			<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\passive_ability\pak_43_emplacement_unlock" />
@@ -243,7 +243,7 @@
 		<group name="ai_production_info">
 			<list name="base_building_list">
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" />
+				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\light_armor_support_mp" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
 			</list>
@@ -350,7 +350,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="tier1" />
-				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" />
+				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">
