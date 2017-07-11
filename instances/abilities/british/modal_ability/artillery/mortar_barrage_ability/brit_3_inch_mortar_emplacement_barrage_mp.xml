@@ -29,22 +29,22 @@
 					<float name="num_salvo" value="4" />
 					<float name="use_hardpoint" value="3" />
 					<bool name="face_to_target" value="True" />
-					<uniqueid name="id" value="1073761315" />
+					<uniqueid name="id" value="1073762235" />
 					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="True" />
 					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
+					<bool name="instant_requirement_check" value="True" />
+					<bool name="kill_action_on_failed_requirements" value="True" />
+					<bool name="no_retrigger" value="True" />
 					<bool name="validate_all_sub_actions" value="True" />
 					<list name="requirement_table">
 						<template_reference name="required" value="requirements\required_entity_upgrade">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\british\items\advaned_mortar_emplacement_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="upgrade_name" value="upgrade\british\items\advanced_mortar_emplacement_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<bool name="include_queued" value="False" />
 						</template_reference>
 					</list>
@@ -59,11 +59,11 @@
 							<float name="num_salvo" value="4" />
 							<float name="use_hardpoint" value="4" />
 							<bool name="face_to_target" value="True" />
-							<uniqueid name="id" value="1073761316" />
+							<uniqueid name="id" value="1073762236" />
 							<bool name="target_override_direction_times_max_range" value="False" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073761317" />
+					<uniqueid name="id" value="1073762237" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -72,7 +72,7 @@
 				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
-					<uniqueid name="id" value="1073761318" />
+					<uniqueid name="id" value="1073762238" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
 					<float name="event_extra_param" value="0" />
@@ -80,7 +80,7 @@
 					<float name="event_param_end" value="-1" />
 					<enum name="event_type" value="artillery_set" />
 					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073761319" />
+					<uniqueid name="id" value="1073762239" />
 				</template_reference>
 			</list>
 		</group>
