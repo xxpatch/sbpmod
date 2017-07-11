@@ -17,7 +17,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\panzer_defensive_smoke" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_disable" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\elefant_critical_shots_mp" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\elefant_critical_shots_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\wehr_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />

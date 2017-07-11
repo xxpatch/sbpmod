@@ -1025,7 +1025,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext">
 			<float name="acceleration" value="1.8" />
-			<float name="deceleration" value="1.8" />
+			<float name="deceleration" value="2" />
 			<float name="high_path_look_ahead_max_dist" value="25" />
 			<bool name="orient_to_terrain" value="True" />
 			<instance_reference name="pass_type" value="pass_types\heavy_crusher" />
@@ -1034,7 +1034,7 @@
 			<float name="rotation_rate_prone" value="225" />
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
-			<float name="speed_max" value="4.7" />
+			<float name="speed_max" value="5.4" />
 			<instance_reference name="turn_plan" value="turn_plan\tank_i" />
 			<float name="on_ice_accel_decel_multiplier" value="0.6" />
 			<float name="on_land_overturn_scale" value="0" />
