@@ -87,7 +87,7 @@
 						<bool name="exclusive" value="True" />
 						<string name="modifier_id" value="aef_t4" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.7931" />
+						<float name="value" value="0.7932" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
 						<instance_reference name="target_type_name" value="abilities\aef\modal_ability\commander_ability\m26_pershing_dispatch" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 					</template_reference>
@@ -105,7 +105,7 @@
 						<bool name="exclusive" value="True" />
 						<string name="modifier_id" value="aef_t4" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.7931" />
+						<float name="value" value="0.7932" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
 						<instance_reference name="target_type_name" value="abilities\aef\modal_ability\dispatch_ability\priest_dispatch" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 					</template_reference>
