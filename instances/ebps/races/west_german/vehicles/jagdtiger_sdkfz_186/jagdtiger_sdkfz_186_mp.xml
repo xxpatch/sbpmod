@@ -170,7 +170,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -223,7 +223,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -260,7 +260,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -297,7 +297,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -385,27 +385,6 @@
 							<instance_reference name="critical" value="critical\vehicle_abandon" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="True" />
-								<bool name="rear" value="True" />
-							</enum_table>
-							<enum name="apply_on" value="penetrate" />
-						</group>
-					</list>
-				</group>
-				<group name="critical_group">
-					<float name="max_health_percentage" value="1" />
-					<list name="critical_info">
-						<group name="info">
-							<float name="weight" value="100" />
-							<enum_table name="applicable_weapons">
-								<bool name="small_arms" value="False" />
-								<bool name="flame" value="False" />
-								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="False" />
-							</enum_table>
-							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<enum_table name="applicable_hit_direction">
-								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
 							</enum_table>
 							<enum name="apply_on" value="penetrate" />
