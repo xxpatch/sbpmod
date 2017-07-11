@@ -447,7 +447,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\aef\vehicles\m4a3_sherman\m4a3_sherman_bulldozer_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="type" value="ebps\races\aef\vehicles\m4a3_sherman\m4a3_sherman_bulldozer_mp" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -488,7 +488,7 @@
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\aef\research\major_dispatched_upgrade_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="upgrade_name" value="upgrade\aef\research\major_dispatched_upgrade_mp" />
 						</template_reference>
 						<template_reference name="requirement" value="requirements\required_player_upgrade">
 							<enum name="reason" value="usage" />
@@ -496,7 +496,7 @@
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="" />
+							<instance_reference name="upgrade_name" value="upgrade\aef\commander\ability\sherman_bulldozer_dispatch" />
 						</template_reference>
 					</list>
 				</template_reference>
@@ -630,7 +630,7 @@
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="" />
+							<instance_reference name="upgrade_name" value="upgrade\aef\items\sherman_top_gunner_mp" />
 							<bool name="include_queued" value="False" />
 						</template_reference>
 						<template_reference name="required" value="requirements\required_slot_item">
@@ -656,11 +656,6 @@
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
-				</template_reference>
-				<template_reference name="action" value="action\upgrade_remove">
-					<bool name="apply_to_entities_in_squad" value="True" />
-					<instance_reference name="upgrade" value="" />
-					<uniqueid name="id" value="1073755572" />
 				</template_reference>
 			</list>
 			<list name="squad_entity_actions">

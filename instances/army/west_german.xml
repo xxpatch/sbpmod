@@ -111,7 +111,7 @@
 					<template_reference name="action" value="action\upgrade_add">
 						<bool name="apply_to_entities_in_squad" value="False" />
 						<bool name="trigger_publish_event" value="False" />
-						<instance_reference name="upgrade" value="upgrade\army_items\infantry_discount_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="upgrade" value="upgrade\army_items\infantry_discount_mp" />
 						<uniqueid name="id" value="1073758441" />
 					</template_reference>
 				</list>
