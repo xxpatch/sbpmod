@@ -627,7 +627,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\aef\toggle_ability\officer_retreat_point_mp" />
+				<instance_reference name="ability" value="abilities\aef\toggle_ability\officer_retreat_point_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\major_quick_recon_run" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\major_quick_recon_run_improved" />
 				<instance_reference name="ability" value="abilities\pm\aef\specializations\cover_specialization\cover_specialization_hunker_down" />
@@ -658,7 +658,7 @@
 			<group name="retreat_building_types">
 				<enum name="unit_type00" value="hq" />
 				<enum name="unit_type01" value="hq_wreck" />
-				<enum name="unit_type02" value="alternate_retreat_point" />
+				<enum name="unit_type02" value="" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="" />
 			</group>

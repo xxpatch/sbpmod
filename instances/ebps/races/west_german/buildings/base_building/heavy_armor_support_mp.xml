@@ -599,7 +599,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\west_german\research\retreat_point_unlock_upgrade" />
+				<instance_reference name="upgrade" value="upgrade\west_german\research\retreat_point_unlock_upgrade" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="upgrade" value="upgrade\west_german\research\medic_healing_mp" />
 			</list>
 		</template_reference>
