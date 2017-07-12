@@ -7,169 +7,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11072110" />
+						<locstring name="extra_text" value="11084328" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
+						<locstring name="help_text" value="11084327" />
+						<string name="hotkey_name" value="P" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m26_pershing" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11072112" />
-						<string name="selection_group" value="M4C Sherman" />
+						<locstring name="screen_name" value="11084323" />
+						<string name="selection_group" value="pershing" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="sh" />
-							<string name="code_2" value="ar" />
+							<string name="code_1" value="ar" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="she" />
-							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_1" value="m26" />
+							<string name="code_2" value="har" />
+							<string name="code_3" value="arm" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="46" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m26_pershing_w_portrait" />
 						<group name="speaker_specific_alt">
-							<string name="code_1" value="ft" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_s_portrait" />
-						<float name="minimap_texture_scale" value="1" />
-						<locstring name="brief_text" value="0" />
-						<locstring name="screen_name_short" value="0" />
-						<enum name="map_rotation_type_override" value="no_override" />
-						<bool name="decoratable" value="True" />
-						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m4a3_sherman_76mm_symbol" />
-						<bool name="speaker_highest_priority" value="False" />
-						<enum name="ui_style" value="default" />
-						<string name="cover_level_icon_postfix" value="" />
-					</group>
-					<instance_reference name="ext_key" value="racebps\soviet" />
-				</group>
-				<group name="race_data">
-					<group name="info">
-						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11072110" />
-						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
-						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="" />
-						<instance_reference name="modal_ability" value="" />
-						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11072112" />
-						<string name="selection_group" value="M4C Sherman" />
-						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speech_code_2">
-							<string name="code_1" value="sh" />
-							<string name="code_2" value="ar" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speech_code_3">
-							<string name="code_1" value="she" />
-							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
-						</group>
-						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="46" />
-						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_w_portrait" />
-						<group name="speaker_specific_alt">
-							<string name="code_1" value="ft" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_s_portrait" />
-						<float name="minimap_texture_scale" value="1" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m26_pershing_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
 						<locstring name="brief_text" value="0" />
-						<locstring name="screen_name_short" value="0" />
+						<locstring name="screen_name_short" value="11084323" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m4a3_sherman_76mm_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
-						<enum name="ui_style" value="default" />
-						<string name="cover_level_icon_postfix" value="" />
-					</group>
-					<instance_reference name="ext_key" value="racebps\german" />
-				</group>
-				<group name="race_data">
-					<group name="info">
-						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11072110" />
-						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
-						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="" />
-						<instance_reference name="modal_ability" value="" />
-						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11072112" />
-						<string name="selection_group" value="M4C Sherman" />
-						<group name="speaker_generic">
-							<string name="code_1" value="" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speech_code_2">
-							<string name="code_1" value="sh" />
-							<string name="code_2" value="ar" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speech_code_3">
-							<string name="code_1" value="she" />
-							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
-						</group>
-						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="46" />
-						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_w_portrait" />
-						<group name="speaker_specific_alt">
-							<string name="code_1" value="ft" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_s_portrait" />
-						<float name="minimap_texture_scale" value="1" />
-						<locstring name="brief_text" value="0" />
-						<locstring name="screen_name_short" value="0" />
-						<enum name="map_rotation_type_override" value="no_override" />
-						<bool name="decoratable" value="True" />
-						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m4a3_sherman_76mm_symbol" />
-						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m26_pershing_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -178,55 +64,169 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11072110" />
+						<locstring name="extra_text" value="11084328" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
+						<locstring name="help_text" value="11084327" />
+						<string name="hotkey_name" value="P" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m26_pershing" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11072112" />
-						<string name="selection_group" value="M4C Sherman" />
+						<locstring name="screen_name" value="11084323" />
+						<string name="selection_group" value="pershing" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="wm" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="sh" />
-							<string name="code_2" value="ar" />
+							<string name="code_1" value="ar" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="she" />
-							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_1" value="m26" />
+							<string name="code_2" value="har" />
+							<string name="code_3" value="arm" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="46" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m26_pershing_w_portrait" />
 						<group name="speaker_specific_alt">
-							<string name="code_1" value="ft" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_s_portrait" />
-						<float name="minimap_texture_scale" value="1" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m26_pershing_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
 						<locstring name="brief_text" value="0" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m4a3_sherman_76mm_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m26_pershing_symbol" />
+						<enum name="ui_style" value="default" />
+						<string name="cover_level_icon_postfix" value="" />
+					</group>
+					<instance_reference name="ext_key" value="racebps\german" />
+				</group>
+				<group name="race_data">
+					<group name="info">
+						<bool name="allow_spawner_production" value="False" />
+						<locstring name="extra_text" value="11084328" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11084327" />
+						<string name="hotkey_name" value="P" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m26_pershing" />
+						<bool name="minimap_team_only" value="False" />
+						<icon name="minimap_texture" value="" />
+						<instance_reference name="modal_ability" value="" />
+						<bool name="reveal_for_decryption" value="True" />
+						<locstring name="screen_name" value="11084323" />
+						<string name="selection_group" value="pershing" />
+						<group name="speaker_generic">
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speaker_specific">
+							<string name="code_1" value="ht" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speech_code_2">
+							<string name="code_1" value="ar" />
+							<string name="code_2" value="ha" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speech_code_3">
+							<string name="code_1" value="m26" />
+							<string name="code_2" value="har" />
+							<string name="code_3" value="arm" />
+						</group>
+						<bool name="tacmap_team_only" value="False" />
+						<int name="ui_priority" value="50" />
+						<bool name="use_random_entity_speaker" value="False" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m26_pershing_w_portrait" />
+						<group name="speaker_specific_alt">
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m26_pershing_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="0" />
+						<locstring name="screen_name_short" value="0" />
+						<enum name="map_rotation_type_override" value="no_override" />
+						<bool name="decoratable" value="True" />
+						<bool name="show_in_build_log" value="True" />
+						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m26_pershing_symbol" />
+						<enum name="ui_style" value="default" />
+						<string name="cover_level_icon_postfix" value="" />
+					</group>
+					<instance_reference name="ext_key" value="racebps\soviet" />
+				</group>
+				<group name="race_data">
+					<group name="info">
+						<bool name="allow_spawner_production" value="False" />
+						<locstring name="extra_text" value="11084328" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11084327" />
+						<string name="hotkey_name" value="P" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m26_pershing" />
+						<bool name="minimap_team_only" value="False" />
+						<icon name="minimap_texture" value="" />
+						<instance_reference name="modal_ability" value="" />
+						<bool name="reveal_for_decryption" value="True" />
+						<locstring name="screen_name" value="11084323" />
+						<string name="selection_group" value="pershing" />
+						<group name="speaker_generic">
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speaker_specific">
+							<string name="code_1" value="wh" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speech_code_2">
+							<string name="code_1" value="ar" />
+							<string name="code_2" value="ha" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speech_code_3">
+							<string name="code_1" value="m26" />
+							<string name="code_2" value="har" />
+							<string name="code_3" value="arm" />
+						</group>
+						<bool name="tacmap_team_only" value="False" />
+						<int name="ui_priority" value="50" />
+						<bool name="use_random_entity_speaker" value="False" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m26_pershing_w_portrait" />
+						<group name="speaker_specific_alt">
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m26_pershing_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="0" />
+						<locstring name="screen_name_short" value="0" />
+						<enum name="map_rotation_type_override" value="no_override" />
+						<bool name="decoratable" value="True" />
+						<bool name="show_in_build_log" value="True" />
+						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m26_pershing_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -235,55 +235,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11072110" />
+						<locstring name="extra_text" value="11084328" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
+						<locstring name="help_text" value="11084327" />
+						<string name="hotkey_name" value="P" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m26_pershing" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11072112" />
-						<string name="selection_group" value="M4C Sherman" />
+						<locstring name="screen_name" value="11084323" />
+						<string name="selection_group" value="pershing" />
 						<group name="speaker_generic">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="sh" />
-							<string name="code_2" value="ar" />
+							<string name="code_1" value="ar" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="she" />
-							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_1" value="m26" />
+							<string name="code_2" value="har" />
+							<string name="code_3" value="arm" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="46" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m26_pershing_w_portrait" />
 						<group name="speaker_specific_alt">
-							<string name="code_1" value="ft" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_s_portrait" />
-						<float name="minimap_texture_scale" value="1" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m26_pershing_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
 						<locstring name="brief_text" value="0" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m4a3_sherman_76mm_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m26_pershing_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -292,55 +292,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11072110" />
+						<locstring name="extra_text" value="11084328" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
+						<locstring name="help_text" value="11084327" />
+						<string name="hotkey_name" value="P" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m26_pershing" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11072112" />
-						<string name="selection_group" value="M4C Sherman" />
+						<locstring name="screen_name" value="11084323" />
+						<string name="selection_group" value="pershing" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="sh" />
-							<string name="code_2" value="ar" />
+							<string name="code_1" value="ar" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="she" />
-							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_1" value="m26" />
+							<string name="code_2" value="har" />
+							<string name="code_3" value="arm" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="46" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_m26_pershing_w_portrait" />
 						<group name="speaker_specific_alt">
-							<string name="code_1" value="ft" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m4a3_sherman_76mm_s_portrait" />
-						<float name="minimap_texture_scale" value="1" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_m26_pershing_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
 						<locstring name="brief_text" value="0" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m4a3_sherman_76mm_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_m26_pershing_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -356,13 +356,13 @@
 			<float name="combat_follower_cover_search_radius" value="0" />
 			<group name="cover_formation_table">
 				<instance_reference name="tp_defcover" value="squad_formations\wedge" />
-				<instance_reference name="tp_defcover_narrow" value="squad_formations\line" />
+				<instance_reference name="tp_defcover_narrow" value="squad_formations\staggered_column" />
 				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
 				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
 				<instance_reference name="tp_heavy" value="squad_formations\wedge" />
 				<instance_reference name="tp_light" value="squad_formations\wedge" />
-				<instance_reference name="tp_negative" value="squad_formations\wedge" />
-				<instance_reference name="tp_open" value="squad_formations\line" />
+				<instance_reference name="tp_negative" value="squad_formations\staggered_column" />
+				<instance_reference name="tp_open" value="squad_formations\staggered_column_nodrift" />
 				<instance_reference name="tp_smoke" value="squad_formations\wedge" />
 				<instance_reference name="tp_trench" value="squad_formations\default" />
 				<instance_reference name="tp_water" value="squad_formations\wedge" />
@@ -437,17 +437,17 @@
 					<float name="units_in_scout" value="2" />
 				</group>
 			</group>
-			<bool name="support_weapons_to_flanks" value="False" />
+			<bool name="support_weapons_to_flanks" value="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_item_slot_ext">
 			<bool name="can_pick_up" value="False" />
-			<float name="num_slots" value="2" />
+			<float name="num_slots" value="3" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\soviet\vehicles\sherman\sherman_soviet" />
+					<instance_reference name="type" value="ebps\races\aef\vehicles\m26_pershing\m26_pershing_mp" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -456,14 +456,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_player_upgrade">
-					<enum name="reason" value="usage_and_display" />
-					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="True" />
-					<float name="max_completed" value="100" />
-					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\soviet\commander\ability\sherman_soviet_dispatch" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_apply_ext">
@@ -546,7 +538,7 @@
 				<float name="noncombat_recover_multiplier" value="1" />
 				<float name="pin_down_activate_threshold" value="0.3" />
 				<float name="pin_down_recover_threshold" value="0.2" />
-				<float name="recover_rate" value="0.002" />
+				<float name="recover_rate" value="0.001" />
 				<float name="suppressed_activate_threshold" value="0.15" />
 				<float name="suppressed_recover_threshold" value="0.05" />
 				<list name="pin_down_activate_actions">
@@ -595,15 +587,28 @@
 						<float name="max_persistent_squads" value="0" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1820" />
+								<float name="experience_value" value="2720" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11072113" />
+								<locstring name="screen_name" value="11097313" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
 								<list name="non_leader_actions">
 								</list>
 								<list name="squad_actions">
+									<template_reference name="action" value="action\change_target_action">
+										<list name="actions">
+											<template_reference name="action" value="action\change_move_data_action">
+												<float name="acceleration_multiplier" value="1.3" />
+												<float name="deceleration_multiplier" value="1.3" />
+												<float name="pathfinding_size_x" value="0" />
+												<float name="pathfinding_size_y" value="0" />
+												<uniqueid name="id" value="1073762260" />
+											</template_reference>
+										</list>
+										<enum name="change_target_type" value="entities" />
+										<uniqueid name="id" value="1073762261" />
+									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
 										<bool name="permanent" value="True" />
@@ -618,16 +623,16 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073757903" />
+										<uniqueid name="id" value="1073762262" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="3640" />
+								<float name="experience_value" value="5440" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11072114" />
+								<locstring name="screen_name" value="11090196" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -646,24 +651,24 @@
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.35" />
+														<float name="value" value="1.2" />
 														<instance_reference name="tooltip" value="modifier_tooltip\horizontal_speed_weapon_modifier" />
 													</template_reference>
-													<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+													<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 														<enum name="application_type" value="apply_to_weapon" />
 														<bool name="exclusive" value="False" />
 														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="hardpoint_01" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.7" />
-														<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
+														<string name="target_type_name" value="hardpoint_04" />
+														<enum name="usage_type" value="enable" />
+														<float name="value" value="1" />
+														<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073757904" />
+												<uniqueid name="id" value="1073762263" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073757905" />
+										<uniqueid name="id" value="1073762264" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -679,16 +684,16 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073757906" />
+										<uniqueid name="id" value="1073762265" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="7280" />
+								<float name="experience_value" value="10880" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11072115" />
+								<locstring name="screen_name" value="11097315" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -701,14 +706,14 @@
 												<float name="duration" value="0" />
 												<bool name="permanent" value="False" />
 												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
-														<enum name="application_type" value="apply_to_entity" />
+													<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+														<enum name="application_type" value="apply_to_weapon" />
 														<bool name="exclusive" value="False" />
 														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
 														<float name="value" value="1.2" />
-														<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
+														<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 													</template_reference>
 													<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
 														<enum name="application_type" value="apply_to_weapon" />
@@ -716,37 +721,15 @@
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.8" />
+														<float name="value" value="0.5" />
 														<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
 													</template_reference>
-													<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
-														<enum name="application_type" value="apply_to_entity" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.2" />
-														<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
-													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073757907" />
-											</template_reference>
-											<template_reference name="action" value="action\change_move_data_action">
-												<float name="acceleration_multiplier" value="1.2" />
-												<float name="deceleration_multiplier" value="1.2" />
-												<float name="pathfinding_size_x" value="0" />
-												<float name="pathfinding_size_y" value="0" />
-												<uniqueid name="id" value="1073757908" />
+												<uniqueid name="id" value="1073762266" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073757909" />
-									</template_reference>
-									<template_reference name="action" value="action\upgrade_add">
-										<bool name="apply_to_entities_in_squad" value="False" />
-										<bool name="trigger_publish_event" value="False" />
-										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073757910" />
+										<uniqueid name="id" value="1073762267" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -762,7 +745,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073757911" />
+										<uniqueid name="id" value="1073762268" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -777,16 +760,15 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\soviet\toggle_ability\tank_vet_point_capture_ability_mp" />
-				<instance_reference name="ability" value="abilities\soviet\toggle_ability\vehicle_crew_repair_toggle_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\accessory_weapons\pershing_hvap_piercing_shot_ability" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_retreat_ext">
 			<group name="retreat_building_types">
 				<enum name="unit_type00" value="hq" />
-				<enum name="unit_type01" value="barracks" />
-				<enum name="unit_type02" value="" />
+				<enum name="unit_type01" value="hq_wreck" />
+				<enum name="unit_type02" value="alternate_retreat_point" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="" />
 			</group>
@@ -798,9 +780,11 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
 			<list name="squad_type_list">
-				<enum name="squad_type" value="medium_tank" />
+				<enum name="squad_type" value="heavy_tank" />
 				<enum name="squad_type" value="vehicle" />
 				<enum name="squad_type" value="heavy_vehicle" />
+				<enum name="squad_type" value="heavy_vehicle_icon" />
+				<enum name="squad_type" value="aef_unit" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext">
@@ -809,5 +793,5 @@
 			<float name="revert_rate_multiplier" value="0" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="16638" />
+	<uniqueid name="pbgid" value="89406" />
 </instance>

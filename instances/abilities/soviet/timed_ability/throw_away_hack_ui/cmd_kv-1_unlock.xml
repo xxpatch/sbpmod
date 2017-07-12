@@ -97,7 +97,7 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="11051969" />
-			<locstring name="help_text" value="11051968" />
+			<locstring name="help_text" value="56" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_vehicles_vehicle_soviet_kv1_heavy_tank" />
 			<string name="overlay_name" value="" />

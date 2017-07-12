@@ -52,7 +52,7 @@
 						<string name="modifier_id" value="t4_soviet" />
 						<enum name="usage_type" value="multiplication" />
 						<float name="value" value="0.7931" />
-						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
+						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_fuel_modifier" />
 						<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\dispatch\kv-2" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\ability_cost_manpower_modifier">
@@ -87,8 +87,8 @@
 						<bool name="exclusive" value="True" />
 						<string name="modifier_id" value="t4_soviet" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.7931" />
-						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
+						<float name="value" value="0.794" />
+						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_fuel_modifier" />
 						<instance_reference name="target_type_name" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_is2_heavy_tank" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\ability_cost_manpower_modifier">

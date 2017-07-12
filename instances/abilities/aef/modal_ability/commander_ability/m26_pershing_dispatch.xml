@@ -16,7 +16,7 @@
 					<list name="entity_table">
 					</list>
 					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\aef\vehicles\m26_pershing\m26_pershing_mp" />
+						<instance_reference name="squad" value="sbps\races\aef\vehicles\m26_pershing\m26_pershing_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 					</list>
 					<bool name="use_attack_move" value="False" />
 					<uniqueid name="id" value="1073757887" />
