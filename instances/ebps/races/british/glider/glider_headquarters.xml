@@ -1720,7 +1720,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\british\toggle_ability\forward_hq_retreat_point_glider_mp" />
+				<instance_reference name="ability" value="abilities\british\toggle_ability\forward_hq_retreat_point_glider_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hold_ext">
