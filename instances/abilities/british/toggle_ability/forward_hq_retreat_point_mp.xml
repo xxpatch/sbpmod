@@ -308,14 +308,6 @@
 								<float name="z" value="-8.6" />
 							</group>
 						</template_reference>
-						<template_reference name="action" value="action\animator_set_state">
-							<bool name="apply_to_leader_only" value="False" />
-							<string name="do_action_state_name" value="on" />
-							<bool name="retrigger" value="True" />
-							<string name="state_machine_name" value="ability_retreat_rally" />
-							<string name="undo_action_state_name" value="off" />
-							<uniqueid name="id" value="1073762498" />
-						</template_reference>
 						<template_reference name="action" value="action\change_target_action">
 							<list name="actions">
 								<template_reference name="action" value="action\ui_unit_modifier_action">
@@ -332,49 +324,57 @@
 							<enum name="change_target_type" value="squad" />
 							<uniqueid name="id" value="1073762500" />
 						</template_reference>
+						<template_reference name="action" value="action\spawn_entity">
+							<float name="duration" value="99999" />
+							<instance_reference name="entity_blueprint" value="ebps\races\aef\buildings\defensive_structures\retreat_point_decoration_mp" />
+							<bool name="permanent" value="False" />
+							<bool name="player_owned" value="True" />
+							<group name="target_info">
+								<template_reference name="target_info" value="type_ability_target_type\all">
+								</template_reference>
+							</group>
+							<uniqueid name="id" value="1073762524" />
+							<template_reference name="spawn_attached_option" value="options\none">
+							</template_reference>
+							<list name="spawned_entity_actions">
+							</list>
+							<group name="offset">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="5" />
+							</group>
+						</template_reference>
+						<template_reference name="action" value="action\spawn_entity">
+							<float name="duration" value="99999" />
+							<instance_reference name="entity_blueprint" value="ebps\races\aef\buildings\defensive_structures\retreat_point_decoration_mp" />
+							<bool name="permanent" value="False" />
+							<bool name="player_owned" value="True" />
+							<group name="target_info">
+								<template_reference name="target_info" value="type_ability_target_type\all">
+								</template_reference>
+							</group>
+							<uniqueid name="id" value="1073762525" />
+							<template_reference name="spawn_attached_option" value="options\none">
+							</template_reference>
+							<list name="spawned_entity_actions">
+							</list>
+							<group name="offset">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="-5" />
+							</group>
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073762421" />
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
-				<template_reference name="action" value="action\spawn_entity">
-					<float name="duration" value="99999" />
-					<instance_reference name="entity_blueprint" value="ebps\races\aef\buildings\defensive_structures\retreat_point_decoration_mp" />
-					<bool name="permanent" value="False" />
-					<bool name="player_owned" value="True" />
-					<group name="target_info">
-						<template_reference name="target_info" value="type_ability_target_type\all">
-						</template_reference>
-					</group>
-					<uniqueid name="id" value="1073762505" />
-					<template_reference name="spawn_attached_option" value="options\none">
-					</template_reference>
-					<list name="spawned_entity_actions">
-					</list>
-					<group name="offset">
-						<float name="x" value="0" />
-						<float name="y" value="0" />
-						<float name="z" value="5" />
-					</group>
-				</template_reference>
-				<template_reference name="action" value="action\spawn_entity">
-					<float name="duration" value="99999" />
-					<instance_reference name="entity_blueprint" value="ebps\races\aef\buildings\defensive_structures\retreat_point_decoration_mp" />
-					<bool name="permanent" value="False" />
-					<bool name="player_owned" value="True" />
-					<group name="target_info">
-						<template_reference name="target_info" value="type_ability_target_type\all">
-						</template_reference>
-					</group>
-					<uniqueid name="id" value="1073762508" />
-					<template_reference name="spawn_attached_option" value="options\none">
-					</template_reference>
-					<list name="spawned_entity_actions">
-					</list>
-					<group name="offset">
-						<float name="x" value="0" />
-						<float name="y" value="0" />
-						<float name="z" value="-5" />
-					</group>
+				<template_reference name="action" value="action\animator_set_state">
+					<bool name="apply_to_leader_only" value="False" />
+					<string name="do_action_state_name" value="on" />
+					<bool name="retrigger" value="True" />
+					<string name="state_machine_name" value="ability_retreat_rally" />
+					<string name="undo_action_state_name" value="off" />
+					<uniqueid name="id" value="1073762518" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
