@@ -74,9 +74,9 @@
 			</group>
 			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
-				<float name="far" value="75" />
-				<float name="mid" value="75" />
-				<float name="near" value="75" />
+				<float name="far" value="35" />
+				<float name="mid" value="35" />
+				<float name="near" value="35" />
 			</template_reference>
 			<group name="building_damage">
 				<float name="near" value="1" />
@@ -369,7 +369,7 @@
 			<float name="delay_bracket_change_chance" value="0" />
 			<float name="distance_bracket_count_air" value="0" />
 			<float name="distance_bracket_count_ground" value="1" />
-			<float name="distance_scatter_max" value="5" />
+			<float name="distance_scatter_max" value="7" />
 			<float name="distance_scatter_obj_hit_min" value="0" />
 			<float name="distance_scatter_offset" value="0" />
 			<float name="distance_scatter_ratio" value="0.1" />
@@ -434,9 +434,9 @@
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_setfacing" value="ui_setfacing\weapon_artillery" />
 		<group name="penetration">
-			<float name="mid" value="75" />
-			<float name="far" value="75" />
-			<float name="near" value="75" />
+			<float name="mid" value="35" />
+			<float name="far" value="35" />
+			<float name="near" value="35" />
 		</group>
 		<group name="ui_map_colour">
 			<int name="red" value="0" />
