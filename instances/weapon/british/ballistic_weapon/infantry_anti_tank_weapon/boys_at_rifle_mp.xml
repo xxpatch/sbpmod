@@ -408,7 +408,7 @@
 							<float name="damage" value="8" />
 							<bool name="percentage" value="False" />
 							<bool name="set" value="False" />
-							<bool name="cause_criticals" value="False" />
+							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="ballistic" />
 							<uniqueid name="id" value="1073760232" />
 						</template_reference>
