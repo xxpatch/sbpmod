@@ -167,8 +167,8 @@
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
 								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
+								<bool name="big_explosive" value="False" />
+								<bool name="small_explosive" value="False" />
 							</enum_table>
 							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
@@ -220,8 +220,8 @@
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
 								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
+								<bool name="big_explosive" value="False" />
+								<bool name="small_explosive" value="False" />
 							</enum_table>
 							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
@@ -257,8 +257,8 @@
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
 								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
+								<bool name="big_explosive" value="False" />
+								<bool name="small_explosive" value="False" />
 							</enum_table>
 							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
@@ -294,8 +294,8 @@
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
 								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
+								<bool name="big_explosive" value="False" />
+								<bool name="small_explosive" value="False" />
 							</enum_table>
 							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
 							<enum_table name="applicable_hit_direction">
