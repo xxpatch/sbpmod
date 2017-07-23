@@ -381,7 +381,7 @@
 			<instance_reference name="projectile" value="ebps\projectile\churchill_vehicle_flamethrowers_mp" />
 		</group>
 		<group name="range">
-			<float name="max" value="25" />
+			<float name="max" value="30" />
 			<float name="min" value="0" />
 			<group name="distance">
 				<float name="near" value="-1" />
