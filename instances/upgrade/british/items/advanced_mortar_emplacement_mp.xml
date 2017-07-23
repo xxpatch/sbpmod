@@ -48,8 +48,8 @@
 				<list name="modifiers">
 					<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 						<enum name="application_type" value="apply_to_weapon" />
-						<bool name="exclusive" value="False" />
-						<string name="modifier_id" value="" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="advanced_mortar" />
 						<string name="target_type_name" value="hardpoint_02" />
 						<enum name="usage_type" value="enable" />
 						<float name="value" value="1" />
@@ -57,8 +57,8 @@
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 						<enum name="application_type" value="apply_to_weapon" />
-						<bool name="exclusive" value="False" />
-						<string name="modifier_id" value="" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="advanced_mortar" />
 						<string name="target_type_name" value="hardpoint_04" />
 						<enum name="usage_type" value="enable" />
 						<float name="value" value="1" />
@@ -66,8 +66,8 @@
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 						<enum name="application_type" value="apply_to_weapon" />
-						<bool name="exclusive" value="False" />
-						<string name="modifier_id" value="" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="advanced_mortar" />
 						<string name="target_type_name" value="hardpoint_06" />
 						<enum name="usage_type" value="enable" />
 						<float name="value" value="1" />
@@ -75,8 +75,8 @@
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 						<enum name="application_type" value="apply_to_weapon" />
-						<bool name="exclusive" value="False" />
-						<string name="modifier_id" value="" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="advanced_mortar" />
 						<string name="target_type_name" value="hardpoint_08" />
 						<enum name="usage_type" value="enable" />
 						<float name="value" value="1" />

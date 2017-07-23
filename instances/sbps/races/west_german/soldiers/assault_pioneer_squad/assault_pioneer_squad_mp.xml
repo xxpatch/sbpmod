@@ -410,7 +410,7 @@
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\west_german\items\assault_pioneer_repair_upgrade" />
 				<instance_reference name="upgrade" value="upgrade\west_german\items\volks_flamethrower_mp" />
-				<instance_reference name="upgrade" value="upgrade\west_german\items\assault_pioneer_combat_upgrade" />
+				<instance_reference name="upgrade" value="upgrade\west_german\items\assault_pioneer_combat_upgrade" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">

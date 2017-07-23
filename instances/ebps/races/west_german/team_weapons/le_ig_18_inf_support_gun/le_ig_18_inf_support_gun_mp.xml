@@ -340,7 +340,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\explosive_weapons\light_artillery\le_ig_18_howitzer_75mm_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\explosive_weapons\light_artillery\le_ig_18_howitzer_75mm_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
