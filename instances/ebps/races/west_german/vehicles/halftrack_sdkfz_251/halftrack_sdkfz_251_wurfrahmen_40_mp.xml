@@ -148,7 +148,7 @@
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="45" />
+				<float name="time_seconds" value="60" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -710,7 +710,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\flame_throwers\walking_stuka_napalm" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\west_german\flame_throwers\walking_stuka_napalm" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
