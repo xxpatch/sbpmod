@@ -8,28 +8,6 @@
 			<list name="start_self_actions">
 			</list>
 			<list name="start_target_actions">
-				<template_reference name="action" value="action\reinforcements_action">
-					<bool name="allow_building_spawn" value="False" />
-					<float name="minimum_pop_used" value="14" />
-					<float name="points_total" value="800" />
-					<bool name="spawn_random_squads" value="False" />
-					<list name="entity_table">
-					</list>
-					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\soviet\vehicles\sherman\soviet_76mm_sherman_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-					</list>
-					<bool name="use_attack_move" value="False" />
-					<uniqueid name="id" value="1073757891" />
-					<bool name="ignore_requirements" value="False" />
-				</template_reference>
-				<template_reference name="action" value="action\game_event_action">
-					<float name="event_extra_param" value="0" />
-					<float name="event_param_begin" value="1" />
-					<float name="event_param_end" value="-1" />
-					<enum name="event_type" value="flag_drop" />
-					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073757892" />
-				</template_reference>
 			</list>
 		</group>
 		<enum name="activation" value="timed" />
