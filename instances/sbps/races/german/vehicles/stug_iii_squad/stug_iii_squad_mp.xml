@@ -517,7 +517,7 @@
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="False" />
-							<instance_reference name="upgrade_name" value="upgrade\german\items\stug_top_gunner_mp" />
+							<instance_reference name="upgrade_name" value="upgrade\german\items\stug_top_gunner_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<bool name="include_queued" value="False" />
 						</template_reference>
 					</list>
@@ -550,7 +550,7 @@
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\german\items\stug_top_gunner_mp" />
+							<instance_reference name="upgrade_name" value="upgrade\german\items\stug_top_gunner_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<bool name="include_queued" value="False" />
 						</template_reference>
 					</list>

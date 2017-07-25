@@ -749,7 +749,7 @@
 								<float name="z" value="-0.574" />
 							</group>
 							<enum name="type" value="squad" />
-							<instance_reference name="weapon" value="weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp" />
+							<instance_reference name="weapon" value="weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
