@@ -46,9 +46,9 @@
 				<float name="max_target_distance_to_try" value="-1" />
 			</group>
 			<group name="turn_plan">
-				<float name="delay_bonus_seconds" value="-3.5" />
+				<float name="delay_bonus_seconds" value="-2.5" />
 				<float name="max_distance_to_try" value="40" />
-				<float name="radius_multiplier" value="0.25" />
+				<float name="radius_multiplier" value="0.45" />
 				<enum name="turn_type" value="reverse" />
 				<float name="max_target_distance_to_try" value="40" />
 			</group>
