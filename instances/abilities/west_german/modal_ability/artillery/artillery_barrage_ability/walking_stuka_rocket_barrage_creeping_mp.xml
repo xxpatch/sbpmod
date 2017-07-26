@@ -124,7 +124,7 @@
 							<uniqueid name="id" value="1073760265" />
 						</template_reference>
 						<template_reference name="action" value="action\creeping_barrage">
-							<float name="box_length" value="40" />
+							<float name="box_length" value="30" />
 							<float name="box_width" value="8" />
 							<float name="hardpoint" value="3" />
 							<list name="sections">
@@ -309,7 +309,7 @@
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_walking_stuka_creeping_barrage" />
 		<float name="ui_reticule_radius_min" value="4" />
-		<float name="ui_reticule_radius_max" value="27.5" />
+		<float name="ui_reticule_radius_max" value="15" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />
