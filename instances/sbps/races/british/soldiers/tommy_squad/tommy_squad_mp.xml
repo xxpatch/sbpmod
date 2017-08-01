@@ -671,7 +671,7 @@
 							<int name="ui_position" value="32" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_17_pounder_pit_commander_mp" />
+							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_17_pounder_pit_commander_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<int name="ui_position" value="24" />
 						</group>
 						<group name="construction_item">
@@ -687,7 +687,7 @@
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_bofors_40mm_autocannon_commander_mp" />
+							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_bofors_40mm_autocannon_commander_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<int name="ui_position" value="23" />
 						</group>
 						<group name="construction_item">
