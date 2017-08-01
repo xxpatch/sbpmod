@@ -20,7 +20,7 @@
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="fuel" value="0" />
-				<float name="manpower" value="160" />
+				<float name="manpower" value="150" />
 				<float name="munition" value="0" />
 				<float name="popcap" value="0" />
 			</group>
@@ -52,17 +52,8 @@
 						<string name="modifier_id" value="" />
 						<string name="target_type_name" value="" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="1.166667" />
+						<float name="value" value="1.75" />
 						<instance_reference name="tooltip" value="modifier_tooltip\health_maximum_modifier" />
-					</template_reference>
-					<template_reference name="modifier" value="modifiers\armor_modifier">
-						<enum name="application_type" value="apply_to_entity" />
-						<bool name="exclusive" value="False" />
-						<string name="modifier_id" value="" />
-						<string name="target_type_name" value="" />
-						<enum name="usage_type" value="addition" />
-						<float name="value" value="3" />
-						<instance_reference name="tooltip" value="modifier_tooltip\armor_modifier" />
 					</template_reference>
 				</list>
 				<uniqueid name="id" value="1073761288" />

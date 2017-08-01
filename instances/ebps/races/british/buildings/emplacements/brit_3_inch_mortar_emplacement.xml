@@ -1,7 +1,7 @@
 <instance description="" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
-			<string name="alternate_sua" value="" />
+			<string name="alternate_sua" value="armies\soviet\structures\mine_tm35_planted\mine_tm35_planted" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\british\structures\pit_mortar\pit_mortar" />
 			<bool name="is_visible_in_game" value="True" />
@@ -37,9 +37,9 @@
 			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="2" />
+			<float name="armor" value="1" />
 			<float name="rear_armor" value="0" />
-			<float name="target_size" value="40" />
+			<float name="target_size" value="1" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 				<group name="critical_group">
@@ -192,7 +192,7 @@
 		<template_reference name="exts" value="ebpextensions\modifier_ext">
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext">
-			<float name="extra_build_test_footprint" value="0" />
+			<float name="extra_build_test_footprint" value="3" />
 			<bool name="require_all_cells_clear" value="True" />
 			<bool name="snap_to_terrain" value="False" />
 			<bool name="ignore_impass" value="False" />
@@ -393,7 +393,7 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="240" />
+					<float name="manpower" value="200" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -1176,7 +1176,7 @@
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_default_loaded" />
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_special_1_loaded" />
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_special_2_loaded" />
-				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" />
+				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="upgrade" value="upgrade\british\items\advanced_mortar_emplacement_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 		</template_reference>
