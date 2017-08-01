@@ -282,6 +282,7 @@
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\mg34_phosphorus_rounds_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\tw_suppression_stun_handler_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\mg_42_34_vet_handler_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
