@@ -341,6 +341,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\tw_suppression_stun_handler_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
@@ -633,7 +634,7 @@
 			<group name="unit_type_list">
 				<enum name="unit_type00" value="team_weapon" />
 				<enum name="unit_type01" value="" />
-				<enum name="unit_type02" value="" />
+				<enum name="unit_type02" value="coho_raid_2" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="mp_unit" />
 				<enum name="unit_type05" value="hmg_german" />

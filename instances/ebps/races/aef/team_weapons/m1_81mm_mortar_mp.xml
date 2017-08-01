@@ -388,6 +388,8 @@
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m1_81mm_mortar_team_mortar_barrage_mp" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m1_81mm_mortar_team_smoke_barrage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\german_mortar_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\vet2_mortar_handler_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\tw_suppression_stun_handler_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
@@ -744,7 +746,7 @@
 			<group name="unit_type_list">
 				<enum name="unit_type00" value="team_weapon" />
 				<enum name="unit_type01" value="" />
-				<enum name="unit_type02" value="" />
+				<enum name="unit_type02" value="coho_raid_2" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="mp_unit" />
 				<enum name="unit_type05" value="mortars" />
