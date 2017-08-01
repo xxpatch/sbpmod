@@ -1111,7 +1111,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\waffen_booby_trap_capture_point" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\waffen_booby_trap_capture_point" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
