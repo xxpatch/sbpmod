@@ -747,7 +747,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\british\always_on_ability\commando_infiltration_camouflage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\commando_assassinate_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\commando_demo_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\commando_demo_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\cover_smoke_grenades" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />

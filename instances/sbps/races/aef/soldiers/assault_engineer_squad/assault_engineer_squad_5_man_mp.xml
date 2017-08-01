@@ -736,7 +736,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\repair_ability\aef_repair_critical_mp" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\repair_ability\aef_repair_ability_rear_echelon_mp" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\combat_engineer_timed_demo_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\combat_engineer_timed_demo_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\sp\refuel_tank_sp" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\repair_ability\aef_repair_ability_rear_echelon_mp" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\sp\out_of_fuel_sp" />
