@@ -193,7 +193,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mine\engineer_demoliion" />
+							<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\light_machine_gun\demo_dummy_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -370,6 +370,11 @@
 				</group>
 			</group>
 			<list name="on_detonate_actions">
+				<template_reference name="action" value="action\trigger_critical_action">
+					<float name="remove_at_health" value="1" />
+					<instance_reference name="critical" value="critical\detonate_demolition_charge" />
+					<uniqueid name="id" value="1073762979" />
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
@@ -397,7 +402,7 @@
 			<float name="defuse_seconds" value="5" />
 			<float name="detonate_on_defuse_chance" value="0" />
 			<float name="detonate_radius" value="0" />
-			<float name="initial_delay_seconds" value="2.5" />
+			<float name="initial_delay_seconds" value="0" />
 			<enum name="trigger_type" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -423,8 +428,9 @@
 			<bool name="ui_can_scuttle" value="False" />
 			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
-				<template_reference name="action" value="action\detonate">
-					<uniqueid name="id" value="1073762977" />
+				<template_reference name="action" value="action\self_destruction_action">
+					<instance_reference name="detonation_weapon_name" value="weapon\aef\explosive_weapons\mine\aef_assault_engineer_demoliion" />
+					<uniqueid name="id" value="1073762978" />
 				</template_reference>
 			</list>
 			<float name="armor" value="4" />
