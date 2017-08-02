@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\kubelwagen_detection_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\kubelwagen_detection_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" />
 			</list>
 		</template_reference>
@@ -881,7 +881,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\kubelwagen_squad\kubelwagen_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\kubelwagen_squad\kubelwagen_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
