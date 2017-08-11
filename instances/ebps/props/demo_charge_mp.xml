@@ -193,7 +193,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\light_machine_gun\demo_dummy_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mine\demolition_dummy_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

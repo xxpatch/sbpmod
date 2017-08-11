@@ -95,19 +95,9 @@
 				<bool name="kill" value="False" />
 				<uniqueid name="id" value="1073761291" />
 			</template_reference>
-			<template_reference name="action" value="action\reinforcements_action">
-				<bool name="allow_building_spawn" value="False" />
-				<float name="minimum_pop_used" value="3" />
-				<float name="points_total" value="0" />
-				<bool name="spawn_random_squads" value="False" />
-				<list name="entity_table">
-					<instance_reference name="entity" value="ebps\races\british\buildings\defensive_structures\british_3inch_popcap_display_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				</list>
-				<list name="squad_table">
-				</list>
-				<bool name="use_attack_move" value="False" />
-				<uniqueid name="id" value="1073761292" />
-				<bool name="ignore_requirements" value="False" />
+			<template_reference name="action" value="action\ui_decorator_action">
+				<icon name="symbol_icon" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+				<uniqueid name="id" value="1073763194" />
 			</template_reference>
 		</list>
 		<list name="requirements">

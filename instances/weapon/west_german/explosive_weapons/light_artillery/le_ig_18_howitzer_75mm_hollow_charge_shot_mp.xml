@@ -272,8 +272,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="80" />
-			<float name="min" value="80" />
+			<float name="max" value="100" />
+			<float name="min" value="100" />
 			<list name="on_penetrated_actions">
 			</list>
 			<list name="post_damage_actions">
@@ -348,8 +348,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="2.3" />
-				<float name="min" value="2.3" />
+				<float name="max" value="1.5" />
+				<float name="min" value="1.5" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />
