@@ -1164,16 +1164,16 @@
 			<group name="cover_formation_table">
 				<instance_reference name="tp_defcover" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_defcover_narrow" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_garrison_cover" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_garrison_halftrack" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
+				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
 				<instance_reference name="tp_heavy" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_light" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_negative" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_open" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_smoke" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_trench" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_trench" value="squad_formations\default" />
 				<instance_reference name="tp_water" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_z_bunker" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_z_bunker" value="squad_formations\wedge" />
 				<instance_reference name="tp_z_emplacement" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_z_ice" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_z_snow" value="squad_formations\3man_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
@@ -1191,9 +1191,9 @@
 				</group>
 				<group name="02_soldiers">
 					<float name="units_in_core" value="1" />
-					<float name="units_in_left_flank" value="0" />
+					<float name="units_in_left_flank" value="1" />
 					<float name="units_in_right_flank" value="0" />
-					<float name="units_in_scout" value="1" />
+					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="03_soldiers">
 					<float name="units_in_core" value="1" />
@@ -1203,8 +1203,8 @@
 				</group>
 				<group name="04_soldiers">
 					<float name="units_in_core" value="1" />
-					<float name="units_in_left_flank" value="1" />
-					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_left_flank" value="2" />
+					<float name="units_in_right_flank" value="1" />
 					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="05_soldiers">
@@ -1220,16 +1220,16 @@
 					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="07_soldiers">
-					<float name="units_in_core" value="3" />
+					<float name="units_in_core" value="2" />
 					<float name="units_in_left_flank" value="2" />
 					<float name="units_in_right_flank" value="2" />
-					<float name="units_in_scout" value="0" />
+					<float name="units_in_scout" value="1" />
 				</group>
 				<group name="08_soldiers">
-					<float name="units_in_core" value="8" />
-					<float name="units_in_left_flank" value="0" />
-					<float name="units_in_right_flank" value="0" />
-					<float name="units_in_scout" value="0" />
+					<float name="units_in_core" value="2" />
+					<float name="units_in_left_flank" value="2" />
+					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_scout" value="2" />
 				</group>
 				<group name="09_soldiers">
 					<float name="units_in_core" value="3" />
@@ -1244,7 +1244,7 @@
 					<float name="units_in_scout" value="2" />
 				</group>
 			</group>
-			<bool name="support_weapons_to_flanks" value="True" />
+			<bool name="support_weapons_to_flanks" value="False" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
 			<list name="squad_type_list">
