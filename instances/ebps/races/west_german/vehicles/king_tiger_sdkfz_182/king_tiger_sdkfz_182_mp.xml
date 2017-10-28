@@ -1,9 +1,9 @@
-<instance description="the mobile assault gun&#xA;Multiplayer Clone." template="ebps">
+<instance description="heavy all around tank&#xA;Multiplayer Clone." template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\west_german\vehicles\sturmtiger\sturmtiger" />
+			<file name="animator" value="armies\west_german\vehicles\king_tiger_sdkfz_182\king_tiger_sdkfz_182" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -16,32 +16,116 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\battle_plans\armor_plans\spearhead_mp" />
+				<instance_reference name="ability" value="abilities\west_german\timed_ability\combat_blitz_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_vehicle_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\animator_set_state">
-					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="On" />
-					<string name="state_machine_name" value="Upgrade_105mm" />
-					<string name="undo_action_state_name" value="" />
-					<bool name="retrigger" value="False" />
-					<uniqueid name="id" value="1073763216" />
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_not">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_in_state">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="garrisoned" value="False" />
+									<bool name="healed" value="False" />
+									<float name="in_combat_since" value="-1" />
+									<bool name="injured" value="False" />
+									<bool name="leader" value="False" />
+									<bool name="not_moving" value="True" />
+									<bool name="not_retreating" value="False" />
+									<bool name="pinned" value="False" />
+									<bool name="suppressed" value="False" />
+									<bool name="camouflaged" value="False" />
+								</template_reference>
+							</list>
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\weapon_scatter">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_01" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="2" />
+									<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073763324" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073763325" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\animator_set_state">
-					<string name="do_action_state_name" value="axis" />
-					<string name="state_machine_name" value="army" />
-					<bool name="apply_to_leader_only" value="False" />
-					<bool name="retrigger" value="False" />
-					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073763217" />
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_entity_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<instance_reference name="upgrade_name" value="upgrade\west_german\items\king_tiger_top_gunner_mp" />
+							<bool name="include_queued" value="False" />
+						</template_reference>
+						<template_reference name="required" value="requirements\required_slot_item">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="check_item_on_entity" value="False" />
+							<bool name="display_requirement" value="True" />
+							<float name="max_owned" value="0" />
+							<float name="min_owned" value="0" />
+							<instance_reference name="slot_item" value="slot_item\west_german\small_arms\mg42_turret_mounted_king_tiger_mp" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\slot_item_add">
+							<instance_reference name="slot_item" value="slot_item\west_german\small_arms\mg42_turret_mounted_king_tiger_mp" />
+							<bool name="permanent" value="True" />
+							<uniqueid name="id" value="1073763326" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073763327" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\upgrade_add">
-					<bool name="apply_to_entities_in_squad" value="True" />
-					<bool name="trigger_publish_event" value="False" />
-					<instance_reference name="upgrade" value="upgrade\aef\ability_lock_out\handbrake_available_upgrade_mp" />
-					<uniqueid name="id" value="1073763218" />
+				<template_reference name="action" value="action\remove_crew_action">
+					<string name="crew_name" value="Gunner" />
+					<bool name="kill" value="False" />
+					<uniqueid name="id" value="1073763328" />
+				</template_reference>
+				<template_reference name="action" value="action\remove_crew_action">
+					<string name="crew_name" value="spotter" />
+					<bool name="kill" value="False" />
+					<uniqueid name="id" value="1073763329" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -50,8 +134,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="180" />
-					<float name="manpower" value="620" />
+					<float name="fuel" value="260" />
+					<float name="manpower" value="720" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -79,12 +163,12 @@
 			<bool name="remove_from_pathfinding_on_death" value="True" />
 			<bool name="reveal_to_all_on_death" value="False" />
 			<bool name="ui_can_scuttle" value="False" />
-			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_sturmtiger" />
+			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="220" />
-			<float name="rear_armor" value="110" />
-			<float name="target_size" value="24" />
+			<float name="armor" value="375" />
+			<float name="rear_armor" value="150" />
+			<float name="target_size" value="26" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 				<group name="critical_group">
@@ -144,7 +228,7 @@
 					<float name="max_health_percentage" value="0.75" />
 					<list name="critical_info">
 						<group name="info">
-							<float name="weight" value="100" />
+							<float name="weight" value="94" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
@@ -160,7 +244,7 @@
 							<enum name="apply_on" value="penetrate" />
 						</group>
 						<group name="info">
-							<float name="weight" value="100" />
+							<float name="weight" value="94" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
@@ -171,22 +255,6 @@
 							<instance_reference name="critical" value="critical\_no_critical_rear" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
-								<bool name="rear" value="True" />
-							</enum_table>
-							<enum name="apply_on" value="penetrate" />
-						</group>
-						<group name="info">
-							<float name="weight" value="50" />
-							<enum_table name="applicable_weapons">
-								<bool name="small_arms" value="True" />
-								<bool name="flame" value="True" />
-								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
-							</enum_table>
-							<instance_reference name="critical" value="critical\vehicle_abandon_sturmtiger" />
-							<enum_table name="applicable_hit_direction">
-								<bool name="front" value="True" />
 								<bool name="rear" value="True" />
 							</enum_table>
 							<enum name="apply_on" value="penetrate" />
@@ -237,7 +305,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\vehicle_kill_top_gunner_hardpoint_2" />
+							<instance_reference name="critical" value="critical\vehicle_kill_top_gunner_hardpoint_4" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="True" />
 								<bool name="rear" value="True" />
@@ -250,7 +318,7 @@
 					<float name="max_health_percentage" value="0.25" />
 					<list name="critical_info">
 						<group name="info">
-							<float name="weight" value="94" />
+							<float name="weight" value="90" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
@@ -266,7 +334,7 @@
 							<enum name="apply_on" value="penetrate" />
 						</group>
 						<group name="info">
-							<float name="weight" value="94" />
+							<float name="weight" value="90" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="False" />
@@ -293,7 +361,7 @@
 							<instance_reference name="critical" value="critical\vehicle_destroy_maingun" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="True" />
-								<bool name="rear" value="False" />
+								<bool name="rear" value="True" />
 							</enum_table>
 							<enum name="apply_on" value="penetrate" />
 						</group>
@@ -303,7 +371,7 @@
 					<float name="max_health_percentage" value="0" />
 					<list name="critical_info">
 						<group name="info">
-							<float name="weight" value="55" />
+							<float name="weight" value="60" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="True" />
 								<bool name="flame" value="True" />
@@ -320,6 +388,22 @@
 						</group>
 						<group name="info">
 							<float name="weight" value="20" />
+							<enum_table name="applicable_weapons">
+								<bool name="small_arms" value="True" />
+								<bool name="flame" value="True" />
+								<bool name="ballistic" value="True" />
+								<bool name="big_explosive" value="True" />
+								<bool name="small_explosive" value="True" />
+							</enum_table>
+							<instance_reference name="critical" value="critical\vehicle_destroy_brew_up" />
+							<enum_table name="applicable_hit_direction">
+								<bool name="front" value="True" />
+								<bool name="rear" value="True" />
+							</enum_table>
+							<enum name="apply_on" value="penetrate" />
+						</group>
+						<group name="info">
+							<float name="weight" value="15" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="True" />
 								<bool name="flame" value="True" />
@@ -350,27 +434,15 @@
 							</enum_table>
 							<enum name="apply_on" value="penetrate" />
 						</group>
-						<group name="info">
-							<float name="weight" value="50" />
-							<enum_table name="applicable_weapons">
-								<bool name="small_arms" value="True" />
-								<bool name="flame" value="True" />
-								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
-							</enum_table>
-							<instance_reference name="critical" value="critical\vehicle_abandon_sturmtiger" />
-							<enum_table name="applicable_hit_direction">
-								<bool name="front" value="True" />
-								<bool name="rear" value="True" />
-							</enum_table>
-							<enum name="apply_on" value="penetrate" />
-						</group>
 					</list>
 				</group>
 			</list>
-			<float name="weapon_priority" value="0" />
-			<template_reference name="wreck_entity_option" value="options\none">
+			<float name="weapon_priority" value="10" />
+			<template_reference name="wreck_entity_option" value="options\ebpextensions\healthext\wreck_table">
+				<enum_table name="wreck_entities">
+					<instance_reference name="default" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_king_tiger" />
+					<instance_reference name="brewup" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_king_tiger_brew_up" />
+				</enum_table>
 			</template_reference>
 			<list name="self_destruct_actions">
 			</list>
@@ -406,7 +478,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="20" />
+			<float name="personnel_pop" value="21" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
@@ -434,12 +506,12 @@
 			<group name="unit_type_list">
 				<enum name="unit_type00" value="vehicle" />
 				<enum name="unit_type01" value="armour" />
-				<enum name="unit_type02" value="wg_sturmtiger" />
+				<enum name="unit_type02" value="" />
 				<enum name="unit_type03" value="tank_awareness_ally" />
 				<enum name="unit_type04" value="apcr" />
-				<enum name="unit_type05" value="" />
-				<enum name="unit_type06" value="west_german_vehicle" />
-				<enum name="unit_type07" value="assualt_guns" />
+				<enum name="unit_type05" value="tiger" />
+				<enum name="unit_type06" value="" />
+				<enum name="unit_type07" value="west_german_vehicle" />
 				<enum name="unit_type08" value="heavy_tank" />
 				<enum name="unit_type09" value="" />
 				<enum name="unit_type10" value="" />
@@ -459,10 +531,10 @@
 			<string name="extra_text_deprecated" value="" />
 			<bool name="ghost_enable" value="False" />
 			<bool name="has_speech_code" value="True" />
-			<locstring name="help_text" value="11071680" />
-			<string name="hotkey_name" value="axis_stug" />
-			<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_sturmtiger" />
-			<enum name="kill_type" value="medium_armour" />
+			<locstring name="help_text" value="11071674" />
+			<string name="hotkey_name" value="" />
+			<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
+			<enum name="kill_type" value="heavy_armour" />
 			<float name="minimap_color_a" value="255" />
 			<float name="minimap_color_b" value="255" />
 			<float name="minimap_color_g" value="255" />
@@ -472,8 +544,8 @@
 			<bool name="minimap_teamcolor" value="False" />
 			<bool name="obb_selectable" value="False" />
 			<string name="overlay_name" value="" />
-			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11071627" />
+			<bool name="reveal_for_decryption" value="True" />
+			<locstring name="screen_name" value="11071622" />
 			<enum name="selection_name" value="vehicle" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="squad_select" />
@@ -489,9 +561,9 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="stg" />
+				<string name="code_1" value="arm" />
 				<string name="code_2" value="htk" />
-				<string name="code_3" value="arm" />
+				<string name="code_3" value="ktg" />
 			</group>
 			<group name="speech_code_cover">
 				<string name="code_1" value="" />
@@ -499,28 +571,28 @@
 				<string name="code_3" value="" />
 			</group>
 			<bool name="tacmap_team_only" value="False" />
-			<locstring name="tooltip_txt" value="11071567" />
+			<locstring name="tooltip_txt" value="11071561" />
 			<int name="ui_priority" value="0" />
 			<icon name="minimap_icon" value="" />
-			<icon name="portrait_icon_winter" value="Icons_portraits_vehicle_west_german_sturmtiger_w_portrait" />
+			<icon name="portrait_icon_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 			<group name="speaker_alt">
 				<string name="code_1" value="" />
 				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
 			<float name="minimap_icon_scale" value="1" />
-			<icon name="portrait_icon_summer" value="Icons_portraits_vehicle_west_german_sturmtiger_s_portrait" />
+			<icon name="portrait_icon_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
 			<locstring name="brief_text" value="0" />
-			<locstring name="extra_text" value="11071541" />
+			<locstring name="extra_text" value="11071535" />
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_in_build_log" value="True" />
 			<bool name="show_entity_appearance" value="True" />
-			<locstring name="screen_name_world" value="11071733" />
+			<locstring name="screen_name_world" value="11071726" />
 			<locstring name="help_text_world" value="0" />
-			<locstring name="extra_text_world" value="11071652" />
+			<locstring name="extra_text_world" value="11071646" />
 			<enum name="map_rotation_type_override" value="no_override" />
 			<enum name="occlusion_state" value="can_be_occluded" />
-			<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_sturmtiger_symbol" />
+			<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 			<enum name="decorator_visibility" value="default" />
 			<string name="decorator_marker_name" value="fx_ui" />
 			<bool name="skin_pack_override" value="False" />
@@ -540,7 +612,7 @@
 			<bool name="ignore_while_stationary" value="False" />
 			<bool name="ignore_while_tense" value="False" />
 			<float name="initial_delay" value="-1" />
-			<float name="max_range" value="25" />
+			<float name="max_range" value="10" />
 			<float name="time_limit" value="3" />
 			<bool name="generates_spotted_events" value="False" />
 		</template_reference>
@@ -558,33 +630,12 @@
 							</group>
 							<float name="length" value="0" />
 							<group name="origin">
-								<float name="x" value="1.38" />
-								<float name="y" value="2.2" />
-								<float name="z" value="1.85" />
-							</group>
-							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\small_arms\machine_gun\light_machine_gun\mg42_hull_mounted_sturmtiger_mp" />
-						</group>
-					</list>
-					<bool name="receives_attack_commands" value="True" />
-				</group>
-				<group name="hardpoint">
-					<float name="parent_hardpoint" value="-1" />
-					<list name="weapon_table">
-						<group name="weapon">
-							<group name="heading">
 								<float name="x" value="0" />
-								<float name="y" value="1" />
-								<float name="z" value="4" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0.28" />
-								<float name="y" value="3" />
-								<float name="z" value="1.75" />
+								<float name="y" value="2.6" />
+								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\explosive_weapons\heavy_artillery\sturmtiger_rw_61_380mm_rocket_launcher" />
+							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\tiger_kwk43_88mm_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -596,16 +647,16 @@
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
-								<float name="z" value="1" />
+								<float name="z" value="0.05" />
 							</group>
 							<float name="length" value="0" />
 							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="3" />
-								<float name="z" value="-0.7" />
+								<float name="x" value="0.65" />
+								<float name="y" value="1.8" />
+								<float name="z" value="2.45" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\explosive_weapons\light_artillery\sturmtiger_nahvw_close_range_grenades" />
+							<instance_reference name="weapon" value="weapon\west_german\small_arms\machine_gun\light_machine_gun\generic_mg34_hull_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -613,44 +664,8 @@
 				<group name="hardpoint">
 					<float name="parent_hardpoint" value="1" />
 					<list name="weapon_table">
-						<group name="weapon">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="-0.35" />
-								<float name="y" value="1.6" />
-								<float name="z" value="2.45" />
-							</group>
-							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="" />
-						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
-				</group>
-				<group name="hardpoint">
-					<float name="parent_hardpoint" value="-1" />
-					<list name="weapon_table">
-						<group name="weapon">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="2" />
-							</group>
-							<float name="length" value="1" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="2.84" />
-								<float name="z" value="-1.76" />
-							</group>
-							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\small_arms\machine_gun\light_machine_gun\halftrack_250_dummy" />
-						</group>
-					</list>
-					<bool name="receives_attack_commands" value="True" />
 				</group>
 			</list>
 			<int name="sight_hardpoint" value="-1" />
@@ -706,14 +721,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="0.8" />
 				<list name="actions">
-					<template_reference name="action" value="action\animator_set_action">
-						<string name="action_name" value="UI\Cover\Heavy_Cover" />
-						<float name="duration" value="0" />
-						<bool name="fire_and_forget" value="True" />
-						<bool name="is_terrain_only" value="False" />
-						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763219" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_light">
@@ -724,14 +731,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="0.9" />
 				<list name="actions">
-					<template_reference name="action" value="action\animator_set_action">
-						<string name="action_name" value="UI\Cover\Light_Cover" />
-						<float name="duration" value="0" />
-						<bool name="fire_and_forget" value="True" />
-						<bool name="is_terrain_only" value="False" />
-						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763220" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_negative">
@@ -742,14 +741,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="1.3" />
 				<list name="actions">
-					<template_reference name="action" value="action\animator_set_action">
-						<string name="action_name" value="UI\Cover\Negative_Cover" />
-						<float name="duration" value="0" />
-						<bool name="fire_and_forget" value="True" />
-						<bool name="is_terrain_only" value="False" />
-						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763221" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_open">
@@ -760,14 +751,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="1" />
 				<list name="actions">
-					<template_reference name="action" value="action\animator_set_action">
-						<string name="action_name" value="UI\Cover\Negative_Cover" />
-						<float name="duration" value="0" />
-						<bool name="fire_and_forget" value="True" />
-						<bool name="is_terrain_only" value="False" />
-						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763222" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_smoke">
@@ -778,14 +761,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="0.3" />
 				<list name="actions">
-					<template_reference name="action" value="action\animator_set_action">
-						<string name="action_name" value="UI\Cover\Negative_Cover" />
-						<float name="duration" value="0" />
-						<bool name="fire_and_forget" value="True" />
-						<bool name="is_terrain_only" value="False" />
-						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763223" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_trench">
@@ -806,14 +781,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="1" />
 				<list name="actions">
-					<template_reference name="action" value="action\animator_set_action">
-						<string name="action_name" value="UI\Cover\Negative_Cover" />
-						<float name="duration" value="0" />
-						<bool name="fire_and_forget" value="True" />
-						<bool name="is_terrain_only" value="False" />
-						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763224" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_z_bunker">
@@ -896,102 +863,106 @@
 			<float name="attack_priority" value="80" />
 			<enum name="camouflage_type" value="tp_global" />
 			<bool name="chain_revealer" value="False" />
-			<float name="detection_radius" value="10" />
+			<float name="detection_radius" value="25" />
 			<bool name="must_be_fully_constructed" value="False" />
 			<bool name="permanently_activated" value="False" />
 			<float name="combat_reset_time" value="10" />
 			<float name="first_strike_shots" value="1" />
-			<float name="revert_max" value="10" />
+			<float name="revert_max" value="45" />
 			<float name="revert_multiplier" value="2" />
-			<float name="revert_time" value="1.5" />
-			<float name="revert_time_on_detection" value="1" />
+			<float name="revert_time" value="15" />
+			<float name="revert_time_on_detection" value="15" />
 			<list name="camouflage_actions">
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_entity_upgrade">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\camouflage_net_activated" />
-							<bool name="include_queued" value="False" />
-						</template_reference>
-						<template_reference name="required" value="requirements\required_not">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_in_state">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="garrisoned" value="False" />
-									<bool name="healed" value="False" />
-									<float name="in_combat_since" value="-1" />
-									<bool name="injured" value="False" />
-									<bool name="leader" value="False" />
-									<bool name="not_moving" value="True" />
-									<bool name="not_retreating" value="False" />
-									<bool name="pinned" value="False" />
-									<bool name="suppressed" value="False" />
-									<bool name="camouflaged" value="False" />
-								</template_reference>
-							</list>
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\upgrade_remove">
-							<bool name="apply_to_entities_in_squad" value="True" />
-							<instance_reference name="upgrade" value="upgrade\german\commander\ability\camouflage_net_activated" />
-							<uniqueid name="id" value="1073763225" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073763226" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
-				</template_reference>
-			</list>
-			<list name="first_strike_actions">
 				<template_reference name="action" value="action\apply_modifiers_action">
 					<float name="duration" value="0" />
 					<bool name="permanent" value="False" />
 					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\damage_weapon_modifier">
+						<template_reference name="modifier" value="modifiers\auto_target_enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
 							<bool name="exclusive" value="False" />
 							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="multiply_add" />
-							<float name="value" value="1.5" />
-							<instance_reference name="tooltip" value="modifier_tooltip\damage_weapon_modifier" />
+							<string name="target_type_name" value="hardpoint_02" />
+							<enum name="usage_type" value="enable" />
+							<float name="value" value="-1" />
+							<instance_reference name="tooltip" value="modifier_tooltip\auto_target_enable_weapon_modifier" />
 						</template_reference>
-						<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+						<template_reference name="modifier" value="modifiers\auto_target_enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
 							<bool name="exclusive" value="False" />
 							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="multiply_add" />
-							<float name="value" value="1.5" />
-							<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\weapon_penetration_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="multiply_add" />
-							<float name="value" value="1.5" />
-							<instance_reference name="tooltip" value="modifier_tooltip\weapon_penetration_modifier" />
+							<string name="target_type_name" value="hardpoint_03" />
+							<enum name="usage_type" value="enable" />
+							<float name="value" value="-1" />
+							<instance_reference name="tooltip" value="modifier_tooltip\auto_target_enable_weapon_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763227" />
+					<uniqueid name="id" value="1073763330" />
 				</template_reference>
+			</list>
+			<list name="first_strike_actions">
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\crush_ext">
+			<bool name="crushes_humans" value="True" />
+			<enum name="default_crush_mode" value="crush_heavy" />
+			<list name="crush_mode_actions_heavy">
+			</list>
+			<list name="crush_mode_actions_light">
+			</list>
+			<list name="crush_mode_actions_medium">
+			</list>
+			<list name="crush_mode_actions_off">
+			</list>
+			<list name="crush_target_actions">
+			</list>
+			<float name="ice_damage" value="225" />
+			<template_reference name="additional_simbox_option" value="options\none">
+			</template_reference>
+			<bool name="crushes_buildings" value="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext">
+			<float name="acceleration" value="1.4" />
+			<float name="deceleration" value="1.8" />
+			<float name="high_path_look_ahead_max_dist" value="25" />
+			<bool name="orient_to_terrain" value="True" />
+			<instance_reference name="pass_type" value="pass_types\heavy_crusher" />
+			<float name="rotation_rate" value="25" />
+			<float name="rotation_rate_crouch" value="870" />
+			<float name="rotation_rate_prone" value="225" />
+			<float name="rotation_rate_stand" value="870" />
+			<bool name="smooth_path" value="True" />
+			<float name="speed_max" value="3.8" />
+			<instance_reference name="turn_plan" value="turn_plan\tank_i" />
+			<float name="on_ice_accel_decel_multiplier" value="0.6" />
+			<float name="on_land_overturn_scale" value="0.015" />
+			<float name="on_ice_overturn_scale" value="1.3" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\recrewable_ext">
+			<list name="race_list">
+				<group name="race_data">
+					<instance_reference name="ext_key" value="" />
+					<group name="info">
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\king_tiger_squad\king_tiger_squad_mp" />
+						<float name="max_capture_crew_size" value="3" />
+						<float name="min_capture_crew_size" value="3" />
+						<list name="recrew_penalties_list">
+						</list>
+						<float name="abandon_animation_seconds" value="2.5" />
+						<int name="recrew_max_squad_size" value="1" />
+						<bool name="abandoned_allows_pass_through" value="False" />
+						<list name="apply_to_driver_action">
+						</list>
+						<float name="driver_death_chance_on_entity_death" value="1" />
+						<instance_reference name="driver_squad_blueprint" value="" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\upgrade_ext">
+			<bool name="must_be_in_supply" value="False" />
+			<float name="number_of_standard_slots" value="-1" />
+			<list name="standard_upgrades">
+				<instance_reference name="upgrade" value="upgrade\west_german\items\king_tiger_top_gunner_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\crew_ext">
@@ -1005,30 +976,20 @@
 								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_a" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_a" />
+								<string name="role_name" value="Gunner" />
+								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_a" />
+								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
+								<string name="animator_bp" value="armies\german\soldiers\officer\officer" />
+								<string name="death_event_name" value="Death_Crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_b" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_b" />
+								<string name="role_name" value="Spotter" />
+								<string name="sync_action_name" value="Attach_Spotter" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_b" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\props\ammocrane_sturmtiger" />
-								<string name="death_event_name" value="" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="crane" />
-								<string name="sync_action_name" value="attach_crane_sturmtiger" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="" />
+								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1042,33 +1003,23 @@
 						<string name="sync_target_name" value="Vehicle_Target" />
 						<list name="role_list">
 							<group name="role">
-								<string name="animator_bp" value="armies/soviet/soldiers/tank_crew_1/tank_crew_1" />
+								<string name="animator_bp" value="armies\soviet\soldiers\tank_crew_1\tank_crew_1" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_a" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_a" />
+								<string name="role_name" value="Gunner" />
+								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_a" />
+								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
-								<string name="animator_bp" value="armies/soviet/soldiers/tank_crew_1/tank_crew_1" />
-								<string name="death_event_name" value="Death_crew" />
+								<string name="animator_bp" value="armies\soviet\soldiers\tank_crew_1\tank_crew_1" />
+								<string name="death_event_name" value="Death_Crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_b" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_b" />
+								<string name="role_name" value="Spotter" />
+								<string name="sync_action_name" value="Attach_Spotter" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_b" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\props\ammocrane_sturmtiger" />
-								<string name="death_event_name" value="" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="crane" />
-								<string name="sync_action_name" value="attach_crane_sturmtiger" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="" />
+								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1085,30 +1036,20 @@
 								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_a" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_a" />
+								<string name="role_name" value="Gunner" />
+								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_a" />
+								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
+								<string name="animator_bp" value="armies\german\soldiers\officer\officer" />
+								<string name="death_event_name" value="Death_Crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_b" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_b" />
+								<string name="role_name" value="Spotter" />
+								<string name="sync_action_name" value="Attach_Spotter" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_b" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\props\ammocrane_sturmtiger" />
-								<string name="death_event_name" value="" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="crane" />
-								<string name="sync_action_name" value="attach_crane_sturmtiger" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="" />
+								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1125,30 +1066,20 @@
 								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_a" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_a" />
+								<string name="role_name" value="Gunner" />
+								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_a" />
+								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
 								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
+								<string name="death_event_name" value="Death_Crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_b" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_b" />
+								<string name="role_name" value="Spotter" />
+								<string name="sync_action_name" value="Attach_Spotter" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_b" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\props\ammocrane_sturmtiger" />
-								<string name="death_event_name" value="" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="crane" />
-								<string name="sync_action_name" value="attach_crane_sturmtiger" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="" />
+								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1165,97 +1096,25 @@
 								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_a" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_a" />
+								<string name="role_name" value="Gunner" />
+								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_a" />
+								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
+								<string name="animator_bp" value="armies\german\soldiers\officer\officer" />
+								<string name="death_event_name" value="Death_Crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Loader_b" />
-								<string name="sync_action_name" value="attach_loader_sturmtiger_b" />
+								<string name="role_name" value="Spotter" />
+								<string name="sync_action_name" value="Attach_Spotter" />
 								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_loader_sturmtiger_b" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\props\ammocrane_sturmtiger" />
-								<string name="death_event_name" value="" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="crane" />
-								<string name="sync_action_name" value="attach_crane_sturmtiger" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="" />
+								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
 						<template_reference name="additional_crew_option" value="options\none">
 						</template_reference>
-					</group>
-				</group>
-			</list>
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\crush_ext">
-			<bool name="crushes_humans" value="True" />
-			<enum name="default_crush_mode" value="crush_heavy" />
-			<list name="crush_mode_actions_heavy">
-			</list>
-			<list name="crush_mode_actions_light">
-			</list>
-			<list name="crush_mode_actions_medium">
-			</list>
-			<list name="crush_mode_actions_off">
-			</list>
-			<list name="crush_target_actions">
-			</list>
-			<float name="ice_damage" value="170" />
-			<template_reference name="additional_simbox_option" value="options\none">
-			</template_reference>
-			<bool name="crushes_buildings" value="True" />
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\moving_ext">
-			<float name="acceleration" value="1.6" />
-			<float name="deceleration" value="1.7" />
-			<float name="high_path_look_ahead_max_dist" value="25" />
-			<bool name="orient_to_terrain" value="True" />
-			<instance_reference name="pass_type" value="pass_types\medium_crusher" />
-			<float name="rotation_rate" value="22" />
-			<float name="rotation_rate_crouch" value="870" />
-			<float name="rotation_rate_prone" value="225" />
-			<float name="rotation_rate_stand" value="870" />
-			<bool name="smooth_path" value="True" />
-			<float name="speed_max" value="4.7" />
-			<instance_reference name="turn_plan" value="turn_plan\tank_i" />
-			<float name="on_ice_accel_decel_multiplier" value="0.6" />
-			<float name="on_land_overturn_scale" value="0.02" />
-			<float name="on_ice_overturn_scale" value="1.3" />
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\upgrade_ext">
-			<bool name="must_be_in_supply" value="False" />
-			<float name="number_of_standard_slots" value="-1" />
-			<list name="standard_upgrades">
-			</list>
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\recrewable_ext">
-			<list name="race_list">
-				<group name="race_data">
-					<instance_reference name="ext_key" value="" />
-					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\sturmtiger_squad\sturmtiger_squad_mp" />
-						<float name="max_capture_crew_size" value="3" />
-						<float name="min_capture_crew_size" value="3" />
-						<list name="recrew_penalties_list">
-						</list>
-						<float name="abandon_animation_seconds" value="4" />
-						<int name="recrew_max_squad_size" value="1" />
-						<bool name="abandoned_allows_pass_through" value="False" />
-						<list name="apply_to_driver_action">
-						</list>
-						<float name="driver_death_chance_on_entity_death" value="1" />
-						<instance_reference name="driver_squad_blueprint" value="" />
 					</group>
 				</group>
 			</list>
@@ -1276,6 +1135,8 @@
 			<bool name="use_simbox_range" value="True" />
 			<bool name="use_simbox_range_plus_spots" value="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\marker_ext">
+		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="2614" />
+	<uniqueid name="pbgid" value="3254" />
 </instance>
