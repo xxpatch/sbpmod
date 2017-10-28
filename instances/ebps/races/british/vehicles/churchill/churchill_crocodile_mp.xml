@@ -587,7 +587,7 @@
 								<float name="z" value="2.45" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\flame_throwers\churchill_flamethrower_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\british\flame_throwers\churchill_flamethrower_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -608,7 +608,7 @@
 								<float name="z" value="0.1" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\tank_gun\churchill_mk7_75mm_croc_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\tank_gun\churchill_mk7_75mm_croc_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="True" />
@@ -630,6 +630,27 @@
 							</group>
 							<enum name="type" value="default" />
 							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\light_machine_gun\churchill_mk7_coaxial_vehicle_turret_mp" />
+						</group>
+					</list>
+					<bool name="receives_attack_commands" value="False" />
+				</group>
+				<group name="hardpoint">
+					<float name="parent_hardpoint" value="1" />
+					<list name="weapon_table">
+						<group name="weapon">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="-0.35" />
+								<float name="y" value="1.6" />
+								<float name="z" value="2.45" />
+							</group>
+							<enum name="type" value="default" />
+							<instance_reference name="weapon" value="weapon\british\flame_throwers\churchill_flamethrower_sweep_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -911,7 +932,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="3.8" />
-			<instance_reference name="turn_plan" value="turn_plan\tank_i" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="turn_plan" value="turn_plan\tank_i" />
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0.1" />
 			<float name="on_ice_overturn_scale" value="0.5" />
