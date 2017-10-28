@@ -43,7 +43,7 @@
 				<float name="angle_left" value="0" />
 				<float name="angle_right" value="0" />
 				<enum name="area_type" value="circle" />
-				<float name="radius" value="4" />
+				<float name="radius" value="3" />
 			</group>
 			<group name="damage">
 				<float name="far" value="0.2" />
@@ -56,9 +56,9 @@
 				<float name="mid" value="0.025" />
 			</group>
 			<group name="distance">
-				<float name="far" value="3" />
+				<float name="far" value="2.25" />
 				<float name="near" value="0.75" />
-				<float name="mid" value="1.75" />
+				<float name="mid" value="1.5" />
 			</group>
 			<bool name="has_friendly_fire" value="True" />
 			<bool name="can_harm_shooter" value="False" />
@@ -74,16 +74,16 @@
 			</group>
 			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
-				<float name="far" value="35" />
-				<float name="mid" value="35" />
-				<float name="near" value="35" />
+				<float name="far" value="75" />
+				<float name="mid" value="75" />
+				<float name="near" value="75" />
 			</template_reference>
 			<group name="building_damage">
 				<float name="near" value="1" />
 				<float name="mid" value="0.5" />
 				<float name="far" value="0.005" />
 			</group>
-			<instance_reference name="weapon_building_damage" value="weapon_building_damage\aoe_profile_mortar" />
+			<instance_reference name="weapon_building_damage" value="weapon_building_damage\aoe_profile_he_shell" />
 			<enum name="aoe_origin_and_direction" value="hit_position_and_direction" />
 			<int name="damage_max_members_per_squad" value="-1" />
 		</group>
@@ -338,12 +338,12 @@
 			<instance_reference name="projectile" value="ebps\projectile\west_german_75mm_ig_18_isg_projectile_high_angle_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 		</group>
 		<group name="range">
-			<float name="max" value="85" />
-			<float name="min" value="35" />
+			<float name="max" value="100" />
+			<float name="min" value="40" />
 			<group name="distance">
-				<float name="near" value="-1" />
-				<float name="far" value="-1" />
-				<float name="mid" value="-1" />
+				<float name="near" value="40" />
+				<float name="far" value="80" />
+				<float name="mid" value="60" />
 			</group>
 		</group>
 		<group name="reload">
@@ -364,14 +364,14 @@
 			</list>
 		</group>
 		<group name="scatter">
-			<float name="angle_scatter" value="6.75" />
+			<float name="angle_scatter" value="6" />
 			<bool name="burst_pattern_enable" value="False" />
 			<float name="delay_bracket_change_chance" value="0" />
 			<float name="distance_bracket_count_air" value="0" />
 			<float name="distance_bracket_count_ground" value="1" />
-			<float name="distance_scatter_max" value="7" />
+			<float name="distance_scatter_max" value="5" />
 			<float name="distance_scatter_obj_hit_min" value="0" />
-			<float name="distance_scatter_offset" value="0" />
+			<float name="distance_scatter_offset" value="0.3" />
 			<float name="distance_scatter_ratio" value="0.1" />
 			<float name="fow_angle_multiplier" value="1.25" />
 			<float name="fow_distance_multiplier" value="1.25" />
@@ -421,7 +421,7 @@
 				<float name="max_left" value="-25" />
 				<float name="max_right" value="25" />
 				<float name="max_up" value="90" />
-				<float name="speed_horizontal" value="8" />
+				<float name="speed_horizontal" value="3" />
 				<float name="speed_vertical" value="15" />
 			</group>
 			<float name="pivot_end_time" value="0" />
@@ -434,9 +434,9 @@
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_setfacing" value="ui_setfacing\weapon_artillery" />
 		<group name="penetration">
-			<float name="mid" value="35" />
-			<float name="far" value="35" />
-			<float name="near" value="35" />
+			<float name="mid" value="75" />
+			<float name="far" value="75" />
+			<float name="near" value="75" />
 		</group>
 		<group name="ui_map_colour">
 			<int name="red" value="0" />

@@ -10,7 +10,7 @@
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\reinforcements_action">
 					<bool name="allow_building_spawn" value="False" />
-					<float name="minimum_pop_used" value="18" />
+					<float name="minimum_pop_used" value="20" />
 					<float name="points_total" value="0" />
 					<bool name="spawn_random_squads" value="False" />
 					<list name="entity_table">
@@ -40,8 +40,8 @@
 		<group name="cost">
 			<float name="action" value="0" />
 			<float name="command" value="0" />
-			<float name="fuel" value="200" />
-			<float name="manpower" value="700" />
+			<float name="fuel" value="180" />
+			<float name="manpower" value="620" />
 			<float name="munition" value="0" />
 			<float name="popcap" value="0" />
 		</group>
@@ -143,7 +143,7 @@
 					<template_reference name="required" value="requirements\required_entity">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
-						<instance_reference name="entity_blueprint_name" value="ebps\races\west_german\vehicles\sturmtiger_606_38cm_rw_61\sturmtiger_606_38cm_rw_61_mp" />
+						<instance_reference name="entity_blueprint_name" value="ebps\races\west_german\vehicles\sturmtiger_606_38cm_rw_61\sturmtiger_606_38cm_rw_61_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						<enum name="entity_type" value="" />
 					</template_reference>
 				</list>

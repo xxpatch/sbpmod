@@ -252,12 +252,6 @@
 							<instance_reference name="upgrade" value="upgrade\west_german\passive\building_2" />
 							<uniqueid name="id" value="1073761621" />
 						</template_reference>
-						<template_reference name="action" value="action\upgrade_add">
-							<bool name="apply_to_entities_in_squad" value="False" />
-							<bool name="trigger_publish_event" value="False" />
-							<instance_reference name="upgrade" value="upgrade\west_german\research\okw_call_in_decrease_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<uniqueid name="id" value="1073761628" />
-						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073761622" />
 				</template_reference>
