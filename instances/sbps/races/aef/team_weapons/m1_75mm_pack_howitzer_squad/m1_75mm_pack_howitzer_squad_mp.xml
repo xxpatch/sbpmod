@@ -447,7 +447,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\aef\team_weapons\field_artillery\m1_75mm_pack_howitzer_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="type" value="ebps\races\aef\team_weapons\field_artillery\m1_75mm_pack_howitzer_mp" />
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="6" />
@@ -694,7 +694,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="True" />
 												<string name="modifier_id" value="pack_howitzer_barrage_vet" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_mp" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.33" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -703,7 +703,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="True" />
 												<string name="modifier_id" value="pack_howitzer_phos_vet" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_white_phosphorous_barrage_ability_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_white_phosphorous_barrage_ability_mp" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.33" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -712,7 +712,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="True" />
 												<string name="modifier_id" value="pack_howitzer_phos_vet" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_heat_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_heat_mp" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.33" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -724,7 +724,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.7" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_mp" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
 												<enum name="application_type" value="apply_to_ability" />
@@ -733,7 +733,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.7" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_white_phosphorous_barrage_ability_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_white_phosphorous_barrage_ability_mp" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
 												<enum name="application_type" value="apply_to_ability" />
@@ -742,7 +742,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.7" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_heat_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\pack_howitzer_75mm_barrage_ability_heat_mp" />
 											</template_reference>
 										</list>
 										<uniqueid name="id" value="1073759725" />
