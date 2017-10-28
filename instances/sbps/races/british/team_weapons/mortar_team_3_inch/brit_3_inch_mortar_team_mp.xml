@@ -11,7 +11,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -68,7 +68,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -125,7 +125,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -182,7 +182,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -239,7 +239,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -296,7 +296,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -444,7 +444,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_mortars" />
-				<instance_reference name="ability" value="abilities\british\toggle_ability\brit_emplacement_braced_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\british\toggle_ability\brit_emplacement_braced_mp" />
 				<instance_reference name="ability" value="abilities\british\toggle_ability\british_mortar_hold_fire_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
@@ -482,7 +482,7 @@
 						<float name="max_persistent_squads" value="0" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="960" />
+								<float name="experience_value" value="480" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="47" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 								<bool name="single_player_only" value="False" />
@@ -528,7 +528,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1920" />
+								<float name="experience_value" value="960" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11090919" />
 								<bool name="single_player_only" value="False" />
@@ -562,11 +562,11 @@
 														<instance_reference name="target_type_name" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_smoke_barrage_mp" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073761367" />
+												<uniqueid name="id" value="1073763268" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073761368" />
+										<uniqueid name="id" value="1073763269" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -582,14 +582,14 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073761369" />
+										<uniqueid name="id" value="1073763270" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="3840" />
+								<float name="experience_value" value="1920" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11090921" />
 								<bool name="single_player_only" value="False" />
@@ -614,17 +614,17 @@
 														<instance_reference name="tooltip" value="modifier_tooltip\health_maximum_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073761370" />
+												<uniqueid name="id" value="1073763271" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073761371" />
+										<uniqueid name="id" value="1073763272" />
 									</template_reference>
 									<template_reference name="action" value="action\upgrade_add">
 										<bool name="apply_to_entities_in_squad" value="False" />
 										<bool name="trigger_publish_event" value="False" />
 										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073761372" />
+										<uniqueid name="id" value="1073763273" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -640,7 +640,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073761373" />
+										<uniqueid name="id" value="1073763274" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">

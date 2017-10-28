@@ -335,7 +335,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\brit_3_inch_smoke_round_slot_1_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="projectile" value="ebps\projectile\brit_3_inch_smoke_round_slot_1_mp" />
 		</group>
 		<group name="range">
 			<float name="max" value="150" />

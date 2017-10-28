@@ -1,7 +1,7 @@
 <instance description="" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
-			<string name="alternate_sua" value="armies\soviet\structures\mine_tm35_planted\mine_tm35_planted" />
+			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\british\structures\pit_mortar\pit_mortar" />
 			<bool name="is_visible_in_game" value="True" />
@@ -20,7 +20,7 @@
 			<float name="death_seconds" value="0" />
 			<bool name="delete_when_dead" value="True" />
 			<bool name="force_attacker_memory" value="False" />
-			<float name="hitpoints" value="600" />
+			<float name="hitpoints" value="700" />
 			<bool name="is_invincible" value="False" />
 			<bool name="is_salvagable_wreck" value="False" />
 			<bool name="keep_wreck_ownership" value="False" />
@@ -37,9 +37,9 @@
 			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="1" />
+			<float name="armor" value="5" />
 			<float name="rear_armor" value="0" />
-			<float name="target_size" value="1" />
+			<float name="target_size" value="40" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 				<group name="critical_group">
@@ -192,7 +192,7 @@
 		<template_reference name="exts" value="ebpextensions\modifier_ext">
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext">
-			<float name="extra_build_test_footprint" value="3" />
+			<float name="extra_build_test_footprint" value="0" />
 			<bool name="require_all_cells_clear" value="True" />
 			<bool name="snap_to_terrain" value="False" />
 			<bool name="ignore_impass" value="False" />
@@ -221,8 +221,8 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_smoke_barrage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_smoke_barrage_mp" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_victor_target_mp" />
 				<instance_reference name="ability" value="abilities\british\timed_ability\mortar_pit_counter_battery_mp" />
 			</list>
@@ -242,7 +242,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="on_construction_squad" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -268,103 +268,36 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073761294" />
+					<uniqueid name="id" value="1073763293" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_crew_action">
 					<bool name="apply_removal" value="False" />
 					<string name="crew_name" value="gunner_01" />
 					<bool name="kill" value="False" />
-					<uniqueid name="id" value="1073761295" />
+					<uniqueid name="id" value="1073763294" />
+				</template_reference>
+				<template_reference name="action" value="action\apply_crew_action">
+					<bool name="apply_removal" value="False" />
+					<string name="crew_name" value="gunner_02" />
+					<bool name="kill" value="False" />
+					<uniqueid name="id" value="1073763295" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_crew_action">
 					<bool name="apply_removal" value="False" />
 					<string name="crew_name" value="loader_01" />
 					<bool name="kill" value="False" />
-					<uniqueid name="id" value="1073761296" />
+					<uniqueid name="id" value="1073763296" />
+				</template_reference>
+				<template_reference name="action" value="action\apply_crew_action">
+					<bool name="apply_removal" value="False" />
+					<string name="crew_name" value="loader_02" />
+					<bool name="kill" value="False" />
+					<uniqueid name="id" value="1073763297" />
 				</template_reference>
 				<template_reference name="action" value="action\upgrade_remove">
 					<bool name="apply_to_entities_in_squad" value="True" />
 					<instance_reference name="upgrade" value="upgrade\is_manned" />
-					<uniqueid name="id" value="1073761297" />
-				</template_reference>
-				<template_reference name="action" value="action\change_weapon">
-					<float name="hardpoint" value="1" />
-					<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_1_auto_light_he_mp" />
-					<uniqueid name="id" value="1073761298" />
-				</template_reference>
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_not">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_entity_upgrade">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="is_present" value="True" />
-									<instance_reference name="upgrade_name" value="upgrade\british\items\advanced_mortar_emplacement_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-									<bool name="include_queued" value="False" />
-								</template_reference>
-							</list>
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="True" />
-									<string name="modifier_id" value="basic_mortar" />
-									<string name="target_type_name" value="hardpoint_02" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="True" />
-									<string name="modifier_id" value="basic_mortar" />
-									<string name="target_type_name" value="hardpoint_04" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="True" />
-									<string name="modifier_id" value="basic_mortar" />
-									<string name="target_type_name" value="hardpoint_06" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="True" />
-									<string name="modifier_id" value="basic_mortar" />
-									<string name="target_type_name" value="hardpoint_08" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073761299" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073761300" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
+					<uniqueid name="id" value="1073763298" />
 				</template_reference>
 			</list>
 			<list name="materials">
@@ -381,7 +314,7 @@
 			<instance_reference name="placement_valid" value="ui_rectangle\construction_placement_valid" />
 			<instance_reference name="placement_invalid" value="ui_rectangle\construction_placement_invalid" />
 			<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
-			<float name="ui_range_radius" value="85" />
+			<float name="ui_range_radius" value="120" />
 			<instance_reference name="ui_setfacing" value="" />
 			<bool name="query_weapon_for_range_ui" value="True" />
 			<bool name="squad_ignore_pathfinding" value="False" />
@@ -393,7 +326,7 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="200" />
+					<float name="manpower" value="400" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -1176,8 +1109,7 @@
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_default_loaded" />
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_special_1_loaded" />
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_special_2_loaded" />
-				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="upgrade" value="upgrade\british\items\advanced_mortar_emplacement_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\crew_ext">
@@ -1350,7 +1282,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="6" />
+			<float name="personnel_pop" value="8" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\recrewable_ext">
@@ -1358,7 +1290,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\mortar_team_3_inch\brit_3_inch_mortar_team_mp" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -1386,7 +1318,7 @@
 			<float name="rotation_rate_stand" value="0" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="0" />
-			<instance_reference name="turn_plan" value="turn_plan\gun_i" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="turn_plan" value="turn_plan\gun_i" />
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />
