@@ -187,12 +187,6 @@
 					<bool name="neutral" value="False" />
 					<bool name="self" value="True" />
 					<list name="subactions">
-						<template_reference name="action" value="action\upgrade_add">
-							<bool name="apply_to_entities_in_squad" value="False" />
-							<bool name="trigger_publish_event" value="False" />
-							<instance_reference name="upgrade" value="upgrade\soviet\research\soviet_t4_built_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<uniqueid name="id" value="1073757898" />
-						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073757899" />
 				</template_reference>

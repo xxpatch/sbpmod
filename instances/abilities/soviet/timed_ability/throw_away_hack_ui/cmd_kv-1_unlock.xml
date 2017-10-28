@@ -16,7 +16,7 @@
 					<list name="entity_table">
 					</list>
 					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\soviet\vehicles\kv-1\kv-1_commander_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="squad" value="sbps\races\soviet\vehicles\kv-1\kv-1_commander_mp" />
 					</list>
 					<bool name="use_attack_move" value="False" />
 					<uniqueid name="id" value="1073758059" />
@@ -40,8 +40,8 @@
 		<group name="cost">
 			<float name="action" value="0" />
 			<float name="command" value="0" />
-			<float name="fuel" value="180" />
-			<float name="manpower" value="525" />
+			<float name="fuel" value="145" />
+			<float name="manpower" value="420" />
 			<float name="munition" value="0" />
 			<float name="popcap" value="0" />
 		</group>
@@ -116,10 +116,10 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11043130" />
+				<locstring name="ui_name" value="11052904" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
-					<float name="command" value="9" />
+					<float name="command" value="8" />
 					<float name="fuel" value="0" />
 					<float name="manpower" value="0" />
 					<float name="munition" value="0" />
@@ -134,7 +134,7 @@
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv1_unlock" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv1_unlock" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
