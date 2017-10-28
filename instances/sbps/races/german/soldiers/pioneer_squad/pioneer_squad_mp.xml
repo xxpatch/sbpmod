@@ -819,11 +819,11 @@
 							<int name="ui_position" value="12" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\german\buildings\observation_post\fuel_post_german_mp" />
+							<instance_reference name="ebp" value="ebps\races\german\buildings\observation_post\fuel_post_german_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\german\buildings\observation_post\munition_post_german_mp" />
+							<instance_reference name="ebp" value="ebps\races\german\buildings\observation_post\munition_post_german_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<int name="ui_position" value="21" />
 						</group>
 						<group name="construction_item">

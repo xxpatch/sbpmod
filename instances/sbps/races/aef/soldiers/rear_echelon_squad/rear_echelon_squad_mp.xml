@@ -931,7 +931,7 @@
 							<int name="ui_position" value="11" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\aef\buildings\observation_post\observation_post_fuel_aef_mp" />
+							<instance_reference name="ebp" value="ebps\races\aef\buildings\observation_post\observation_post_fuel_aef_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
@@ -943,7 +943,7 @@
 							<int name="ui_position" value="13" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\aef\buildings\observation_post\observation_post_munition_aef_mp" />
+							<instance_reference name="ebp" value="ebps\races\aef\buildings\observation_post\observation_post_munition_aef_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 							<int name="ui_position" value="21" />
 						</group>
 						<group name="construction_item">
