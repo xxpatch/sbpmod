@@ -403,7 +403,7 @@
 						<float name="z" value="0" />
 					</group>
 					<enum name="type" value="default" />
-					<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp" />
+					<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				</group>
 				<instance_reference name="remove_weapon" value="" />
 			</group>

@@ -178,7 +178,7 @@
 			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_isu_152_spg" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="310" />
+			<float name="armor" value="340" />
 			<float name="rear_armor" value="155" />
 			<float name="target_size" value="26" />
 			<bool name="dies_from_broken_ice" value="True" />
@@ -596,7 +596,7 @@
 								<float name="z" value="2.47" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_armor_piercing_mp" />
+							<instance_reference name="weapon" value="weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_armor_piercing_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 						<group name="weapon">
 							<group name="heading">

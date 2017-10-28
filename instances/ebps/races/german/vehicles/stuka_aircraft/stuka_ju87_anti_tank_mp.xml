@@ -283,7 +283,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_mp" />
+							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -304,7 +304,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_mp" />
+							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

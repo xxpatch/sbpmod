@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="5" />
-					<instance_reference name="type" value="ebps\races\aef\soldiers\rifleman_soldier\rifleman_soldier_mp" />
+					<instance_reference name="type" value="ebps\races\aef\soldiers\rifleman_soldier\rifleman_soldier_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -398,7 +398,7 @@
 						<float name="z" value="0" />
 					</group>
 					<enum name="type" value="default" />
-					<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp" />
+					<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				</group>
 				<instance_reference name="remove_weapon" value="" />
 			</group>
@@ -716,7 +716,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.5" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\grenades\m23_smoke_stream_rifle_grenade_vet_mp" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\grenades\m23_smoke_stream_rifle_grenade_vet_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
 												<enum name="application_type" value="apply_to_ability" />
@@ -749,7 +749,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\grenades\m23_smoke_stream_rifle_grenade_vet_mp" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\grenades\m23_smoke_stream_rifle_grenade_vet_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.25" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
