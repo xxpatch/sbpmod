@@ -940,7 +940,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\repair_ability\west_german_repair_ability_mp" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\repair_ability\west_german_repair_ability_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\pioneer_volks_salvage" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" />

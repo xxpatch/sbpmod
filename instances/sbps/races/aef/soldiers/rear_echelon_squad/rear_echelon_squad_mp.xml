@@ -780,7 +780,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\repair_ability\aef_repair_ability_rear_echelon_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\repair_ability\aef_repair_ability_rear_echelon_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\aef\timed_ability\rear_echelon_volley_fire_ability_mp" />
 				<instance_reference name="ability" value="abilities\pm\aef\specializations\cover_specialization\cover_specialization_hunker_down" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\sp\refuel_tank_sp" />
