@@ -185,21 +185,6 @@
 					</list>
 					<uniqueid name="id" value="1073762193" />
 				</template_reference>
-				<template_reference name="action" value="action\player_target_action">
-					<bool name="allies" value="False" />
-					<bool name="enemies" value="False" />
-					<bool name="neutral" value="False" />
-					<bool name="self" value="True" />
-					<list name="subactions">
-						<template_reference name="action" value="action\upgrade_add">
-							<bool name="apply_to_entities_in_squad" value="False" />
-							<bool name="trigger_publish_event" value="False" />
-							<instance_reference name="upgrade" value="upgrade\german\research\ostheer_t3_building_complete_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<uniqueid name="id" value="1073762198" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073762199" />
-				</template_reference>
 			</list>
 			<list name="materials">
 			</list>
