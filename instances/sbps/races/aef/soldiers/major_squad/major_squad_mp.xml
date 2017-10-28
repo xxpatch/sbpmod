@@ -181,7 +181,7 @@
 					<bool name="is_present" value="True" />
 					<float name="max_completed" value="100" />
 					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\aef\research\major_dispatched_upgrade_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="upgrade_name" value="upgrade\aef\research\major_dispatched_upgrade_mp" />
 				</template_reference>
 				<template_reference name="required" value="requirements\required_squad">
 					<enum name="reason" value="usage" />
