@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="True" />
-			<file name="animator" value="environment\buildings\eastern_urban\buildings\plaster02_6x3_civic_01\plaster02_6x3_civic_01\plaster02_6x3_civic_01" />
+			<file name="animator" value="environment\buildings\eastern_urban\buildings\plaster03_3x2_barn_01\plaster03_3x2_barn_01\plaster03_3x2_barn_01" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -59,7 +59,7 @@
 			<string name="extra_text_deprecated" value="" />
 			<bool name="ghost_enable" value="False" />
 			<bool name="has_speech_code" value="True" />
-			<locstring name="help_text" value="11073943" />
+			<locstring name="help_text" value="11073960" />
 			<string name="hotkey_name" value="ally_barracks_checkpoint_aid_station" />
 			<icon name="icon_name" value="" />
 			<enum name="kill_type" value="" />
@@ -115,7 +115,7 @@
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_in_build_log" value="True" />
 			<bool name="show_entity_appearance" value="True" />
-			<locstring name="screen_name_world" value="11073830" />
+			<locstring name="screen_name_world" value="11073847" />
 			<locstring name="help_text_world" value="0" />
 			<locstring name="extra_text_world" value="0" />
 			<enum name="map_rotation_type_override" value="no_override" />
@@ -213,8 +213,8 @@
 			<float name="panel_death_percentage" value="50" />
 			<file name="remnant_animator" value="environment\buildings\eastern_urban\remnants\remnants" />
 			<float name="rotation" value="0" />
-			<float name="scale_x" value="2.2" />
-			<float name="scale_y" value="2.2" />
+			<float name="scale_x" value="2.6" />
+			<float name="scale_y" value="2.6" />
 			<bool name="use_panel_health_system" value="True" />
 			<group name="fire">
 				<float name="smoking_threshold" value="180" />
@@ -232,7 +232,7 @@
 							<enum name="unit_type" value="infantry" />
 						</template_reference>
 						<bool name="permanent" value="False" />
-						<uniqueid name="id" value="54558" />
+						<uniqueid name="id" value="97915" />
 					</template_reference>
 				</list>
 			</group>
@@ -308,10 +308,10 @@
 							<bool name="destroy" value="True" />
 							<list name="death_reaction_table">
 							</list>
-							<uniqueid name="id" value="54560" />
+							<uniqueid name="id" value="97916" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="54559" />
+					<uniqueid name="id" value="97917" />
 					<bool name="any_subaction" value="False" />
 				</template_reference>
 			</list>
@@ -405,7 +405,7 @@
 			<bool name="animated_spawning" value="False" />
 			<float name="animated_spawning_seconds" value="0" />
 			<bool name="must_be_in_supply" value="False" />
-			<float name="reinforce_radius" value="30" />
+			<float name="reinforce_radius" value="25" />
 			<list name="spawn_items">
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -419,8 +419,8 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext">
 			<group name="unit_type_list">
-				<enum name="unit_type00" value="" />
-				<enum name="unit_type01" value="ambient_building" />
+				<enum name="unit_type00" value="ambient_building" />
+				<enum name="unit_type01" value="" />
 				<enum name="unit_type02" value="" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="" />
@@ -490,7 +490,7 @@
 			<list name="on_loaded_hold_actions">
 				<template_reference name="action" value="action\suppression">
 					<float name="suppression" value="0" />
-					<uniqueid name="id" value="54562" />
+					<uniqueid name="id" value="97919" />
 					<float name="supressionrecovertime" value="0" />
 				</template_reference>
 			</list>
@@ -706,5 +706,5 @@
 			</group>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="200" />
+	<uniqueid name="pbgid" value="217" />
 </instance>
