@@ -70,23 +70,23 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_ext">
 			<float name="combat_follower_cover_search_radius" value="1" />
 			<group name="cover_formation_table">
-				<instance_reference name="tp_defcover" value="squad_formations\british_line" />
-				<instance_reference name="tp_defcover_narrow" value="squad_formations\british_line" />
-				<instance_reference name="tp_garrison_cover" value="squad_formations\british_line" />
+				<instance_reference name="tp_defcover" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_defcover_narrow" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
 				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
-				<instance_reference name="tp_heavy" value="squad_formations\british_cover_default" />
-				<instance_reference name="tp_light" value="squad_formations\british_cover_default" />
-				<instance_reference name="tp_negative" value="squad_formations\british_line" />
-				<instance_reference name="tp_open" value="squad_formations\british_line" />
-				<instance_reference name="tp_smoke" value="squad_formations\british_line" />
+				<instance_reference name="tp_heavy" value="squad_formations\new_reinforced_wedge_cover" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_light" value="squad_formations\new_reinforced_wedge_cover" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_negative" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_open" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_smoke" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_trench" value="squad_formations\default" />
-				<instance_reference name="tp_water" value="squad_formations\british_line" />
+				<instance_reference name="tp_water" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_z_bunker" value="squad_formations\wedge" />
 				<instance_reference name="tp_z_emplacement" value="squad_formations\default" />
-				<instance_reference name="tp_z_ice" value="squad_formations\british_line" />
-				<instance_reference name="tp_z_snow" value="squad_formations\british_line" />
-				<instance_reference name="tp_zz_deep_snow" value="squad_formations\british_line" />
-				<instance_reference name="tp_zz_mud" value="squad_formations\british_line" />
+				<instance_reference name="tp_z_ice" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_z_snow" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_zz_deep_snow" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_zz_mud" value="squad_formations\new_reinforced_wedge" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\default" />
 			</group>
 			<float name="move_dest_cover_search_radius" value="1" />
@@ -98,10 +98,10 @@
 					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="02_soldiers">
-					<float name="units_in_core" value="1" />
+					<float name="units_in_core" value="2" />
 					<float name="units_in_left_flank" value="0" />
 					<float name="units_in_right_flank" value="0" />
-					<float name="units_in_scout" value="1" />
+					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="03_soldiers">
 					<float name="units_in_core" value="1" />
@@ -110,21 +110,21 @@
 					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="04_soldiers">
-					<float name="units_in_core" value="1" />
+					<float name="units_in_core" value="2" />
 					<float name="units_in_left_flank" value="1" />
-					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_right_flank" value="1" />
 					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="05_soldiers">
-					<float name="units_in_core" value="1" />
-					<float name="units_in_left_flank" value="2" />
-					<float name="units_in_right_flank" value="2" />
-					<float name="units_in_scout" value="0" />
+					<float name="units_in_core" value="2" />
+					<float name="units_in_left_flank" value="1" />
+					<float name="units_in_right_flank" value="1" />
+					<float name="units_in_scout" value="1" />
 				</group>
 				<group name="06_soldiers">
-					<float name="units_in_core" value="2" />
-					<float name="units_in_left_flank" value="2" />
-					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_core" value="4" />
+					<float name="units_in_left_flank" value="1" />
+					<float name="units_in_right_flank" value="1" />
 					<float name="units_in_scout" value="0" />
 				</group>
 				<group name="07_soldiers">
@@ -225,9 +225,9 @@
 			<float name="reaction_delay_seconds" value="25" />
 			<float name="reveal_self_attacker_time" value="0" />
 			<bool name="reveal_self_attacker_time_use" value="False" />
-			<string name="squad_ai_file" value="Combat-engineer-attack-plan" />
+			<string name="squad_ai_file" value="engineer-attack-plan" />
 			<string name="squad_ai_pinned_file" value="" />
-			<string name="squad_ai_reaction_file" value="reaction-plan" />
+			<string name="squad_ai_reaction_file" value="reaction-plan_dive_for_cover" />
 			<string name="squad_ai_retaliation_file" value="" />
 			<group name="suppression">
 				<bool name="can_be_suppressed" value="True" />
