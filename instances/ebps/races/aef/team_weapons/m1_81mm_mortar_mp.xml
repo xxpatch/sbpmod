@@ -387,7 +387,6 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m1_81mm_mortar_team_mortar_barrage_mp" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m1_81mm_mortar_team_smoke_barrage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="ability" value="abilities\german\toggle_ability\german_mortar_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\vet2_mortar_veterancy_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\team_weapon_suppression_stun_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>

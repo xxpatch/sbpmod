@@ -73,10 +73,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073763019" />
+							<uniqueid name="id" value="1073764149" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763020" />
+					<uniqueid name="id" value="1073764150" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -168,10 +168,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073763021" />
+							<uniqueid name="id" value="1073764151" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763022" />
+					<uniqueid name="id" value="1073764152" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -222,10 +222,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\range_weapon_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073763023" />
+							<uniqueid name="id" value="1073764153" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763024" />
+					<uniqueid name="id" value="1073764154" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -279,15 +279,6 @@
 									<enum name="application_type" value="apply_to_weapon" />
 									<bool name="exclusive" value="False" />
 									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
 									<string name="target_type_name" value="hardpoint_02" />
 									<enum name="usage_type" value="enable" />
 									<float name="value" value="-1" />
@@ -321,10 +312,64 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073763126" />
+							<uniqueid name="id" value="1073764155" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763125" />
+					<uniqueid name="id" value="1073764156" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
+				</template_reference>
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_not">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_ownership">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<enum name="ownership_type" value="neutral" />
+								</template_reference>
+							</list>
+						</template_reference>
+						<template_reference name="required" value="requirements\required_slot_item">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="check_item_on_entity" value="False" />
+							<bool name="display_requirement" value="True" />
+							<float name="max_owned" value="10" />
+							<float name="min_owned" value="1" />
+							<instance_reference name="slot_item" value="slot_item\british\tweapon_hold_fire_item_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\auto_target_enable_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_01" />
+									<enum name="usage_type" value="enable" />
+									<float name="value" value="-1" />
+									<instance_reference name="tooltip" value="modifier_tooltip\auto_target_enable_weapon_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073764157" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073764158" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />

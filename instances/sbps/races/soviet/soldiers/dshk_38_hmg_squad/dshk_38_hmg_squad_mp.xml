@@ -1149,6 +1149,7 @@
 				<instance_reference name="ability" value="abilities\global\modal_ability\garrisoned_squad_facing" />
 				<instance_reference name="ability" value="abilities\global\modal_ability\garrisoned_squad_facing_unset" />
 				<instance_reference name="ability" value="abilities\soviet\timed_ability\sniper_hmg_sprint_mp" />
+				<instance_reference name="ability" value="abilities\german\toggle_ability\commander_ability\ambush_camo_hold_fire_mg_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
