@@ -1,7 +1,7 @@
 <instance description="" template="weapon">
 	<group name="weapon_bag">
 		<group name="accuracy">
-			<float name="near" value="0.9086803" />
+			<float name="near" value="0.7572336" />
 			<float name="far" value="0.5565442" />
 			<float name="mid" value="0.6598548" />
 		</group>

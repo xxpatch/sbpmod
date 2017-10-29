@@ -453,7 +453,7 @@
 			<locstring name="screen_name" value="11078161" />
 			<enum name="selection_name" value="buildingcircle" />
 			<float name="selection_scale" value="1" />
-			<enum name="selection_type" value="squad_select" />
+			<enum name="selection_type" value="no_select" />
 			<bool name="sloppy_selectable" value="False" />
 			<group name="speaker">
 				<string name="code_1" value="wi" />
