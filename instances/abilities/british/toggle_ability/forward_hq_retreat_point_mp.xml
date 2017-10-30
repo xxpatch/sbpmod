@@ -194,7 +194,7 @@
 								<template_reference name="modifier" value="modifiers\squad_cost_manpower_modifier">
 									<enum name="application_type" value="apply_to_squad" />
 									<bool name="exclusive" value="True" />
-									<string name="modifier_id" value="" />
+									<string name="modifier_id" value="frp_penalty" />
 									<string name="target_type_name" value="" />
 									<enum name="usage_type" value="multiplication" />
 									<float name="value" value="1.2" />
