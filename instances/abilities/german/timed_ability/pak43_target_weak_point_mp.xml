@@ -6,12 +6,12 @@
 					<list name="actions">
 						<template_reference name="action" value="action\upgrade_remove">
 							<bool name="apply_to_entities_in_squad" value="False" />
-							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<uniqueid name="id" value="1073761475" />
 						</template_reference>
 						<template_reference name="action" value="action\upgrade_remove">
 							<bool name="apply_to_entities_in_squad" value="False" />
-							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_on_air_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_on_air_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<uniqueid name="id" value="1073761476" />
 						</template_reference>
 					</list>
@@ -61,7 +61,7 @@
 										<template_reference name="action" value="action\upgrade_add">
 											<bool name="apply_to_entities_in_squad" value="False" />
 											<bool name="trigger_publish_event" value="False" />
-											<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+											<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 											<uniqueid name="id" value="1073761479" />
 										</template_reference>
 									</list>
@@ -81,7 +81,7 @@
 											<locstring name="ui_name" value="0" />
 											<bool name="include_queued" value="False" />
 											<bool name="is_present" value="True" />
-											<instance_reference name="upgrade_name" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+											<instance_reference name="upgrade_name" value="upgrade\german\ability_lock_out\ability_lock_out_stug_pak_twp_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 										</template_reference>
 									</list>
 									<list name="action_table">

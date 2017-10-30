@@ -147,7 +147,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="7" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<locstring name="extra_text" value="7" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<locstring name="help_text" value="11071254" />
 			<string name="hotkey_name" value="V" />
 			<icon name="icon_name" value="Icons_abilities_ability_aef_hvap_m93_armor_piercing_rounds" />

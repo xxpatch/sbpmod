@@ -373,7 +373,7 @@
 				<group name="spawn_item">
 					<int name="ui_position" value="11" />
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\aef\soldiers\lieutenant_squad\lieutenant_squad_unlock_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="squad" value="sbps\races\aef\soldiers\lieutenant_squad\lieutenant_squad_unlock_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 				</group>
 			</list>

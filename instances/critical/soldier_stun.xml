@@ -238,7 +238,7 @@
 					<template_reference name="action" value="action\change_target_action">
 						<list name="actions">
 							<template_reference name="action" value="action\slot_item_add">
-								<instance_reference name="slot_item" value="slot_item\british\stun_nade_critical_item_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+								<instance_reference name="slot_item" value="slot_item\british\stun_nade_critical_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 								<bool name="permanent" value="False" />
 								<uniqueid name="id" value="1073763121" />
 							</template_reference>

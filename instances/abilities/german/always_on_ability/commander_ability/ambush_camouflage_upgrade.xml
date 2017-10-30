@@ -327,7 +327,7 @@
 				<locstring name="ui_name" value="0" />
 				<bool name="include_queued" value="False" />
 				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\ambush_camou_package" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\ambush_camou_package" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />

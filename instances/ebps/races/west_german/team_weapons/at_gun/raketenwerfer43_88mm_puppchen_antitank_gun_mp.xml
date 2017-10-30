@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_ratken_vehicle_hold_fire_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_ratken_vehicle_hold_fire_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>
@@ -698,7 +698,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="3.6" />
-			<instance_reference name="turn_plan" value="turn_plan\heavy_weapon_team_i" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="turn_plan" value="turn_plan\heavy_weapon_team_i" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<float name="on_ice_accel_decel_multiplier" value="0.6" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />
@@ -772,7 +772,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -789,7 +789,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\soviet" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -806,7 +806,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\west_german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -823,7 +823,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\aef" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -840,7 +840,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">

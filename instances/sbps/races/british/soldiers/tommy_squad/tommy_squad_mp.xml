@@ -70,23 +70,23 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_ext">
 			<float name="combat_follower_cover_search_radius" value="1" />
 			<group name="cover_formation_table">
-				<instance_reference name="tp_defcover" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_defcover_narrow" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_defcover" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_defcover_narrow" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
 				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
-				<instance_reference name="tp_heavy" value="squad_formations\new_standard_line_cover" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_light" value="squad_formations\new_standard_line_cover" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_negative" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_open" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_smoke" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_heavy" value="squad_formations\new_standard_line_cover" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_light" value="squad_formations\new_standard_line_cover" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_negative" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_open" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_smoke" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="tp_trench" value="squad_formations\default" />
-				<instance_reference name="tp_water" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_water" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="tp_z_bunker" value="squad_formations\wedge" />
 				<instance_reference name="tp_z_emplacement" value="squad_formations\default" />
-				<instance_reference name="tp_z_ice" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_z_snow" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_zz_deep_snow" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="tp_zz_mud" value="squad_formations\new_standard_line" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="tp_z_ice" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_z_snow" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_zz_deep_snow" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_zz_mud" value="squad_formations\new_standard_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\default" />
 			</group>
 			<float name="move_dest_cover_search_radius" value="1" />
@@ -403,7 +403,7 @@
 						<float name="z" value="0" />
 					</group>
 					<enum name="type" value="default" />
-					<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				</group>
 				<instance_reference name="remove_weapon" value="" />
 			</group>
@@ -667,11 +667,11 @@
 							<int name="ui_position" value="13" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_fuel_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_fuel_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<int name="ui_position" value="32" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_17_pounder_pit_commander_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_17_pounder_pit_commander_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<int name="ui_position" value="24" />
 						</group>
 						<group name="construction_item">
@@ -683,15 +683,15 @@
 							<int name="ui_position" value="11" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_3_inch_mortar_emplacement_commander_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_3_inch_mortar_emplacement_commander_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_bofors_40mm_autocannon_commander_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_bofors_40mm_autocannon_commander_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<int name="ui_position" value="23" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_munition_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_munition_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<int name="ui_position" value="31" />
 						</group>
 						<group name="construction_item">

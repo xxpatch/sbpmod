@@ -186,8 +186,8 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_120mm_mp" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\smoke_120mm_mortar_barrage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\mortar_fire_flares_ability_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\smoke_120mm_mortar_barrage_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\mortar_fire_flares_ability_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_120mm_victortarget_mp" />
 			</list>
@@ -595,7 +595,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\soviet" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -612,7 +612,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -629,7 +629,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\aef" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -646,7 +646,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\west_german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -663,7 +663,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\british" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">

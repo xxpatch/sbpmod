@@ -204,14 +204,14 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_mortar_barrage_mp" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_smoke_barrage_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_smoke_barrage_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\mortar_counter_barrage_weapon_mp" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_mortar_victortarget_barrage_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\mortar_counter_barrage_attack_mp" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_incendiary_barrage_mp" />
-				<instance_reference name="ability" value="abilities\german\timed_ability\vet2_mortar_veterancy_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-				<instance_reference name="ability" value="abilities\german\timed_ability\team_weapon_suppression_stun_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\vet2_mortar_veterancy_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\team_weapon_suppression_stun_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">

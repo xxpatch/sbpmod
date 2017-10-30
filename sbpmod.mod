@@ -39,10 +39,10 @@
 					<Dependencies />
 					<Description></Description>
 					<Hidden>false</Hidden>
-					<Name>Summer Balance Preview</Name>
+					<Name>December Balance Preview</Name>
 				</d2p1:anyType>
 			</Children>
-			<IsExpanded>false</IsExpanded>
+			<IsExpanded>true</IsExpanded>
 		</d2p1:anyType>
 		<d2p1:anyType i:type="TableOfContents">
 			<Alias>Data</Alias>
@@ -62,7 +62,7 @@
 			<IsExpanded>true</IsExpanded>
 		</d2p1:anyType>
 	</Children>
-	<Guid>c6c96ef1-6bbe-44f4-ab71-7bc7af5e1bfa</Guid>
+	<Guid>56dfdb21-a5e3-4e94-b075-1724b81725c1</Guid>
 	<IsExpanded>false</IsExpanded>
 	<Type>PropertyBagGroupPack</Type>
 </Document>

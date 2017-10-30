@@ -9,7 +9,7 @@
 						<bool name="allow_spawner_production" value="False" />
 						<locstring name="extra_text" value="11074993" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="52" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<locstring name="help_text" value="52" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<string name="hotkey_name" value="C" />
 						<icon name="icon_name" value="Icons_units_unit_aef_officer_captain" />
 						<bool name="minimap_team_only" value="False" />
@@ -49,7 +49,7 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_aef_captain_s_portrait" />
 						<float name="minimap_texture_scale" value="1" />
-						<locstring name="brief_text" value="51" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<locstring name="brief_text" value="51" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\aef\soldiers\captain\captain_unlock_hq_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="type" value="ebps\races\aef\soldiers\captain\captain_unlock_hq_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -175,7 +175,7 @@
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11069233" />
 					<float name="max_squad_cap" value="1" />
-					<instance_reference name="squad_name" value="sbps\races\aef\soldiers\captain_squad\captain_squad_unlock_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+					<instance_reference name="squad_name" value="sbps\races\aef\soldiers\captain_squad\captain_squad_unlock_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				</template_reference>
 				<template_reference name="required" value="requirements\required_player_upgrade">
 					<enum name="reason" value="usage_and_display" />

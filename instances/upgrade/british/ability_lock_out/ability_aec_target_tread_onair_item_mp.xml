@@ -56,12 +56,12 @@
 								<list name="actions">
 									<template_reference name="action" value="action\upgrade_remove">
 										<bool name="apply_to_entities_in_squad" value="False" />
-										<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+										<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 										<uniqueid name="id" value="1073762769" />
 									</template_reference>
 									<template_reference name="action" value="action\upgrade_remove">
 										<bool name="apply_to_entities_in_squad" value="False" />
-										<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+										<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 										<uniqueid name="id" value="1073762770" />
 									</template_reference>
 								</list>

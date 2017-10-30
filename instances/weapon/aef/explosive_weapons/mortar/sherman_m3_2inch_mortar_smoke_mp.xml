@@ -349,7 +349,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\aef_m4a3_sherman_m3_smoke_mortar_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="projectile" value="ebps\projectile\aef_m4a3_sherman_m3_smoke_mortar_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 		</group>
 		<group name="range">
 			<float name="max" value="55" />

@@ -140,7 +140,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\base_building_retreat_point_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\base_building_retreat_point_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\dispatch_ability\sws_halftrack_forward_receivers" />
 			</list>
 		</template_reference>
@@ -578,7 +578,7 @@
 							<bool name="die_with_creator" value="False" />
 							<template_reference name="ui_info" value="tables\ui_info">
 								<locstring name="screen_name" value="11095447" />
-								<locstring name="help_text" value="62" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+								<locstring name="help_text" value="62" mod="56dfdb21a5e34e94b0751724b81725c1" />
 								<icon name="icon_name" value="Icons_odds_reinforce" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
@@ -651,7 +651,7 @@
 						<template_reference name="required" value="requirements\required_structure">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
-							<instance_reference name="structure_name" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="structure_name" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<int name="required_structure_count" value="1" />
 							<bool name="check_team" value="False" />
 							<bool name="require_construction_complete" value="False" />
@@ -664,7 +664,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\west_german\research\retreat_point_unlock_upgrade" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<instance_reference name="upgrade" value="upgrade\west_german\research\retreat_point_unlock_upgrade" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<instance_reference name="upgrade" value="upgrade\west_german\research\medic_healing_mp" />
 			</list>
 		</template_reference>

@@ -139,7 +139,7 @@
 					<template_reference name="requirement" value="requirements\required_critical">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
-						<instance_reference name="critical_name" value="critical\vehicle_crew_dazed_jagdtiger" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="critical_name" value="critical\vehicle_crew_dazed_jagdtiger" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<bool name="is_present" value="False" />
 					</template_reference>
 					<template_reference name="requirement" value="requirements\required_critical">
@@ -177,7 +177,7 @@
 			</template_reference>
 			<template_reference name="required" value="requirements\required_squad_veterancy">
 				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="29" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<locstring name="ui_name" value="29" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<float name="veterancy_rank" value="1" />
 			</template_reference>
 		</list>

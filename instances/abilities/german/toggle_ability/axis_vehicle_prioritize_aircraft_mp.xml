@@ -164,17 +164,17 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="70" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-			<locstring name="help_text" value="68" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<locstring name="extra_text" value="70" mod="56dfdb21a5e34e94b0751724b81725c1" />
+			<locstring name="help_text" value="68" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<string name="hotkey_name" value="Q" />
 			<icon name="icon_name" value="Icons_abilities_ability_west_german_20mm_flak38_aa_gun_off" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="66" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<locstring name="screen_name" value="66" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<icon name="icon_alternate_name" value="Icons_abilities_ability_west_german_20mm_flak38_aa_gun_on" />
 			<locstring name="brief_text" value="0" />
-			<locstring name="help_text_alternate" value="69" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-			<locstring name="screen_name_alternate" value="67" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<locstring name="help_text_alternate" value="69" mod="56dfdb21a5e34e94b0751724b81725c1" />
+			<locstring name="screen_name_alternate" value="67" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<locstring name="screen_name_short" value="0" />
 		</group>
 		<locstring name="ui_usage_txt" value="0" />

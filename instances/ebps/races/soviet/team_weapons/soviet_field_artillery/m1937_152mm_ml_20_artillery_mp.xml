@@ -304,7 +304,7 @@
 								<float name="z" value="-0.31433" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\heavy_artillery\152mm_m-30_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\heavy_artillery\152mm_m-30_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -346,7 +346,7 @@
 								<float name="z" value="-0.31433" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\heavy_artillery\152mm_m-30_vet3_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\heavy_artillery\152mm_m-30_vet3_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -446,7 +446,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\m1937_152mm_ml_20_artillery\m1937_152mm_ml_20_artillery_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\m1937_152mm_ml_20_artillery\m1937_152mm_ml_20_artillery_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -480,7 +480,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\soviet\vehicles\m1937_152mm_ml_20_artillery\m1937_152mm_ml_20_artillery_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="on_construction_squad" value="sbps\races\soviet\vehicles\m1937_152mm_ml_20_artillery\m1937_152mm_ml_20_artillery_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -584,7 +584,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="0" />
-			<instance_reference name="turn_plan" value="turn_plan\gun_i" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="turn_plan" value="turn_plan\gun_i" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<float name="on_ice_accel_decel_multiplier" value="1" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="0" />

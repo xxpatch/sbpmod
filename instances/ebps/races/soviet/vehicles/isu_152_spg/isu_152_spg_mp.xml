@@ -596,7 +596,7 @@
 								<float name="z" value="2.47" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_armor_piercing_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_armor_piercing_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 						</group>
 						<group name="weapon">
 							<group name="heading">

@@ -45,7 +45,7 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="18" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+				<locstring name="ui_name" value="18" mod="56dfdb21a5e34e94b0751724b81725c1" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
 					<float name="command" value="11" />

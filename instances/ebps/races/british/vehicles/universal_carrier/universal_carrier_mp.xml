@@ -1378,7 +1378,7 @@
 			<float name="rotation_rate_prone" value="225" />
 			<float name="rotation_rate_stand" value="270" />
 			<bool name="smooth_path" value="True" />
-			<instance_reference name="turn_plan" value="turn_plan\tank_i" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="turn_plan" value="turn_plan\tank_i" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			<float name="acceleration" value="5.8" />
 			<float name="rotation_rate" value="60" />
 			<float name="speed_max" value="5.8" />

@@ -296,7 +296,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<uniqueid name="id" value="1073745589" />
 						</template_reference>
 					</list>
@@ -340,7 +340,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" mod="56dfdb21a5e34e94b0751724b81725c1" />
 							<uniqueid name="id" value="1073745590" />
 						</template_reference>
 					</list>
@@ -399,7 +399,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\d25t_122mm_he_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="projectile" value="ebps\projectile\d25t_122mm_he_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 		</group>
 		<group name="range">
 			<float name="max" value="40" />
