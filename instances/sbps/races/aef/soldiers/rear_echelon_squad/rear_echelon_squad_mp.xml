@@ -931,8 +931,8 @@
 							<int name="ui_position" value="11" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\aef\buildings\observation_post\observation_post_fuel_aef_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<int name="ui_position" value="22" />
+							<instance_reference name="ebp" value="ebps\races\aef\buildings\defensive_structures\rear_echelon_mines_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<int name="ui_position" value="23" />
 						</group>
 						<group name="construction_item">
 							<instance_reference name="ebp" value="ebps\races\aef\pm\buildings\defensive_structures\aef_sandbagwall_cover_specialization" />
@@ -949,6 +949,10 @@
 						<group name="construction_item">
 							<instance_reference name="ebp" value="ebps\races\aef\buildings\defensive_structures\aef_tank_trap_mp" />
 							<int name="ui_position" value="12" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\races\aef\buildings\observation_post\observation_post_fuel_aef_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<int name="ui_position" value="22" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_soviet_engineer_basic" />
