@@ -46,7 +46,7 @@
 				<float name="radius" value="0.5" />
 			</group>
 			<group name="damage">
-				<float name="far" value="0.05" />
+				<float name="far" value="1" />
 				<float name="near" value="1" />
 				<float name="mid" value="1" />
 			</group>
@@ -72,7 +72,7 @@
 				<float name="near" value="0.1" />
 				<float name="mid" value="0.1" />
 			</group>
-			<bool name="damage_all_in_hold" value="True" />
+			<bool name="damage_all_in_hold" value="False" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
 				<float name="far" value="10" />
 				<float name="mid" value="12.5" />
@@ -175,8 +175,8 @@
 				<float name="suppression_multiplier" value="1" />
 			</group>
 			<group name="tp_garrison_cover">
-				<float name="accuracy_multiplier" value="0.5" />
-				<float name="damage_multiplier" value="0.35" />
+				<float name="accuracy_multiplier" value="0.4" />
+				<float name="damage_multiplier" value="0.5" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
@@ -188,7 +188,7 @@
 			</group>
 			<group name="tp_heavy">
 				<float name="accuracy_multiplier" value="0.5" />
-				<float name="damage_multiplier" value="0.5" />
+				<float name="damage_multiplier" value="1" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0.1" />
 			</group>
@@ -289,17 +289,17 @@
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\british\research\company_hammer_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="upgrade_name" value="upgrade\british\research\company_hammer_mp" />
 						</template_reference>
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_vision" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<uniqueid name="id" value="1073760108" />
+							<instance_reference name="critical" value="critical\vehicle_vision" />
+							<uniqueid name="id" value="1073764239" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073760109" />
+					<uniqueid name="id" value="1073764240" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -332,17 +332,17 @@
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\british\research\company_hammer_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="upgrade_name" value="upgrade\british\research\company_hammer_mp" />
 						</template_reference>
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_vision" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
-							<uniqueid name="id" value="1073760110" />
+							<instance_reference name="critical" value="critical\vehicle_vision" />
+							<uniqueid name="id" value="1073764237" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073760111" />
+					<uniqueid name="id" value="1073764238" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
