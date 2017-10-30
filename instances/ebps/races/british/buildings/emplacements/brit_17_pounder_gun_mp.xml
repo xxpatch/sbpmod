@@ -383,7 +383,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="0" />
+			<float name="personnel_pop" value="6" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
@@ -540,7 +540,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\anti_tank_gun\17_pounder_atg_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\anti_tank_gun\17_pounder_atg_mp" />
 						</group>
 						<group name="weapon">
 							<group name="heading">
@@ -555,7 +555,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\anti_tank_gun\17_pounder_piercing_shot_mp" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\anti_tank_gun\17_pounder_piercing_shot_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -704,7 +704,7 @@
 			<float name="rotation_rate_stand" value="0" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="0" />
-			<instance_reference name="turn_plan" value="turn_plan\gun_i" mod="c6c96ef16bbe44f4ab717bc7af5e1bfa" />
+			<instance_reference name="turn_plan" value="turn_plan\gun_i" />
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />
