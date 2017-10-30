@@ -658,7 +658,7 @@
 			<group name="retreat_building_types">
 				<enum name="unit_type00" value="hq" />
 				<enum name="unit_type01" value="hq_wreck" />
-				<enum name="unit_type02" value="" />
+				<enum name="unit_type02" value="alternate_retreat_point" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="" />
 			</group>
