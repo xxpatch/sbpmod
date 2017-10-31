@@ -67,10 +67,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073763844" />
+							<uniqueid name="id" value="1073764278" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763845" />
+					<uniqueid name="id" value="1073764279" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -106,88 +106,10 @@
 						<template_reference name="action" value="action\slot_item_add">
 							<instance_reference name="slot_item" value="slot_item\west_german\small_arms\mg42_turret_mounted_panther_wg_mp" />
 							<bool name="permanent" value="True" />
-							<uniqueid name="id" value="1073763846" />
+							<uniqueid name="id" value="1073764280" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763847" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
-				</template_reference>
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_slot_item">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="check_item_on_entity" value="False" />
-							<bool name="display_requirement" value="True" />
-							<float name="max_owned" value="10" />
-							<float name="min_owned" value="1" />
-							<instance_reference name="slot_item" value="slot_item\west_german\armor_blitz_item" />
-						</template_reference>
-						<template_reference name="required" value="requirements\required_in_state">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="garrisoned" value="False" />
-							<bool name="healed" value="False" />
-							<float name="in_combat_since" value="5" />
-							<bool name="injured" value="False" />
-							<bool name="leader" value="False" />
-							<bool name="not_moving" value="False" />
-							<bool name="not_retreating" value="False" />
-							<bool name="pinned" value="False" />
-							<bool name="suppressed" value="False" />
-							<bool name="camouflaged" value="False" />
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
-									<enum name="application_type" value="apply_to_entity" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="" />
-									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="1.33" />
-									<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073763848" />
-						</template_reference>
-						<template_reference name="action" value="action\change_move_data_action">
-							<float name="acceleration_multiplier" value="1.33" />
-							<float name="deceleration_multiplier" value="1.33" />
-							<float name="pathfinding_size_x" value="0" />
-							<float name="pathfinding_size_y" value="0" />
-							<uniqueid name="id" value="1073763849" />
-						</template_reference>
-						<template_reference name="action" value="action\change_target_action">
-							<list name="actions">
-								<template_reference name="action" value="action\animator_set_state">
-									<bool name="apply_to_leader_only" value="False" />
-									<string name="do_action_state_name" value="on" />
-									<bool name="retrigger" value="True" />
-									<string name="state_machine_name" value="ability_movement_buff_state" />
-									<string name="undo_action_state_name" value="off" />
-									<uniqueid name="id" value="1073763850" />
-								</template_reference>
-							</list>
-							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073763851" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073763852" />
+					<uniqueid name="id" value="1073764281" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -197,12 +119,7 @@
 				<template_reference name="action" value="action\remove_crew_action">
 					<string name="crew_name" value="Gunner" />
 					<bool name="kill" value="False" />
-					<uniqueid name="id" value="1073763853" />
-				</template_reference>
-				<template_reference name="action" value="action\remove_crew_action">
-					<string name="crew_name" value="spotter" />
-					<bool name="kill" value="False" />
-					<uniqueid name="id" value="1073763854" />
+					<uniqueid name="id" value="1073764282" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -211,8 +128,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="185" />
-					<float name="manpower" value="490" />
+					<float name="fuel" value="200" />
+					<float name="manpower" value="560" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -240,7 +157,7 @@
 			<bool name="remove_from_pathfinding_on_death" value="True" />
 			<bool name="reveal_to_all_on_death" value="False" />
 			<bool name="ui_can_scuttle" value="False" />
-			<instance_reference name="wreck_entity" value="" />
+			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_panther_sdkfz_171" />
 			<list name="death_actions">
 			</list>
 			<float name="armor" value="320" />
@@ -464,22 +381,6 @@
 							<enum name="apply_on" value="penetrate" />
 						</group>
 						<group name="info">
-							<float name="weight" value="20" />
-							<enum_table name="applicable_weapons">
-								<bool name="small_arms" value="True" />
-								<bool name="flame" value="True" />
-								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="True" />
-							</enum_table>
-							<instance_reference name="critical" value="critical\vehicle_destroy_brew_up" />
-							<enum_table name="applicable_hit_direction">
-								<bool name="front" value="True" />
-								<bool name="rear" value="True" />
-							</enum_table>
-							<enum name="apply_on" value="penetrate" />
-						</group>
-						<group name="info">
 							<float name="weight" value="15" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="True" />
@@ -515,11 +416,7 @@
 				</group>
 			</list>
 			<float name="weapon_priority" value="0" />
-			<template_reference name="wreck_entity_option" value="options\ebpextensions\healthext\wreck_table">
-				<enum_table name="wreck_entities">
-					<instance_reference name="default" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_panther_sdkfz_171" />
-					<instance_reference name="brewup" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_panther_sdkfz_171_brewup" />
-				</enum_table>
+			<template_reference name="wreck_entity_option" value="options\none">
 			</template_reference>
 			<list name="self_destruct_actions">
 			</list>
@@ -570,7 +467,7 @@
 				<float name="inner_height" value="2.5" />
 				<float name="inner_radius" value="1" />
 				<float name="outer_height" value="-3" />
-				<float name="outer_radius" value="35" />
+				<float name="outer_radius" value="55" />
 				<float name="cone_angle" value="360" />
 				<float name="cone_start_radius" value="0" />
 			</group>
@@ -586,7 +483,7 @@
 				<enum name="unit_type02" value="heavy_vehicle" />
 				<enum name="unit_type03" value="tank_awareness_ally" />
 				<enum name="unit_type04" value="apcr" />
-				<enum name="unit_type05" value="panther" />
+				<enum name="unit_type05" value="panther_command_tank" />
 				<enum name="unit_type06" value="german_tanks" />
 				<enum name="unit_type07" value="west_german_vehicle" />
 				<enum name="unit_type08" value="medium_tank" />
@@ -608,9 +505,9 @@
 			<string name="extra_text_deprecated" value="" />
 			<bool name="ghost_enable" value="False" />
 			<bool name="has_speech_code" value="True" />
-			<locstring name="help_text" value="11071676" />
+			<locstring name="help_text" value="11074144" />
 			<string name="hotkey_name" value="" />
-			<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+			<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther_command_tank" />
 			<enum name="kill_type" value="medium_armour" />
 			<float name="minimap_color_a" value="255" />
 			<float name="minimap_color_b" value="255" />
@@ -622,25 +519,25 @@
 			<bool name="obb_selectable" value="False" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="True" />
-			<locstring name="screen_name" value="11071624" />
+			<locstring name="screen_name" value="11074142" />
 			<enum name="selection_name" value="vehicle" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="squad_select" />
 			<bool name="sloppy_selectable" value="False" />
 			<group name="speaker">
-				<string name="code_1" value="wm" />
+				<string name="code_1" value="wh" />
 				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_2">
-				<string name="code_1" value="ar" />
-				<string name="code_2" value="ma" />
-				<string name="code_3" value="pt" />
+				<string name="code_1" value="pt" />
+				<string name="code_2" value="ar" />
+				<string name="code_3" value="ma" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="arm" />
-				<string name="code_2" value="mtk" />
-				<string name="code_3" value="pnt" />
+				<string name="code_1" value="Pnt" />
+				<string name="code_2" value="arm" />
+				<string name="code_3" value="mtk" />
 			</group>
 			<group name="speech_code_cover">
 				<string name="code_1" value="" />
@@ -648,7 +545,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<bool name="tacmap_team_only" value="False" />
-			<locstring name="tooltip_txt" value="11071563" />
+			<locstring name="tooltip_txt" value="11074147" />
 			<int name="ui_priority" value="0" />
 			<icon name="minimap_icon" value="" />
 			<group name="speaker_alt">
@@ -660,21 +557,21 @@
 			<icon name="portrait_icon_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
 			<icon name="portrait_icon_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
 			<locstring name="brief_text" value="0" />
-			<locstring name="extra_text" value="11071537" />
+			<locstring name="extra_text" value="11074146" />
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_in_build_log" value="True" />
 			<bool name="show_entity_appearance" value="True" />
-			<locstring name="screen_name_world" value="11071728" />
+			<locstring name="screen_name_world" value="11074143" />
 			<locstring name="help_text_world" value="0" />
-			<locstring name="extra_text_world" value="11071648" />
+			<locstring name="extra_text_world" value="11074145" />
 			<enum name="map_rotation_type_override" value="no_override" />
+			<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_command_tank_symbol" />
 			<enum name="occlusion_state" value="can_be_occluded" />
-			<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
 			<enum name="decorator_visibility" value="default" />
 			<string name="decorator_marker_name" value="marker_fx_ui" />
-			<bool name="skin_pack_override" value="False" />
-			<string name="skin_summer" value="" />
-			<string name="skin_winter" value="" />
+			<bool name="skin_pack_override" value="True" />
+			<string name="skin_summer" value="command_panther_summer" />
+			<string name="skin_winter" value="command_panther_winter" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\attention_gen_ext">
 			<string name="animation_event_name" value="" />
@@ -712,7 +609,7 @@
 								<float name="z" value="-0.21" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\panther_kwk42_75mm_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\wg_panther_75mm_commander_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -840,7 +737,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763855" />
+						<uniqueid name="id" value="1073764283" />
 					</template_reference>
 				</list>
 			</group>
@@ -858,7 +755,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763856" />
+						<uniqueid name="id" value="1073764284" />
 					</template_reference>
 				</list>
 			</group>
@@ -876,7 +773,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763857" />
+						<uniqueid name="id" value="1073764285" />
 					</template_reference>
 				</list>
 			</group>
@@ -894,7 +791,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763858" />
+						<uniqueid name="id" value="1073764286" />
 					</template_reference>
 				</list>
 			</group>
@@ -912,7 +809,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763859" />
+						<uniqueid name="id" value="1073764287" />
 					</template_reference>
 				</list>
 			</group>
@@ -940,7 +837,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073763860" />
+						<uniqueid name="id" value="1073764288" />
 					</template_reference>
 				</list>
 			</group>
@@ -1034,92 +931,8 @@
 			<float name="revert_time" value="1.5" />
 			<float name="revert_time_on_detection" value="1" />
 			<list name="camouflage_actions">
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_entity_upgrade">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\camouflage_net_activated" />
-							<bool name="include_queued" value="False" />
-						</template_reference>
-						<template_reference name="required" value="requirements\required_not">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_in_state">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="garrisoned" value="False" />
-									<bool name="healed" value="False" />
-									<float name="in_combat_since" value="-1" />
-									<bool name="injured" value="False" />
-									<bool name="leader" value="False" />
-									<bool name="not_moving" value="True" />
-									<bool name="not_retreating" value="False" />
-									<bool name="pinned" value="False" />
-									<bool name="suppressed" value="False" />
-									<bool name="camouflaged" value="False" />
-								</template_reference>
-							</list>
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\upgrade_remove">
-							<bool name="apply_to_entities_in_squad" value="True" />
-							<instance_reference name="upgrade" value="upgrade\german\commander\ability\camouflage_net_activated" />
-							<uniqueid name="id" value="1073763861" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073763862" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
-				</template_reference>
 			</list>
 			<list name="first_strike_actions">
-				<template_reference name="action" value="action\apply_modifiers_action">
-					<float name="duration" value="0" />
-					<bool name="permanent" value="False" />
-					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\damage_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="multiply_add" />
-							<float name="value" value="1.5" />
-							<instance_reference name="tooltip" value="modifier_tooltip\damage_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="multiply_add" />
-							<float name="value" value="1.5" />
-							<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\weapon_penetration_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="multiply_add" />
-							<float name="value" value="1.5" />
-							<instance_reference name="tooltip" value="modifier_tooltip\weapon_penetration_modifier" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073763863" />
-				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\crew_ext">
@@ -1137,16 +950,6 @@
 								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
 								<string name="abandon_event_name" value="abandon_turret" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\officer\officer" />
-								<string name="death_event_name" value="Death_Crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Spotter" />
-								<string name="sync_action_name" value="Attach_Spotter" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1169,16 +972,6 @@
 								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\soviet\soldiers\tank_crew_1\tank_crew_1" />
-								<string name="death_event_name" value="Death_Crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Spotter" />
-								<string name="sync_action_name" value="Attach_Spotter" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
 						</list>
 						<template_reference name="additional_crew_option" value="options\none">
 						</template_reference>
@@ -1197,16 +990,6 @@
 								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
 								<string name="abandon_event_name" value="abandon_turret" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\officer\officer" />
-								<string name="death_event_name" value="Death_Crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Spotter" />
-								<string name="sync_action_name" value="Attach_Spotter" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1229,16 +1012,6 @@
 								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_Crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Spotter" />
-								<string name="sync_action_name" value="Attach_Spotter" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
 						</list>
 						<template_reference name="additional_crew_option" value="options\none">
 						</template_reference>
@@ -1257,16 +1030,6 @@
 								<string name="sync_action_name" value="Attach_Gunner" />
 								<bool name="sync_on_create" value="True" />
 								<string name="abandon_event_name" value="abandon_turret" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\officer\officer" />
-								<string name="death_event_name" value="Death_Crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Spotter" />
-								<string name="sync_action_name" value="Attach_Spotter" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_gunner" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1304,10 +1067,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073763864" />
+							<uniqueid name="id" value="1073764289" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073763865" />
+					<uniqueid name="id" value="1073764290" />
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
 			</list>
@@ -1349,7 +1112,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\panther_squad\panther_ausf_g_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\panther_squad\panther_commander_squad_mp" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="3" />
 						<list name="recrew_penalties_list">
@@ -1373,7 +1136,7 @@
 			<float name="offset_x" value="0" />
 			<float name="offset_y" value="0" />
 			<float name="offset_z" value="0" />
-			<bool name="prevent_prone" value="True" />
+			<bool name="prevent_prone" value="False" />
 			<float name="range_x" value="0" />
 			<float name="range_y" value="0" />
 			<float name="range_z" value="0" />
@@ -1382,5 +1145,5 @@
 			<bool name="use_simbox_range_plus_spots" value="True" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="2602" />
+	<uniqueid name="pbgid" value="3386" />
 </instance>
