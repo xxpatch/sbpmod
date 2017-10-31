@@ -1,9 +1,9 @@
-<instance description="Tier 3 building&#xA;Multiplayer Clone." template="ebps">
+<instance description="Tier 3 building, more expensive one&#xA;Multiplayer Clone." template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\german\structures\base_building_3\base_building_3" />
+			<file name="animator" value="armies\german\structures\base_building_4\base_building_4" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -110,7 +110,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext">
 			<group name="unit_type_list">
-				<enum name="unit_type00" value="motor_pool_light" />
+				<enum name="unit_type00" value="motor_pool_heavy" />
 				<enum name="unit_type01" value="building" />
 				<enum name="unit_type02" value="annihilation_condition" />
 				<enum name="unit_type03" value="production_building" />
@@ -149,7 +149,7 @@
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="False" />
 			<instance_reference name="on_construction_squad" value="" />
-			<float name="orientation" value="270" />
+			<float name="orientation" value="90" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
 			<bool name="query_abilities_for_range_ui" value="True" />
@@ -183,7 +183,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073762193" />
+					<uniqueid name="id" value="1073764264" />
 				</template_reference>
 			</list>
 			<list name="materials">
@@ -208,12 +208,12 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="15" />
-					<float name="manpower" value="140" />
+					<float name="fuel" value="25" />
+					<float name="manpower" value="100" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="114" />
+				<float name="time_seconds" value="124" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\demolishable_ext">
@@ -260,12 +260,12 @@
 			<bool name="ap_loss_kicker" value="True" />
 			<bool name="cullsphere_selectable" value="False" />
 			<float name="decorator_offset" value="0" />
-			<string name="extra_text_deprecated" value="Orders in Stug III, Flakpanzer IV Ostwind, Panzer IV Medium Tank." />
+			<string name="extra_text_deprecated" value="Sturmpanzer IV Assault Gun, Panther, Panzerwerfer 42 Rocket Launcher, and other heavy units." />
 			<bool name="ghost_enable" value="True" />
 			<bool name="has_speech_code" value="True" />
-			<locstring name="help_text" value="11007127" />
-			<string name="hotkey_name" value="S" />
-			<icon name="icon_name" value="Icons_buildings_building_german_hintere_panzerwerk" />
+			<locstring name="help_text" value="11053737" />
+			<string name="hotkey_name" value="H" />
+			<icon name="icon_name" value="Icons_buildings_building_german_schweres_kriegswerk" />
 			<enum name="kill_type" value="building" />
 			<float name="minimap_color_a" value="255" />
 			<float name="minimap_color_b" value="255" />
@@ -277,7 +277,7 @@
 			<bool name="obb_selectable" value="True" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="True" />
-			<locstring name="screen_name" value="11007126" />
+			<locstring name="screen_name" value="11007128" />
 			<enum name="selection_name" value="building" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="single_entity_select" />
@@ -288,12 +288,12 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_2">
-				<string name="code_1" value="g3" />
+				<string name="code_1" value="g4" />
 				<string name="code_2" value="bl" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="gb3" />
+				<string name="code_1" value="gb4" />
 				<string name="code_2" value="bld" />
 				<string name="code_3" value="" />
 			</group>
@@ -305,17 +305,17 @@
 			<bool name="tacmap_team_only" value="False" />
 			<locstring name="tooltip_txt" value="0" />
 			<int name="ui_priority" value="100" />
-			<icon name="minimap_icon" value="Icons_taskbar_coh_taskbar_01_sc_icon_04" />
-			<icon name="portrait_icon_winter" value="Icons_portraits_building_german_hintere_panzerwerk_w_portrait" />
+			<icon name="minimap_icon" value="Icons_taskbar_coh_taskbar_01_sc_icon_05" />
+			<icon name="portrait_icon_winter" value="Icons_portraits_building_german_schweres_kriegswerk_w_portrait" />
 			<group name="speaker_alt">
 				<string name="code_1" value="" />
 				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
 			<float name="minimap_icon_scale" value="1" />
-			<icon name="portrait_icon_summer" value="Icons_portraits_building_german_hintere_panzerwerk_s_portrait" />
-			<locstring name="brief_text" value="11038908" />
-			<locstring name="extra_text" value="11041846" />
+			<icon name="portrait_icon_summer" value="Icons_portraits_building_german_schweres_kriegswerk_s_portrait" />
+			<locstring name="brief_text" value="11038910" />
+			<locstring name="extra_text" value="11041848" />
 			<bool name="show_in_build_log" value="True" />
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_entity_appearance" value="True" />
@@ -323,7 +323,7 @@
 			<locstring name="help_text_world" value="0" />
 			<locstring name="extra_text_world" value="0" />
 			<enum name="map_rotation_type_override" value="no_override" />
-			<icon name="symbol_icon_name" value="Icons_symbols_building_german_hintere_panzerwerk_symbol" />
+			<icon name="symbol_icon_name" value="Icons_symbols_building_german_schweres_kriegswerk_symbol" />
 			<enum name="occlusion_state" value="can_be_occluded" />
 			<enum name="decorator_visibility" value="default" />
 			<string name="decorator_marker_name" value="Marker_FX_UI" />
@@ -335,7 +335,7 @@
 			<list name="actions">
 				<template_reference name="action" value="action\animator_set_event">
 					<string name="event_name" value="fond_camo_upgrade" />
-					<uniqueid name="id" value="1073762194" />
+					<uniqueid name="id" value="1073764265" />
 				</template_reference>
 				<template_reference name="action" value="action\add_aura">
 					<instance_reference name="aura" value="aura\heat_aura_mp" />
@@ -348,11 +348,11 @@
 					<template_reference name="target_info" value="type_ability_target_type\all">
 					</template_reference>
 					<bool name="permanent" value="True" />
-					<uniqueid name="id" value="1073762195" />
+					<uniqueid name="id" value="1073764266" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_deformation_action">
 					<group name="deform_decal">
-						<string name="deform_decal_file" value="german_bb3" />
+						<string name="deform_decal_file" value="german_bb4" />
 						<bool name="limited" value="False" />
 						<bool name="random_rotation" value="False" />
 						<float name="rotation" value="0" />
@@ -422,13 +422,13 @@
 								<instance_reference name="terrain_material" value="" />
 							</group>
 						</group>
-						<float name="vertical_scale" value="0.02" />
+						<float name="vertical_scale" value="0.03" />
 						<enum name="deform_type" value="tp_additive" />
 					</group>
-					<float name="scale_x" value="7.2" />
-					<float name="scale_y" value="7.2" />
+					<float name="scale_x" value="9.2" />
+					<float name="scale_y" value="9.2" />
 					<bool name="undoable" value="True" />
-					<uniqueid name="id" value="1073762196" />
+					<uniqueid name="id" value="1073764267" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_modifiers_action">
 					<float name="duration" value="0" />
@@ -444,7 +444,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073762197" />
+					<uniqueid name="id" value="1073764268" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -484,11 +484,11 @@
 			<list name="requirement_table">
 				<template_reference name="required" value="requirements\required_player_upgrade">
 					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="11007725" />
+					<locstring name="ui_name" value="11032634" />
 					<bool name="is_present" value="True" />
 					<float name="max_completed" value="100" />
 					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\german\research\battle_phase_3_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+					<instance_reference name="upgrade_name" value="upgrade\german\research\battle_phase_4_mp" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -499,33 +499,21 @@
 			<float name="reinforce_radius" value="20" />
 			<list name="spawn_items">
 				<group name="spawn_item">
-					<int name="ui_position" value="11" />
-					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\german\vehicles\stug_iii_squad\stug_iii_e_squad_mp" />
-					<bool name="spawn_at_map_entry_point" value="True" />
-				</group>
-				<group name="spawn_item">
 					<int name="ui_position" value="12" />
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\german\vehicles\ostwind_squad\ostwind_squad_mp" />
+					<instance_reference name="squad" value="sbps\races\german\vehicles\panther_squad\panther_squad_mp" />
 					<bool name="spawn_at_map_entry_point" value="True" />
 				</group>
 				<group name="spawn_item">
 					<int name="ui_position" value="11" />
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\german\vehicles\stug_iii_squad\stug_iii_squad_mp" />
+					<instance_reference name="squad" value="sbps\races\german\vehicles\brummbar_squad\brummbar_squad_mp" />
 					<bool name="spawn_at_map_entry_point" value="True" />
 				</group>
 				<group name="spawn_item">
 					<int name="ui_position" value="13" />
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_squad_mp" />
-					<bool name="spawn_at_map_entry_point" value="True" />
-				</group>
-				<group name="spawn_item">
-					<int name="ui_position" value="13" />
-					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_stubby_squad_mp" />
+					<instance_reference name="squad" value="sbps\races\german\vehicles\panzerwerfer_squad\panzerwerfer_squad_mp" />
 					<bool name="spawn_at_map_entry_point" value="True" />
 				</group>
 			</list>
@@ -542,5 +530,5 @@
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1477" />
+	<uniqueid name="pbgid" value="1483" />
 </instance>
