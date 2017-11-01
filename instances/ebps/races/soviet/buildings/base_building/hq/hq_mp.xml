@@ -781,7 +781,7 @@
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
 				<instance_reference name="upgrade" value="upgrade\soviet\research\hq_healing_aura_mp" />
-				<instance_reference name="upgrade" value="upgrade\soviet\research\hq_anti_tank_grenade_mp" />
+				<instance_reference name="upgrade" value="upgrade\soviet\research\hq_anti_tank_grenade_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\repair_station_ext">
