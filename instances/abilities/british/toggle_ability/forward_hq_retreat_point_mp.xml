@@ -191,17 +191,33 @@
 							<float name="duration" value="0" />
 							<bool name="permanent" value="False" />
 							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\squad_cost_manpower_modifier">
+								<template_reference name="modifier" value="modifiers\squad_reinforce_time">
 									<enum name="application_type" value="apply_to_squad" />
-									<bool name="exclusive" value="True" />
-									<string name="modifier_id" value="frp_penalty" />
-									<string name="target_type_name" value="" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
 									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="1.2" />
-									<instance_reference name="tooltip" value="modifier_tooltip\squad_cost_manpower_modifier" />
+									<float name="value" value="1.75" />
+									<instance_reference name="target_type_name" value="" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073764220" />
+							<uniqueid name="id" value="1073764321" />
+						</template_reference>
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\squad_reinforce_time">
+									<enum name="application_type" value="apply_to_squad" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="2" />
+									<instance_reference name="target_type_name" value="" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073764326" />
 						</template_reference>
 					</list>
 					<enum name="deprecated_squad_class_type" value="" />
@@ -281,7 +297,7 @@
 			</template_reference>
 		</group>
 		<float name="toggled_recharge_time_off" value="120" />
-		<float name="toggled_recharge_time_on" value="30" />
+		<float name="toggled_recharge_time_on" value="1" />
 		<group name="ui_cursor">
 			<string name="cursor_bad" value="modal_ability_cancel" />
 			<string name="cursor_good" value="modal_ability" />
