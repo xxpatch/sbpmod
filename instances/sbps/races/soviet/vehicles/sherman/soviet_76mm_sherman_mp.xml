@@ -10,7 +10,7 @@
 						<locstring name="extra_text" value="11072110" />
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
+						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
@@ -67,7 +67,7 @@
 						<locstring name="extra_text" value="11072110" />
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
+						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
@@ -124,7 +124,7 @@
 						<locstring name="extra_text" value="11072110" />
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
+						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
@@ -181,7 +181,7 @@
 						<locstring name="extra_text" value="11072110" />
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
+						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
@@ -238,7 +238,7 @@
 						<locstring name="extra_text" value="11072110" />
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
+						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
@@ -295,7 +295,7 @@
 						<locstring name="extra_text" value="11072110" />
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11072111" />
-						<string name="hotkey_name" value="T" />
+						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_m4a3_sherman_76mm" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
