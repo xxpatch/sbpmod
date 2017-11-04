@@ -292,7 +292,7 @@
 			<float name="detonate_on_defuse_chance" value="0" />
 			<float name="detonate_radius" value="0.01" />
 			<float name="initial_delay_seconds" value="2.5" />
-			<enum name="trigger_type" value="" />
+			<enum name="trigger_type" value="vehicle" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext">
 			<group name="unit_type_list">
