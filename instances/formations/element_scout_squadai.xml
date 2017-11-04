@@ -80,5 +80,5 @@
 		</group>
 		<float name="time_to_hold_facing_angle" value="0" />
 	</group>
-	<uniqueid name="pbgid" value="21" />
+	<uniqueid name="pbgid" value="1073741859" />
 </instance>
