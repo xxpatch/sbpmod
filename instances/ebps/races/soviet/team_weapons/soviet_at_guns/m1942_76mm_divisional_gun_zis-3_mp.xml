@@ -559,7 +559,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="3.6" />
-			<instance_reference name="turn_plan" value="turn_plan\gun_i" mod="56dfdb21a5e34e94b0751724b81725c1" />
+			<instance_reference name="turn_plan" value="turn_plan\gun_i" mod="32d542de1479464f922dff46e65be6e2" />
 			<float name="on_ice_accel_decel_multiplier" value="0.6" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />
@@ -645,7 +645,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\soviet" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -662,7 +662,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -679,7 +679,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\aef" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -696,7 +696,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\west_german" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -713,7 +713,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\british" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">

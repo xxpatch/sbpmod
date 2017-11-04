@@ -1,12 +1,12 @@
 <instance description="" template="squad_formations">
 	<group name="squad_formation_bag">
-		<instance_reference name="element_core_formation" value="formations\squad_team_weapon" mod="56dfdb21a5e34e94b0751724b81725c1" />
-		<instance_reference name="element_left_flank_formation" value="formations\element_wt_left_flank_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
-		<instance_reference name="element_right_flank_formation" value="formations\element_wt_right_flank_line" mod="56dfdb21a5e34e94b0751724b81725c1" />
-		<instance_reference name="element_scout_formation" value="formations\element_wt_scout_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+		<instance_reference name="element_core_formation" value="formations\squad_team_weapon" mod="32d542de1479464f922dff46e65be6e2" />
+		<instance_reference name="element_left_flank_formation" value="formations\element_wt_left_flank_line" mod="32d542de1479464f922dff46e65be6e2" />
+		<instance_reference name="element_right_flank_formation" value="formations\element_wt_right_flank_line" mod="32d542de1479464f922dff46e65be6e2" />
+		<instance_reference name="element_scout_formation" value="formations\element_wt_scout_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 		<float name="follower_drift_cap" value="5" />
 		<float name="follower_drift_rate" value="0.3" />
-		<instance_reference name="squad_formation" value="formations\squad_team_weapon" mod="56dfdb21a5e34e94b0751724b81725c1" />
+		<instance_reference name="squad_formation" value="formations\squad_team_weapon" mod="32d542de1479464f922dff46e65be6e2" />
 	</group>
 	<uniqueid name="pbgid" value="0" />
 </instance>

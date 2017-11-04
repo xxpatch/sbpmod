@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\west_german\timed_ability\combat_blitz_panther_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="ability" value="abilities\west_german\timed_ability\combat_blitz_panther_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
@@ -1349,7 +1349,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\panther_squad\panther_ausf_g_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\panther_squad\panther_ausf_g_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="3" />
 						<list name="recrew_penalties_list">

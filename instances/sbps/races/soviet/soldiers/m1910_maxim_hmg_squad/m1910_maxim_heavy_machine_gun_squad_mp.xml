@@ -355,24 +355,24 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_ext">
 			<float name="combat_follower_cover_search_radius" value="1" />
 			<group name="cover_formation_table">
-				<instance_reference name="tp_defcover" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_defcover_narrow" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_defcover" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_defcover_narrow" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
 				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
-				<instance_reference name="tp_heavy" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_light" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_negative" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_open" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_smoke" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_heavy" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_light" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_negative" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_open" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_smoke" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_trench" value="squad_formations\default" />
-				<instance_reference name="tp_water" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_water" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_z_bunker" value="squad_formations\wedge" />
-				<instance_reference name="tp_z_emplacement" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_z_ice" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_z_snow" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_zz_deep_snow" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_zz_mud" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\3man_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_z_emplacement" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_z_ice" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_z_snow" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_zz_deep_snow" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_zz_mud" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\3man_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 			</group>
 			<float name="move_dest_cover_search_radius" value="1" />
 			<group name="squad_distribution_table">
@@ -447,7 +447,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\soviet\team_weapons\m1910_maxim_heavy_machine_gun_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+					<instance_reference name="type" value="ebps\races\soviet\team_weapons\m1910_maxim_heavy_machine_gun_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="6" />
@@ -489,7 +489,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_package" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_package" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
@@ -856,7 +856,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\spawn_entity">
 							<float name="duration" value="999999" />
-							<instance_reference name="entity_blueprint" value="ebps\races\soviet\buildings\defensive_structures\soviet_popcap_adder_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="entity_blueprint" value="ebps\races\soviet\buildings\defensive_structures\soviet_popcap_adder_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<bool name="permanent" value="False" />
 							<bool name="player_owned" value="True" />
 							<group name="target_info">
@@ -1069,7 +1069,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\global\modal_ability\garrisoned_squad_facing" />
 				<instance_reference name="ability" value="abilities\global\modal_ability\garrisoned_squad_facing_unset" />
-				<instance_reference name="ability" value="abilities\german\toggle_ability\commander_ability\ambush_camo_hold_fire_mg_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="ability" value="abilities\german\toggle_ability\commander_ability\ambush_camo_hold_fire_mg_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

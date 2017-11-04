@@ -529,7 +529,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="3.5" />
-			<instance_reference name="turn_plan" value="turn_plan\jeep_i" mod="56dfdb21a5e34e94b0751724b81725c1" />
+			<instance_reference name="turn_plan" value="turn_plan\jeep_i" mod="32d542de1479464f922dff46e65be6e2" />
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />

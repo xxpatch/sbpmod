@@ -111,7 +111,7 @@
 					<template_reference name="action" value="action\upgrade_add">
 						<bool name="apply_to_entities_in_squad" value="False" />
 						<bool name="trigger_publish_event" value="False" />
-						<instance_reference name="upgrade" value="upgrade\army_items\infantry_discount_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="upgrade" value="upgrade\army_items\infantry_discount_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<uniqueid name="id" value="1073758441" />
 					</template_reference>
 				</list>
@@ -119,7 +119,7 @@
 			</template_reference>
 		</list>
 		<list name="abilities">
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jagdtiger" mod="56dfdb21a5e34e94b0751724b81725c1" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jagdtiger" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\wg_hq_pioneer_call_in" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\fallschirmjaeger" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\panzerfusiliers_dispatch" />
@@ -242,8 +242,8 @@
 		</list>
 		<group name="ai_production_info">
 			<list name="base_building_list">
-				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\light_armor_support_mp" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
 			</list>
@@ -251,7 +251,7 @@
 				<group name="unlocking_upgrade_info">
 					<instance_reference name="upgrade_pbg" value="upgrade\west_german\research\medic_healing_mp" />
 					<instance_reference name="unlocked_ability" value="" />
-					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					<list name="upgraded_squads">
 					</list>
 				</group>
@@ -265,8 +265,8 @@
 			</list>
 			<group name="builder_squads">
 				<instance_reference name="base_builder_squad" value="sbps\races\west_german\vehicles\sws_halftrack_squad\sws_halftrack_squad_mp" />
-				<instance_reference name="obs_post_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="defense_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="obs_post_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="defense_builder_squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</group>
 		</group>
 		<list name="team_size_point_resource_multiplier">
@@ -317,7 +317,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -329,7 +329,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -350,7 +350,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="tier1" />
-				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">
@@ -366,7 +366,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="tier3" />
-				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">
@@ -385,7 +385,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\west_german_base_stamper" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>

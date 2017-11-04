@@ -9,7 +9,7 @@
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\use_accessory_weapon">
-					<instance_reference name="accessory_weapon_item" value="slot_item\soviet\grenades\conscript_molotov_vet_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+					<instance_reference name="accessory_weapon_item" value="slot_item\soviet\grenades\conscript_molotov_vet_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					<instance_reference name="decrement_accessory_item" value="" />
 					<bool name="entity_target_only" value="False" />
 					<bool name="force_squad_to_target" value="False" />
@@ -126,11 +126,11 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="82" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<locstring name="ui_name" value="82" mod="32d542de1479464f922dff46e65be6e2" />
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\research\hq_anti_tank_grenade_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="upgrade_name" value="upgrade\soviet\research\hq_anti_tank_grenade_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_not">
 				<enum name="reason" value="usage" />

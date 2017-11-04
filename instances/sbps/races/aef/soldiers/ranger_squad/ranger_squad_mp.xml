@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="5" />
-					<instance_reference name="type" value="ebps\races\aef\soldiers\ranger\ranger_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+					<instance_reference name="type" value="ebps\races\aef\soldiers\ranger\ranger_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -522,12 +522,12 @@
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\slot_item_add">
-							<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<bool name="permanent" value="True" />
 							<uniqueid name="id" value="1073761978" />
 						</template_reference>
 						<template_reference name="action" value="action\slot_item_add">
-							<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<bool name="permanent" value="True" />
 							<uniqueid name="id" value="1073761979" />
 						</template_reference>
@@ -554,7 +554,7 @@
 							<bool name="display_requirement" value="True" />
 							<float name="max_owned" value="10" />
 							<float name="min_owned" value="1" />
-							<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</template_reference>
 					</list>
 					<list name="action_table">

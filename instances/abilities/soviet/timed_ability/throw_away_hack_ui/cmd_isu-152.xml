@@ -151,7 +151,7 @@
 					<template_reference name="required" value="requirements\required_entity">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
-						<instance_reference name="entity_blueprint_name" value="ebps\races\soviet\vehicles\isu_152_spg\isu_152_spg_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="entity_blueprint_name" value="ebps\races\soviet\vehicles\isu_152_spg\isu_152_spg_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<enum name="entity_type" value="" />
 					</template_reference>
 				</list>

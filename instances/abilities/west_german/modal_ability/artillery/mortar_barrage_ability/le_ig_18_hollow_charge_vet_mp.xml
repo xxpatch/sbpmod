@@ -19,7 +19,7 @@
 					<bool name="randomize" value="False" />
 					<list name="delayed_actions">
 						<template_reference name="action" value="action\use_accessory_weapon">
-							<instance_reference name="accessory_weapon_item" value="slot_item\west_german\ballistic_weapon\infantry_at_weapon\hollow_charge_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="accessory_weapon_item" value="slot_item\west_german\ballistic_weapon\infantry_at_weapon\hollow_charge_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<instance_reference name="decrement_accessory_item" value="" />
 							<bool name="entity_target_only" value="False" />
 							<bool name="force_squad_to_target" value="False" />

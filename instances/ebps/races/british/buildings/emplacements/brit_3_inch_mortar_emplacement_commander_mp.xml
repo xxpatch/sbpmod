@@ -930,7 +930,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_site_weapon_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_site_weapon_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</group>
 						<group name="weapon">
 							<group name="heading">

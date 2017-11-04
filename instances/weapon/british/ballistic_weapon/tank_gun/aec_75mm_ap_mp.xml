@@ -295,7 +295,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_vision" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="critical" value="critical\vehicle_vision" mod="32d542de1479464f922dff46e65be6e2" />
 							<uniqueid name="id" value="1073762747" />
 						</template_reference>
 					</list>
@@ -336,7 +336,7 @@
 									<bool name="display_requirement" value="True" />
 									<float name="max_owned" value="0" />
 									<float name="min_owned" value="0" />
-									<instance_reference name="slot_item" value="slot_item\british\aec_tread_debuff_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+									<instance_reference name="slot_item" value="slot_item\british\aec_tread_debuff_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 								</template_reference>
 							</list>
 						</template_reference>
@@ -355,7 +355,7 @@
 									<locstring name="ui_name" value="0" />
 									<bool name="include_queued" value="False" />
 									<bool name="is_present" value="True" />
-									<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+									<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 								</template_reference>
 							</list>
 							<list name="action_table">
@@ -405,7 +405,7 @@
 							<bool name="display_requirement" value="True" />
 							<float name="max_owned" value="0" />
 							<float name="min_owned" value="0" />
-							<instance_reference name="slot_item" value="slot_item\british\aec_tread_debuff_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="slot_item" value="slot_item\british\aec_tread_debuff_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -422,7 +422,7 @@
 									<locstring name="ui_name" value="0" />
 									<bool name="include_queued" value="False" />
 									<bool name="is_present" value="True" />
-									<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+									<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 								</template_reference>
 							</list>
 							<list name="action_table">
@@ -431,7 +431,7 @@
 									<bool name="fire_and_forget" value="False" />
 									<list name="subactions">
 										<template_reference name="action" value="action\slot_item_add">
-											<instance_reference name="slot_item" value="slot_item\british\aec_tread_debuff_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+											<instance_reference name="slot_item" value="slot_item\british\aec_tread_debuff_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 											<bool name="permanent" value="False" />
 											<uniqueid name="id" value="1073762757" />
 										</template_reference>
@@ -490,7 +490,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_vision" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="critical" value="critical\vehicle_vision" mod="32d542de1479464f922dff46e65be6e2" />
 							<uniqueid name="id" value="1073762749" />
 						</template_reference>
 					</list>
@@ -520,7 +520,7 @@
 							<locstring name="ui_name" value="0" />
 							<bool name="include_queued" value="False" />
 							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -529,7 +529,7 @@
 								<template_reference name="action" value="action\upgrade_add">
 									<bool name="apply_to_entities_in_squad" value="False" />
 									<bool name="trigger_publish_event" value="False" />
-									<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+									<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_onair_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 									<uniqueid name="id" value="1073762751" />
 								</template_reference>
 							</list>

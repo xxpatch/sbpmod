@@ -24,7 +24,7 @@
 				<bool name="fire_and_forget" value="True" />
 				<list name="subactions">
 					<template_reference name="action" value="action\slot_item_add">
-						<instance_reference name="slot_item" value="slot_item\british\hammer_vision_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="slot_item" value="slot_item\british\hammer_vision_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<bool name="permanent" value="False" />
 						<uniqueid name="id" value="1073764113" />
 					</template_reference>

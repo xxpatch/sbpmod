@@ -7,14 +7,14 @@
 				<d2p1:anyType i:type="Folder">
 					<Children>
 						<d2p1:anyType i:type="BurnAttributes">
-							<RelativeName>sbpmod.xml</RelativeName>
+							<RelativeName>sbpmod2.xml</RelativeName>
 						</d2p1:anyType>
 					</Children>
-					<IsExpanded>true</IsExpanded>
+					<IsExpanded>false</IsExpanded>
 					<Name>attrib</Name>
 				</d2p1:anyType>
 			</Children>
-			<IsExpanded>true</IsExpanded>
+			<IsExpanded>false</IsExpanded>
 		</d2p1:anyType>
 		<d2p1:anyType i:type="TableOfContents">
 			<Alias>Locale</Alias>
@@ -26,7 +26,7 @@
 							<RelativeName>locale\english\english.ucs</RelativeName>
 						</d2p1:anyType>
 					</Children>
-					<IsExpanded>true</IsExpanded>
+					<IsExpanded>false</IsExpanded>
 					<Name>english</Name>
 				</d2p1:anyType>
 			</Children>
@@ -39,30 +39,13 @@
 					<Dependencies />
 					<Description></Description>
 					<Hidden>false</Hidden>
-					<Name>December Balance Preview</Name>
+					<Name>December Balance Preview New</Name>
 				</d2p1:anyType>
 			</Children>
-			<IsExpanded>true</IsExpanded>
-		</d2p1:anyType>
-		<d2p1:anyType i:type="TableOfContents">
-			<Alias>Data</Alias>
-			<Children>
-				<d2p1:anyType i:type="Folder">
-					<Children>
-						<d2p1:anyType i:type="BurnFolder">
-							<BurnSettings />
-							<Hint>Default</Hint>
-							<RelativeName>data\art</RelativeName>
-						</d2p1:anyType>
-					</Children>
-					<IsExpanded>true</IsExpanded>
-					<Name>art</Name>
-				</d2p1:anyType>
-			</Children>
-			<IsExpanded>true</IsExpanded>
+			<IsExpanded>false</IsExpanded>
 		</d2p1:anyType>
 	</Children>
-	<Guid>56dfdb21-a5e3-4e94-b075-1724b81725c1</Guid>
+	<Guid>32d542de-1479-464f-922d-ff46e65be6e2</Guid>
 	<IsExpanded>false</IsExpanded>
 	<Type>PropertyBagGroupPack</Type>
 </Document>

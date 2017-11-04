@@ -70,23 +70,23 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_ext">
 			<float name="combat_follower_cover_search_radius" value="1" />
 			<group name="cover_formation_table">
-				<instance_reference name="tp_defcover" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_defcover_narrow" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_defcover" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_defcover_narrow" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
 				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
-				<instance_reference name="tp_heavy" value="squad_formations\new_reinforced_wedge_cover" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_light" value="squad_formations\new_reinforced_wedge_cover" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_negative" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_open" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_smoke" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_heavy" value="squad_formations\new_reinforced_wedge_cover" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_light" value="squad_formations\new_reinforced_wedge_cover" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_negative" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_open" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_smoke" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_trench" value="squad_formations\default" />
-				<instance_reference name="tp_water" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_water" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_z_bunker" value="squad_formations\wedge" />
 				<instance_reference name="tp_z_emplacement" value="squad_formations\default" />
-				<instance_reference name="tp_z_ice" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_z_snow" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_zz_deep_snow" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
-				<instance_reference name="tp_zz_mud" value="squad_formations\new_reinforced_wedge" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="tp_z_ice" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_z_snow" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_zz_deep_snow" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="tp_zz_mud" value="squad_formations\new_reinforced_wedge" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\default" />
 			</group>
 			<float name="move_dest_cover_search_radius" value="1" />
@@ -797,11 +797,11 @@
 							<int name="ui_position" value="12" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_fuel_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_fuel_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_munition_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_munition_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<int name="ui_position" value="21" />
 						</group>
 					</list>

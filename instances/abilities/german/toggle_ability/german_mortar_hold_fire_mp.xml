@@ -120,7 +120,7 @@
 				<template_reference name="action" value="action\change_target_action">
 					<list name="actions">
 						<template_reference name="action" value="action\slot_item_add">
-							<instance_reference name="slot_item" value="slot_item\british\tweapon_hold_fire_item_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+							<instance_reference name="slot_item" value="slot_item\british\tweapon_hold_fire_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<bool name="permanent" value="False" />
 							<uniqueid name="id" value="1073764146" />
 						</template_reference>

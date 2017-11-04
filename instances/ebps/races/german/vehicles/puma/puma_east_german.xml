@@ -18,7 +18,7 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\panzer_defensive_smoke" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_disable" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\stug_puma_critical_shots_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\stug_puma_critical_shots_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\wehr_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
@@ -871,7 +871,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="7.2" />
-			<instance_reference name="turn_plan" value="turn_plan\jeep_i" mod="56dfdb21a5e34e94b0751724b81725c1" />
+			<instance_reference name="turn_plan" value="turn_plan\jeep_i" mod="32d542de1479464f922dff46e65be6e2" />
 			<float name="on_ice_accel_decel_multiplier" value="0.15" />
 			<float name="on_land_overturn_scale" value="0.07" />
 			<float name="on_ice_overturn_scale" value="3" />
@@ -881,7 +881,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\german\vehicles\puma\puma_east_german_mp" mod="56dfdb21a5e34e94b0751724b81725c1" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\german\vehicles\puma\puma_east_german_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
