@@ -873,22 +873,6 @@
 										<float name="duration" value="0" />
 										<bool name="permanent" value="True" />
 										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.9" />
-												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073761873" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
 											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
 												<enum name="application_type" value="apply_to_squad" />
 												<bool name="exclusive" value="False" />
@@ -1019,6 +1003,7 @@
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\fallschirmjaeger_panzerfaust" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\fallschirmjaeger_greande" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\west_german\always_on_ability\falls_stationary_camouflage_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
