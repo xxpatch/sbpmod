@@ -611,7 +611,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\soviet\always_on_ability\sniper_delayed_cover_auto_camouflage_mp" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\rgd_33_partisan_grenade_mp" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\partisan_molotov_cocktail_mp" />
