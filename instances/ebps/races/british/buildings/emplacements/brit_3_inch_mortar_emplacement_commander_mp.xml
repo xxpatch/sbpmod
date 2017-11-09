@@ -221,7 +221,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_mp" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_mp" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_smoke_barrage_mp" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_victor_target_mp" />
 				<instance_reference name="ability" value="abilities\british\timed_ability\mortar_pit_counter_battery_mp" />
@@ -606,23 +606,41 @@
 							<float name="duration" value="0" />
 							<bool name="permanent" value="False" />
 							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-									<enum name="application_type" value="apply_to_ability" />
+								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
 									<bool name="exclusive" value="False" />
 									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_01" />
 									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="0.75" />
-									<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-									<instance_reference name="target_type_name" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_smoke_barrage_mp" mod="32d542de1479464f922dff46e65be6e2" />
+									<float name="value" value="0.5" />
+									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
 								</template_reference>
-								<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-									<enum name="application_type" value="apply_to_ability" />
+								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
 									<bool name="exclusive" value="False" />
 									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_02" />
 									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="0.75" />
-									<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-									<instance_reference name="target_type_name" value="abilities\british\modal_ability\artillery\mortar_barrage_ability\brit_3_inch_mortar_emplacement_barrage_mp" mod="32d542de1479464f922dff46e65be6e2" />
+									<float name="value" value="0.5" />
+									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
+								</template_reference>
+								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_03" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="0.5" />
+									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
+								</template_reference>
+								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_04" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="0.5" />
+									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
 								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073761268" />
@@ -927,7 +945,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_1_auto_light_he_mp" mod="32d542de1479464f922dff46e65be6e2" />
+							<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_1_auto_light_he_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="True" />
@@ -948,7 +966,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_2_auto_light_he_mp" mod="32d542de1479464f922dff46e65be6e2" />
+							<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_2_auto_light_he_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="True" />
