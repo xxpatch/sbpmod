@@ -840,16 +840,6 @@
 										</list>
 										<uniqueid name="id" value="1073760411" />
 									</template_reference>
-									<template_reference name="action" value="action\slot_item_add">
-										<instance_reference name="slot_item" value="slot_item\british\small_arms\tommy_scoped_rifle_item_mp" />
-										<bool name="permanent" value="True" />
-										<uniqueid name="id" value="1073760412" />
-									</template_reference>
-									<template_reference name="action" value="action\slot_item_add">
-										<instance_reference name="slot_item" value="slot_item\british\small_arms\tommy_scoped_rifle_item_mp" />
-										<bool name="permanent" value="True" />
-										<uniqueid name="id" value="1073760413" />
-									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 									<template_reference name="action" value="action\apply_modifiers_action">
@@ -886,7 +876,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="3" />
+			<float name="personnel_pop" value="2" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="95730" />
