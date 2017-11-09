@@ -5,45 +5,81 @@
 				<template_reference name="action" value="action\upgrade_remove">
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_barrage_active" />
-					<uniqueid name="id" value="1073761334" />
+					<uniqueid name="id" value="1073764926" />
+				</template_reference>
+				<template_reference name="action" value="action\force_reload_action">
+					<int name="hardpoint_index" value="1" />
+					<uniqueid name="id" value="1073764927" />
+				</template_reference>
+				<template_reference name="action" value="action\force_reload_action">
+					<int name="hardpoint_index" value="2" />
+					<uniqueid name="id" value="1073764928" />
+				</template_reference>
+				<template_reference name="action" value="action\force_reload_action">
+					<int name="hardpoint_index" value="3" />
+					<uniqueid name="id" value="1073764929" />
+				</template_reference>
+				<template_reference name="action" value="action\force_reload_action">
+					<int name="hardpoint_index" value="4" />
+					<uniqueid name="id" value="1073764930" />
 				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
-				<template_reference name="action" value="action\change_target_action">
-					<list name="actions">
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\weapon_horizontal_fire_cone">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<instance_reference name="tooltip" value="" />
-									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="6" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073761335" />
-						</template_reference>
-					</list>
-					<enum name="change_target_type" value="squad" />
-					<uniqueid name="id" value="1073761336" />
+				<template_reference name="action" value="action\animator_set_state">
+					<bool name="apply_to_leader_only" value="False" />
+					<string name="do_action_state_name" value="aim" />
+					<bool name="retrigger" value="False" />
+					<string name="state_machine_name" value="mortar_state" />
+					<string name="undo_action_state_name" value="idle" />
+					<uniqueid name="id" value="1073764931" />
+				</template_reference>
+				<template_reference name="action" value="action\animator_set_state">
+					<bool name="apply_to_leader_only" value="False" />
+					<string name="do_action_state_name" value="aim" />
+					<bool name="retrigger" value="False" />
+					<string name="state_machine_name" value="mortar_state02" />
+					<string name="undo_action_state_name" value="idle" />
+					<uniqueid name="id" value="1073764932" />
 				</template_reference>
 				<template_reference name="action" value="action\upgrade_add">
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<bool name="trigger_publish_event" value="False" />
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_barrage_active" />
-					<uniqueid name="id" value="1073761337" />
+					<uniqueid name="id" value="1073764933" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
+				<template_reference name="action" value="action\artillery_attack">
+					<bool name="disable_parent_hardpoint" value="True" />
+					<group name="filter_weapons">
+						<instance_reference name="weapon_01" value="" />
+						<instance_reference name="weapon_02" value="" />
+						<instance_reference name="weapon_03" value="" />
+					</group>
+					<float name="num_salvo" value="4" />
+					<float name="use_hardpoint" value="3" />
+					<bool name="face_to_target" value="False" />
+					<uniqueid name="id" value="1073764934" />
+					<bool name="target_override_direction_times_max_range" value="False" />
+				</template_reference>
+				<template_reference name="action" value="action\artillery_attack">
+					<bool name="disable_parent_hardpoint" value="True" />
+					<group name="filter_weapons">
+						<instance_reference name="weapon_01" value="" />
+						<instance_reference name="weapon_02" value="" />
+						<instance_reference name="weapon_03" value="" />
+					</group>
+					<float name="num_salvo" value="4" />
+					<float name="use_hardpoint" value="4" />
+					<bool name="face_to_target" value="False" />
+					<uniqueid name="id" value="1073764935" />
+					<bool name="target_override_direction_times_max_range" value="False" />
+				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
-					<uniqueid name="id" value="1073761338" />
+					<uniqueid name="id" value="1073764936" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
 					<float name="event_extra_param" value="0" />
@@ -51,56 +87,7 @@
 					<float name="event_param_end" value="-1" />
 					<enum name="event_type" value="artillery_set" />
 					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073761339" />
-				</template_reference>
-				<template_reference name="action" value="action\creeping_barrage">
-					<float name="box_length" value="20" />
-					<float name="box_width" value="8" />
-					<float name="hardpoint" value="5" />
-					<list name="sections">
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-					</list>
-					<uniqueid name="id" value="1073761340" />
-					<bool name="valid_sections_only" value="False" comment="Allow triggering the Ability as long as part of the Sections are within weapon range." />
+					<uniqueid name="id" value="1073764937" />
 				</template_reference>
 			</list>
 		</group>
@@ -137,12 +124,12 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="150" />
+		<float name="range" value="120" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="40" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
-		<enum name="shared_timer" value="squad_ability_2" />
+		<enum name="shared_timer" value="squad_ability_1" />
 		<bool name="shared_timer_player_wide" value="False" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
@@ -150,7 +137,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="isb" />
+			<string name="code_1" value="ebr" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -168,13 +155,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11090940" />
-			<locstring name="help_text" value="11090937" />
-			<string name="hotkey_name" value="F" />
-			<icon name="icon_name" value="Icons_abilities_ability_british_creeping_smoke_barrage" />
+			<locstring name="extra_text" value="11084040" />
+			<locstring name="help_text" value="11084042" />
+			<string name="hotkey_name" value="B" />
+			<icon name="icon_name" value="Icons_abilities_ability_british_mortar_barrage" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11090936" />
+			<locstring name="screen_name" value="11084039" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -217,13 +204,13 @@
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="34" />
+		<int name="ui_position" value="31" />
 		<bool name="ui_mini_map_capture" value="True" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
-		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_smoke_creeping_barrage" />
+		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_81mm_mortar_barrage" />
 		<float name="ui_reticule_radius_min" value="8" />
-		<float name="ui_reticule_radius_max" value="10" />
+		<float name="ui_reticule_radius_max" value="8" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />
@@ -239,12 +226,9 @@
 		</enum_table>
 		<list name="requirements_target">
 		</list>
-		<template_reference name="targeted_ability_option" value="options\abilities\targeted_ability_option">
-			<bool name="persist_targeted_ability" value="False" />
-			<bool name="post_ability_out_of_range_stop" value="False" />
-			<bool name="range_ignore_target_far_position" value="True" />
+		<template_reference name="targeted_ability_option" value="options\none">
 		</template_reference>
-		<enum name="ui_direction_requirement" value="directional" />
+		<enum name="ui_direction_requirement" value="nondirectional" />
 		<instance_reference name="cursor_ghost_ebp" value="" />
 		<bool name="can_cast_whilst_constructing" value="False" />
 		<list name="requirements_self_recharge">
@@ -252,5 +236,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="93489" />
+	<uniqueid name="pbgid" value="89312" />
 </instance>
