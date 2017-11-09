@@ -7,55 +7,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051480" />
+						<locstring name="extra_text" value="11051490" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051481" />
+						<locstring name="help_text" value="11051489" />
 						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11051186" />
-						<string name="selection_group" value="Panther_g" />
+						<locstring name="screen_name" value="11051183" />
+						<string name="selection_group" value="king_tiger" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="wm" />
+							<string name="code_1" value="wh" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="pt" />
-							<string name="code_2" value="ma" />
+							<string name="code_1" value="tg" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="ar" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="pnt" />
-							<string name="code_2" value="mar" />
-							<string name="code_3" value="arm" />
+							<string name="code_1" value="arm" />
+							<string name="code_2" value="htk" />
+							<string name="code_3" value="ktg" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="49" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
-						<float name="minimap_texture_scale" value="1.05" />
-						<locstring name="brief_text" value="11051482" />
-						<locstring name="screen_name_short" value="11051483" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="11051491" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -64,17 +64,17 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051480" />
+						<locstring name="extra_text" value="11051490" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051481" />
-						<string name="hotkey_name" value="W" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+						<locstring name="help_text" value="11051489" />
+						<string name="hotkey_name" value="X" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11051186" />
-						<string name="selection_group" value="Panther_g" />
+						<locstring name="screen_name" value="11051183" />
+						<string name="selection_group" value="king_tiger" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
@@ -86,33 +86,33 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="pt" />
+							<string name="code_1" value="Tg" />
 							<string name="code_2" value="ar" />
-							<string name="code_3" value="ma" />
+							<string name="code_3" value="ha" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="pnt" />
+							<string name="code_1" value="Tgr" />
 							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_3" value="htk" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="49" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
-						<float name="minimap_texture_scale" value="1.05" />
-						<locstring name="brief_text" value="11051482" />
-						<locstring name="screen_name_short" value="11051483" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="11051491" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -121,55 +121,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051480" />
+						<locstring name="extra_text" value="11051490" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051481" />
-						<string name="hotkey_name" value="W" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+						<locstring name="help_text" value="11051489" />
+						<string name="hotkey_name" value="X" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11051186" />
-						<string name="selection_group" value="Panther_g" />
+						<locstring name="screen_name" value="11051183" />
+						<string name="selection_group" value="king_tiger" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="pt" />
+							<string name="code_1" value="tg" />
 							<string name="code_2" value="ar" />
-							<string name="code_3" value="ma" />
+							<string name="code_3" value="ha" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="pnt" />
+							<string name="code_1" value="tgr" />
 							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_3" value="har" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="49" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
-						<float name="minimap_texture_scale" value="1.05" />
-						<locstring name="brief_text" value="11051482" />
-						<locstring name="screen_name_short" value="11051483" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="11051491" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -178,55 +178,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051480" />
+						<locstring name="extra_text" value="11051490" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051481" />
-						<string name="hotkey_name" value="W" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+						<locstring name="help_text" value="11051489" />
+						<string name="hotkey_name" value="X" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11051186" />
-						<string name="selection_group" value="Panther_g" />
+						<locstring name="screen_name" value="11051183" />
+						<string name="selection_group" value="king_tiger" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="pt" />
+							<string name="code_1" value="tg" />
 							<string name="code_2" value="ar" />
-							<string name="code_3" value="ma" />
+							<string name="code_3" value="ha" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="pnt" />
+							<string name="code_1" value="tgr" />
 							<string name="code_2" value="arm" />
-							<string name="code_3" value="mar" />
+							<string name="code_3" value="har" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="49" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
-						<float name="minimap_texture_scale" value="1.05" />
-						<locstring name="brief_text" value="11051482" />
-						<locstring name="screen_name_short" value="11051483" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="11051491" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -235,55 +235,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051480" />
+						<locstring name="extra_text" value="11051490" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051481" />
+						<locstring name="help_text" value="11051489" />
 						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11051186" />
-						<string name="selection_group" value="Panther_g" />
+						<locstring name="screen_name" value="11051183" />
+						<string name="selection_group" value="king_tiger" />
 						<group name="speaker_generic">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="mt" />
+							<string name="code_1" value="ht" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="pt" />
-							<string name="code_2" value="ma" />
+							<string name="code_1" value="tg" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="ar" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="pnt" />
-							<string name="code_2" value="mar" />
-							<string name="code_3" value="arm" />
+							<string name="code_1" value="arm" />
+							<string name="code_2" value="htk" />
+							<string name="code_3" value="ktg" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="49" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
-						<float name="minimap_texture_scale" value="1.05" />
-						<locstring name="brief_text" value="11051482" />
-						<locstring name="screen_name_short" value="11051483" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="11051491" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -292,55 +292,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051480" />
+						<locstring name="extra_text" value="11051490" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051481" />
+						<locstring name="help_text" value="11051489" />
 						<string name="hotkey_name" value="T" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_panther" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_west_german_king_tiger" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11051186" />
-						<string name="selection_group" value="Panther_g" />
+						<locstring name="screen_name" value="11051183" />
+						<string name="selection_group" value="king_tiger" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="wm" />
+							<string name="code_1" value="wh" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="pt" />
-							<string name="code_2" value="ma" />
+							<string name="code_1" value="tg" />
+							<string name="code_2" value="ha" />
 							<string name="code_3" value="ar" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="pnt" />
-							<string name="code_2" value="mar" />
-							<string name="code_3" value="arm" />
+							<string name="code_1" value="arm" />
+							<string name="code_2" value="htk" />
+							<string name="code_3" value="ktg" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="49" />
+						<int name="ui_priority" value="50" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_panther_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_west_german_king_tiger_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_panther_s_portrait" />
-						<float name="minimap_texture_scale" value="1.05" />
-						<locstring name="brief_text" value="11051482" />
-						<locstring name="screen_name_short" value="11051483" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_west_german_king_tiger_s_portrait" />
+						<float name="minimap_texture_scale" value="1.1" />
+						<locstring name="brief_text" value="11051491" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_panther_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_west_german_king_tiger_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -447,7 +447,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\west_german\vehicles\panther_sdkfz_171_ausf_g\panther_sdkfz_171_ausf_g_mp" />
+					<instance_reference name="type" value="ebps\races\west_german\vehicles\king_tiger_sdkfz_182\king_tiger_sdkfz_182_mp" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -456,6 +456,36 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext">
 			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_all_in_list">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11075495" />
+					<list name="requirements">
+						<template_reference name="requirement" value="requirements\required_player_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<float name="max_completed" value="100" />
+							<float name="min_completed" value="1" />
+							<instance_reference name="upgrade_name" value="upgrade\west_german\passive\building_1" />
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_player_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<float name="max_completed" value="100" />
+							<float name="min_completed" value="1" />
+							<instance_reference name="upgrade_name" value="upgrade\west_german\passive\building_2" />
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_player_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<float name="max_completed" value="100" />
+							<float name="min_completed" value="1" />
+							<instance_reference name="upgrade_name" value="upgrade\west_german\passive\building_3" />
+						</template_reference>
+					</list>
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_apply_ext">
@@ -470,83 +500,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\change_target_action">
-					<list name="actions">
-						<template_reference name="action" value="action\requirement_action">
-							<bool name="check_self" value="False" />
-							<bool name="global_fire_and_forget_on_success" value="False" />
-							<bool name="instant_requirement_check" value="False" />
-							<bool name="kill_action_on_failed_requirements" value="False" />
-							<bool name="no_retrigger" value="False" />
-							<bool name="validate_all_sub_actions" value="True" />
-							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_in_state">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="garrisoned" value="False" />
-									<bool name="healed" value="False" />
-									<float name="in_combat_since" value="-1" />
-									<bool name="injured" value="False" />
-									<bool name="leader" value="False" />
-									<bool name="not_moving" value="True" />
-									<bool name="not_retreating" value="False" />
-									<bool name="pinned" value="False" />
-									<bool name="suppressed" value="False" />
-									<bool name="camouflaged" value="False" />
-								</template_reference>
-								<template_reference name="required" value="requirements\required_squad_veterancy">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<float name="veterancy_rank" value="5" />
-								</template_reference>
-							</list>
-							<list name="action_table">
-								<template_reference name="action" value="action\delay">
-									<float name="delay" value="5" />
-									<float name="delay_min" value="0" />
-									<bool name="progress_bar" value="False" />
-									<bool name="randomize" value="False" />
-									<list name="delayed_actions">
-										<template_reference name="action" value="action\apply_modifiers_action">
-											<float name="duration" value="0" />
-											<bool name="permanent" value="False" />
-											<list name="modifiers">
-												<template_reference name="modifier" value="modifiers\sight_radius_modifier">
-													<enum name="application_type" value="apply_to_squad" />
-													<bool name="exclusive" value="False" />
-													<string name="modifier_id" value="" />
-													<string name="target_type_name" value="" />
-													<enum name="usage_type" value="addition" />
-													<float name="value" value="7" />
-													<instance_reference name="tooltip" value="modifier_tooltip\sight_radius_modifier" />
-												</template_reference>
-											</list>
-											<uniqueid name="id" value="1073764776" />
-										</template_reference>
-										<template_reference name="action" value="action\animator_set_state">
-											<bool name="apply_to_leader_only" value="True" />
-											<string name="do_action_state_name" value="on" />
-											<bool name="retrigger" value="True" />
-											<string name="state_machine_name" value="ability_sight_buff_state" />
-											<string name="undo_action_state_name" value="off" />
-											<uniqueid name="id" value="1073764777" />
-										</template_reference>
-									</list>
-									<uniqueid name="id" value="1073764778" />
-									<bool name="can_prevent_refund" value="True" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073764779" />
-							<bool name="fire_and_forget_non_global" value="False" />
-							<template_reference name="ui_help_text" value="tables\help_text_phrase">
-								<int name="phrase_order" value="0" />
-								<locstring name="phrase" value="0" />
-							</template_reference>
-						</template_reference>
-					</list>
-					<enum name="change_target_type" value="squad" />
-					<uniqueid name="id" value="1073764780" />
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
@@ -661,7 +614,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\heat_shells_ability_mp" />
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\vehicle_emergency_repair_ability_mp" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -672,188 +625,12 @@
 					<group name="info">
 						<bool name="can_receive_shared_veterancy" value="False" />
 						<float name="max_persistent_squads" value="0" />
-						<list name="veterancy_rank_info">
-							<group name="veterancy_rank">
-								<float name="experience_value" value="2730" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071441" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073763880" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="5460" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071442" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\change_target_action">
-										<list name="actions">
-											<template_reference name="action" value="action\apply_modifiers_action">
-												<float name="duration" value="0" />
-												<bool name="permanent" value="False" />
-												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\horizontal_speed_weapon_modifier">
-														<enum name="application_type" value="apply_to_weapon" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="hardpoint_01" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.4" />
-														<instance_reference name="tooltip" value="modifier_tooltip\horizontal_speed_weapon_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\health_maximum_modifier">
-														<enum name="application_type" value="apply_to_squad" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
-														<enum name="usage_type" value="addition" />
-														<float name="value" value="160" />
-														<instance_reference name="tooltip" value="modifier_tooltip\health_maximum_modifier" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073763881" />
-											</template_reference>
-										</list>
-										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763882" />
-									</template_reference>
-									<template_reference name="action" value="action\animator_set_state">
-										<string name="do_action_state_name" value="on" />
-										<string name="state_machine_name" value="Upgrade_Armor" />
-										<bool name="apply_to_leader_only" value="False" />
-										<bool name="retrigger" value="False" />
-										<string name="undo_action_state_name" value="" />
-										<uniqueid name="id" value="1073763883" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073763884" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="10920" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071443" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\change_target_action">
-										<list name="actions">
-											<template_reference name="action" value="action\apply_modifiers_action">
-												<float name="duration" value="0" />
-												<bool name="permanent" value="False" />
-												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-														<enum name="application_type" value="apply_to_weapon" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="hardpoint_01" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.7" />
-														<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
-														<enum name="application_type" value="apply_to_entity" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.2" />
-														<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073763885" />
-											</template_reference>
-											<template_reference name="action" value="action\change_move_data_action">
-												<float name="acceleration_multiplier" value="1.3" />
-												<float name="deceleration_multiplier" value="1.3" />
-												<float name="pathfinding_size_x" value="0" />
-												<float name="pathfinding_size_y" value="0" />
-												<uniqueid name="id" value="1073763886" />
-											</template_reference>
-										</list>
-										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763887" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073763888" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-						</list>
 						<enum name="shared_veterancy_type" value="no_sharing" />
-					</group>
-				</group>
-				<group name="race_data">
-					<instance_reference name="ext_key" value="racebps\west_german" />
-					<group name="info">
-						<bool name="can_receive_shared_veterancy" value="False" />
-						<float name="max_persistent_squads" value="0" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="2730" />
+								<float name="experience_value" value="4040" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071441" />
+								<locstring name="screen_name" value="11071375" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -874,153 +651,16 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763889" />
+										<uniqueid name="id" value="1073764704" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="5460" />
+								<float name="experience_value" value="8080" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071442" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\change_target_action">
-										<list name="actions">
-											<template_reference name="action" value="action\apply_modifiers_action">
-												<float name="duration" value="0" />
-												<bool name="permanent" value="False" />
-												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\horizontal_speed_weapon_modifier">
-														<enum name="application_type" value="apply_to_weapon" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="hardpoint_01" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.4" />
-														<instance_reference name="tooltip" value="modifier_tooltip\horizontal_speed_weapon_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\health_maximum_modifier">
-														<enum name="application_type" value="apply_to_squad" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
-														<enum name="usage_type" value="addition" />
-														<float name="value" value="160" />
-														<instance_reference name="tooltip" value="modifier_tooltip\health_maximum_modifier" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073763890" />
-											</template_reference>
-										</list>
-										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763891" />
-									</template_reference>
-									<template_reference name="action" value="action\animator_set_state">
-										<string name="do_action_state_name" value="on" />
-										<string name="state_machine_name" value="Upgrade_Armor" />
-										<bool name="apply_to_leader_only" value="False" />
-										<bool name="retrigger" value="False" />
-										<string name="undo_action_state_name" value="" />
-										<uniqueid name="id" value="1073763892" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073763893" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="10920" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071443" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\change_target_action">
-										<list name="actions">
-											<template_reference name="action" value="action\apply_modifiers_action">
-												<float name="duration" value="0" />
-												<bool name="permanent" value="False" />
-												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-														<enum name="application_type" value="apply_to_weapon" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="hardpoint_01" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.7" />
-														<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
-														<enum name="application_type" value="apply_to_entity" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.2" />
-														<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073763894" />
-											</template_reference>
-											<template_reference name="action" value="action\change_move_data_action">
-												<float name="acceleration_multiplier" value="1.3" />
-												<float name="deceleration_multiplier" value="1.3" />
-												<float name="pathfinding_size_x" value="0" />
-												<float name="pathfinding_size_y" value="0" />
-												<uniqueid name="id" value="1073763895" />
-											</template_reference>
-										</list>
-										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763896" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073763897" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="13650" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071444" />
+								<locstring name="screen_name" value="11071386" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -1039,15 +679,33 @@
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.75" />
+														<float name="value" value="0.8" />
 														<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
 													</template_reference>
+													<template_reference name="modifier" value="modifiers\weapon_horizontal_traverse">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.4" />
+														<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.2" />
+														<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
+													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073763898" />
+												<uniqueid name="id" value="1073764705" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763899" />
+										<uniqueid name="id" value="1073764706" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -1063,16 +721,85 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763900" />
+										<uniqueid name="id" value="1073764707" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="18155" />
+								<float name="experience_value" value="16160" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071445" />
+								<locstring name="screen_name" value="11071387" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.2" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073764708" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+						</list>
+					</group>
+				</group>
+				<group name="race_data">
+					<instance_reference name="ext_key" value="racebps\west_german" />
+					<group name="info">
+						<bool name="can_receive_shared_veterancy" value="False" />
+						<float name="max_persistent_squads" value="0" />
+						<list name="veterancy_rank_info">
+							<group name="veterancy_rank">
+								<float name="experience_value" value="4040" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="11071375" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.2" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073764709" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+							<group name="veterancy_rank">
+								<float name="experience_value" value="8080" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="11071386" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -1081,63 +808,43 @@
 								<list name="squad_actions">
 									<template_reference name="action" value="action\change_target_action">
 										<list name="actions">
-											<template_reference name="action" value="action\requirement_action">
-												<bool name="check_self" value="False" />
-												<bool name="global_fire_and_forget_on_success" value="False" />
-												<bool name="instant_requirement_check" value="False" />
-												<bool name="kill_action_on_failed_requirements" value="False" />
-												<bool name="no_retrigger" value="False" />
-												<bool name="validate_all_sub_actions" value="True" />
-												<list name="requirement_table">
-													<template_reference name="required" value="requirements\required_not">
-														<enum name="reason" value="usage" />
-														<locstring name="ui_name" value="0" />
-														<list name="requirement_table">
-															<template_reference name="required" value="requirements\required_in_state">
-																<enum name="reason" value="usage" />
-																<locstring name="ui_name" value="0" />
-																<bool name="garrisoned" value="False" />
-																<bool name="healed" value="False" />
-																<float name="in_combat_since" value="-1" />
-																<bool name="injured" value="False" />
-																<bool name="leader" value="False" />
-																<bool name="not_moving" value="True" />
-																<bool name="not_retreating" value="False" />
-																<bool name="pinned" value="False" />
-																<bool name="suppressed" value="False" />
-																<bool name="camouflaged" value="False" />
-															</template_reference>
-														</list>
+											<template_reference name="action" value="action\apply_modifiers_action">
+												<float name="duration" value="0" />
+												<bool name="permanent" value="False" />
+												<list name="modifiers">
+													<template_reference name="modifier" value="modifiers\weapon_scatter">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.8" />
+														<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\weapon_horizontal_traverse">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.4" />
+														<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.2" />
+														<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 													</template_reference>
 												</list>
-												<list name="action_table">
-													<template_reference name="action" value="action\apply_modifiers_action">
-														<float name="duration" value="0" />
-														<bool name="permanent" value="False" />
-														<list name="modifiers">
-															<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
-																<enum name="application_type" value="apply_to_weapon" />
-																<bool name="exclusive" value="False" />
-																<string name="modifier_id" value="" />
-																<string name="target_type_name" value="hardpoint_01" />
-																<enum name="usage_type" value="multiplication" />
-																<float name="value" value="1.25" />
-																<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
-															</template_reference>
-														</list>
-														<uniqueid name="id" value="1073763902" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073763903" />
-												<bool name="fire_and_forget_non_global" value="False" />
-												<template_reference name="ui_help_text" value="tables\help_text_phrase">
-													<int name="phrase_order" value="0" />
-													<locstring name="phrase" value="0" />
-												</template_reference>
+												<uniqueid name="id" value="1073764710" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763904" />
+										<uniqueid name="id" value="1073764711" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -1153,7 +860,132 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763905" />
+										<uniqueid name="id" value="1073764712" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+							<group name="veterancy_rank">
+								<float name="experience_value" value="16160" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="11071387" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.2" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073764713" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+							<group name="veterancy_rank">
+								<float name="experience_value" value="20200" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="87" mod="32d542de1479464f922dff46e65be6e2" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\change_target_action">
+										<list name="actions">
+											<template_reference name="action" value="action\change_move_data_action">
+												<float name="acceleration_multiplier" value="1.3" />
+												<float name="deceleration_multiplier" value="1.3" />
+												<float name="pathfinding_size_x" value="0" />
+												<float name="pathfinding_size_y" value="0" />
+												<uniqueid name="id" value="1073764715" />
+											</template_reference>
+										</list>
+										<enum name="change_target_type" value="entities" />
+										<uniqueid name="id" value="1073764716" />
+									</template_reference>
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.2" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073764717" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+							<group name="veterancy_rank">
+								<float name="experience_value" value="26866" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="11071389" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\change_target_action">
+										<list name="actions">
+											<template_reference name="action" value="action\apply_modifiers_action">
+												<float name="duration" value="0" />
+												<bool name="permanent" value="False" />
+												<list name="modifiers">
+													<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.8" />
+														<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
+													</template_reference>
+												</list>
+												<uniqueid name="id" value="1073764718" />
+											</template_reference>
+										</list>
+										<enum name="change_target_type" value="entities" />
+										<uniqueid name="id" value="1073764719" />
+									</template_reference>
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.2" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073764720" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -1164,6 +996,9 @@
 					</group>
 				</group>
 			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_attention_ext">
+			<float name="search_radius" value="35" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_retreat_ext">
 			<group name="retreat_building_types">
@@ -1181,8 +1016,8 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
 			<list name="squad_type_list">
-				<enum name="squad_type" value="panther" />
-				<enum name="squad_type" value="medium_tank" />
+				<enum name="squad_type" value="tiger" />
+				<enum name="squad_type" value="heavy_tank" />
 				<enum name="squad_type" value="vehicle" />
 				<enum name="squad_type" value="heavy_vehicle" />
 				<enum name="squad_type" value="heavy_vehicle_icon" />
@@ -1190,5 +1025,5 @@
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="2683" />
+	<uniqueid name="pbgid" value="2679" />
 </instance>
