@@ -2,7 +2,7 @@
 	<group name="weapon_bag">
 		<group name="accuracy">
 			<float name="near" value="0.063" />
-			<float name="far" value="0.038" />
+			<float name="far" value="0.025" />
 			<float name="mid" value="0.05" />
 		</group>
 		<group name="aim">
@@ -420,12 +420,12 @@
 			<instance_reference name="projectile" value="ebps\projectile\british_piat_spigot_mortar_mp" />
 		</group>
 		<group name="range">
-			<float name="max" value="30" />
+			<float name="max" value="35" />
 			<float name="min" value="0" />
 			<group name="distance">
-				<float name="near" value="-1" />
-				<float name="far" value="-1" />
-				<float name="mid" value="-1" />
+				<float name="near" value="0" />
+				<float name="far" value="35" />
+				<float name="mid" value="25" />
 			</group>
 		</group>
 		<group name="reload">
