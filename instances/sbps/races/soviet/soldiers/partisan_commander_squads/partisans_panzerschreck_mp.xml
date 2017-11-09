@@ -394,7 +394,7 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" />
+								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" mod="32d542de1479464f922dff46e65be6e2" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.77" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -492,6 +492,12 @@
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
+				</template_reference>
+				<template_reference name="action" value="action\upgrade_add">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<bool name="trigger_publish_event" value="False" />
+					<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_infiltration_abilities_mp" mod="32d542de1479464f922dff46e65be6e2" />
+					<uniqueid name="id" value="1073764357" />
 				</template_reference>
 			</list>
 			<list name="squad_entity_actions">

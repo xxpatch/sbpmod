@@ -16,8 +16,8 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\fallschirmjaeger_panzerfaust" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\fallschirmjaeger_greande" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\fallschirmjaeger_panzerfaust" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\fallschirmjaeger_greande" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\blendkorper_2h_waffen_elite" />
 				<instance_reference name="ability" value="abilities\global\custom_commander\heal_in_cover" />
 			</list>
