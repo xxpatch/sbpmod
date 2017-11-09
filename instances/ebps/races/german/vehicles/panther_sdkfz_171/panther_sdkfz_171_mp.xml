@@ -330,12 +330,12 @@
 							<bool name="display_requirement" value="True" />
 							<float name="max_owned" value="0" />
 							<float name="min_owned" value="0" />
-							<instance_reference name="slot_item" value="slot_item\german\small_arms\mg42_turret_mounted_panther_mp" />
+							<instance_reference name="slot_item" value="slot_item\german\small_arms\mg42_turret_mounted_panther_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</template_reference>
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\slot_item_add">
-							<instance_reference name="slot_item" value="slot_item\german\small_arms\mg42_turret_mounted_panther_mp" />
+							<instance_reference name="slot_item" value="slot_item\german\small_arms\mg42_turret_mounted_panther_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<bool name="permanent" value="True" />
 							<uniqueid name="id" value="1073763972" />
 						</template_reference>
@@ -824,7 +824,7 @@
 								<float name="z" value="1.22" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\small_arms\machine_gun\light_machine_gun\mg34_coaxial_generic_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\small_arms\machine_gun\light_machine_gun\generic_mg34_coaxial_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -845,7 +845,7 @@
 								<float name="z" value="2.65" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\small_arms\machine_gun\light_machine_gun\mg34_hull_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\small_arms\machine_gun\light_machine_gun\generic_mg34_hull_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
