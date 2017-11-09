@@ -579,7 +579,7 @@
 			<string name="squad_ai_reaction_file" value="empty-plan" />
 			<string name="squad_ai_retaliation_file" value="empty-plan" />
 			<group name="suppression">
-				<bool name="can_be_suppressed" value="True" />
+				<bool name="can_be_suppressed" value="False" />
 				<group name="cover_info">
 					<group name="tp_defcover">
 						<float name="recover_multiplier" value="1" />
@@ -636,8 +636,8 @@
 						<float name="recover_multiplier" value="1" />
 					</group>
 				</group>
-				<float name="noncombat_delay" value="7" />
-				<float name="noncombat_recover_multiplier" value="50" />
+				<float name="noncombat_delay" value="1" />
+				<float name="noncombat_recover_multiplier" value="1" />
 				<float name="pin_down_activate_threshold" value="0.6" />
 				<float name="pin_down_recover_threshold" value="0.5" />
 				<float name="recover_rate" value="0.008" />
@@ -669,11 +669,11 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\facing_only_enable" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073759593" />
+								<uniqueid name="id" value="1073764653" />
 							</template_reference>
 						</list>
 						<enum name="change_target_type" value="entities" />
-						<uniqueid name="id" value="1073759594" />
+						<uniqueid name="id" value="1073764654" />
 					</template_reference>
 					<template_reference name="action" value="action\delay">
 						<float name="delay" value="10" />
@@ -695,10 +695,10 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073759595" />
+								<uniqueid name="id" value="1073764655" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073759596" />
+						<uniqueid name="id" value="1073764656" />
 						<bool name="can_prevent_refund" value="True" />
 					</template_reference>
 				</list>
@@ -746,11 +746,11 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073759597" />
+								<uniqueid name="id" value="1073764657" />
 							</template_reference>
 						</list>
 						<enum name="change_target_type" value="entities" />
-						<uniqueid name="id" value="1073759598" />
+						<uniqueid name="id" value="1073764658" />
 					</template_reference>
 				</list>
 			</group>
