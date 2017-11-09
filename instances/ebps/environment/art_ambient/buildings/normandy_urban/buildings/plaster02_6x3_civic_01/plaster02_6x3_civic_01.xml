@@ -419,7 +419,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext">
 			<group name="unit_type_list">
-				<enum name="unit_type00" value="" />
+				<enum name="unit_type00" value="barracks" />
 				<enum name="unit_type01" value="ambient_building" />
 				<enum name="unit_type02" value="" />
 				<enum name="unit_type03" value="" />
@@ -467,8 +467,8 @@
 			<bool name="enable_trigger_attack_in_hold" value="False" />
 			<bool name="holds_produced_squads" value="False" />
 			<bool name="keep_abandoned_team_weapon" value="False" />
-			<float name="load_seconds" value="1" />
-			<float name="max_load_seconds" value="3.25" />
+			<float name="load_seconds" value="0.375" />
+			<float name="max_load_seconds" value="2" />
 			<float name="min_hold_seconds" value="1" />
 			<float name="num_slots" value="12" />
 			<float name="num_squad_slots" value="2" />
@@ -484,7 +484,7 @@
 				<float name="popcap" value="0" />
 			</group>
 			<bool name="shared_with_other_same_type_units" value="False" />
-			<float name="unload_seconds" value="0.5" />
+			<float name="unload_seconds" value="0.25" />
 			<bool name="use_building_target_scan_radius" value="True" />
 			<bool name="use_crouching_posture" value="False" />
 			<list name="on_loaded_hold_actions">

@@ -467,7 +467,7 @@
 			<bool name="enable_trigger_attack_in_hold" value="False" />
 			<bool name="holds_produced_squads" value="False" />
 			<bool name="keep_abandoned_team_weapon" value="False" />
-			<float name="load_seconds" value="1" />
+			<float name="load_seconds" value="0.75" />
 			<float name="max_load_seconds" value="3.25" />
 			<float name="min_hold_seconds" value="1" />
 			<float name="num_slots" value="6" />
@@ -484,7 +484,7 @@
 				<float name="popcap" value="0" />
 			</group>
 			<bool name="shared_with_other_same_type_units" value="False" />
-			<float name="unload_seconds" value="0.5" />
+			<float name="unload_seconds" value="0.375" />
 			<bool name="use_building_target_scan_radius" value="True" />
 			<bool name="use_crouching_posture" value="False" />
 			<list name="on_loaded_hold_actions">
