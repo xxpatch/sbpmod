@@ -108,7 +108,7 @@
 			<bool name="substitute_weapon" value="False" />
 			<bool name="support_weapon" value="False" />
 			<bool name="surprises_idle" value="False" />
-			<bool name="piercing" value="True" />
+			<bool name="piercing" value="False" />
 			<float name="reaction_radius" value="10" />
 			<bool name="can_be_pilfered" value="True" />
 			<bool name="causes_combat" value="True" />
@@ -464,10 +464,10 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\sturmtiger_rw_61_380mm_rocket" />
+			<instance_reference name="projectile" value="ebps\projectile\sturmtiger_rw_61_380mm_rocket" mod="32d542de1479464f922dff46e65be6e2" />
 		</group>
 		<group name="range">
-			<float name="max" value="45" />
+			<float name="max" value="40" />
 			<float name="min" value="15" />
 			<group name="distance">
 				<float name="near" value="15" />
