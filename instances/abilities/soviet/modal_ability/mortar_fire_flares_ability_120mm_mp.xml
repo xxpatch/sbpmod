@@ -9,7 +9,7 @@
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\sequence_action">
-					<uniqueid name="id" value="1073760696" />
+					<uniqueid name="id" value="1073764523" />
 					<list name="action_list_sequences">
 						<list name="actions">
 							<template_reference name="action" value="action\artillery_attack">
@@ -22,7 +22,7 @@
 								<float name="num_salvo" value="1" />
 								<float name="use_hardpoint" value="4" />
 								<bool name="face_to_target" value="True" />
-								<uniqueid name="id" value="1073760697" />
+								<uniqueid name="id" value="1073764524" />
 								<bool name="target_override_direction_times_max_range" value="False" />
 							</template_reference>
 						</list>
@@ -36,7 +36,7 @@
 									<template_reference name="target_info" value="type_ability_target_type\all">
 									</template_reference>
 								</group>
-								<uniqueid name="id" value="1073760698" />
+								<uniqueid name="id" value="1073764525" />
 								<template_reference name="spawn_attached_option" value="options\none">
 								</template_reference>
 								<list name="spawned_entity_actions">
@@ -86,7 +86,7 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="80" />
+		<float name="range" value="100" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="30" />
 		<bool name="refundable" value="True" />
@@ -155,6 +155,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_veterancy">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11072949" />
+				<float name="veterancy_rank" value="1" />
+			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
 		<int name="ui_position" value="34" />
@@ -189,5 +194,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="95352" />
+	<uniqueid name="pbgid" value="1073741864" />
 </instance>
