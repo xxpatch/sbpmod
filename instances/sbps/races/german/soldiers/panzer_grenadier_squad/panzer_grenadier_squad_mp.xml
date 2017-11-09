@@ -657,6 +657,7 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\retreat_to_forward_hq" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\grenades\panzer_grenadier_bundled_grenade_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

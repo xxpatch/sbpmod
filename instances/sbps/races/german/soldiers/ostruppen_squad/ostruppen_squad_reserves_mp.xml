@@ -57,7 +57,7 @@
 						<bool name="speaker_highest_priority" value="False" />
 						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_ostruppen_symbol" />
 						<enum name="ui_style" value="default" />
-						<string name="cover_level_icon_postfix" value="" />
+						<string name="cover_level_icon_postfix" value="_tommy" />
 					</group>
 					<instance_reference name="ext_key" value="" />
 				</group>

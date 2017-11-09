@@ -584,7 +584,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\heat_shells_ability_mp" />
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\vehicle_emergency_repair_ability_mp" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

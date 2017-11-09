@@ -13,12 +13,6 @@
 			<float name="transferable" value="0" />
 			<bool name="kill_paradrop" value="False" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ability_ext">
-			<list name="abilities">
-				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\global\custom_commander\heal_in_cover" />
-			</list>
-		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
 				<template_reference name="action" value="action\animator_set_state">
@@ -27,7 +21,7 @@
 					<string name="state_machine_name" value="RoleVariation" />
 					<string name="undo_action_state_name" value="" />
 					<bool name="retrigger" value="False" />
-					<uniqueid name="id" value="1073762099" />
+					<uniqueid name="id" value="1073764404" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -37,11 +31,11 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="67.5" />
+					<float name="manpower" value="52.5" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="7" />
+				<float name="time_seconds" value="5" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -421,12 +415,12 @@
 							</group>
 							<float name="length" value="0" />
 							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
+								<float name="x" value="0.25" />
+								<float name="y" value="0.15" />
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\partisan_kar_98k_rifle_mp" />
+							<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\sub_machine_gun\partisan_ppsh-41_sub_machine_gun_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -491,7 +485,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762100" />
+						<uniqueid name="id" value="1073764405" />
 					</template_reference>
 				</list>
 			</group>
@@ -509,7 +503,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762101" />
+						<uniqueid name="id" value="1073764406" />
 					</template_reference>
 				</list>
 			</group>
@@ -527,7 +521,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762102" />
+						<uniqueid name="id" value="1073764407" />
 					</template_reference>
 				</list>
 			</group>
@@ -545,7 +539,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762103" />
+						<uniqueid name="id" value="1073764408" />
 					</template_reference>
 				</list>
 			</group>
@@ -563,7 +557,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762104" />
+						<uniqueid name="id" value="1073764409" />
 					</template_reference>
 				</list>
 			</group>
@@ -591,7 +585,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762105" />
+						<uniqueid name="id" value="1073764410" />
 					</template_reference>
 				</list>
 			</group>
@@ -623,7 +617,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762106" />
+						<uniqueid name="id" value="1073764411" />
 					</template_reference>
 				</list>
 				<group name="posture">
@@ -641,7 +635,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073762107" />
+						<uniqueid name="id" value="1073764412" />
 					</template_reference>
 				</list>
 				<group name="posture">
@@ -710,7 +704,7 @@
 		<template_reference name="exts" value="ebpextensions\crushee_ext">
 			<list name="on_crushed_actions">
 				<template_reference name="action" value="action\no_action">
-					<uniqueid name="id" value="1073762108" />
+					<uniqueid name="id" value="1073764413" />
 					<template_reference name="ui_help_text" value="options\none">
 					</template_reference>
 				</template_reference>
@@ -725,6 +719,12 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\female_ext">
 			<file name="female_animator_abp" value="armies\civilian\soldiers\partisan_female_01\partisan_female_01" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
+				<instance_reference name="ability" value="abilities\global\custom_commander\heal_in_cover" />
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\camouflage_ext">
 			<float name="attack_priority" value="25" />
@@ -745,5 +745,5 @@
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="2102" />
+	<uniqueid name="pbgid" value="2105" />
 </instance>
