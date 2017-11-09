@@ -109,7 +109,7 @@
 			<bool name="support_weapon" value="True" />
 			<bool name="surprises_idle" value="False" />
 			<bool name="piercing" value="False" />
-			<float name="reaction_radius" value="5" />
+			<float name="reaction_radius" value="0" />
 			<bool name="can_be_pilfered" value="True" />
 			<bool name="causes_combat" value="True" />
 			<bool name="can_abort_winddown" value="False" />
@@ -295,12 +295,12 @@
 			<list name="on_fire_actions">
 			</list>
 		</group>
-		<float name="flinch_radius" value="10" />
+		<float name="flinch_radius" value="0" />
 		<string name="fx_action_target_name" value="" />
 		<bool name="fx_always_visible" value="False" />
 		<float name="fx_building_hit_delay" value="0" />
 		<float name="fx_delay_in_building" value="0" />
-		<string name="fx_munition_name" value="democharge" />
+		<string name="fx_munition_name" value="" />
 		<string name="fx_tracer_name" value="" />
 		<float name="fx_tracer_speed" value="0" />
 		<bool name="fx_use_building_panel_normal" value="True" />
@@ -335,7 +335,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\demolitions" />
+			<instance_reference name="projectile" value="" />
 		</group>
 		<group name="range">
 			<float name="max" value="35" />
@@ -430,7 +430,7 @@
 			<float name="fire_cone_angle_vert" value="2" />
 		</group>
 		<locstring name="ui_name" value="0" />
-		<enum name="weapon_type" value="big_explosive" />
+		<enum name="weapon_type" value="small_arms" />
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_setfacing" value="" />
 		<group name="penetration">

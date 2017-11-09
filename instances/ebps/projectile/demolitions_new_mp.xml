@@ -17,7 +17,7 @@
 			<float name="explosion_time" value="5" />
 			<group name="terrain_hit">
 				<float name="chance_splat_only" value="0" />
-				<enum name="cover_type" value="tp_light" />
+				<enum name="cover_type" value="tp_heavy" />
 				<group name="deformation">
 					<string name="deform_decal_file" value="mortar_crater" />
 					<bool name="limited" value="True" />
@@ -62,7 +62,7 @@
 						</group>
 						<group name="entry_10">
 							<string name="splat_texture" value="" />
-							<instance_reference name="terrain_material" value="material\shingle_sp_m01" />
+							<instance_reference name="terrain_material" value="" />
 						</group>
 						<group name="entry_11">
 							<string name="splat_texture" value="" />
@@ -92,8 +92,8 @@
 					<float name="vertical_scale" value="0.005" />
 					<enum name="deform_type" value="tp_additive" />
 				</group>
-				<float name="radius_max" value="7" />
-				<float name="radius_min" value="2" />
+				<float name="radius_max" value="4.2" />
+				<float name="radius_min" value="3.8" />
 				<float name="splat_only_splat_seconds" value="90" />
 				<group name="splat_only_splats">
 					<group name="entry_01">
@@ -169,7 +169,7 @@
 			<float name="acceleration" value="5" />
 			<group name="artillery">
 				<bool name="can_counter_barrage" value="False" />
-				<bool name="is_artillery" value="True" />
+				<bool name="is_artillery" value="False" />
 				<bool name="is_target_only" value="False" />
 				<float name="speed_distance_multiplier" value="0.3" />
 				<float name="speed_increment" value="0.5" />
@@ -184,7 +184,7 @@
 				<template_reference name="collision_type" value="type_projectile_collision\tp_throw">
 				</template_reference>
 			</group>
-			<float name="deathtimer" value="5" />
+			<float name="deathtimer" value="1" />
 			<float name="delay_detonate_time" value="5" />
 			<bool name="delay_detonate_ui_enabled" value="True" />
 			<string name="launcher_marker" value="" />
@@ -233,5 +233,5 @@
 			</group>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741852" />
+	<uniqueid name="pbgid" value="1073741854" />
 </instance>

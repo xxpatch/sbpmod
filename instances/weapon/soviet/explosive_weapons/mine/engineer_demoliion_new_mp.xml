@@ -300,10 +300,10 @@
 							<bool name="set" value="False" />
 							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="big_explosive" />
-							<uniqueid name="id" value="1073764360" />
+							<uniqueid name="id" value="1073764431" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073764361" />
+					<uniqueid name="id" value="1073764432" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -335,10 +335,10 @@
 							<bool name="set" value="False" />
 							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="big_explosive" />
-							<uniqueid name="id" value="1073764362" />
+							<uniqueid name="id" value="1073764433" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073764363" />
+					<uniqueid name="id" value="1073764434" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -367,10 +367,10 @@
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
 							<instance_reference name="critical" value="critical\soldier_killed_death_intensity_100" />
-							<uniqueid name="id" value="1073764364" />
+							<uniqueid name="id" value="1073764435" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073764365" />
+					<uniqueid name="id" value="1073764436" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -437,7 +437,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\demolitions_delayed_mp" mod="32d542de1479464f922dff46e65be6e2" />
+			<instance_reference name="projectile" value="ebps\projectile\demolitions_new_mp" mod="32d542de1479464f922dff46e65be6e2" />
 		</group>
 		<group name="range">
 			<float name="max" value="35" />
@@ -549,5 +549,5 @@
 		<list name="target_type_table">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741842" />
+	<uniqueid name="pbgid" value="1073741843" />
 </instance>
