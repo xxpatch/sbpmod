@@ -299,6 +299,11 @@
 					<instance_reference name="upgrade" value="upgrade\is_manned" />
 					<uniqueid name="id" value="1073763298" />
 				</template_reference>
+				<template_reference name="action" value="action\change_weapon">
+					<float name="hardpoint" value="1" />
+					<instance_reference name="weapon" value="weapon\british\explosive_weapons\mortar\brit_3_inch_mortar_1_auto_light_he_mp" />
+					<uniqueid name="id" value="1073764938" />
+				</template_reference>
 			</list>
 			<list name="materials">
 				<instance_reference name="material" value="material\muddywater" />
