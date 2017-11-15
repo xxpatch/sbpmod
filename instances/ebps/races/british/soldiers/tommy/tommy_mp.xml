@@ -116,7 +116,7 @@
 			</list>
 			<float name="armor" value="1" />
 			<float name="rear_armor" value="0" />
-			<float name="target_size" value="0.8" />
+			<float name="target_size" value="0.9" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 				<group name="critical_group">
@@ -472,7 +472,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\small_arms\single_fire\rifle\tommy_lee_enfield_rifle_mp" />
+							<instance_reference name="weapon" value="weapon\british\small_arms\single_fire\rifle\tommy_lee_enfield_rifle_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
