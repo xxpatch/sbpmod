@@ -16,8 +16,8 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\brit_17_pounder_flares_ability_mp" />
-				<instance_reference name="ability" value="abilities\british\timed_ability\brit_17_pounder_piercing_shell_ability_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\brit_17_pounder_flares_ability_mp" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\british\timed_ability\brit_17_pounder_piercing_shell_ability_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>
@@ -200,90 +200,6 @@
 					</list>
 					<uniqueid name="id" value="1073758502" />
 				</template_reference>
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_not">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_ownership">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<enum name="ownership_type" value="neutral" />
-								</template_reference>
-							</list>
-						</template_reference>
-						<template_reference name="required" value="requirements\required_any_in_list">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<list name="requirements">
-								<template_reference name="requirement" value="requirements\required_slot_item">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="check_item_on_entity" value="False" />
-									<bool name="display_requirement" value="True" />
-									<float name="max_owned" value="10" />
-									<float name="min_owned" value="1" />
-									<instance_reference name="slot_item" value="slot_item\british\brit_17_pounder_hold_full" />
-								</template_reference>
-								<template_reference name="requirement" value="requirements\required_slot_item">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="check_item_on_entity" value="False" />
-									<bool name="display_requirement" value="True" />
-									<float name="max_owned" value="10" />
-									<float name="min_owned" value="1" />
-									<instance_reference name="slot_item" value="slot_item\british\fwd_hq_emplacement_support" />
-								</template_reference>
-							</list>
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\change_target_action">
-							<list name="actions">
-							</list>
-							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073758503" />
-						</template_reference>
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="0.66" />
-									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\horizontal_speed_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="2" />
-									<instance_reference name="tooltip" value="modifier_tooltip\horizontal_speed_weapon_modifier" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073758504" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073758505" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
-				</template_reference>
 				<template_reference name="action" value="action\override_weapon_target_prereq_action">
 					<list name="requirement_table">
 						<template_reference name="required" value="requirements\required_unit_type">
@@ -381,11 +297,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\modifier_ext">
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\population_ext">
-			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="6" />
-			<float name="vehicle_pop" value="0" />
-		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
 			<group name="detect_camouflage">
 				<float name="tp_global" value="10" />
@@ -453,7 +364,7 @@
 			<locstring name="screen_name" value="11078161" />
 			<enum name="selection_name" value="buildingcircle" />
 			<float name="selection_scale" value="1" />
-			<enum name="selection_type" value="no_select" />
+			<enum name="selection_type" value="squad_select" />
 			<bool name="sloppy_selectable" value="False" />
 			<group name="speaker">
 				<string name="code_1" value="wi" />
