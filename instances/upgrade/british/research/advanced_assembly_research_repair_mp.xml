@@ -28,7 +28,7 @@
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
-		<int name="ui_position" value="1" />
+		<int name="ui_position" value="3" />
 		<group name="ui_info">
 			<locstring name="extra_text" value="11106588" />
 			<locstring name="help_text" value="11106636" />
@@ -42,14 +42,6 @@
 		</group>
 		<bool name="validate_actions" value="True" />
 		<list name="actions">
-			<template_reference name="action" value="action\activate_extension_action">
-				<bool name="activation" value="True" />
-				<bool name="aide_station_ext" value="False" />
-				<bool name="repair_station_ext" value="True" />
-				<bool name="supply_ext" value="False" />
-				<bool name="territory_ext" value="False" />
-				<uniqueid name="id" value="1073765043" />
-			</template_reference>
 			<template_reference name="action" value="action\change_target_action">
 				<list name="actions">
 					<template_reference name="action" value="action\ui_unit_modifier_action">
@@ -60,11 +52,11 @@
 							<icon name="icon_name" value="Icons_commander_cmdr_british_advanced_assembly" />
 							<string name="hotkey_name" value="" />
 						</template_reference>
-						<uniqueid name="id" value="1073765044" />
+						<uniqueid name="id" value="1073765046" />
 					</template_reference>
 				</list>
 				<enum name="change_target_type" value="entities" />
-				<uniqueid name="id" value="1073765045" />
+				<uniqueid name="id" value="1073765047" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -89,6 +81,32 @@
 					<float name="soviet_227" value="0" />
 					<float name="popcap" value="0" />
 				</template_reference>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="94" mod="32d542de1479464f922dff46e65be6e2" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_entity_upgrade">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\british\research\advanced_assembly_research_medics_mp" mod="32d542de1479464f922dff46e65be6e2" />
+						<bool name="include_queued" value="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="97" mod="32d542de1479464f922dff46e65be6e2" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_entity_upgrade">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\british\research\fwd_hq_retreat_mp" />
+						<bool name="include_queued" value="True" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="" />

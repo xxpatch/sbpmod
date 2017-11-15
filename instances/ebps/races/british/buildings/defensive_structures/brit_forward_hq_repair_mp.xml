@@ -1,0 +1,67 @@
+<instance description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
+			<string name="alternate_sua" value="" />
+			<bool name="always_revealed_in_fow" value="False" />
+			<file name="animator" value="armies\british\structures\base_fwd_hq\base_fwd_hq" />
+			<bool name="is_visible_in_game" value="False" />
+			<float name="precise_size" value="0.5" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\repair_station_ext">
+			<list name="race_list">
+				<group name="race_data">
+					<instance_reference name="ext_key" value="" />
+					<group name="info">
+						<instance_reference name="engineer_to_spawn" value="ebps\races\british\soldiers\sapper\repair_sapper_mp" />
+						<float name="number_of_engineers" value="3" />
+						<float name="repair_radius" value="30" />
+						<group name="target_info">
+							<template_reference name="target_info" value="type_ability_target_type\has_all_in_list">
+								<list name="target_infos">
+									<template_reference name="info" value="type_ability_target_type\allied">
+									</template_reference>
+									<template_reference name="info" value="type_ability_target_type\not">
+										<group name="target_info">
+											<template_reference name="target_info" value="type_ability_target_type\is_casualty">
+											</template_reference>
+										</group>
+									</template_reference>
+									<template_reference name="info" value="type_ability_target_type\not">
+										<group name="target_info">
+											<template_reference name="target_info" value="type_ability_target_type\has_unit_type">
+												<enum name="unit_type" value="medic" />
+											</template_reference>
+										</group>
+									</template_reference>
+									<template_reference name="info" value="type_ability_target_type\has_any_in_list">
+										<list name="target_infos">
+											<template_reference name="info" value="type_ability_target_type\has_unit_type">
+												<enum name="unit_type" value="vehicle" />
+											</template_reference>
+											<template_reference name="info" value="type_ability_target_type\has_unit_type">
+												<enum name="unit_type" value="commonwealth_emplacements" />
+											</template_reference>
+										</list>
+									</template_reference>
+								</list>
+							</template_reference>
+						</group>
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext">
+			<list name="actions">
+				<template_reference name="action" value="action\activate_extension_action">
+					<bool name="activation" value="True" />
+					<bool name="aide_station_ext" value="False" />
+					<bool name="repair_station_ext" value="True" />
+					<bool name="supply_ext" value="False" />
+					<bool name="territory_ext" value="False" />
+					<uniqueid name="id" value="1073765063" />
+				</template_reference>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741855" />
+</instance>
