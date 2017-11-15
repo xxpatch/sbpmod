@@ -121,14 +121,14 @@
 		<list name="abilities">
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jagdtiger" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\wg_hq_pioneer_call_in" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\fallschirmjaeger" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\panzerfusiliers_dispatch" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\fallschirmjaeger" mod="32d542de1479464f922dff46e65be6e2" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\panzerfusiliers_dispatch" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\okw_stuka_aerial_superiority_recon" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\command_panther" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\terror_officer" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\valiant_assault" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\heavy_fortifications" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\airborne_assault" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\airborne_assault" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\assault_artillery" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\radio_silence" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\infiltration_tactics_unlock" />
