@@ -609,6 +609,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ews_ability_sappers_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ability_sappers_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\british\always_on_ability\engineer_cover_combat_bonus" />
+				<instance_reference name="ability" value="abilities\german\toggle_ability\commander_ability\ambush_camo_hold_fire_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
