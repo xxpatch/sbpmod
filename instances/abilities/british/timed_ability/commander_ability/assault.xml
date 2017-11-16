@@ -44,8 +44,7 @@
 					<instance_reference name="deprecated_entity_type" value="" />
 					<instance_reference name="deprecated_squad_type" value="" />
 					<group name="target_info">
-						<template_reference name="target_info" value="type_ability_target_type\has_unit_type">
-							<enum name="unit_type" value="infantry" />
+						<template_reference name="target_info" value="type_ability_target_type\all">
 						</template_reference>
 					</group>
 					<enum name="deprecated_unit_class_type" value="" />
@@ -230,6 +229,15 @@
 					</list>
 					<enum name="deprecated_squad_class_type" value="" />
 					<list name="target_requirements">
+						<template_reference name="required" value="requirements\required_unit_type">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<enum name="unit_type" value="infantry" />
+							<template_reference name="qualify_option" value="options\none">
+							</template_reference>
+							<bool name="search_load_out" value="True" />
+							<bool name="owned_by_player_only" value="True" />
+						</template_reference>
 					</list>
 					<bool name="target_squad" value="True" />
 					<uniqueid name="id" value="1073765503" />
