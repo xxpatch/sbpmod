@@ -56,7 +56,7 @@
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="8.5" />
+				<float name="time_seconds" value="7.25" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -434,7 +434,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" />
+							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -786,7 +786,7 @@
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<string name="hardpoint_name" value="hardpoint_01" />
-							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" />
+							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</template_reference>
 						<template_reference name="required" value="requirements\required_not">
 							<enum name="reason" value="usage_and_display" />
