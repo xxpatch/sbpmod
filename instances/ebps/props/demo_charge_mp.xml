@@ -78,52 +78,6 @@
 					<bool name="allies_only" value="False" />
 					<uniqueid name="id" value="1073762976" />
 				</template_reference>
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_in_cover">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<group name="cover_type_table">
-								<enum name="cover_type_01" value="tp_heavy" />
-								<enum name="cover_type_02" value="tp_zz_team_weapon_heavy" />
-								<enum name="cover_type_03" value="" />
-								<enum name="cover_type_04" value="" />
-								<enum name="cover_type_05" value="" />
-								<enum name="cover_type_06" value="" />
-							</group>
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\camouflage_enable">
-									<enum name="application_type" value="apply_to_entity" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\camouflage_enable" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073764947" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073764948" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
-				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext">
@@ -204,11 +158,11 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\camouflage_ext">
 			<float name="attack_priority" value="0" />
-			<enum name="camouflage_type" value="tp_mine" />
+			<enum name="camouflage_type" value="tp_global" />
 			<bool name="chain_revealer" value="False" />
-			<float name="detection_radius" value="0" />
+			<float name="detection_radius" value="7" />
 			<bool name="must_be_fully_constructed" value="False" />
-			<bool name="permanently_activated" value="False" />
+			<bool name="permanently_activated" value="True" />
 			<float name="combat_reset_time" value="5" />
 			<float name="first_strike_shots" value="1" />
 			<float name="revert_max" value="10" />

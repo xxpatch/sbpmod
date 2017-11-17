@@ -268,6 +268,15 @@
 							<float name="value" value="5" />
 							<instance_reference name="tooltip" value="modifier_tooltip\armor_modifier" />
 						</template_reference>
+						<template_reference name="modifier" value="modifiers\health_regeneration_modifier">
+							<enum name="application_type" value="apply_to_squad" />
+							<bool name="exclusive" value="False" />
+							<string name="modifier_id" value="" />
+							<string name="target_type_name" value="" />
+							<enum name="usage_type" value="multiplication" />
+							<float name="value" value="0" />
+							<instance_reference name="tooltip" value="modifier_tooltip\health_regeneration_modifier" />
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073765009" />
 				</template_reference>
