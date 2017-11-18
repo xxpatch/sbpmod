@@ -305,16 +305,26 @@
 										<group name="interval_subaction_group">
 											<float name="trigger_time_second" value="0" />
 											<list name="actions">
-												<template_reference name="action" value="action\off_map_artillery">
-													<float name="num_salvo" value="1" />
-													<float name="radius" value="15" />
-													<float name="source_offset_x" value="90" />
-													<float name="source_offset_y" value="300" />
-													<float name="source_offset_z" value="1" />
-													<float name="time_range_between_shells_max" value="15" />
-													<float name="time_range_between_shells_min" value="15" />
-													<instance_reference name="weapon_name" value="weapon\british\explosive_weapons\grenade\smoke_raid_grenade" mod="32d542de1479464f922dff46e65be6e2" />
-													<uniqueid name="id" value="1073765706" />
+												<template_reference name="action" value="action\delay">
+													<float name="delay" value="6" />
+													<float name="delay_min" value="1" />
+													<bool name="progress_bar" value="False" />
+													<bool name="randomize" value="True" />
+													<list name="delayed_actions">
+														<template_reference name="action" value="action\off_map_artillery">
+															<float name="num_salvo" value="1" />
+															<float name="radius" value="15" />
+															<float name="source_offset_x" value="90" />
+															<float name="source_offset_y" value="300" />
+															<float name="source_offset_z" value="1" />
+															<float name="time_range_between_shells_max" value="15" />
+															<float name="time_range_between_shells_min" value="15" />
+															<instance_reference name="weapon_name" value="weapon\british\explosive_weapons\grenade\smoke_raid_grenade" mod="32d542de1479464f922dff46e65be6e2" />
+															<uniqueid name="id" value="1073765757" />
+														</template_reference>
+													</list>
+													<uniqueid name="id" value="1073765756" />
+													<bool name="can_prevent_refund" value="True" />
 												</template_reference>
 											</list>
 										</group>
@@ -360,7 +370,7 @@
 		</group>
 		<enum name="activation" value="targeted" />
 		<bool name="can_interrupt" value="False" />
-		<bool name="can_target_in_fow" value="False" />
+		<bool name="can_target_in_fow" value="True" />
 		<float name="caster_close_in_distance" value="2" />
 		<bool name="casters_can_evacuate" value="False" />
 		<group name="cost">
