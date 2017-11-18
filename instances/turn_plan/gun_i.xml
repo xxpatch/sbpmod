@@ -4,7 +4,7 @@
 		<float name="pivot_bonus_seconds" value="0" />
 		<list name="turn_plan">
 			<group name="turn_plan">
-				<float name="delay_bonus_seconds" value="-1" />
+				<float name="delay_bonus_seconds" value="0" />
 				<float name="max_distance_to_try" value="30" />
 				<float name="radius_multiplier" value="1" />
 				<enum name="turn_type" value="reverse_pivot" />

@@ -1,7 +1,7 @@
 <instance description="" template="turn_plan">
 	<group name="turn_plan_bag">
 		<float name="match_direction_bonus_seconds" value="0" />
-		<float name="pivot_bonus_seconds" value="-1" />
+		<float name="pivot_bonus_seconds" value="0" />
 		<list name="turn_plan">
 			<group name="turn_plan">
 				<float name="delay_bonus_seconds" value="0" />
@@ -53,21 +53,21 @@
 				<float name="max_target_distance_to_try" value="-1" />
 			</group>
 			<group name="turn_plan">
-				<float name="delay_bonus_seconds" value="-1.25" />
+				<float name="delay_bonus_seconds" value="0" />
 				<float name="max_distance_to_try" value="40" />
 				<float name="radius_multiplier" value="1" />
 				<enum name="turn_type" value="reverse" />
 				<float name="max_target_distance_to_try" value="40" />
 			</group>
 			<group name="turn_plan">
-				<float name="delay_bonus_seconds" value="-1.25" />
+				<float name="delay_bonus_seconds" value="0" />
 				<float name="max_distance_to_try" value="40" />
 				<float name="radius_multiplier" value="0.5" />
 				<enum name="turn_type" value="reverse" />
 				<float name="max_target_distance_to_try" value="40" />
 			</group>
 			<group name="turn_plan">
-				<float name="delay_bonus_seconds" value="-1.25" />
+				<float name="delay_bonus_seconds" value="0" />
 				<float name="max_distance_to_try" value="40" />
 				<float name="radius_multiplier" value="0.1" />
 				<enum name="turn_type" value="reverse_pivot" />
