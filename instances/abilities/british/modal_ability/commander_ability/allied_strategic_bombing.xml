@@ -181,7 +181,7 @@
 							<float name="time_range_between_planes_minimum" value="1.5" />
 							<bool name="use_long_path" value="False" />
 							<group name="loiter_info">
-								<float name="loiter_area_radius" value="15" />
+								<float name="loiter_area_radius" value="60" />
 								<float name="loiter_time_sec" value="0" />
 								<bool name="follow_target" value="False" />
 								<float name="lowest_altitude" value="0" />
@@ -190,14 +190,14 @@
 								<bool name="can_be_targeted" value="True" />
 							</group>
 							<group name="attack_info">
-								<float name="target_lead_in_distance" value="5" />
+								<float name="target_lead_in_distance" value="20" />
 								<int name="attacks_per_aircraft" value="1" />
-								<float name="target_lead_out_distance" value="40" />
+								<float name="target_lead_out_distance" value="20" />
 								<float name="delay_between_attack" value="18" />
-								<float name="attack_sway_width" value="1" />
-								<float name="attack_sway_frequency" value="1" />
-								<float name="target_attack_distance" value="250" />
-								<float name="target_attack_time_sec" value="20" />
+								<float name="attack_sway_width" value="4" />
+								<float name="attack_sway_frequency" value="2" />
+								<float name="target_attack_distance" value="225" />
+								<float name="target_attack_time_sec" value="4.25" />
 								<float name="initial_attack_delay" value="0" />
 							</group>
 							<template_reference name="target_info" value="type_ability_target_type\has_all_in_list">
@@ -216,8 +216,8 @@
 									</template_reference>
 								</list>
 							</template_reference>
-							<int name="number_aircraft" value="2" />
-							<bool name="search_attack_target" value="False" />
+							<int name="number_aircraft" value="1" />
+							<bool name="search_attack_target" value="True" />
 							<instance_reference name="aircraft_squad_name" value="sbps\races\british\vehicles\hawker_typhoon\hawker_typhoon_air_superiority_mp" mod="32d542de1479464f922dff46e65be6e2" />
 							<uniqueid name="id" value="1073765546" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
