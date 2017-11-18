@@ -313,7 +313,7 @@
 							<list name="action_table">
 								<template_reference name="action" value="action\trigger_critical_action">
 									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\vehicle_crew_shocked" />
+									<instance_reference name="critical" value="critical\vehicle_crew_shocked" mod="32d542de1479464f922dff46e65be6e2" />
 									<uniqueid name="id" value="1073761404" />
 								</template_reference>
 							</list>
