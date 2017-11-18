@@ -283,7 +283,7 @@
 								<float name="z" value="1.3" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="" />
+							<instance_reference name="weapon" value="weapon\aef\small_arms\machine_gun\heavy_machine_gun\hawker_typhoon_20mm_hispano_cannons" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -304,7 +304,7 @@
 								<float name="z" value="1.3" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="" />
+							<instance_reference name="weapon" value="weapon\aef\small_arms\machine_gun\heavy_machine_gun\hawker_typhoon_20mm_hispano_cannons" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
