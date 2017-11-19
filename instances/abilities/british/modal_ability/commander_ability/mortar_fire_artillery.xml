@@ -9,8 +9,8 @@
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\off_map_artillery">
-					<float name="num_salvo" value="2" />
-					<float name="radius" value="15" />
+					<float name="num_salvo" value="1" />
+					<float name="radius" value="7.5" />
 					<float name="source_offset_x" value="90" />
 					<float name="source_offset_y" value="75" />
 					<float name="source_offset_z" value="1" />
@@ -72,27 +72,6 @@
 					<uniqueid name="id" value="1073765630" />
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
-				<template_reference name="action" value="action\delay">
-					<float name="delay" value="12" />
-					<float name="delay_min" value="12" />
-					<bool name="progress_bar" value="False" />
-					<bool name="randomize" value="False" />
-					<list name="delayed_actions">
-						<template_reference name="action" value="action\off_map_artillery">
-							<float name="num_salvo" value="2" />
-							<float name="radius" value="15" />
-							<float name="source_offset_x" value="90" />
-							<float name="source_offset_y" value="75" />
-							<float name="source_offset_z" value="1" />
-							<float name="time_range_between_shells_max" value="1" />
-							<float name="time_range_between_shells_min" value="0.5" />
-							<instance_reference name="weapon_name" value="weapon\british\explosive_weapons\heavy_artillery\9_inch_incendiary_mortar" mod="32d542de1479464f922dff46e65be6e2" />
-							<uniqueid name="id" value="1073765671" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073765672" />
-					<bool name="can_prevent_refund" value="True" />
-				</template_reference>
 			</list>
 		</group>
 		<enum name="activation" value="targeted" />
@@ -105,7 +84,7 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="140" />
+			<float name="munition" value="110" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />

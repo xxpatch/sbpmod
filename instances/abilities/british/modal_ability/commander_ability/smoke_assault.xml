@@ -381,6 +381,12 @@
 					<uniqueid name="id" value="1073765692" />
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
+				<template_reference name="action" value="action\trigger_dca_action">
+					<string name="dca_action_name" value="UI\paradrop_warning_smoke" />
+					<float name="duration" value="4" />
+					<bool name="is_terrain_only" value="True" />
+					<uniqueid name="id" value="1073765799" />
+				</template_reference>
 			</list>
 		</group>
 		<enum name="activation" value="targeted" />
@@ -475,10 +481,10 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11072562" />
+				<locstring name="ui_name" value="11094978" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
-					<float name="command" value="4" />
+					<float name="command" value="3" />
 					<float name="fuel" value="0" />
 					<float name="manpower" value="0" />
 					<float name="munition" value="0" />
@@ -489,13 +495,13 @@
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_artillery" />
-		<int name="ui_position" value="40" />
+		<int name="ui_position" value="30" />
 		<bool name="ui_mini_map_capture" value="True" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_artillery_barrage" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_artillery_barrage" />
-		<float name="ui_reticule_radius_min" value="35" />
-		<float name="ui_reticule_radius_max" value="35" />
+		<float name="ui_reticule_radius_min" value="30" />
+		<float name="ui_reticule_radius_max" value="30" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />
