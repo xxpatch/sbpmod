@@ -105,7 +105,7 @@
 			<bool name="reset_rotation_on_teardown" value="False" />
 			<bool name="share_parent_anim" value="False" />
 			<bool name="single_handed_weapon" value="False" />
-			<bool name="substitute_weapon" value="True" />
+			<bool name="substitute_weapon" value="False" />
 			<bool name="support_weapon" value="False" />
 			<bool name="surprises_idle" value="False" />
 			<bool name="piercing" value="True" />
