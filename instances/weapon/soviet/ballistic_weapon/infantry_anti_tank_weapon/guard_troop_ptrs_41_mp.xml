@@ -581,7 +581,7 @@
 				<enum name="unit_type" value="infantry" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
-					<float name="damage_multiplier" value="1.428571" />
+					<float name="damage_multiplier" value="1.928571" />
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
