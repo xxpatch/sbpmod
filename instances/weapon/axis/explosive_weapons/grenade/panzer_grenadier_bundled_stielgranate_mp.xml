@@ -46,7 +46,7 @@
 				<float name="radius" value="5" />
 			</group>
 			<group name="damage">
-				<float name="far" value="0.25" />
+				<float name="far" value="0.3" />
 				<float name="near" value="1" />
 				<float name="mid" value="0.75" />
 			</group>
@@ -57,8 +57,8 @@
 			</group>
 			<group name="distance">
 				<float name="far" value="3.75" />
-				<float name="near" value="1.25" />
-				<float name="mid" value="2.5" />
+				<float name="near" value="1" />
+				<float name="mid" value="2.1" />
 			</group>
 			<bool name="has_friendly_fire" value="True" />
 			<bool name="can_harm_shooter" value="True" />
@@ -74,9 +74,9 @@
 			</group>
 			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
-				<float name="far" value="15" />
-				<float name="mid" value="15" />
-				<float name="near" value="15" />
+				<float name="far" value="25" />
+				<float name="mid" value="25" />
+				<float name="near" value="25" />
 			</template_reference>
 			<group name="building_damage">
 				<float name="near" value="1" />
@@ -272,8 +272,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="120" />
-			<float name="min" value="120" />
+			<float name="max" value="100" />
+			<float name="min" value="100" />
 			<list name="on_penetrated_actions">
 			</list>
 			<list name="post_damage_actions">
