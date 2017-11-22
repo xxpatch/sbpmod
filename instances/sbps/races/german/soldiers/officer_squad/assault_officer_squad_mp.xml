@@ -155,8 +155,8 @@
 			<bool name="support_weapons_to_flanks" value="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_item_slot_ext">
-			<bool name="can_pick_up" value="False" />
-			<float name="num_slots" value="4" />
+			<bool name="can_pick_up" value="True" />
+			<float name="num_slots" value="1" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
@@ -195,7 +195,7 @@
 					<bool name="is_present" value="True" />
 					<float name="max_completed" value="100" />
 					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\assault_field_officer" />
+					<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\assault_field_officer" mod="32d542de1479464f922dff46e65be6e2" />
 				</template_reference>
 				<template_reference name="required" value="requirements\required_squad">
 					<enum name="reason" value="usage" />
@@ -466,12 +466,13 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_victor_target" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_inspiration" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\officer_smoke_artillery" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_inspiration_vet3" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\artillery_barrage_ability\heavy_mortar_barrage_officer" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_draw_fire" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -605,7 +606,7 @@
 						<float name="max_persistent_squads" value="0" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="480" />
+								<float name="experience_value" value="580" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047222" />
 								<bool name="single_player_only" value="False" />
@@ -639,7 +640,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="960" />
+								<float name="experience_value" value="1060" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047268" />
 								<bool name="single_player_only" value="False" />
@@ -707,7 +708,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1920" />
+								<float name="experience_value" value="2120" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047270" />
 								<bool name="single_player_only" value="False" />
@@ -763,7 +764,7 @@
 								</list>
 							</group>
 						</list>
-						<enum name="shared_veterancy_type" value="no_sharing" />
+						<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
 					</group>
 				</group>
 			</list>

@@ -77,7 +77,7 @@
 			<locstring name="extra_text" value="142" mod="32d542de1479464f922dff46e65be6e2" />
 			<locstring name="help_text" value="141" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
-			<icon name="icon_name" value="Icons_commander_cmdr_german_hull_down" />
+			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_west_german_camouflage_nets" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="143" mod="32d542de1479464f922dff46e65be6e2" />
