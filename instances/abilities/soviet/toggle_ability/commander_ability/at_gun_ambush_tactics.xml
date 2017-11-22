@@ -292,10 +292,10 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11056055" />
+				<locstring name="ui_name" value="11072570" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
-					<float name="command" value="5" />
+					<float name="command" value="2" />
 					<float name="fuel" value="0" />
 					<float name="manpower" value="0" />
 					<float name="munition" value="0" />
@@ -305,7 +305,7 @@
 				</template_reference>
 			</template_reference>
 			<template_reference name="required" value="requirements\required_any_in_list">
-				<enum name="reason" value="usage" />
+				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<list name="requirements">
 					<template_reference name="requirement" value="requirements\required_player_upgrade">

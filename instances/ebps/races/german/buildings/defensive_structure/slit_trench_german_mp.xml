@@ -662,26 +662,68 @@
 			<list name="requirement_table">
 				<template_reference name="required" value="requirements\required_any_in_list">
 					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="11053019" />
+					<locstring name="ui_name" value="11071192" />
 					<list name="requirements">
-						<template_reference name="requirement" value="requirements\required_resource">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="11053019" />
-							<template_reference name="resource" value="tables\resource_table">
-								<float name="action" value="0" />
-								<float name="command" value="2" />
-								<float name="fuel" value="0" />
-								<float name="manpower" value="0" />
-								<float name="munition" value="0" />
-								<float name="soviet_progression" value="0" />
-								<float name="soviet_227" value="0" />
-								<float name="popcap" value="0" />
-							</template_reference>
-						</template_reference>
 						<template_reference name="requirement" value="requirements\required_race">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<instance_reference name="race" value="racebps\british" />
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_all_in_list">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="11071192" />
+							<list name="requirements">
+								<template_reference name="requirement" value="requirements\required_player_upgrade">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="is_present" value="False" />
+									<float name="max_completed" value="100" />
+									<float name="min_completed" value="1" />
+									<instance_reference name="upgrade_name" value="upgrade\west_german\commander\passive\heavy_fortifications" />
+								</template_reference>
+								<template_reference name="requirement" value="requirements\required_resource">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="11071192" />
+									<template_reference name="resource" value="tables\resource_table">
+										<float name="action" value="0" />
+										<float name="command" value="1" />
+										<float name="fuel" value="0" />
+										<float name="manpower" value="0" />
+										<float name="munition" value="0" />
+										<float name="soviet_progression" value="0" />
+										<float name="soviet_227" value="0" />
+										<float name="popcap" value="0" />
+									</template_reference>
+								</template_reference>
+							</list>
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_all_in_list">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="11053019" />
+							<list name="requirements">
+								<template_reference name="requirement" value="requirements\required_player_upgrade">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="is_present" value="False" />
+									<float name="max_completed" value="100" />
+									<float name="min_completed" value="1" />
+									<instance_reference name="upgrade_name" value="upgrade\german\commander\passive\trench" mod="32d542de1479464f922dff46e65be6e2" />
+								</template_reference>
+								<template_reference name="requirement" value="requirements\required_resource">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="11053019" />
+									<template_reference name="resource" value="tables\resource_table">
+										<float name="action" value="0" />
+										<float name="command" value="2" />
+										<float name="fuel" value="0" />
+										<float name="manpower" value="0" />
+										<float name="munition" value="0" />
+										<float name="soviet_progression" value="0" />
+										<float name="soviet_227" value="0" />
+										<float name="popcap" value="0" />
+									</template_reference>
+								</template_reference>
+							</list>
 						</template_reference>
 					</list>
 				</template_reference>
