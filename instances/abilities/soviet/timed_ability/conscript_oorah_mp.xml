@@ -231,7 +231,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11039281" />
 			<locstring name="help_text" value="11007723" />
-			<string name="hotkey_name" value="H" />
+			<string name="hotkey_name" value="Q" />
 			<icon name="icon_name" value="Icons_abilities_ability_soviet_oorah" />
 			<string name="overlay_name" value="overlay\overlay_UR_fireup" />
 			<bool name="reveal_for_decryption" value="False" />
