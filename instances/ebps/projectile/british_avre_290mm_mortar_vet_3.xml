@@ -195,9 +195,9 @@
 			<bool name="delay_detonate_ui_enabled" value="False" />
 			<string name="launcher_marker" value="fx_muzzle_avre" />
 			<float name="life_time_while_alive" value="0" />
-			<float name="rotation_speed" value="0" />
+			<float name="rotation_speed" value="1" />
 			<bool name="spawn_collision_fx" value="False" />
-			<float name="speed" value="29" />
+			<float name="speed" value="40" />
 			<bool name="collision_land_ignore" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
