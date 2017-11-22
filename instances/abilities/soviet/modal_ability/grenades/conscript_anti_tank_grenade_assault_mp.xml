@@ -91,7 +91,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11052863" />
 			<locstring name="help_text" value="11052862" />
-			<string name="hotkey_name" value="G" />
+			<string name="hotkey_name" value="E" />
 			<icon name="icon_name" value="Icons_commander_cmdr_soviet_rpg_43_at_grenade_assualt" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
@@ -116,7 +116,7 @@
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="24" />
+		<int name="ui_position" value="33" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
