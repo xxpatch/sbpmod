@@ -25,7 +25,7 @@
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
 				<template_reference name="action" value="action\delay">
-					<float name="delay" value="1" />
+					<float name="delay" value="4" />
 					<float name="delay_min" value="1" />
 					<bool name="progress_bar" value="False" />
 					<bool name="randomize" value="False" />
@@ -69,7 +69,7 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="30" />
+			<float name="munition" value="40" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
@@ -92,7 +92,7 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="45" />
+		<float name="range" value="35" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="90" />
 		<bool name="refundable" value="True" />
