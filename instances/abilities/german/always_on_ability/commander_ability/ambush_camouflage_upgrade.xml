@@ -196,21 +196,85 @@
 							<bool name="no_retrigger" value="False" />
 							<bool name="validate_all_sub_actions" value="True" />
 							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_not">
+								<template_reference name="required" value="requirements\required_any_in_list">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<list name="requirement_table">
-										<template_reference name="required" value="requirements\required_in_cover">
+									<list name="requirements">
+										<template_reference name="requirement" value="requirements\required_all_in_list">
 											<enum name="reason" value="usage" />
 											<locstring name="ui_name" value="0" />
-											<group name="cover_type_table">
-												<enum name="cover_type_01" value="tp_heavy" />
-												<enum name="cover_type_02" value="tp_light" />
-												<enum name="cover_type_03" value="tp_garrison_halftrack" />
-												<enum name="cover_type_04" value="tp_zz_team_weapon_heavy" />
-												<enum name="cover_type_05" value="" />
-												<enum name="cover_type_06" value="" />
-											</group>
+											<list name="requirements">
+												<template_reference name="requirement" value="requirements\required_not">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<list name="requirement_table">
+														<template_reference name="required" value="requirements\required_in_cover">
+															<enum name="reason" value="usage" />
+															<locstring name="ui_name" value="0" />
+															<group name="cover_type_table">
+																<enum name="cover_type_01" value="tp_heavy" />
+																<enum name="cover_type_02" value="tp_light" />
+																<enum name="cover_type_03" value="tp_garrison_halftrack" />
+																<enum name="cover_type_04" value="tp_zz_team_weapon_heavy" />
+																<enum name="cover_type_05" value="" />
+																<enum name="cover_type_06" value="" />
+															</group>
+														</template_reference>
+													</list>
+												</template_reference>
+												<template_reference name="requirement" value="requirements\required_not">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<list name="requirement_table">
+														<template_reference name="required" value="requirements\required_unit_type">
+															<enum name="reason" value="usage" />
+															<locstring name="ui_name" value="0" />
+															<enum name="unit_type" value="team_weapon" />
+															<template_reference name="qualify_option" value="options\requirements\required_unit_type_option\any">
+																<int name="min_count" value="1" />
+															</template_reference>
+															<bool name="search_load_out" value="True" />
+															<bool name="owned_by_player_only" value="True" />
+														</template_reference>
+													</list>
+												</template_reference>
+											</list>
+										</template_reference>
+										<template_reference name="requirement" value="requirements\required_all_in_list">
+											<enum name="reason" value="usage" />
+											<locstring name="ui_name" value="0" />
+											<list name="requirements">
+												<template_reference name="requirement" value="requirements\required_not">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<list name="requirement_table">
+														<template_reference name="required" value="requirements\required_in_state">
+															<enum name="reason" value="usage" />
+															<locstring name="ui_name" value="0" />
+															<bool name="garrisoned" value="False" />
+															<bool name="healed" value="False" />
+															<float name="in_combat_since" value="-1" />
+															<bool name="injured" value="False" />
+															<bool name="leader" value="False" />
+															<bool name="not_moving" value="True" />
+															<bool name="not_retreating" value="False" />
+															<bool name="pinned" value="False" />
+															<bool name="suppressed" value="False" />
+															<bool name="camouflaged" value="False" />
+														</template_reference>
+													</list>
+												</template_reference>
+												<template_reference name="requirement" value="requirements\required_unit_type">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<enum name="unit_type" value="team_weapon" />
+													<template_reference name="qualify_option" value="options\requirements\required_unit_type_option\any">
+														<int name="min_count" value="1" />
+													</template_reference>
+													<bool name="search_load_out" value="True" />
+													<bool name="owned_by_player_only" value="True" />
+												</template_reference>
+											</list>
 										</template_reference>
 									</list>
 								</template_reference>

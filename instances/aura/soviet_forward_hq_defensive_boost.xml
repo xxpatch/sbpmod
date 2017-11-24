@@ -345,7 +345,7 @@
 				<uniqueid name="id" value="1073764483" />
 			</template_reference>
 		</list>
-		<bool name="affects_squads" value="False" />
+		<bool name="affects_squads" value="True" />
 	</group>
 	<uniqueid name="pbgid" value="2021" />
 </instance>
