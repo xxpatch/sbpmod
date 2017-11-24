@@ -888,7 +888,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="680" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11085956" />
+								<locstring name="screen_name" value="224" mod="32d542de1479464f922dff46e65be6e2" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -909,7 +909,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763414" />
+										<uniqueid name="id" value="1073773433" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -933,7 +933,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\british\modal_ability\grenades\cover_smoke_grenades" />
+												<instance_reference name="target_type_name" value="abilities\british\modal_ability\grenades\cover_smoke_grenades" mod="32d542de1479464f922dff46e65be6e2" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.25" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -948,7 +948,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763415" />
+										<uniqueid name="id" value="1073773434" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -964,7 +964,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763416" />
+										<uniqueid name="id" value="1073773435" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -982,14 +982,14 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763417" />
+										<uniqueid name="id" value="1073773436" />
 									</template_reference>
 								</list>
 							</group>
 							<group name="veterancy_rank">
 								<float name="experience_value" value="2720" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11089975" />
+								<locstring name="screen_name" value="223" mod="32d542de1479464f922dff46e65be6e2" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -1010,7 +1010,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763418" />
+										<uniqueid name="id" value="1073773437" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -1026,7 +1026,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073765416" />
+										<uniqueid name="id" value="1073773438" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">

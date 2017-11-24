@@ -54,7 +54,7 @@
 					</template_reference>
 					<int name="number_aircraft" value="1" />
 					<bool name="search_attack_target" value="False" />
-					<instance_reference name="aircraft_squad_name" value="sbps\races\british\vehicles\glider\glider_commandos_only_mp" />
+					<instance_reference name="aircraft_squad_name" value="sbps\races\british\vehicles\glider\glider_commandos_only_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					<uniqueid name="id" value="1073765403" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -143,7 +143,7 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="11085085" />
-			<locstring name="help_text" value="11085084" />
+			<locstring name="help_text" value="199" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_british_glider_operation" />
 			<string name="overlay_name" value="" />

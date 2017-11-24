@@ -119,7 +119,7 @@
 									<template_reference name="ui_info" value="tables\ui_info">
 										<locstring name="screen_name" value="11073130" />
 										<locstring name="help_text" value="11073133" />
-										<icon name="icon_name" value="Icons_abilities_ability_german_ambush_camo_on" />
+										<icon name="icon_name" value="Icons_abilities_ability_common_camouflage_on" />
 										<string name="hotkey_name" value="" />
 									</template_reference>
 									<uniqueid name="id" value="1073765914" />

@@ -208,7 +208,7 @@
 						<bool name="is_present" value="True" />
 						<float name="max_completed" value="100" />
 						<float name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\german\commander\passive\ambush_camouflage" />
+						<instance_reference name="upgrade_name" value="upgrade\german\commander\passive\ambush_camouflage" mod="32d542de1479464f922dff46e65be6e2" />
 					</template_reference>
 				</list>
 			</template_reference>

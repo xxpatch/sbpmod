@@ -24,7 +24,7 @@
 							<bool name="die_with_creator" value="False" />
 							<template_reference name="ui_info" value="tables\ui_info">
 								<locstring name="screen_name" value="11046728" />
-								<locstring name="help_text" value="65" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<locstring name="help_text" value="189" mod="32d542de1479464f922dff46e65be6e2" />
 								<icon name="icon_name" value="Icons_abilities_ability_soviet_evasive_tactics_on" />
 								<string name="hotkey_name" value="" />
 							</template_reference>

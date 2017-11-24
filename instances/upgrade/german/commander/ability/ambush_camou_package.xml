@@ -29,7 +29,7 @@
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="0" />
+			<locstring name="extra_text" value="201" mod="32d542de1479464f922dff46e65be6e2" />
 			<locstring name="help_text" value="11025916" />
 			<string name="hotkey_name" value="U" />
 			<icon name="icon_name" value="Icons_abilities_ability_german_ambush_camo_on" />
@@ -47,20 +47,6 @@
 			</template_reference>
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_resource">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11041899" />
-				<template_reference name="resource" value="tables\resource_table">
-					<float name="action" value="0" />
-					<float name="command" value="1" />
-					<float name="fuel" value="0" />
-					<float name="manpower" value="0" />
-					<float name="munition" value="0" />
-					<float name="popcap" value="0" />
-					<float name="soviet_progression" value="0" />
-					<float name="soviet_227" value="0" />
-				</template_reference>
-			</template_reference>
 			<template_reference name="required" value="requirements\required_in_territory">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
@@ -87,7 +73,7 @@
 						<bool name="is_present" value="True" />
 						<float name="max_completed" value="100" />
 						<float name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\german\commander\passive\ambush_camouflage" />
+						<instance_reference name="upgrade_name" value="upgrade\german\commander\passive\ambush_camouflage" mod="32d542de1479464f922dff46e65be6e2" />
 					</template_reference>
 				</list>
 			</template_reference>

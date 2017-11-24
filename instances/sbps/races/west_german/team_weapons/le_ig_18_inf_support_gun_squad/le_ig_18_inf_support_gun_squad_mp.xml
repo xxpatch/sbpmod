@@ -702,7 +702,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="840" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11098242" />
+								<locstring name="screen_name" value="206" mod="32d542de1479464f922dff46e65be6e2" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -733,12 +733,21 @@
 														<float name="value" value="1.05" />
 														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_smoke_mp" mod="32d542de1479464f922dff46e65be6e2" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.05" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073763247" />
+												<uniqueid name="id" value="1073773420" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763248" />
+										<uniqueid name="id" value="1073773421" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -754,7 +763,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763249" />
+										<uniqueid name="id" value="1073773422" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -763,7 +772,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="1680" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="112" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="screen_name" value="113" mod="32d542de1479464f922dff46e65be6e2" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -784,7 +793,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763251" />
+										<uniqueid name="id" value="1073773423" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -800,7 +809,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763252" />
+										<uniqueid name="id" value="1073773424" />
 									</template_reference>
 									<template_reference name="action" value="action\change_target_action">
 										<list name="actions">
@@ -818,11 +827,11 @@
 														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_smoke_mp" mod="32d542de1479464f922dff46e65be6e2" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073764991" />
+												<uniqueid name="id" value="1073773425" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073764992" />
+										<uniqueid name="id" value="1073773426" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -880,6 +889,42 @@
 														<float name="value" value="1.33" />
 														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.6" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_hollow_charge_barrage_wg_vet_mp" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.6" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_vet_mp" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_hollow_charge_barrage_wg_vet_mp" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.33" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_vet_mp" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.33" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
 													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
 														<enum name="application_type" value="apply_to_ability" />
 														<bool name="exclusive" value="False" />
@@ -890,11 +935,11 @@
 														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073763253" />
+												<uniqueid name="id" value="1073773427" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073763254" />
+										<uniqueid name="id" value="1073773428" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -910,7 +955,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073763255" />
+										<uniqueid name="id" value="1073773429" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -929,7 +974,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="840" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11098242" />
+								<locstring name="screen_name" value="206" mod="32d542de1479464f922dff46e65be6e2" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -956,6 +1001,15 @@
 														<bool name="exclusive" value="False" />
 														<string name="modifier_id" value="" />
 														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_vet_mp" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.05" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_smoke_mp" mod="32d542de1479464f922dff46e65be6e2" />
 														<enum name="usage_type" value="multiplication" />
 														<float name="value" value="1.05" />
 														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
