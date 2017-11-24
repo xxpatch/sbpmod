@@ -49,21 +49,6 @@
 			</template_reference>
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_all_in_list">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11074910" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage_and_display" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="False" />
-						<bool name="display_requirement" value="False" />
-						<float name="max_owned" value="0" />
-						<float name="min_owned" value="0" />
-						<instance_reference name="slot_item" value="slot_item\minesweeper\minesweeper" />
-					</template_reference>
-				</list>
-			</template_reference>
 			<template_reference name="required" value="requirements\required_in_territory">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
@@ -93,57 +78,6 @@
 					<float name="soviet_227" value="0" />
 					<float name="popcap" value="0" />
 				</template_reference>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_all_in_list">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11035134" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="False" />
-						<bool name="display_requirement" value="False" />
-						<float name="max_owned" value="0" />
-						<float name="min_owned" value="0" />
-						<instance_reference name="slot_item" value="slot_item\aef\flame_weapon\assault_engineer_flamethrower" />
-					</template_reference>
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="False" />
-						<bool name="display_requirement" value="False" />
-						<float name="max_owned" value="0" />
-						<float name="min_owned" value="0" />
-						<instance_reference name="slot_item" value="slot_item\soviet\flamethrowers\roks-2_flamethrower_item_mp" />
-					</template_reference>
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="False" />
-						<bool name="display_requirement" value="False" />
-						<float name="max_owned" value="0" />
-						<float name="min_owned" value="0" />
-						<instance_reference name="slot_item" value="slot_item\soviet\flamethrowers\flamethrower_roks3_item_mp" />
-					</template_reference>
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="False" />
-						<bool name="display_requirement" value="False" />
-						<float name="max_owned" value="0" />
-						<float name="min_owned" value="0" />
-						<instance_reference name="slot_item" value="slot_item\german\flame_weapon\pioneer_flamethrower_mp" />
-					</template_reference>
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="False" />
-						<bool name="display_requirement" value="False" />
-						<float name="max_owned" value="0" />
-						<float name="min_owned" value="0" />
-						<instance_reference name="slot_item" value="slot_item\german\flame_weapon\urban_assault_flamethrower_mp" />
-					</template_reference>
-				</list>
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_minesweeper" />
