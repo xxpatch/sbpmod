@@ -130,6 +130,7 @@
 														<instance_reference name="material" value="material\snow" />
 														<instance_reference name="material" value="material\crater_ice" />
 														<instance_reference name="material" value="material\ice" />
+														<instance_reference name="material" value="material\icywater" />
 													</list>
 												</template_reference>
 											</list>
@@ -405,6 +406,7 @@
 														<instance_reference name="material" value="material\snow" />
 														<instance_reference name="material" value="material\crater_ice" />
 														<instance_reference name="material" value="material\ice" />
+														<instance_reference name="material" value="material\icywater" />
 													</list>
 												</template_reference>
 											</list>
@@ -670,6 +672,7 @@
 												<instance_reference name="material" value="material\snow" />
 												<instance_reference name="material" value="material\crater_ice" />
 												<instance_reference name="material" value="material\ice" />
+												<instance_reference name="material" value="material\icywater" />
 											</list>
 										</template_reference>
 									</list>
@@ -999,6 +1002,7 @@
 												<instance_reference name="material" value="material\snow" />
 												<instance_reference name="material" value="material\crater_ice" />
 												<instance_reference name="material" value="material\ice" />
+												<instance_reference name="material" value="material\icywater" />
 											</list>
 										</template_reference>
 									</list>
@@ -1453,6 +1457,7 @@
 												<instance_reference name="material" value="material\snow" />
 												<instance_reference name="material" value="material\crater_ice" />
 												<instance_reference name="material" value="material\ice" />
+												<instance_reference name="material" value="material\icywater" />
 											</list>
 										</template_reference>
 									</list>
@@ -1784,6 +1789,7 @@
 										<instance_reference name="material" value="material\snow" />
 										<instance_reference name="material" value="material\crater_ice" />
 										<instance_reference name="material" value="material\ice" />
+										<instance_reference name="material" value="material\icywater" />
 									</list>
 								</template_reference>
 							</list>
