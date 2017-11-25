@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="environment\nature\trees_s\generic_05\generic_05" />
+			<file name="animator" value="environment\nature\trees_s\generic_07\generic_07" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -190,24 +190,6 @@
 			<list name="actions">
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\camouflage_ext">
-			<float name="attack_priority" value="0" />
-			<enum name="camouflage_type" value="tp_global" />
-			<bool name="chain_revealer" value="False" />
-			<float name="detection_radius" value="0" />
-			<bool name="must_be_fully_constructed" value="False" />
-			<bool name="permanently_activated" value="True" />
-			<float name="combat_reset_time" value="0" />
-			<float name="first_strike_shots" value="1" />
-			<float name="revert_max" value="10" />
-			<float name="revert_multiplier" value="1.5" />
-			<float name="revert_time" value="0" />
-			<float name="revert_time_on_detection" value="0" />
-			<list name="camouflage_actions">
-			</list>
-			<list name="first_strike_actions">
-			</list>
-		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073742747" />
+	<uniqueid name="pbgid" value="1073742887" />
 </instance>
