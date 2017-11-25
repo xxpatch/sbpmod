@@ -272,8 +272,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="5" />
-			<float name="min" value="5" />
+			<float name="max" value="8" />
+			<float name="min" value="8" />
 			<list name="on_penetrated_actions">
 			</list>
 			<list name="post_damage_actions">
@@ -396,7 +396,7 @@
 		</group>
 		<group name="suppression">
 			<float name="nearby_suppression_multiplier" value="1" />
-			<float name="nearby_suppression_radius" value="13" />
+			<float name="nearby_suppression_radius" value="20" />
 			<group name="target_pinned_multipliers">
 				<float name="accuracy_multiplier" value="0.25" />
 				<float name="damage_multiplier" value="1" />
@@ -415,12 +415,12 @@
 			<float name="duration" value="0" />
 		</group>
 		<group name="tracking">
-			<float name="fire_cone_angle" value="8" />
+			<float name="fire_cone_angle" value="15" />
 			<group name="normal">
-				<float name="max_down" value="-25" />
+				<float name="max_down" value="-20" />
 				<float name="max_left" value="-20" />
 				<float name="max_right" value="20" />
-				<float name="max_up" value="90" />
+				<float name="max_up" value="20" />
 				<float name="speed_horizontal" value="200" />
 				<float name="speed_vertical" value="200" />
 			</group>

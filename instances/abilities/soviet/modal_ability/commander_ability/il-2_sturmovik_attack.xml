@@ -61,9 +61,6 @@
 												<bool name="check_garrisoned" value="True" />
 												<bool name="is_constructed" value="False" />
 											</template_reference>
-											<template_reference name="info" value="type_ability_target_type\has_unit_type">
-												<enum name="unit_type" value="light_vehicle" />
-											</template_reference>
 										</list>
 									</template_reference>
 									<template_reference name="info" value="type_ability_target_type\not">
@@ -138,9 +135,6 @@
 											<template_reference name="info" value="type_ability_target_type\is_building">
 												<bool name="check_garrisoned" value="True" />
 												<bool name="is_constructed" value="False" />
-											</template_reference>
-											<template_reference name="info" value="type_ability_target_type\has_unit_type">
-												<enum name="unit_type" value="light_vehicle" />
 											</template_reference>
 										</list>
 									</template_reference>

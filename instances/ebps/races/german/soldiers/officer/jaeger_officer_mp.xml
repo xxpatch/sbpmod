@@ -15,6 +15,8 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
+				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\grenadier_panzerfaust_mp" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\blinding_grenade" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\global\army_item_abilities\army_item_global_cover_training" />
 				<instance_reference name="ability" value="abilities\global\custom_commander\heal_in_cover" />
@@ -30,11 +32,11 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="74" />
+					<float name="manpower" value="60" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="8.5" />
+				<float name="time_seconds" value="6" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -63,7 +65,7 @@
 			</list>
 			<float name="armor" value="1" />
 			<float name="rear_armor" value="0" />
-			<float name="target_size" value="1" />
+			<float name="target_size" value="0.91" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 				<group name="critical_group">
@@ -91,7 +93,7 @@
 					<float name="max_health_percentage" value="0.5" />
 					<list name="critical_info">
 						<group name="info">
-							<float name="weight" value="90" />
+							<float name="weight" value="95" />
 							<enum_table name="applicable_weapons">
 								<bool name="small_arms" value="False" />
 								<bool name="flame" value="True" />
@@ -412,7 +414,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\small_arms\machine_gun\sub_machine_gun\assault_grenadier_mp40" />
+							<instance_reference name="weapon" value="weapon\axis\small_arms\single_fire\rifle\grenadier_kar_98k_rifle_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -808,7 +810,7 @@
 			<float name="high_path_look_ahead_max_dist" value="15" />
 			<bool name="orient_to_terrain" value="False" />
 			<instance_reference name="pass_type" value="pass_types\land_only" />
-			<float name="rotation_rate" value="300" />
+			<float name="rotation_rate" value="150" />
 			<float name="rotation_rate_crouch" value="870" />
 			<float name="rotation_rate_prone" value="225" />
 			<float name="rotation_rate_stand" value="870" />
@@ -953,7 +955,7 @@
 		<template_reference name="exts" value="ebpextensions\team_weapon_user_ext">
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\holdable_ext">
-			<enum name="holdable" value="hold_sniper" />
+			<enum name="holdable" value="hold_infantry" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cold_system_ext">
 		</template_reference>

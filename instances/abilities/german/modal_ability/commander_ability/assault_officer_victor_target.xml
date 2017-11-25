@@ -12,11 +12,7 @@
 					<bool name="non_squad_entities_only" value="False" />
 					<list name="abilities_to_use">
 						<instance_reference name="ability" value="abilities\german\modal_ability\artillery\artillery_barrage_ability\panzerwerfer_rocket_victortarget_barrage_mp" />
-						<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\halftrack_mortar_victortarget_barrage_mp" />
-						<instance_reference name="ability" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_mortar_victortarget_barrage_mp" />
 						<instance_reference name="ability" value="abilities\german\modal_ability\artillery\artillery_barrage_ability\howitzer_105mm_victortarget_barrage_ability_mp" />
-						<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_120mm_victortarget_mp" />
-						<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_victortarget_mp" />
 						<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\artillery_barrage_ability\kaytusha_rocket_truck_barrage_victortarget_mp" />
 						<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_victortarget_mp" />
 						<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\artillery_barrage_ability\ml_20_152mm_barrage_ability_victortarget_mp" />
@@ -109,7 +105,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11046459" />
 			<locstring name="help_text" value="11032114" />
-			<string name="hotkey_name" value="B" />
+			<string name="hotkey_name" value="V" />
 			<icon name="icon_name" value="Icons_abilities_ability_german_victor_target" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />

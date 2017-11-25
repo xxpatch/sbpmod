@@ -612,7 +612,7 @@
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0.125" />
+							<float name="duration" value="3" />
 							<bool name="permanent" value="False" />
 							<list name="modifiers">
 								<template_reference name="modifier" value="modifiers\weapon_penetration_modifier">
@@ -624,15 +624,6 @@
 									<float name="value" value="1.2" />
 									<instance_reference name="tooltip" value="modifier_tooltip\weapon_penetration_modifier" />
 								</template_reference>
-								<template_reference name="modifier" value="modifiers\damage_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="1.2" />
-									<instance_reference name="tooltip" value="modifier_tooltip\damage_weapon_modifier" />
-								</template_reference>
 								<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
 									<enum name="application_type" value="apply_to_weapon" />
 									<bool name="exclusive" value="False" />
@@ -642,8 +633,17 @@
 									<float name="value" value="1.2" />
 									<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 								</template_reference>
+								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_01" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="0.75" />
+									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
+								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073765971" />
+							<uniqueid name="id" value="1073773522" />
 						</template_reference>
 						<template_reference name="action" value="action\change_target_action">
 							<list name="actions">
@@ -657,14 +657,14 @@
 											<bool name="retrigger" value="True" />
 											<string name="state_machine_name" value="ability_attack_buff_state" />
 											<string name="undo_action_state_name" value="off" />
-											<uniqueid name="id" value="1073765972" />
+											<uniqueid name="id" value="1073773523" />
 										</template_reference>
 									</list>
-									<uniqueid name="id" value="1073765973" />
+									<uniqueid name="id" value="1073773524" />
 								</template_reference>
 							</list>
 							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073765974" />
+							<uniqueid name="id" value="1073773525" />
 						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073765975" />
