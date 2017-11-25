@@ -44,7 +44,7 @@
 		<list name="actions">
 			<template_reference name="action" value="action\enable_hold_action">
 				<bool name="switch_on" value="False" />
-				<uniqueid name="id" value="1073773507" />
+				<uniqueid name="id" value="1073773609" />
 			</template_reference>
 			<template_reference name="action" value="action\animator_set_state">
 				<bool name="apply_to_leader_only" value="False" />
@@ -52,7 +52,7 @@
 				<bool name="retrigger" value="False" />
 				<string name="state_machine_name" value="quad_50_state" />
 				<string name="undo_action_state_name" value="" />
-				<uniqueid name="id" value="1073773508" />
+				<uniqueid name="id" value="1073773610" />
 			</template_reference>
 			<template_reference name="action" value="action\animator_set_state">
 				<bool name="apply_to_leader_only" value="False" />
@@ -60,7 +60,7 @@
 				<bool name="retrigger" value="False" />
 				<string name="state_machine_name" value="upgrade_quad50cal" />
 				<string name="undo_action_state_name" value="" />
-				<uniqueid name="id" value="1073773509" />
+				<uniqueid name="id" value="1073773611" />
 			</template_reference>
 			<template_reference name="action" value="action\add_weapon">
 				<float name="hardpoint" value="1" />
@@ -79,12 +79,12 @@
 					<enum name="type" value="squad" />
 					<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\heavy_machine_gun\m5_halftrack_quad_50_cal_m2hb_mp" />
 				</group>
-				<uniqueid name="id" value="1073773510" />
+				<uniqueid name="id" value="1073773612" />
 			</template_reference>
 			<template_reference name="action" value="action\change_weapon">
 				<float name="hardpoint" value="1" />
 				<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\heavy_machine_gun\m5_halftrack_quad_50_cal_m2hb_mp" />
-				<uniqueid name="id" value="1073773511" />
+				<uniqueid name="id" value="1073773613" />
 			</template_reference>
 			<template_reference name="action" value="action\apply_modifiers_action">
 				<float name="duration" value="0" />
@@ -100,25 +100,25 @@
 						<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
 					</template_reference>
 				</list>
-				<uniqueid name="id" value="1073773512" />
+				<uniqueid name="id" value="1073773614" />
 			</template_reference>
 			<template_reference name="action" value="action\add_crew_action">
 				<string name="crew_name" value="gunner_quad" />
-				<uniqueid name="id" value="1073773513" />
+				<uniqueid name="id" value="1073773615" />
 			</template_reference>
 			<template_reference name="action" value="action\remove_crew_action">
 				<string name="crew_name" value="Gunner" />
 				<bool name="kill" value="False" />
-				<uniqueid name="id" value="1073773514" />
+				<uniqueid name="id" value="1073773616" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
 				<instance_reference name="slot_item" value="slot_item\dummy_slot_item_quad" />
 				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073773515" />
+				<uniqueid name="id" value="1073773617" />
 			</template_reference>
 			<template_reference name="action" value="action\change_combat_facing_action">
 				<bool name="force_facing_combat_target" value="False" />
-				<uniqueid name="id" value="1073773516" />
+				<uniqueid name="id" value="1073773618" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -139,7 +139,7 @@
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="" />
-		<locstring name="ui_squad_name_override" value="11048706" />
+		<locstring name="ui_squad_name_override" value="11106359" />
 		<locstring name="ui_squad_help_text_override" value="11048708" />
 		<locstring name="ui_squad_extra_text_override" value="11048710" />
 		<list name="ui_preview">
@@ -149,5 +149,5 @@
 		<list name="on_begin_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="395" />
+	<uniqueid name="pbgid" value="99779" />
 </instance>
