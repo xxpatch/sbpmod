@@ -18,24 +18,17 @@
 						<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\artillery_barrage_ability\ml_20_152mm_barrage_ability_victortarget_mp" />
 						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\land_mattress_barrage_victor_target_mp" />
 					</list>
-					<uniqueid name="id" value="1073766127" />
+					<uniqueid name="id" value="1073774089" />
 				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
-					<uniqueid name="id" value="1073766128" />
+					<uniqueid name="id" value="1073774090" />
 				</template_reference>
-				<template_reference name="action" value="action\artillery_attack">
-					<bool name="disable_parent_hardpoint" value="True" />
-					<group name="filter_weapons">
-						<instance_reference name="weapon_01" value="weapon\axis\small_arms\single_fire\pistol\luger_p08_victor_target_flare_pistol_mp" />
-						<instance_reference name="weapon_02" value="" />
-						<instance_reference name="weapon_03" value="" />
-					</group>
-					<float name="num_salvo" value="1" />
-					<float name="use_hardpoint" value="2" />
-					<bool name="face_to_target" value="True" />
-					<uniqueid name="id" value="1073766129" />
-					<bool name="target_override_direction_times_max_range" value="False" />
+				<template_reference name="action" value="action\trigger_dca_action">
+					<string name="dca_action_name" value="UI\warning_smoke" />
+					<float name="duration" value="3" />
+					<bool name="is_terrain_only" value="True" />
+					<uniqueid name="id" value="1073774115" />
 				</template_reference>
 			</list>
 		</group>
