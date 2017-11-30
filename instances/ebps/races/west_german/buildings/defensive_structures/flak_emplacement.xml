@@ -64,7 +64,7 @@
 					</list>
 				</group>
 			</list>
-			<float name="weapon_priority" value="1000" />
+			<float name="weapon_priority" value="0" />
 			<template_reference name="wreck_entity_option" value="options\none">
 			</template_reference>
 			<list name="self_destruct_actions">
@@ -78,13 +78,13 @@
 			<float name="hit_percentage" value="1" />
 			<bool name="pass_through" value="False" />
 			<group name="projectile_pass_through">
-				<bool name="tp_artillery" value="True" />
-				<bool name="tp_artillery_inf" value="True" />
-				<bool name="tp_artillery_overwatch" value="True" />
-				<bool name="tp_homing" value="True" />
-				<bool name="tp_homing_inf" value="True" />
-				<bool name="tp_sticky" value="True" />
-				<bool name="tp_throw" value="True" />
+				<bool name="tp_artillery" value="False" />
+				<bool name="tp_artillery_inf" value="False" />
+				<bool name="tp_artillery_overwatch" value="False" />
+				<bool name="tp_homing" value="False" />
+				<bool name="tp_homing_inf" value="False" />
+				<bool name="tp_sticky" value="False" />
+				<bool name="tp_throw" value="False" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\line_of_sight_ext">
@@ -148,7 +148,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" />
+			<instance_reference name="on_construction_squad" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" mod="32d542de1479464f922dff46e65be6e2" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -529,7 +529,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -547,7 +547,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="0" />
+			<float name="personnel_pop" value="2" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\team_weapon_ext">
