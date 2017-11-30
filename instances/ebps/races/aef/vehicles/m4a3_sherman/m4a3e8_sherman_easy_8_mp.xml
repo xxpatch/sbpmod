@@ -1177,7 +1177,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\aef\items\sherman_top_gunner_mp" />
+				<instance_reference name="upgrade" value="upgrade\aef\items\sherman_top_gunner_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 		</template_reference>
 	</list>
