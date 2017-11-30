@@ -510,9 +510,67 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\garrison_squad_action">
-					<instance_reference name="squad_blueprint" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" />
-					<uniqueid name="id" value="1073760822" />
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="True" />
+					<bool name="kill_action_on_failed_requirements" value="True" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_not">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_squad">
+									<enum name="reason" value="" />
+									<locstring name="ui_name" value="0" />
+									<float name="max_squad_cap" value="1" />
+									<instance_reference name="squad_name" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" />
+								</template_reference>
+							</list>
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\garrison_squad_action">
+							<instance_reference name="squad_blueprint" value="sbps\races\british\soldiers\commando_squad\commando_squad_mp" />
+							<uniqueid name="id" value="1073775484" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073775485" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
+				</template_reference>
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="True" />
+					<bool name="kill_action_on_failed_requirements" value="True" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_squad">
+							<enum name="reason" value="" />
+							<locstring name="ui_name" value="0" />
+							<float name="max_squad_cap" value="1" />
+							<instance_reference name="squad_name" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\garrison_squad_action">
+							<instance_reference name="squad_blueprint" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" />
+							<uniqueid name="id" value="1073775486" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073775487" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
 				</template_reference>
 				<template_reference name="action" value="action\set_production_disabled">
 					<bool name="production_disabled" value="True" />

@@ -188,7 +188,7 @@
 				<enum name="reason" value="usage" />
 				<group name="free_pop">
 					<float name="medic" value="0" />
-					<float name="personnel" value="8" />
+					<float name="personnel" value="9" />
 					<float name="vehicle" value="0" />
 				</group>
 			</template_reference>
