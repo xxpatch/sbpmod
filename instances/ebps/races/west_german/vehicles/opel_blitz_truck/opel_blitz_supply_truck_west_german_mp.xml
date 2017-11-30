@@ -27,6 +27,14 @@
 					<string name="undo_action_state_name" value="" />
 					<uniqueid name="id" value="1073774413" />
 				</template_reference>
+				<template_reference name="action" value="action\animator_set_state">
+					<string name="do_action_state_name" value="canopy" />
+					<string name="state_machine_name" value="set_random_supplies" />
+					<bool name="apply_to_leader_only" value="False" />
+					<bool name="retrigger" value="False" />
+					<string name="undo_action_state_name" value="" />
+					<uniqueid name="id" value="1073775491" />
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext">

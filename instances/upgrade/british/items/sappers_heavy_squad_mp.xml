@@ -32,7 +32,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11095373" />
 			<locstring name="help_text" value="11090024" />
-			<string name="hotkey_name" value="Q" />
+			<string name="hotkey_name" value="H" />
 			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_british_heavy_engineers" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="11090023" />

@@ -427,32 +427,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\apply_modifiers_action">
-					<float name="duration" value="0" />
-					<bool name="permanent" value="False" />
-					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\extended_sight_enable">
-							<enum name="application_type" value="apply_to_squad" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\extended_sight_enable" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073760399" />
-				</template_reference>
-				<template_reference name="action" value="action\ui_unit_modifier_action">
-					<bool name="die_with_creator" value="True" />
-					<template_reference name="ui_info" value="tables\ui_info">
-						<locstring name="screen_name" value="11098009" />
-						<locstring name="help_text" value="11098010" />
-						<icon name="icon_name" value="Icons_commander_cmdr_british_tank_hunters" />
-						<string name="hotkey_name" value="" />
-					</template_reference>
-					<uniqueid name="id" value="1073760400" />
-				</template_reference>
 				<template_reference name="action" value="action\slot_item_add">
 					<instance_reference name="slot_item" value="slot_item\british\ballistic_weapon\infantry_at_weapon\boys_anti_tank_rifle_mp" />
 					<bool name="permanent" value="True" />
@@ -565,6 +539,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_heavy_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\tommy_heat_grenade_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\commander_ability\ambush_camo_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\tommy_tank_detection_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
