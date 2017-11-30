@@ -10,7 +10,7 @@
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\construct_action">
 					<uniqueid name="id" value="1073774271" />
-					<instance_reference name="entity_blueprint_name" value="ebps\props\west_german_medical_supplies" />
+					<instance_reference name="entity_blueprint_name" value="ebps\props\west_german_medical_supplies" mod="32d542de1479464f922dff46e65be6e2" />
 					<bool name="query_only" value="False" />
 					<bool name="check_visible" value="True" />
 					<bool name="use_target_entity_facing" value="False" />

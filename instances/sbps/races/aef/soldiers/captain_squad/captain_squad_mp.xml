@@ -17,7 +17,7 @@
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
 						<locstring name="screen_name" value="11051142" />
-						<string name="selection_group" value="aef_officer" />
+						<string name="selection_group" value="rifleman" />
 						<group name="speaker_generic">
 							<string name="code_1" value="cp" />
 							<string name="code_2" value="" />
