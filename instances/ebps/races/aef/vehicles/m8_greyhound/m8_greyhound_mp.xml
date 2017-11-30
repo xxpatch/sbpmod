@@ -134,11 +134,6 @@
 					</list>
 					<uniqueid name="id" value="1073774223" />
 				</template_reference>
-				<template_reference name="action" value="action\remove_crew_action">
-					<string name="crew_name" value="Gunner" />
-					<bool name="kill" value="False" />
-					<uniqueid name="id" value="1073774231" />
-				</template_reference>
 				<template_reference name="action" value="action\animator_set_state">
 					<string name="do_action_state_name" value="on" />
 					<string name="state_machine_name" value="upgrade_armor" />
