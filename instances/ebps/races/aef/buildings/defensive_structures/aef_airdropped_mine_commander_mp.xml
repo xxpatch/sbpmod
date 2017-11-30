@@ -1272,7 +1272,7 @@
 			<bool name="reserve_sparse_grid_entry" value="True" />
 			<list name="ground_actions">
 				<template_reference name="action" value="action\detonate">
-					<uniqueid name="id" value="1073774855" />
+					<uniqueid name="id" value="1073775496" />
 				</template_reference>
 			</list>
 			<float name="sight_start_height" value="-1" />
