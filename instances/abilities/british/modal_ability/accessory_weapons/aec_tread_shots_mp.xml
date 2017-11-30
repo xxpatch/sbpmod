@@ -52,11 +52,34 @@
 									<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 									<uniqueid name="id" value="1073762733" />
 								</template_reference>
-								<template_reference name="action" value="action\upgrade_add">
-									<bool name="apply_to_entities_in_squad" value="False" />
-									<bool name="trigger_publish_event" value="False" />
-									<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
-									<uniqueid name="id" value="1073762734" />
+								<template_reference name="action" value="action\requirement_action">
+									<bool name="check_self" value="False" />
+									<bool name="global_fire_and_forget_on_success" value="False" />
+									<bool name="instant_requirement_check" value="False" />
+									<bool name="kill_action_on_failed_requirements" value="False" />
+									<bool name="no_retrigger" value="False" />
+									<bool name="validate_all_sub_actions" value="True" />
+									<list name="requirement_table">
+										<template_reference name="required" value="requirements\required_squad_veterancy">
+											<enum name="reason" value="usage" />
+											<locstring name="ui_name" value="0" />
+											<float name="veterancy_rank" value="1" />
+										</template_reference>
+									</list>
+									<list name="action_table">
+										<template_reference name="action" value="action\upgrade_add">
+											<bool name="apply_to_entities_in_squad" value="False" />
+											<bool name="trigger_publish_event" value="False" />
+											<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
+											<uniqueid name="id" value="1073775135" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073775134" />
+									<bool name="fire_and_forget_non_global" value="False" />
+									<template_reference name="ui_help_text" value="tables\help_text_phrase">
+										<int name="phrase_order" value="0" />
+										<locstring name="phrase" value="0" />
+									</template_reference>
 								</template_reference>
 							</list>
 							<enum name="change_target_type" value="squad" />
@@ -75,7 +98,7 @@
 									<locstring name="ui_name" value="0" />
 									<bool name="include_queued" value="False" />
 									<bool name="is_present" value="True" />
-									<instance_reference name="upgrade_name" value="" />
+									<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_aec_target_tread_item_mp" mod="32d542de1479464f922dff46e65be6e2" />
 								</template_reference>
 							</list>
 							<list name="action_table">
@@ -244,11 +267,6 @@
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_squad_veterancy">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11072949" />
-				<float name="veterancy_rank" value="1" />
-			</template_reference>
 			<template_reference name="required" value="requirements\required_weapon_hardpoint">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11070979" />
