@@ -3,7 +3,7 @@
 		<bool name="enable_in_hold" value="True" />
 		<float name="global_max_limit" value="0" />
 		<bool name="has_speech_code" value="False" />
-		<float name="local_max_limit" value="1" />
+		<float name="local_max_limit" value="2" />
 		<enum name="owner_type" value="self" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
