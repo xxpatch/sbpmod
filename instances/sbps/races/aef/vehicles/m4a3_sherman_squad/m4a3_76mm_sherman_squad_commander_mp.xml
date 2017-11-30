@@ -465,7 +465,7 @@
 					<instance_reference name="upgrade_name" value="upgrade\aef\research\major_dispatched_upgrade_mp" />
 				</template_reference>
 				<template_reference name="required" value="requirements\required_any_in_list">
-					<enum name="reason" value="usage" />
+					<enum name="reason" value="usage_and_display" />
 					<locstring name="ui_name" value="0" />
 					<list name="requirements">
 						<template_reference name="requirement" value="requirements\required_player_upgrade">
