@@ -6,140 +6,28 @@
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
-			</list>
-			<list name="start_target_actions">
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="True" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_in_state">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="garrisoned" value="False" />
-							<bool name="healed" value="False" />
-							<float name="in_combat_since" value="-1" />
-							<bool name="injured" value="True" />
-							<bool name="leader" value="False" />
-							<bool name="not_moving" value="False" />
-							<bool name="not_retreating" value="False" />
-							<bool name="pinned" value="False" />
-							<bool name="suppressed" value="False" />
-							<bool name="camouflaged" value="False" />
+				<template_reference name="action" value="action\player_target_action">
+					<bool name="allies" value="False" />
+					<bool name="enemies" value="False" />
+					<bool name="neutral" value="False" />
+					<bool name="self" value="True" />
+					<list name="subactions">
+						<template_reference name="action" value="action\upgrade_add">
+							<bool name="apply_to_entities_in_squad" value="False" />
+							<bool name="trigger_publish_event" value="False" />
+							<instance_reference name="upgrade" value="upgrade\british\commander\passive\brit_vehicle_repairs_unlock_ability_mp" mod="32d542de1479464f922dff46e65be6e2" />
+							<uniqueid name="id" value="1073775365" />
 						</template_reference>
 					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_02" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_03" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_04" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-								</template_reference>
-								<template_reference name="modifier" value="modifiers\move_enable_modifier">
-									<enum name="application_type" value="apply_to_entity" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\move_enable_modifier" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073765561" />
-						</template_reference>
-						<template_reference name="action" value="action\animator_set_state">
-							<bool name="apply_to_leader_only" value="False" />
-							<string name="do_action_state_name" value="on" />
-							<bool name="retrigger" value="True" />
-							<string name="state_machine_name" value="ability_repair_state" />
-							<string name="undo_action_state_name" value="off" />
-							<uniqueid name="id" value="1073765562" />
-						</template_reference>
-						<template_reference name="action" value="action\heal_action">
-							<float name="amount" value="11" />
-							<group name="target_info">
-								<template_reference name="target_info" value="type_ability_target_type\all">
-								</template_reference>
-							</group>
-							<uniqueid name="id" value="1073765563" />
-						</template_reference>
-						<template_reference name="action" value="action\off_map_artillery">
-							<float name="num_salvo" value="7" />
-							<float name="radius" value="12" />
-							<float name="source_offset_x" value="50" />
-							<float name="source_offset_y" value="50" />
-							<float name="source_offset_z" value="50" />
-							<float name="time_range_between_shells_max" value="3" />
-							<float name="time_range_between_shells_min" value="3" />
-							<instance_reference name="weapon_name" value="weapon\aef\explosive_weapons\mortar\m2_60mm_mortar_team_smoke_mp" />
-							<uniqueid name="id" value="1073765564" />
-						</template_reference>
-						<template_reference name="action" value="action\change_target_action">
-							<list name="actions">
-								<template_reference name="action" value="action\ui_unit_modifier_action">
-									<bool name="die_with_creator" value="False" />
-									<template_reference name="ui_info" value="tables\ui_info">
-										<locstring name="screen_name" value="11090870" />
-										<locstring name="help_text" value="11090872" />
-										<icon name="icon_name" value="Icons_commander_cmdr_british_crew_repair_operation" />
-										<string name="hotkey_name" value="" />
-									</template_reference>
-									<uniqueid name="id" value="1073765565" />
-								</template_reference>
-							</list>
-							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073765566" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073765567" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
+					<uniqueid name="id" value="1073775366" />
 				</template_reference>
 			</list>
+			<list name="start_target_actions">
+			</list>
 		</group>
-		<enum name="activation" value="targeted" />
+		<enum name="activation" value="timed" />
 		<bool name="can_interrupt" value="False" />
-		<bool name="can_target_in_fow" value="True" />
+		<bool name="can_target_in_fow" value="False" />
 		<float name="caster_close_in_distance" value="2" />
 		<bool name="casters_can_evacuate" value="False" />
 		<group name="cost">
@@ -147,14 +35,14 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="40" />
+			<float name="munition" value="0" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
-		<bool name="disable_when_active" value="False" />
-		<float name="duration_time" value="45" />
+		<bool name="disable_when_active" value="True" />
+		<float name="duration_time" value="2" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
@@ -170,9 +58,9 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="30" />
+		<float name="range" value="0" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="45" />
+		<float name="recharge_time" value="120" />
 		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
@@ -188,26 +76,9 @@
 			<string name="code_3" value="" />
 		</group>
 		<enum name="squad_caster" value="one_entity" />
-		<enum name="target" value="tp_squad" />
+		<enum name="target" value="tp_position" />
 		<group name="target_special_validation">
-			<template_reference name="target_special_validation" value="type_ability_target_type\has_all_in_list">
-				<list name="target_infos">
-					<template_reference name="info" value="type_ability_target_type\own">
-					</template_reference>
-					<template_reference name="info" value="type_ability_target_type\has_any_in_list">
-						<list name="target_infos">
-							<template_reference name="info" value="type_ability_target_type\has_unit_type">
-								<enum name="unit_type" value="vehicle" />
-							</template_reference>
-							<template_reference name="info" value="type_ability_target_type\has_unit_type">
-								<enum name="unit_type" value="brit_vehicle" />
-							</template_reference>
-							<template_reference name="info" value="type_ability_target_type\has_unit_type">
-								<enum name="unit_type" value="light_vehicle" />
-							</template_reference>
-						</list>
-					</template_reference>
-				</list>
+			<template_reference name="target_special_validation" value="type_ability_target_type\all">
 			</template_reference>
 		</group>
 		<float name="toggled_recharge_time_off" value="0" />
@@ -218,7 +89,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="99" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11082879" />
 			<locstring name="help_text" value="11090872" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_british_crew_repair_operation" />
