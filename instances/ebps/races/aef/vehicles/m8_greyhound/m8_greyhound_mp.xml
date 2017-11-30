@@ -118,12 +118,6 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\upgrade_add">
-					<bool name="apply_to_entities_in_squad" value="False" />
-					<bool name="trigger_publish_event" value="False" />
-					<instance_reference name="upgrade" value="upgrade\aef\items\m8_greyhound_side_skirts_mp" />
-					<uniqueid name="id" value="1073774153" />
-				</template_reference>
 				<template_reference name="action" value="action\apply_modifiers_action">
 					<float name="duration" value="0" />
 					<bool name="permanent" value="True" />
@@ -144,6 +138,14 @@
 					<string name="crew_name" value="Gunner" />
 					<bool name="kill" value="False" />
 					<uniqueid name="id" value="1073774231" />
+				</template_reference>
+				<template_reference name="action" value="action\animator_set_state">
+					<string name="do_action_state_name" value="on" />
+					<string name="state_machine_name" value="upgrade_armor" />
+					<bool name="apply_to_leader_only" value="False" />
+					<bool name="retrigger" value="False" />
+					<string name="undo_action_state_name" value="" />
+					<uniqueid name="id" value="1073775516" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -167,7 +169,7 @@
 			<float name="death_seconds" value="1.8" />
 			<bool name="delete_when_dead" value="True" />
 			<bool name="force_attacker_memory" value="False" />
-			<float name="hitpoints" value="320" />
+			<float name="hitpoints" value="400" />
 			<bool name="is_invincible" value="False" />
 			<bool name="is_salvagable_wreck" value="False" />
 			<bool name="keep_wreck_ownership" value="False" />
@@ -184,8 +186,8 @@
 			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_m8_armored_car" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="28.5" />
-			<float name="rear_armor" value="14.25" />
+			<float name="armor" value="43" />
+			<float name="rear_armor" value="21.5" />
 			<float name="target_size" value="18" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">

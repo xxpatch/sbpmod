@@ -114,20 +114,6 @@
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_resource">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11065343" />
-				<template_reference name="resource" value="tables\resource_table">
-					<float name="action" value="0" />
-					<float name="command" value="2" />
-					<float name="fuel" value="0" />
-					<float name="manpower" value="0" />
-					<float name="munition" value="0" />
-					<float name="soviet_progression" value="0" />
-					<float name="soviet_227" value="0" />
-					<float name="popcap" value="0" />
-				</template_reference>
-			</template_reference>
 			<template_reference name="required" value="requirements\required_any_in_list">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
@@ -149,6 +135,20 @@
 						<instance_reference name="upgrade_name" value="upgrade\aef\commander\ability\artillery_155mm" />
 					</template_reference>
 				</list>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_resource">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11065343" />
+				<template_reference name="resource" value="tables\resource_table">
+					<float name="action" value="0" />
+					<float name="command" value="2" />
+					<float name="fuel" value="0" />
+					<float name="manpower" value="0" />
+					<float name="munition" value="0" />
+					<float name="soviet_progression" value="0" />
+					<float name="soviet_227" value="0" />
+					<float name="popcap" value="0" />
+				</template_reference>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />

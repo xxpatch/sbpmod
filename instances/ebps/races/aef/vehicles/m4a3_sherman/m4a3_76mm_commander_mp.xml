@@ -113,7 +113,7 @@
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\soviet\items\sherman_soviet_top_gunner" />
+							<instance_reference name="upgrade_name" value="upgrade\soviet\items\sherman_soviet_top_gunner" mod="32d542de1479464f922dff46e65be6e2" />
 							<bool name="include_queued" value="False" />
 						</template_reference>
 						<template_reference name="required" value="requirements\required_slot_item">
@@ -1211,7 +1211,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\soviet\items\sherman_soviet_top_gunner" />
+				<instance_reference name="upgrade" value="upgrade\soviet\items\sherman_soviet_top_gunner" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 		</template_reference>
 	</list>
