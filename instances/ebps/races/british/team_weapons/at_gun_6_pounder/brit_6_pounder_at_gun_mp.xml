@@ -66,7 +66,7 @@
 			<bool name="remove_from_pathfinding_on_death" value="True" />
 			<bool name="reveal_to_all_on_death" value="False" />
 			<bool name="ui_can_scuttle" value="False" />
-			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_british_atgun_6_pounder" />
+			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_british_atgun_6_pounder" mod="32d542de1479464f922dff46e65be6e2" />
 			<list name="death_actions">
 			</list>
 			<float name="armor" value="70" />
