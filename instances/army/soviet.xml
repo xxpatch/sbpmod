@@ -139,7 +139,6 @@
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_penal_battalion" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_shock_troops" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_radio_intercept" />
-			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_conscript_evasive_tactics" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_t34_85_medium_tank" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_vehicle_crew_repair_training" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_kv-8_unlock_mp" />

@@ -264,6 +264,19 @@
 		<instance_reference name="cursor_ghost_ebp" value="" />
 		<bool name="can_cast_whilst_constructing" value="False" />
 		<list name="requirements_self_recharge">
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_squad_upgrade">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="include_queued" value="False" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\german\ability_lock_out\ability_lock_infiltration_abilities_mp" mod="32d542de1479464f922dff46e65be6e2" />
+					</template_reference>
+				</list>
+			</template_reference>
 		</list>
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
