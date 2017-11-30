@@ -14,7 +14,7 @@
 					<Name>attrib</Name>
 				</d2p1:anyType>
 			</Children>
-			<IsExpanded>false</IsExpanded>
+			<IsExpanded>true</IsExpanded>
 		</d2p1:anyType>
 		<d2p1:anyType i:type="TableOfContents">
 			<Alias>Locale</Alias>
@@ -43,6 +43,23 @@
 				</d2p1:anyType>
 			</Children>
 			<IsExpanded>false</IsExpanded>
+		</d2p1:anyType>
+		<d2p1:anyType i:type="TableOfContents">
+			<Alias>Data</Alias>
+			<Children>
+				<d2p1:anyType i:type="Folder">
+					<Children>
+						<d2p1:anyType i:type="BurnFolder">
+							<BurnSettings />
+							<Hint>Default</Hint>
+							<RelativeName>data\art</RelativeName>
+						</d2p1:anyType>
+					</Children>
+					<IsExpanded>true</IsExpanded>
+					<Name>art</Name>
+				</d2p1:anyType>
+			</Children>
+			<IsExpanded>true</IsExpanded>
 		</d2p1:anyType>
 	</Children>
 	<Guid>32d542de-1479-464f-922d-ff46e65be6e2</Guid>

@@ -160,7 +160,7 @@
 			<float name="attack_priority" value="0" />
 			<enum name="camouflage_type" value="tp_global" />
 			<bool name="chain_revealer" value="False" />
-			<float name="detection_radius" value="7" />
+			<float name="detection_radius" value="13" />
 			<bool name="must_be_fully_constructed" value="False" />
 			<bool name="permanently_activated" value="True" />
 			<float name="combat_reset_time" value="5" />
@@ -397,13 +397,6 @@
 				<template_reference name="extended_sight_target_info" value="type_ability_target_type\all">
 				</template_reference>
 			</group>
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\mine_ext">
-			<float name="defuse_seconds" value="5" />
-			<float name="detonate_on_defuse_chance" value="0" />
-			<float name="detonate_radius" value="0" />
-			<float name="initial_delay_seconds" value="0" />
-			<enum name="trigger_type" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
 			<bool name="can_repair" value="False" />

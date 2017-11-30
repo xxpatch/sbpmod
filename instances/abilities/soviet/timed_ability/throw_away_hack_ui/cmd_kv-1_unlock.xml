@@ -8,40 +8,18 @@
 			<list name="start_self_actions">
 			</list>
 			<list name="start_target_actions">
-				<template_reference name="action" value="action\reinforcements_action">
-					<bool name="allow_building_spawn" value="False" />
-					<float name="minimum_pop_used" value="14" />
-					<float name="points_total" value="0" />
-					<bool name="spawn_random_squads" value="False" />
-					<list name="entity_table">
-					</list>
-					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\soviet\vehicles\kv-1\kv-1_commander_mp" />
-					</list>
-					<bool name="use_attack_move" value="False" />
-					<uniqueid name="id" value="1073758059" />
-					<bool name="ignore_requirements" value="False" />
-				</template_reference>
-				<template_reference name="action" value="action\game_event_action">
-					<float name="event_extra_param" value="0" />
-					<float name="event_param_begin" value="1" />
-					<float name="event_param_end" value="-1" />
-					<enum name="event_type" value="flag_drop" />
-					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073758060" />
-				</template_reference>
 			</list>
 		</group>
-		<enum name="activation" value="targeted" />
-		<bool name="can_interrupt" value="False" />
-		<bool name="can_target_in_fow" value="True" />
+		<enum name="activation" value="timed" />
+		<bool name="can_interrupt" value="True" />
+		<bool name="can_target_in_fow" value="False" />
 		<float name="caster_close_in_distance" value="2" />
 		<bool name="casters_can_evacuate" value="False" />
 		<group name="cost">
 			<float name="action" value="0" />
 			<float name="command" value="0" />
-			<float name="fuel" value="145" />
-			<float name="manpower" value="420" />
+			<float name="fuel" value="0" />
+			<float name="manpower" value="0" />
 			<float name="munition" value="0" />
 			<float name="popcap" value="0" />
 		</group>
@@ -66,8 +44,8 @@
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
 		<float name="range" value="30" />
-		<bool name="range_ignore" value="True" />
-		<float name="recharge_time" value="60" />
+		<bool name="range_ignore" value="False" />
+		<float name="recharge_time" value="0" />
 		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
@@ -82,8 +60,8 @@
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
-		<enum name="squad_caster" value="one_entity" />
-		<enum name="target" value="tp_position" />
+		<enum name="squad_caster" value="all_entities" />
+		<enum name="target" value="tp_any" />
 		<group name="target_special_validation">
 			<template_reference name="target_special_validation" value="type_ability_target_type\all">
 			</template_reference>
@@ -96,7 +74,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11051969" />
+			<locstring name="extra_text" value="299" mod="32d542de1479464f922dff46e65be6e2" />
 			<locstring name="help_text" value="56" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_vehicles_vehicle_soviet_kv1_heavy_tank" />
@@ -114,37 +92,37 @@
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_resource">
+			<template_reference name="required" value="requirements\required_any_in_list">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11052904" />
-				<template_reference name="resource" value="tables\resource_table">
-					<float name="action" value="0" />
-					<float name="command" value="8" />
-					<float name="fuel" value="0" />
-					<float name="manpower" value="0" />
-					<float name="munition" value="0" />
-					<float name="soviet_progression" value="0" />
-					<float name="soviet_227" value="0" />
-					<float name="popcap" value="0" />
-				</template_reference>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade">
-				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="True" />
-				<float name="max_completed" value="100" />
-				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv1_unlock" />
+				<list name="requirements">
+					<template_reference name="requirement" value="requirements\required_player_upgrade">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<float name="max_completed" value="100" />
+						<float name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv1_unlock" />
+					</template_reference>
+					<template_reference name="requirement" value="requirements\required_player_upgrade">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<float name="max_completed" value="100" />
+						<float name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\conscript_evasive_tactics" mod="32d542de1479464f922dff46e65be6e2" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="80" />
-		<bool name="ui_mini_map_capture" value="True" />
+		<int name="ui_position" value="0" />
+		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_reticule" value="" />
-		<float name="ui_reticule_radius_min" value="0" />
-		<float name="ui_reticule_radius_max" value="0" />
+		<float name="ui_reticule_radius_min" value="1" />
+		<float name="ui_reticule_radius_max" value="1" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />

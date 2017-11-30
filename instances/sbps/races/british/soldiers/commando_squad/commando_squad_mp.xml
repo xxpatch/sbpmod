@@ -631,7 +631,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\commando_demo_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\cover_smoke_grenades" mod="32d542de1479464f922dff46e65be6e2" />
-				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

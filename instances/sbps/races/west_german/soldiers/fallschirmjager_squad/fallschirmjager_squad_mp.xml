@@ -389,7 +389,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
 				<group name="loadout_data">
-					<float name="num" value="4" />
+					<float name="num" value="3" />
 					<instance_reference name="type" value="ebps\races\west_german\soldiers\fallschirmjager\fallschirmjager_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				</group>
 			</list>
@@ -527,6 +527,11 @@
 					<bool name="trigger_publish_event" value="False" />
 					<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_infiltration_abilities_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					<uniqueid name="id" value="1073764356" />
+				</template_reference>
+				<template_reference name="action" value="action\add_to_squad_loadout_action">
+					<uniqueid name="id" value="1073775026" />
+					<instance_reference name="unit_type" value="ebps\races\west_german\soldiers\fallschirmjager\fallschirmjager_mp" mod="32d542de1479464f922dff46e65be6e2" />
+					<int name="count" value="1" />
 				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
@@ -1000,7 +1005,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\fallschrimjaeger_camo" />
-				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\fallschirmjaeger_panzerfaust" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\fallschirmjaeger_greande" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\falls_stationary_camouflage_mp" mod="32d542de1479464f922dff46e65be6e2" />

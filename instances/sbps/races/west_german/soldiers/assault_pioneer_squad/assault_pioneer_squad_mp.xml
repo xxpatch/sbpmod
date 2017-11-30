@@ -913,7 +913,7 @@
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\pioneer_volks_salvage" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\assault_pioneer_drop_medpack_ability_mp" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\pioneer_volks_through_salvage" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\pioneer_volks_through_salvage" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\sp\refuel_tank_wg_sp" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\minesweeper_deploy_mp" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\minesweeper_put_away_mp" />
@@ -1068,7 +1068,7 @@
 							<int name="ui_position" value="12" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\flak_emplacement" />
+							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\flak_emplacement" mod="32d542de1479464f922dff46e65be6e2" />
 							<int name="ui_position" value="31" />
 						</group>
 						<group name="construction_item">

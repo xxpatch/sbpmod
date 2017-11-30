@@ -152,7 +152,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11007443" />
 			<locstring name="help_text" value="11007463" />
-			<string name="hotkey_name" value="H" />
+			<string name="hotkey_name" value="Q" />
 			<icon name="icon_name" value="Icons_abilities_ability_soviet_sniper_hold_fire_off" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
@@ -212,7 +212,7 @@
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="23" />
+		<int name="ui_position" value="22" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />

@@ -11,14 +11,24 @@
 					<bool name="fire_and_forget" value="False" />
 					<list name="subactions">
 						<template_reference name="action" value="action\add_aura">
-							<instance_reference name="aura" value="aura\officer_inspire" />
+							<instance_reference name="aura" value="aura\officer_inspire" mod="32d542de1479464f922dff46e65be6e2" />
 							<group name="area_info">
 								<float name="angle_left" value="0" />
 								<float name="angle_right" value="0" />
 								<enum name="area_type" value="circle" />
 								<float name="radius" value="20" />
 							</group>
-							<template_reference name="target_info" value="type_ability_target_type\allied">
+							<template_reference name="target_info" value="type_ability_target_type\has_all_in_list">
+								<list name="target_infos">
+									<template_reference name="info" value="type_ability_target_type\allied">
+									</template_reference>
+									<template_reference name="info" value="type_ability_target_type\not">
+										<group name="target_info">
+											<template_reference name="target_info" value="type_ability_target_type\is_self">
+											</template_reference>
+										</group>
+									</template_reference>
+								</list>
 							</template_reference>
 							<bool name="permanent" value="False" />
 							<uniqueid name="id" value="1073774093" />

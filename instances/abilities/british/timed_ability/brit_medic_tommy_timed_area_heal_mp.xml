@@ -135,7 +135,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11091010" />
 			<locstring name="help_text" value="11085984" />
-			<string name="hotkey_name" value="Q" />
+			<string name="hotkey_name" value="H" />
 			<icon name="icon_name" value="Icons_abilities_ability_german_medkit" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />

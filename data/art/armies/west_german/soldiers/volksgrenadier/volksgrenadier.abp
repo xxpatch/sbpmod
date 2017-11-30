@@ -1,0 +1,12 @@
+model =
+{
+	"..\\..\\..\\Common\\NewMotionTree.abp",
+	"..\\..\\..\\common\\engineer.abp",
+	"..\\..\\weapons\\west_german_rifle_kar98\\west_german_rifle_kar98",
+	"..\\..\\..\\german\\weapons\\panzerfaust_100\\panzerfaust_100",
+	"..\\..\\weapons\\smg_mp44_default\\smg_mp44_default",
+	"..\\..\\..\\german\\weapons\\smg_mp40\\smg_mp40",
+	
+	-- Main Mesh
+	"volksgrenadier",
+}
