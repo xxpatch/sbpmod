@@ -820,36 +820,6 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="False" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_squad_upgrade">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="include_queued" value="False" />
-							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\west_german\items\volks_cqc_upgrade" mod="32d542de1479464f922dff46e65be6e2" />
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\add_to_squad_loadout_action">
-							<uniqueid name="id" value="1073775002" />
-							<instance_reference name="unit_type" value="ebps\races\west_german\soldiers\volksgrenadier\volksgrenadier_mp" mod="32d542de1479464f922dff46e65be6e2" />
-							<int name="count" value="1" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073775001" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
