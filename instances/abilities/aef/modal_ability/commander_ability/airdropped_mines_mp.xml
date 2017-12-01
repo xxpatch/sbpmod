@@ -9,7 +9,7 @@
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\trigger_dca_action">
-					<string name="dca_action_name" value="UI\paradrop_warning_smoke" />
+					<string name="dca_action_name" value="UI\Airstrike_Warning_Smoke" />
 					<float name="duration" value="5" />
 					<bool name="is_terrain_only" value="True" />
 					<uniqueid name="id" value="1073774803" />
@@ -42,6 +42,10 @@
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
+				</template_reference>
+				<template_reference name="action" value="action\scar_function_call">
+					<string name="function_name" value="AE_AirstrikeEvent" />
+					<uniqueid name="id" value="1073775631" />
 				</template_reference>
 			</list>
 		</group>
@@ -91,7 +95,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="gen" />
+			<string name="code_1" value="brz" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>

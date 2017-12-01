@@ -17,8 +17,8 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\smoke_sherman_mortar_barrage_mp" />
-				<instance_reference name="ability" value="abilities\aef\timed_ability\sherman_ammo_switch_he_shell_mp" />
 				<instance_reference name="ability" value="abilities\aef\timed_ability\sherman_ammo_switch_ap_shell_mp" />
+				<instance_reference name="ability" value="abilities\aef\timed_ability\sherman_ammo_switch_he_shell_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
@@ -686,7 +686,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\mortar\sherman_m3_2inch_mortar_smoke_mp" />
+							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\mortar\sherman_m3_2inch_mortar_smoke_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

@@ -1,0 +1,26 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="362" mod="32d542de1479464f922dff46e65be6e2" />
+		<locstring name="description" value="361" mod="32d542de1479464f922dff46e65be6e2" />
+		<icon name="icon" value="Icons_vehicles_vehicle_aef_wc51_50cal" />
+		<template_reference name="server_item" value="server_item">
+			<list name="search_tags">
+				<locstring name="tag" value="11082332" />
+				<locstring name="tag" value="11082333" />
+				<locstring name="tag" value="11082348" />
+			</list>
+			<enum name="rarity" value="rare" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\aef" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<uniqueid name="server_id" value="1073741848" />
+			<instance_reference name="inventory_item_category" value="inventory_item_category\commander_ability\units_and_buildings" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\aef\commander\ability\dodge_wc51_dispatch" />
+		<instance_reference name="ability" value="" />
+	</group>
+	<uniqueid name="pbgid" value="86293" />
+</instance>

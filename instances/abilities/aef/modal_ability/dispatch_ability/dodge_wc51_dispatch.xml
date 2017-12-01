@@ -97,7 +97,7 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="11072590" />
-			<locstring name="help_text" value="11072589" />
+			<locstring name="help_text" value="361" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_50cal" />
 			<string name="overlay_name" value="" />

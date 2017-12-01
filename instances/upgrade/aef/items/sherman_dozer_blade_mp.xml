@@ -11,7 +11,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="" />
+			<string name="code_1" value="doz" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -131,7 +131,7 @@
 				<bool name="not_in_transition" value="False" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_any_in_list">
-				<enum name="reason" value="usage" />
+				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<list name="requirements">
 					<template_reference name="requirement" value="requirements\required_player_upgrade">
@@ -148,7 +148,7 @@
 						<bool name="is_present" value="True" />
 						<float name="max_completed" value="100" />
 						<float name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\aef\commander\ability\sherman_76mm_dispatch" mod="32d542de1479464f922dff46e65be6e2" />
+						<instance_reference name="upgrade_name" value="upgrade\aef\commander\ability\sherman_modification" mod="32d542de1479464f922dff46e65be6e2" />
 					</template_reference>
 				</list>
 			</template_reference>
