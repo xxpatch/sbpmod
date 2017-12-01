@@ -164,7 +164,6 @@
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\commander_ability\spy_network" />
 			<instance_reference name="ability" value="abilities\soviet\modal_ability\dispatch\partisans_commander_anti_infantry" />
 			<instance_reference name="ability" value="abilities\soviet\modal_ability\dispatch\partisans_commander_anti_vehicle" />
-			<instance_reference name="ability" value="abilities\soviet\modal_ability\commander_ability\passive_ability\anti_tank_grenade_assault" />
 			<instance_reference name="ability" value="abilities\soviet\modal_ability\commander_ability\passive_ability\salvage_kits" />
 			<instance_reference name="ability" value="abilities\soviet\modal_ability\commander_ability\manpower_blitz" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\commander_ability\hold_the_line" />
