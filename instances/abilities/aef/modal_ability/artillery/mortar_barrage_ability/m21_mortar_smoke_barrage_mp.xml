@@ -89,7 +89,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11039159" />
 			<locstring name="help_text" value="11009084" />
-			<string name="hotkey_name" value="R" />
+			<string name="hotkey_name" value="C" />
 			<icon name="icon_name" value="Icons_abilities_ability_german_smoke_mortar" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
