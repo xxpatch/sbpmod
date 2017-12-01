@@ -651,7 +651,8 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\soviet\always_on_ability\m3a1_m5_moving_accuracy_mp" />
-				<instance_reference name="ability" value="abilities\german\timed_ability\wc51_mark_target" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\aef\timed_ability\wc51_mark_target" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\wc51_artillery_155mm_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
