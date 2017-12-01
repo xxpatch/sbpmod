@@ -498,7 +498,7 @@
 		<string name="ui_targetable_on_key" value="" />
 		<string name="ui_targetable_off_key" value="" />
 		<enum name="ui_targetable_receiver" value="local" />
-		<enum name="ui_combine_type" value="intersection" />
+		<enum name="ui_combine_type" value="union" />
 		<enum name="ui_group_cast_type" value="single" />
 		<enum_table name="ui_modal_highlight">
 			<bool name="world_sector" value="False" />

@@ -484,6 +484,13 @@
 			</group>
 			<enum name="weapon_targeting" value="manual_only" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\mine_ext">
+			<float name="defuse_seconds" value="2" />
+			<float name="detonate_on_defuse_chance" value="0" />
+			<float name="detonate_radius" value="0" />
+			<float name="initial_delay_seconds" value="0" />
+			<enum name="trigger_type" value="" />
+		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741850" />
 </instance>
