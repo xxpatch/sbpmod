@@ -642,9 +642,9 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="htz" />
-				<string name="code_2" value="mtk" />
-				<string name="code_3" value="arm" />
+				<string name="code_1" value="mtk" />
+				<string name="code_2" value="arm" />
+				<string name="code_3" value="htz" />
 			</group>
 			<group name="speech_code_cover">
 				<string name="code_1" value="" />
