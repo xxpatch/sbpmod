@@ -7,13 +7,13 @@
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
-				<float name="max" value="1" />
+				<float name="max" value="1.375" />
 				<float name="min" value="0.125" />
 			</group>
 			<float name="post_firing_aim_time" value="0" />
 			<float name="post_firing_cooldown_interval" value="0" />
 			<group name="ready_aim_time">
-				<float name="max" value="1" />
+				<float name="max" value="1.375" />
 				<float name="min" value="0.125" />
 			</group>
 			<group name="aim_time_multiplier">
@@ -272,8 +272,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="50" />
-			<float name="min" value="50" />
+			<float name="max" value="40" />
+			<float name="min" value="40" />
 			<list name="on_penetrated_actions">
 			</list>
 			<list name="post_damage_actions">
