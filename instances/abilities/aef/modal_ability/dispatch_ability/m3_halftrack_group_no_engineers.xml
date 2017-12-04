@@ -10,16 +10,16 @@
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\reinforcements_action">
 					<bool name="allow_building_spawn" value="False" />
-					<float name="minimum_pop_used" value="5" />
+					<float name="minimum_pop_used" value="13" />
 					<float name="points_total" value="0" />
 					<bool name="spawn_random_squads" value="False" />
 					<list name="entity_table">
 					</list>
 					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\aef\vehicles\m3_halftrack_squad\m3_halftrack_squad_assault_engineer_crew_mp" mod="32d542de1479464f922dff46e65be6e2" />
+						<instance_reference name="squad" value="sbps\races\aef\vehicles\m3_halftrack_squad\m3_halftrack_squad_assault_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					</list>
 					<bool name="use_attack_move" value="False" />
-					<uniqueid name="id" value="1073774272" />
+					<uniqueid name="id" value="1073775744" />
 					<bool name="ignore_requirements" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
@@ -28,7 +28,7 @@
 					<float name="event_param_end" value="-1" />
 					<enum name="event_type" value="flag_drop" />
 					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073774273" />
+					<uniqueid name="id" value="1073775745" />
 				</template_reference>
 			</list>
 		</group>
@@ -97,12 +97,12 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="11072571" />
-			<locstring name="help_text" value="385" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="help_text" value="384" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_aef_m3_halftrack_assault_group" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11072568" />
+			<locstring name="screen_name" value="387" mod="32d542de1479464f922dff46e65be6e2" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -116,7 +116,7 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11094978" />
+				<locstring name="ui_name" value="0" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
 					<float name="command" value="3" />
@@ -170,5 +170,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="True" />
 	</group>
-	<uniqueid name="pbgid" value="16874" />
+	<uniqueid name="pbgid" value="1173742012" />
 </instance>

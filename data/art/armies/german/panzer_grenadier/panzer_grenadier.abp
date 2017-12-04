@@ -8,12 +8,12 @@ model =
 	"..\\..\\weapons\\rifle_kar98\\rifle_kar98",	
 	"..\\..\\weapons\\smg_mp40\\smg_mp40",
 	"..\\..\\weapons\\rifle_g43_sniper\\rifle_g43_sniper",
-	"..\\..\\weapons\\rifle_grenade_launcher\\rifle_grenade_launcher",
-	"..\\..\\weapons\\riflegrenade_ggp40\\riflegrenade_ggp40",
-	"..\\..\\weapons\\panzerfaust_100\\panzerfaust_100",
 	"..\\..\\..\\west_german\\weapons\\smg_mp44_default\\smg_mp44_default",
 	"..\\..\\..\\soviet\\weapons\\satchel_charge\\satchel_charge",	
 	"..\\..\\..\\common\\props\\medic_kit\\medic_kit",
+	"..\\..\\weapons\\rifle_grenade_launcher\\rifle_grenade_launcher",
+	"..\\..\\weapons\\riflegrenade_ggp40\\riflegrenade_ggp40",
+	"..\\..\\weapons\\panzerfaust_100\\panzerfaust_100",
 
 
 	-- Accessories
