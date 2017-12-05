@@ -456,7 +456,7 @@
 						<float name="drop_drift" value="0" />
 						<float name="drop_height" value="30" />
 						<float name="drop_zone_centre_scatter" value="15" />
-						<instance_reference name="entity_to_spawn" value="ebps\props\supply_drop_munitions_ostruppen" mod="32d542de1479464f922dff46e65be6e2" />
+						<instance_reference name="entity_to_spawn" value="ebps\props\paradrop_crate_pak40_matt_test_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_squad_entity_count" value="0" />
 						<instance_reference name="squad_to_spawn" value="" />
 						<int name="number_of_entities_to_spawn" value="1" />
@@ -485,13 +485,42 @@
 						<float name="drop_drift" value="0" />
 						<float name="drop_height" value="30" />
 						<float name="drop_zone_centre_scatter" value="15" />
-						<instance_reference name="entity_to_spawn" value="ebps\props\supply_drop_fuel_ostruppen" mod="32d542de1479464f922dff46e65be6e2" />
+						<instance_reference name="entity_to_spawn" value="ebps\props\paradrop_crate_mg34_matt_test_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_squad_entity_count" value="0" />
 						<instance_reference name="squad_to_spawn" value="" />
 						<int name="number_of_entities_to_spawn" value="1" />
 						<float name="entity_scatter" value="0" />
 						<float name="entity_height_scatter" value="0" />
 						<uniqueid name="id" value="1073766165" />
+						<enum name="paradrop_drift_type" value="random_dir" />
+						<template_reference name="scatter_type_option" value="options\none">
+						</template_reference>
+						<float name="group_landing_scatter_radius" value="0" />
+						<group name="group_landing_scatter_addition">
+							<instance_reference name="blizzard_active_player_upgrade" value="" />
+							<float name="additional_scatter_during_blizzard" value="0" />
+							<float name="additional_scatter_in_fog_of_war" value="0" />
+							<float name="additional_scatter_near_entity" value="0" />
+							<float name="additional_scatter_entity_radius" value="0" />
+							<list name="near_entities">
+							</list>
+						</group>
+						<template_reference name="ui_help_text" value="tables\help_text_phrase">
+							<int name="phrase_order" value="0" />
+							<locstring name="phrase" value="0" />
+						</template_reference>
+					</template_reference>
+					<template_reference name="action" value="action\paradrop_action">
+						<float name="drop_drift" value="0" />
+						<float name="drop_height" value="30" />
+						<float name="drop_zone_centre_scatter" value="15" />
+						<instance_reference name="entity_to_spawn" value="ebps\props\paradrop_crate_ostruppen_supplies_mp" mod="32d542de1479464f922dff46e65be6e2" />
+						<float name="max_squad_entity_count" value="0" />
+						<instance_reference name="squad_to_spawn" value="" />
+						<int name="number_of_entities_to_spawn" value="1" />
+						<float name="entity_scatter" value="0" />
+						<float name="entity_height_scatter" value="0" />
+						<uniqueid name="id" value="1073775902" />
 						<enum name="paradrop_drift_type" value="random_dir" />
 						<template_reference name="scatter_type_option" value="options\none">
 						</template_reference>
