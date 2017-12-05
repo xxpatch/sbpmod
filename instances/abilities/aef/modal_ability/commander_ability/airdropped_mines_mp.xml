@@ -16,13 +16,13 @@
 				</template_reference>
 				<template_reference name="action" value="action\paradrop_action">
 					<float name="drop_drift" value="5" />
-					<float name="drop_height" value="40" />
+					<float name="drop_height" value="55" />
 					<float name="drop_zone_centre_scatter" value="0" />
 					<instance_reference name="entity_to_spawn" value="ebps\races\aef\buildings\defensive_structures\aef_airdropped_mine_commander_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					<float name="max_squad_entity_count" value="0" />
 					<instance_reference name="squad_to_spawn" value="" />
 					<int name="number_of_entities_to_spawn" value="18" />
-					<float name="entity_scatter" value="20" />
+					<float name="entity_scatter" value="15" />
 					<float name="entity_height_scatter" value="8" />
 					<uniqueid name="id" value="1073774846" />
 					<enum name="paradrop_drift_type" value="wind_dir" />

@@ -19,7 +19,7 @@
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\smoke_sherman_mortar_barrage_mp" />
 				<instance_reference name="ability" value="abilities\aef\timed_ability\sherman_ammo_switch_ap_shell_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\aef\timed_ability\sherman_ammo_switch_he_shell_mp" mod="32d542de1479464f922dff46e65be6e2" />
-				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_vehicle_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_vehicle_hold_fire_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>

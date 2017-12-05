@@ -886,7 +886,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\aef" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\vehicles\dodge_wc51_squad\dodge_wc51_ambulance_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\vehicles\dodge_wc51_squad\dodge_wc51_ambulance_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="9" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -928,7 +928,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\vehicles\dodge_wc51_squad\dodge_wc51_ambulance_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\aef\vehicles\dodge_wc51_squad\dodge_wc51_ambulance_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">

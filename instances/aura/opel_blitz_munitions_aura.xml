@@ -259,6 +259,15 @@
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
 								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\blendkorper_2h_waffen_elite" />
 							</template_reference>
+							<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+								<enum name="application_type" value="apply_to_ability" />
+								<bool name="exclusive" value="True" />
+								<string name="modifier_id" value="" />
+								<enum name="usage_type" value="multiplication" />
+								<float name="value" value="0.25" />
+								<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\assault_pioneer_drop_medpack_ability_mp" />
+							</template_reference>
 						</list>
 						<uniqueid name="id" value="1073774455" />
 					</template_reference>

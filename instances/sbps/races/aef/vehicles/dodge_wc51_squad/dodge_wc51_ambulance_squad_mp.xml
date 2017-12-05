@@ -1,4 +1,4 @@
-<instance description="" template="sbps">
+<instance description="Dodge WC51 3/4 ton truck" template="sbps">
 	<list name="extensions">
 		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext">
 		</template_reference>
@@ -7,55 +7,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11067339" />
-						<bool name="has_speech_code" value="False" />
-						<locstring name="help_text" value="11052801" />
-						<string name="hotkey_name" value="M" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_halftrack_m21_mortar" />
+						<locstring name="extra_text" value="11073111" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11054810" />
+						<string name="hotkey_name" value="D" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_ambulance" />
 						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="Icons_minimap_unit_scout_car" />
+						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11052800" />
-						<string name="selection_group" value="M21 Mortar Half-track" />
+						<locstring name="screen_name" value="11054809" />
+						<string name="selection_group" value="WC54 Ambulance" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="lv" />
+							<string name="code_1" value="tr" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="ht" />
+							<string name="code_1" value="gv" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="hft" />
-							<string name="code_2" value="" />
+							<string name="code_1" value="amb" />
+							<string name="code_2" value="trk" />
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="29" />
+						<int name="ui_priority" value="28" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_wc51_ambulance_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_s_portrait" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_wc51_ambulance_s_portrait" />
 						<float name="minimap_texture_scale" value="0.65" />
-						<locstring name="brief_text" value="11071527" />
+						<locstring name="brief_text" value="11071526" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="heading" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_halftrack_m21_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_wc51_ambulance_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -64,74 +64,17 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11067339" />
-						<bool name="has_speech_code" value="False" />
-						<locstring name="help_text" value="11052801" />
-						<string name="hotkey_name" value="M" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_halftrack_m21_mortar" />
+						<locstring name="extra_text" value="11054810" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="0" />
+						<string name="hotkey_name" value="R" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_ambulance" />
 						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="Icons_minimap_unit_scout_car" />
+						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11052800" />
-						<string name="selection_group" value="M21 Mortar Half-track" />
-						<group name="speaker_generic">
-							<string name="code_1" value="" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speaker_specific">
-							<string name="code_1" value="hf" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speech_code_2">
-							<string name="code_1" value="ht" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<group name="speech_code_3">
-							<string name="code_1" value="hft" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="29" />
-						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_w_portrait" />
-						<group name="speaker_specific_alt">
-							<string name="code_1" value="" />
-							<string name="code_2" value="" />
-							<string name="code_3" value="" />
-						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_s_portrait" />
-						<float name="minimap_texture_scale" value="0.65" />
-						<locstring name="brief_text" value="11071527" />
-						<locstring name="screen_name_short" value="0" />
-						<enum name="map_rotation_type_override" value="heading" />
-						<bool name="decoratable" value="True" />
-						<bool name="show_in_build_log" value="True" />
-						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_halftrack_m21_mortar_symbol" />
-						<enum name="ui_style" value="default" />
-						<string name="cover_level_icon_postfix" value="" />
-					</group>
-					<instance_reference name="ext_key" value="racebps\german" />
-				</group>
-				<group name="race_data">
-					<group name="info">
-						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11067339" />
-						<bool name="has_speech_code" value="False" />
-						<locstring name="help_text" value="11052801" />
-						<string name="hotkey_name" value="M" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_halftrack_m21_mortar" />
-						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="Icons_minimap_unit_scout_car" />
-						<instance_reference name="modal_ability" value="" />
-						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11052800" />
-						<string name="selection_group" value="M21 Mortar Half-track" />
+						<locstring name="screen_name" value="11054809" />
+						<string name="selection_group" value="WC54 Ambulance" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
@@ -143,33 +86,90 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="ht" />
+							<string name="code_1" value="gv" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="hft" />
+							<string name="code_1" value="gvh" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="29" />
+						<int name="ui_priority" value="28" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_wc51_ambulance_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_s_portrait" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_wc51_ambulance_s_portrait" />
 						<float name="minimap_texture_scale" value="0.65" />
-						<locstring name="brief_text" value="11071527" />
+						<locstring name="brief_text" value="0" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="heading" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_halftrack_m21_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_wc51_ambulance_symbol" />
+						<enum name="ui_style" value="default" />
+						<string name="cover_level_icon_postfix" value="" />
+					</group>
+					<instance_reference name="ext_key" value="racebps\german" />
+				</group>
+				<group name="race_data">
+					<group name="info">
+						<bool name="allow_spawner_production" value="False" />
+						<locstring name="extra_text" value="0" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11054810" />
+						<string name="hotkey_name" value="R" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_ambulance" />
+						<bool name="minimap_team_only" value="False" />
+						<icon name="minimap_texture" value="" />
+						<instance_reference name="modal_ability" value="" />
+						<bool name="reveal_for_decryption" value="True" />
+						<locstring name="screen_name" value="11054809" />
+						<string name="selection_group" value="WC54 Ambulance" />
+						<group name="speaker_generic">
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speaker_specific">
+							<string name="code_1" value="ve" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speech_code_2">
+							<string name="code_1" value="gv" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<group name="speech_code_3">
+							<string name="code_1" value="gvh" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<bool name="tacmap_team_only" value="False" />
+						<int name="ui_priority" value="28" />
+						<bool name="use_random_entity_speaker" value="False" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_wc51_ambulance_w_portrait" />
+						<group name="speaker_specific_alt">
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
+						</group>
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_wc51_ambulance_s_portrait" />
+						<float name="minimap_texture_scale" value="0.65" />
+						<locstring name="brief_text" value="0" />
+						<locstring name="screen_name_short" value="0" />
+						<enum name="map_rotation_type_override" value="heading" />
+						<bool name="decoratable" value="True" />
+						<bool name="show_in_build_log" value="True" />
+						<bool name="speaker_highest_priority" value="False" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_wc51_ambulance_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -178,17 +178,17 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11067339" />
-						<bool name="has_speech_code" value="False" />
-						<locstring name="help_text" value="11052801" />
-						<string name="hotkey_name" value="M" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_halftrack_m21_mortar" />
+						<locstring name="extra_text" value="0" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11054810" />
+						<string name="hotkey_name" value="R" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_ambulance" />
 						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="Icons_minimap_unit_scout_car" />
+						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11052800" />
-						<string name="selection_group" value="M21 Mortar Half-track" />
+						<locstring name="screen_name" value="11054809" />
+						<string name="selection_group" value="WC54 Ambulance" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
@@ -200,33 +200,33 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="ht" />
+							<string name="code_1" value="gv" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="hft" />
+							<string name="code_1" value="gvh" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="29" />
+						<int name="ui_priority" value="28" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_wc51_ambulance_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_s_portrait" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_wc51_ambulance_s_portrait" />
 						<float name="minimap_texture_scale" value="0.65" />
-						<locstring name="brief_text" value="11071527" />
+						<locstring name="brief_text" value="0" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="heading" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_halftrack_m21_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_wc51_ambulance_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -235,17 +235,17 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11067339" />
-						<bool name="has_speech_code" value="False" />
-						<locstring name="help_text" value="11052801" />
-						<string name="hotkey_name" value="M" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_halftrack_m21_mortar" />
+						<locstring name="extra_text" value="11073111" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11054810" />
+						<string name="hotkey_name" value="D" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_ambulance" />
 						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="Icons_minimap_unit_scout_car" />
+						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11052800" />
-						<string name="selection_group" value="M21 Mortar Half-track" />
+						<locstring name="screen_name" value="11054809" />
+						<string name="selection_group" value="WC54 Ambulance" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
@@ -257,33 +257,33 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="ht" />
+							<string name="code_1" value="gv" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="hft" />
+							<string name="code_1" value="amb" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="29" />
+						<int name="ui_priority" value="28" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_wc51_ambulance_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_s_portrait" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_wc51_ambulance_s_portrait" />
 						<float name="minimap_texture_scale" value="0.65" />
-						<locstring name="brief_text" value="11071527" />
+						<locstring name="brief_text" value="11071526" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="heading" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_halftrack_m21_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_wc51_ambulance_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -292,55 +292,55 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11067339" />
-						<bool name="has_speech_code" value="False" />
-						<locstring name="help_text" value="11052801" />
-						<string name="hotkey_name" value="M" />
-						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_halftrack_m21_mortar" />
+						<locstring name="extra_text" value="11073111" />
+						<bool name="has_speech_code" value="True" />
+						<locstring name="help_text" value="11054810" />
+						<string name="hotkey_name" value="D" />
+						<icon name="icon_name" value="Icons_vehicles_vehicle_aef_wc51_ambulance" />
 						<bool name="minimap_team_only" value="False" />
-						<icon name="minimap_texture" value="Icons_minimap_unit_scout_car" />
+						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11052800" />
-						<string name="selection_group" value="M21 Mortar Half-track" />
+						<locstring name="screen_name" value="11054809" />
+						<string name="selection_group" value="WC54 Ambulance" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speaker_specific">
-							<string name="code_1" value="lv" />
+							<string name="code_1" value="tr" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="ht" />
+							<string name="code_1" value="gv" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
-							<string name="code_1" value="hft" />
+							<string name="code_1" value="amb" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="29" />
+						<int name="ui_priority" value="28" />
 						<bool name="use_random_entity_speaker" value="False" />
-						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_w_portrait" />
+						<icon name="portrait_name_winter" value="Icons_portraits_vehicle_aef_wc51_ambulance_w_portrait" />
 						<group name="speaker_specific_alt">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
-						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_halftrack_m21_mortar_s_portrait" />
+						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_aef_wc51_ambulance_s_portrait" />
 						<float name="minimap_texture_scale" value="0.65" />
-						<locstring name="brief_text" value="11071527" />
+						<locstring name="brief_text" value="11071526" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="heading" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_halftrack_m21_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_aef_wc51_ambulance_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -441,13 +441,13 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_item_slot_ext">
 			<bool name="can_pick_up" value="False" />
-			<float name="num_slots" value="6" />
+			<float name="num_slots" value="1" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\aef\vehicles\m3_halftrack\m21_mortar_halftrack_mp" />
+					<instance_reference name="type" value="ebps\races\aef\vehicles\dodge_wc51\dodge_wc51_ambulance_mp" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -461,20 +461,26 @@
 					<locstring name="ui_name" value="0" />
 					<list name="requirements">
 						<template_reference name="requirement" value="requirements\required_player_upgrade">
-							<enum name="reason" value="usage" />
+							<enum name="reason" value="display" />
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="False" />
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
 							<instance_reference name="upgrade_name" value="upgrade\pm\aef_pm" />
 						</template_reference>
-						<template_reference name="requirement" value="requirements\required_player_upgrade">
+						<template_reference name="requirement" value="requirements\required_all_in_list">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="True" />
-							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\pm\american\unit_unlocks\pm_mortarhalftrack_unlock" />
+							<list name="requirements">
+								<template_reference name="requirement" value="requirements\required_player_upgrade">
+									<enum name="reason" value="display" />
+									<locstring name="ui_name" value="0" />
+									<bool name="is_present" value="True" />
+									<float name="max_completed" value="100" />
+									<float name="min_completed" value="1" />
+									<instance_reference name="upgrade_name" value="upgrade\pm\aef_pm" />
+								</template_reference>
+							</list>
 						</template_reference>
 					</list>
 				</template_reference>
@@ -491,28 +497,12 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\apply_modifiers_action">
-					<float name="duration" value="0" />
-					<bool name="permanent" value="False" />
-					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\capture_enable_squad_modifier">
-							<enum name="application_type" value="apply_to_squad" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="-1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\capture_enable_squad_modifier" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073775252" />
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
-			<float name="heavy_weapon_setup_delay" value="0" />
+			<float name="heavy_weapon_setup_delay" value="3" />
 			<float name="reaction_delay_seconds" value="8" />
 			<float name="reveal_self_attacker_time" value="0" />
 			<bool name="reveal_self_attacker_time_use" value="False" />
@@ -619,220 +609,8 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_veterancy_ext">
-			<list name="race_list">
-				<group name="race_data">
-					<instance_reference name="ext_key" value="" />
-					<group name="info">
-						<bool name="can_receive_shared_veterancy" value="False" />
-						<float name="max_persistent_squads" value="0" />
-						<list name="veterancy_rank_info">
-							<group name="veterancy_rank">
-								<float name="experience_value" value="800" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11069541" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073775253" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="1600" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11069542" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\change_target_action">
-										<list name="actions">
-											<template_reference name="action" value="action\apply_modifiers_action">
-												<float name="duration" value="0" />
-												<bool name="permanent" value="False" />
-												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\weapon_scatter">
-														<enum name="application_type" value="apply_to_weapon" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="hardpoint_01" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.8" />
-														<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.6" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_mortar_barrage_mp" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.6" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_mortar_white_phosphorous_barrage_mp" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.6" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_heavy_he_short_delay_mortar_barrage_mp" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.6" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_mortar_smoke_barrage_mp" mod="32d542de1479464f922dff46e65be6e2" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073775254" />
-											</template_reference>
-										</list>
-										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073775255" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073775256" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="3200" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11069543" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\change_target_action">
-										<list name="actions">
-											<template_reference name="action" value="action\apply_modifiers_action">
-												<float name="duration" value="0" />
-												<bool name="permanent" value="False" />
-												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_mortar_barrage_mp" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.33" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_mortar_white_phosphorous_barrage_mp" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.33" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_heavy_he_short_delay_mortar_barrage_mp" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.33" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-														<enum name="application_type" value="apply_to_ability" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<instance_reference name="target_type_name" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m21_mortar_smoke_barrage_mp" mod="32d542de1479464f922dff46e65be6e2" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.33" />
-														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
-													</template_reference>
-												</list>
-												<uniqueid name="id" value="1073775257" />
-											</template_reference>
-										</list>
-										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073775258" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073775259" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-						</list>
-						<enum name="shared_veterancy_type" value="no_sharing" />
-					</group>
-				</group>
-			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_retreat_ext">
 			<group name="retreat_building_types">
@@ -850,7 +628,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
 			<list name="squad_type_list">
-				<enum name="squad_type" value="m5_halftrack" />
+				<enum name="squad_type" value="m3a1_scout_car" />
 				<enum name="squad_type" value="light_vehicle" />
 				<enum name="squad_type" value="vehicle" />
 				<enum name="squad_type" value="aef_unit" />
@@ -862,5 +640,5 @@
 			<float name="revert_rate_multiplier" value="0" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="2642" />
+	<uniqueid name="pbgid" value="4330" />
 </instance>
