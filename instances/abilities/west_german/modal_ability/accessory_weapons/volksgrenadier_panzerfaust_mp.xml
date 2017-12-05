@@ -33,6 +33,22 @@
 							<uniqueid name="id" value="1073764610" />
 							<bool name="target_override_direction_times_max_range" value="False" />
 						</template_reference>
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="3" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\enable_visible_in_fow">
+									<enum name="application_type" value="apply_to_entity" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="" />
+									<enum name="usage_type" value="enable" />
+									<float name="value" value="1" />
+									<instance_reference name="tooltip" value="modifier_tooltip\enable_visible_in_fow" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073775914" />
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073764611" />
 					<bool name="can_prevent_refund" value="True" />
