@@ -138,12 +138,12 @@
 			<float name="extended_sight_radius" value="70" />
 			<float name="reveal_area_on_death_time" value="10" />
 			<group name="sight_package">
-				<float name="inner_height" value="60" />
+				<float name="inner_height" value="0" />
 				<float name="inner_radius" value="0" />
-				<float name="outer_height" value="60" />
-				<float name="outer_radius" value="1" />
-				<float name="cone_angle" value="90" />
-				<float name="cone_start_radius" value="0.5" />
+				<float name="outer_height" value="0" />
+				<float name="outer_radius" value="0" />
+				<float name="cone_angle" value="360" />
+				<float name="cone_start_radius" value="0" />
 			</group>
 			<group name="extended_sight_target_info">
 				<template_reference name="extended_sight_target_info" value="type_ability_target_type\all">
@@ -469,7 +469,7 @@
 			<float name="preferred_height_approach" value="60" />
 			<float name="preferred_height_dive" value="30" />
 			<float name="preferred_height_exit" value="35" />
-			<float name="speed" value="175" />
+			<float name="speed" value="100" />
 			<float name="lowest_height_above_ground" value="8" />
 			<group name="actions">
 				<list name="attack_dive_actions">
@@ -479,7 +479,7 @@
 						<list name="subactions">
 							<template_reference name="action" value="action\paradrop_action">
 								<float name="drop_drift" value="30" />
-								<float name="drop_height" value="30" />
+								<float name="drop_height" value="40" />
 								<float name="drop_zone_centre_scatter" value="0" />
 								<instance_reference name="entity_to_spawn" value="" />
 								<float name="max_squad_entity_count" value="0" />
@@ -526,8 +526,8 @@
 			</template_reference>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext">
-			<float name="acceleration" value="8" />
-			<float name="deceleration" value="12" />
+			<float name="acceleration" value="1" />
+			<float name="deceleration" value="1" />
 			<float name="high_path_look_ahead_max_dist" value="25" />
 			<bool name="orient_to_terrain" value="True" />
 			<instance_reference name="pass_type" value="pass_types\land_only" />
@@ -536,7 +536,7 @@
 			<float name="rotation_rate_prone" value="225" />
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
-			<float name="speed_max" value="3.5" />
+			<float name="speed_max" value="10" />
 			<instance_reference name="turn_plan" value="turn_plan\jeep_i" />
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0" />
