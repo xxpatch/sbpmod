@@ -1,9 +1,9 @@
 <instance description="Semi-automatic version of the AT rifle for Conscripts&#xA;Multiplayer Clone." template="weapon">
 	<group name="weapon_bag">
 		<group name="accuracy">
-			<float name="mid" value="0.39" />
-			<float name="near" value="0.48" />
-			<float name="far" value="0.15" />
+			<float name="mid" value="0.105" />
+			<float name="near" value="0.15" />
+			<float name="far" value="0.06" />
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
@@ -558,7 +558,7 @@
 			<float name="pivot_end_time" value="0" />
 			<bool name="pivot_only" value="False" />
 			<float name="pivot_start_time" value="0" />
-			<float name="fire_cone_angle" value="0" />
+			<float name="fire_cone_angle" value="5" />
 			<float name="fire_cone_angle_vert" value="2" />
 		</group>
 		<locstring name="ui_name" value="0" />
@@ -581,7 +581,7 @@
 				<enum name="unit_type" value="infantry" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
-					<float name="damage_multiplier" value="1.928571" />
+					<float name="damage_multiplier" value="1.428571" />
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
