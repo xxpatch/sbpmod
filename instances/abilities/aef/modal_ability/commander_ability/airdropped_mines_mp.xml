@@ -14,38 +14,53 @@
 					<bool name="is_terrain_only" value="True" />
 					<uniqueid name="id" value="1073774803" />
 				</template_reference>
-				<template_reference name="action" value="action\paradrop_action">
-					<float name="drop_drift" value="5" />
-					<float name="drop_height" value="55" />
-					<float name="drop_zone_centre_scatter" value="0" />
-					<instance_reference name="entity_to_spawn" value="ebps\races\aef\buildings\defensive_structures\aef_airdropped_mine_commander_mp" mod="32d542de1479464f922dff46e65be6e2" />
-					<float name="max_squad_entity_count" value="0" />
-					<instance_reference name="squad_to_spawn" value="" />
-					<int name="number_of_entities_to_spawn" value="18" />
-					<float name="entity_scatter" value="15" />
-					<float name="entity_height_scatter" value="8" />
-					<uniqueid name="id" value="1073774846" />
-					<enum name="paradrop_drift_type" value="wind_dir" />
-					<template_reference name="scatter_type_option" value="options\none">
-					</template_reference>
-					<float name="group_landing_scatter_radius" value="5" />
-					<group name="group_landing_scatter_addition">
-						<instance_reference name="blizzard_active_player_upgrade" value="" />
-						<float name="additional_scatter_during_blizzard" value="0" />
-						<float name="additional_scatter_in_fog_of_war" value="0" />
-						<float name="additional_scatter_near_entity" value="0" />
-						<float name="additional_scatter_entity_radius" value="0" />
-						<list name="near_entities">
-						</list>
+				<template_reference name="action" value="action\scar_function_call">
+					<string name="function_name" value="AE_AirstrikeEvent" />
+					<uniqueid name="id" value="1073775631" />
+				</template_reference>
+				<template_reference name="action" value="action\air_strike_action">
+					<bool name="random_direction" value="False" />
+					<float name="source_offset_x" value="1" />
+					<float name="source_offset_y" value="1" />
+					<float name="source_offset_z" value="1" />
+					<float name="time_range_between_planes_maximum" value="12" />
+					<float name="time_range_between_planes_minimum" value="12" />
+					<bool name="use_long_path" value="False" />
+					<group name="loiter_info">
+						<float name="loiter_area_radius" value="50" />
+						<float name="loiter_time_sec" value="0" />
+						<bool name="follow_target" value="False" />
+						<float name="lowest_altitude" value="0" />
+						<bool name="loiter_descend" value="False" />
+						<float name="loiter_circling_time_sec" value="0" />
+						<bool name="can_be_targeted" value="True" />
 					</group>
+					<group name="attack_info">
+						<float name="target_lead_in_distance" value="0" />
+						<int name="attacks_per_aircraft" value="1" />
+						<float name="target_lead_out_distance" value="0" />
+						<float name="delay_between_attack" value="1" />
+						<float name="attack_sway_width" value="6" />
+						<float name="attack_sway_frequency" value="2" />
+						<float name="target_attack_distance" value="100" />
+						<float name="target_attack_time_sec" value="2.125" />
+						<float name="initial_attack_delay" value="0" />
+					</group>
+					<template_reference name="target_info" value="type_ability_target_type\is_position">
+					</template_reference>
+					<int name="number_aircraft" value="1" />
+					<bool name="search_attack_target" value="False" />
+					<instance_reference name="aircraft_squad_name" value="sbps\races\aef\vehicles\paradrop_plane\paratroopers_plane_mines_matt_test_mp" mod="32d542de1479464f922dff46e65be6e2" />
+					<uniqueid name="id" value="1073775918" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
-				</template_reference>
-				<template_reference name="action" value="action\scar_function_call">
-					<string name="function_name" value="AE_AirstrikeEvent" />
-					<uniqueid name="id" value="1073775631" />
+					<list name="additional_loiter_info">
+					</list>
+					<list name="aircraft_on_spawn_actions">
+					</list>
+					<bool name="enable_landing" value="False" />
 				</template_reference>
 			</list>
 		</group>
@@ -66,7 +81,7 @@
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="False" />
-		<float name="duration_time" value="6" />
+		<float name="duration_time" value="-1" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
@@ -100,7 +115,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<enum name="squad_caster" value="one_entity" />
-		<enum name="target" value="tp_entity_and_position" />
+		<enum name="target" value="tp_position" />
 		<group name="target_special_validation">
 			<template_reference name="target_special_validation" value="type_ability_target_type\not">
 				<group name="target_info">
@@ -131,7 +146,7 @@
 			<locstring name="screen_name_short" value="0" />
 		</group>
 		<locstring name="ui_usage_txt" value="0" />
-		<bool name="validate_actions" value="True" />
+		<bool name="validate_actions" value="False" />
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
@@ -164,8 +179,8 @@
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_target_call_in" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_105mm_howitzer_barrage" />
-		<float name="ui_reticule_radius_min" value="15" />
-		<float name="ui_reticule_radius_max" value="15" />
+		<float name="ui_reticule_radius_min" value="17" />
+		<float name="ui_reticule_radius_max" value="17" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />

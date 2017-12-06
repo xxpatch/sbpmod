@@ -46,9 +46,9 @@
 				<float name="radius" value="1.75" />
 			</group>
 			<group name="damage">
-				<float name="far" value="0.05" />
-				<float name="near" value="1" />
-				<float name="mid" value="0.35" />
+				<float name="far" value="0.04" />
+				<float name="near" value="0.8" />
+				<float name="mid" value="0.28" />
 			</group>
 			<group name="damage_friendly">
 				<float name="far" value="0.025" />

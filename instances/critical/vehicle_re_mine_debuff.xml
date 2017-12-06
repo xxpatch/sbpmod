@@ -29,7 +29,7 @@
 						<string name="modifier_id" value="engine_damage" />
 						<string name="target_type_name" value="" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.35" />
+						<float name="value" value="0.5" />
 						<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
@@ -38,7 +38,7 @@
 						<string name="modifier_id" value="engine_damage" />
 						<string name="target_type_name" value="" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.35" />
+						<float name="value" value="0.5" />
 						<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 					</template_reference>
 				</list>
