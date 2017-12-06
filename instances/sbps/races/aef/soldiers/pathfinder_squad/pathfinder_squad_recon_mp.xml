@@ -502,8 +502,8 @@
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\aef\always_on_ability\pathfinder_in_cover_stationary_camouflage_improved_mp" />
 				<instance_reference name="ability" value="abilities\pm\aef\specializations\cover_specialization\cover_specialization_hunker_down" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\support_artillery" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\support_artillery_decoy" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\support_artillery" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\support_artillery_decoy" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\pathfinder_plant_beacon" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
@@ -743,7 +743,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\commander_ability\support_artillery_decoy" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\commander_ability\support_artillery_decoy" mod="32d542de1479464f922dff46e65be6e2" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.33" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -752,7 +752,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\commander_ability\support_artillery" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\commander_ability\support_artillery" mod="32d542de1479464f922dff46e65be6e2" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.33" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
