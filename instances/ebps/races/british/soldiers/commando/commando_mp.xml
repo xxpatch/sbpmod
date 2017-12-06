@@ -302,7 +302,7 @@
 				<enum name="unit_type04" value="brit_infantry" />
 				<enum name="unit_type05" value="infantry_elite" />
 				<enum name="unit_type06" value="mp_unit" />
-				<enum name="unit_type07" value="" />
+				<enum name="unit_type07" value="lmg_user_fires_on_the_move" />
 				<enum name="unit_type08" value="" />
 				<enum name="unit_type09" value="" />
 				<enum name="unit_type10" value="" />
