@@ -191,7 +191,7 @@
 				<instance_reference name="upgrade" value="upgrade\german\items\stormtrooper_antitank_package_mp" />
 				<instance_reference name="upgrade" value="upgrade\german\items\stormtrooper_panzerschreck_mp" />
 				<instance_reference name="upgrade" value="upgrade\german\items\stormtrooper_assault_package_mp" />
-				<instance_reference name="upgrade" value="upgrade\german\commander\ability\light_infantry_panzergren_package" mod="32d542de1479464f922dff46e65be6e2" />
+				<instance_reference name="upgrade" value="upgrade\german\commander\ability\light_infantry_stormtrooper_package" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
