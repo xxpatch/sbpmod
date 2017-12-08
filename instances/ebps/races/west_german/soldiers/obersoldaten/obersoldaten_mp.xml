@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\blendkorper_2h_waffen_elite" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\blendkorper_2h_waffen_elite" mod="32d542de1479464f922dff46e65be6e2" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\waffen_elite_bundled_assault_grenade" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
 		</template_reference>

@@ -614,7 +614,7 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\panzerfusilier_grenade" />
+								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\panzerfusilier_grenade" mod="32d542de1479464f922dff46e65be6e2" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -733,7 +733,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\panzerfusilier_grenade" />
+												<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\panzerfusilier_grenade" mod="32d542de1479464f922dff46e65be6e2" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.25" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -816,7 +816,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.75" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\panzerfusilier_grenade" />
+												<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\panzerfusilier_grenade" mod="32d542de1479464f922dff46e65be6e2" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
 												<enum name="application_type" value="apply_to_ability" />
