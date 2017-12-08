@@ -133,7 +133,7 @@
 			<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\passive_ability\riflemen_30_caliber_lmg" />
 			<instance_reference name="ability" value="abilities\aef\modal_ability\dispatch_ability\m21_mortar_halftrack_dispatch" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\time_on_target_artillery" />
-			<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\p47_rocket_attack" />
+			<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\p47_rocket_attack" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\aef\modal_ability\commander_ability\passive_ability\riflemen_defensive_buildings" />
 			<instance_reference name="ability" value="abilities\aef\modal_ability\dispatch_ability\pathfinders_dispatch" />
 			<instance_reference name="ability" value="abilities\aef\modal_ability\dispatch_ability\air_drop_combat_group" />
