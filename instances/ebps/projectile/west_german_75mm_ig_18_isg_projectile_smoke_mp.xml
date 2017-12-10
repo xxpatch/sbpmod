@@ -235,7 +235,7 @@
 				<float name="speed_increment" value="0.2" />
 				<enum name="firing_angle_type" value="high_angle" />
 				<bool name="use_homing_when_no_blocker" value="False" />
-				<float name="non_collide_start_angle" value="35" />
+				<float name="non_collide_start_angle" value="45" />
 				<float name="non_collide_end_angle" value="70" />
 			</group>
 			<float name="building_hit_fx_delay" value="0" />

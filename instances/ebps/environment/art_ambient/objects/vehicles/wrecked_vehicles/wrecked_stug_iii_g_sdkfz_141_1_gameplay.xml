@@ -335,7 +335,7 @@
 					<float name="munition" value="25" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="50" />
+				<float name="time_seconds" value="2" />
 			</group>
 		</template_reference>
 	</list>
