@@ -600,7 +600,7 @@
 						<float name="max_persistent_squads" value="0" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1750" />
+								<float name="experience_value" value="2070" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047156" />
 								<bool name="single_player_only" value="False" />
@@ -623,14 +623,14 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073758308" />
+										<uniqueid name="id" value="1073776262" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="3500" />
+								<float name="experience_value" value="4140" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047155" />
 								<bool name="single_player_only" value="False" />
@@ -673,11 +673,11 @@
 														<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073758309" />
+												<uniqueid name="id" value="1073776263" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073758310" />
+										<uniqueid name="id" value="1073776264" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -693,14 +693,14 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073758311" />
+										<uniqueid name="id" value="1073776265" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="7000" />
+								<float name="experience_value" value="8280" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047154" />
 								<bool name="single_player_only" value="False" />
@@ -743,24 +743,24 @@
 														<instance_reference name="tooltip" value="modifier_tooltip\range_weapon_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073758312" />
+												<uniqueid name="id" value="1073776266" />
 											</template_reference>
 											<template_reference name="action" value="action\change_move_data_action">
 												<float name="acceleration_multiplier" value="1.2" />
 												<float name="deceleration_multiplier" value="1.2" />
 												<float name="pathfinding_size_x" value="0" />
 												<float name="pathfinding_size_y" value="0" />
-												<uniqueid name="id" value="1073758313" />
+												<uniqueid name="id" value="1073776267" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073758314" />
+										<uniqueid name="id" value="1073776268" />
 									</template_reference>
 									<template_reference name="action" value="action\upgrade_add">
 										<bool name="apply_to_entities_in_squad" value="False" />
 										<bool name="trigger_publish_event" value="False" />
 										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073758315" />
+										<uniqueid name="id" value="1073776269" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -776,7 +776,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073758316" />
+										<uniqueid name="id" value="1073776270" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">

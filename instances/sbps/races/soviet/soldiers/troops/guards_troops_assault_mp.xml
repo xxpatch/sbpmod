@@ -480,7 +480,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</list>
