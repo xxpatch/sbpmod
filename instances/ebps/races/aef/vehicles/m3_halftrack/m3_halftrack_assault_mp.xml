@@ -24,10 +24,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\garrison_squad_action">
-					<instance_reference name="squad_blueprint" value="sbps\races\aef\soldiers\assault_engineer_squad\assault_engineer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
-					<uniqueid name="id" value="1073758158" />
-				</template_reference>
 				<template_reference name="action" value="action\upgrade_add">
 					<bool name="apply_to_entities_in_squad" value="True" />
 					<bool name="trigger_publish_event" value="False" />
@@ -41,8 +37,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="35" />
-					<float name="manpower" value="270" />
+					<float name="fuel" value="30" />
+					<float name="manpower" value="200" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -862,7 +858,7 @@
 						<string name="sync_target_name" value="Vehicle_Target" />
 						<list name="role_list">
 							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
+								<string name="animator_bp" value="armies\aef\soldiers\assault_engineer\assault_engineer" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="Driver" />
@@ -872,7 +868,7 @@
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
+								<string name="animator_bp" value="armies\aef\soldiers\assault_engineer\assault_engineer" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="Gunner" />
@@ -882,14 +878,14 @@
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
+								<string name="animator_bp" value="armies\aef\soldiers\assault_engineer\assault_engineer" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="gunner_quad" />
 								<string name="sync_action_name" value="attach_gunner_quad" />
 								<bool name="sync_on_create" value="False" />
 								<string name="abandon_event_name" value="abandon_quad50" />
-								<string name="animator_bp_female" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
+								<string name="animator_bp_female" value="armies\aef\soldiers\assault_engineer\assault_engineer" />
 							</group>
 						</list>
 						<template_reference name="additional_crew_option" value="options\none">
@@ -1150,7 +1146,7 @@
 							</template_reference>
 						</list>
 						<float name="driver_death_chance_on_entity_death" value="1" />
-						<instance_reference name="driver_squad_blueprint" value="sbps\races\aef\soldiers\vehicle_crew_squad\vehicle_crew_squad_mp" />
+						<instance_reference name="driver_squad_blueprint" value="sbps\races\aef\soldiers\assault_engineer_squad\assault_engineer_squad_mp" mod="32d542de1479464f922dff46e65be6e2" />
 					</group>
 				</group>
 				<group name="race_data">
