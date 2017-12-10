@@ -47,13 +47,19 @@
 			</template_reference>
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_in_territory">
+			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<bool name="in_supply" value="True" />
-				<bool name="is_secured" value="False" />
-				<bool name="is_secured_by_checkpoint" value="False" />
-				<bool name="not_in_transition" value="False" />
+				<locstring name="ui_name" value="11071192" />
+				<template_reference name="resource" value="tables\resource_table">
+					<float name="action" value="0" />
+					<float name="command" value="1" />
+					<float name="fuel" value="0" />
+					<float name="manpower" value="0" />
+					<float name="munition" value="0" />
+					<float name="soviet_progression" value="0" />
+					<float name="soviet_227" value="0" />
+					<float name="popcap" value="0" />
+				</template_reference>
 			</template_reference>
 			<template_reference name="required" value="requirements\required_any_in_list">
 				<enum name="reason" value="usage_and_display" />
@@ -77,19 +83,13 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_resource">
+			<template_reference name="required" value="requirements\required_in_territory">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11071192" />
-				<template_reference name="resource" value="tables\resource_table">
-					<float name="action" value="0" />
-					<float name="command" value="1" />
-					<float name="fuel" value="0" />
-					<float name="manpower" value="0" />
-					<float name="munition" value="0" />
-					<float name="soviet_progression" value="0" />
-					<float name="soviet_227" value="0" />
-					<float name="popcap" value="0" />
-				</template_reference>
+				<locstring name="ui_name" value="0" />
+				<bool name="in_supply" value="True" />
+				<bool name="is_secured" value="False" />
+				<bool name="is_secured_by_checkpoint" value="False" />
+				<bool name="not_in_transition" value="False" />
 			</template_reference>
 		</list>
 		<int name="ui_position" value="9" />
