@@ -86,7 +86,7 @@
 						<string name="modifier_id" value="" />
 						<string name="target_type_name" value="" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.9411765" />
+						<float name="value" value="0.95" />
 						<instance_reference name="tooltip" value="modifier_tooltip\rotation_speed_modifier" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\health_maximum_modifier">
