@@ -421,7 +421,7 @@
 					<bool name="prevent_standing" value="False" />
 				</group>
 				<float name="safety_value" value="0.4" />
-				<float name="speed_multiplier" value="0.6" />
+				<float name="speed_multiplier" value="1" />
 				<list name="actions">
 					<template_reference name="action" value="action\animator_set_action">
 						<string name="action_name" value="UI\Cover\Heavy_Cover" />
@@ -447,7 +447,7 @@
 					<bool name="prevent_standing" value="False" />
 				</group>
 				<float name="safety_value" value="0.2" />
-				<float name="speed_multiplier" value="0.8" />
+				<float name="speed_multiplier" value="1" />
 				<list name="actions">
 					<template_reference name="action" value="action\animator_set_state">
 						<bool name="apply_to_leader_only" value="False" />

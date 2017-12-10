@@ -352,7 +352,7 @@
 					<bool name="prevent_standing" value="False" />
 				</group>
 				<float name="safety_value" value="0.4" />
-				<float name="speed_multiplier" value="0.6" />
+				<float name="speed_multiplier" value="1" />
 				<list name="actions">
 				</list>
 			</group>
@@ -362,7 +362,7 @@
 					<bool name="prevent_standing" value="False" />
 				</group>
 				<float name="safety_value" value="0.2" />
-				<float name="speed_multiplier" value="0.8" />
+				<float name="speed_multiplier" value="1" />
 				<list name="actions">
 				</list>
 			</group>
