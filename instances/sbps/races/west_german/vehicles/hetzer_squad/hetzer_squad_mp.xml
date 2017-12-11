@@ -620,7 +620,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="1530" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11097316" />
+								<locstring name="screen_name" value="11097318" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -633,21 +633,21 @@
 												<float name="duration" value="0" />
 												<bool name="permanent" value="False" />
 												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\weapon_burst_length_modifier">
+													<template_reference name="modifier" value="modifiers\cooldown_weapon_modifier">
 														<enum name="application_type" value="apply_to_weapon" />
 														<bool name="exclusive" value="False" />
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.3" />
-														<instance_reference name="tooltip" value="modifier_tooltip\weapon_burst_length_modifier" />
+														<float name="value" value="0.85" />
+														<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073774238" />
+												<uniqueid name="id" value="1073776369" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073774239" />
+										<uniqueid name="id" value="1073776370" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -746,30 +746,21 @@
 												<float name="duration" value="0" />
 												<bool name="permanent" value="False" />
 												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
-														<enum name="application_type" value="apply_to_entity" />
+													<template_reference name="modifier" value="modifiers\cooldown_weapon_modifier">
+														<enum name="application_type" value="apply_to_weapon" />
 														<bool name="exclusive" value="False" />
 														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
+														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.3" />
-														<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
-													</template_reference>
-													<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
-														<enum name="application_type" value="apply_to_entity" />
-														<bool name="exclusive" value="False" />
-														<string name="modifier_id" value="" />
-														<string name="target_type_name" value="" />
-														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.25" />
-														<instance_reference name="tooltip" value="modifier_tooltip\rotation_speed_modifier" />
+														<float name="value" value="0.85" />
+														<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073774244" />
+												<uniqueid name="id" value="1073776371" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073774245" />
+										<uniqueid name="id" value="1073776372" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -804,7 +795,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="1560" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11097316" />
+								<locstring name="screen_name" value="11097318" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -817,21 +808,21 @@
 												<float name="duration" value="0" />
 												<bool name="permanent" value="False" />
 												<list name="modifiers">
-													<template_reference name="modifier" value="modifiers\weapon_burst_length_modifier">
+													<template_reference name="modifier" value="modifiers\cooldown_weapon_modifier">
 														<enum name="application_type" value="apply_to_weapon" />
 														<bool name="exclusive" value="False" />
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="1.3" />
-														<instance_reference name="tooltip" value="modifier_tooltip\weapon_burst_length_modifier" />
+														<float name="value" value="0.85" />
+														<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 													</template_reference>
 												</list>
-												<uniqueid name="id" value="1073774247" />
+												<uniqueid name="id" value="1073776367" />
 											</template_reference>
 										</list>
 										<enum name="change_target_type" value="entities" />
-										<uniqueid name="id" value="1073774248" />
+										<uniqueid name="id" value="1073776368" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -936,7 +927,7 @@
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.7" />
+														<float name="value" value="0.85" />
 														<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 													</template_reference>
 												</list>

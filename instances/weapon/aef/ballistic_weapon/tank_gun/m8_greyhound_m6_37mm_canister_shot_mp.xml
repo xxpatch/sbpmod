@@ -47,7 +47,7 @@
 			</group>
 			<group name="damage">
 				<float name="far" value="0.15" />
-				<float name="near" value="1" />
+				<float name="near" value="0.9" />
 				<float name="mid" value="0.25" />
 			</group>
 			<group name="damage_friendly">

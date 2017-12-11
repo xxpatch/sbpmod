@@ -522,6 +522,56 @@
 					<bool name="permanent" value="True" />
 					<uniqueid name="id" value="1073762037" />
 				</template_reference>
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_squad_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="include_queued" value="False" />
+							<bool name="is_present" value="False" />
+							<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\ability_lock_out_paratroopers_landed" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\capture_enable_squad_modifier">
+									<enum name="application_type" value="apply_to_squad" />
+									<bool name="exclusive" value="True" />
+									<string name="modifier_id" value="paradrop" />
+									<string name="target_type_name" value="" />
+									<enum name="usage_type" value="enable" />
+									<float name="value" value="-1" />
+									<instance_reference name="tooltip" value="modifier_tooltip\capture_enable_squad_modifier" />
+								</template_reference>
+								<template_reference name="modifier" value="modifiers\squad_chill_per_tick_modifier">
+									<enum name="application_type" value="apply_to_squad" />
+									<bool name="exclusive" value="True" />
+									<string name="modifier_id" value="paradrop2" />
+									<string name="target_type_name" value="" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="0" />
+									<instance_reference name="tooltip" value="modifier_tooltip\squad_chill_per_tick_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073776401" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073776402" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
+				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
