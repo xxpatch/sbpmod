@@ -419,7 +419,7 @@
 			<bool name="obb_selectable" value="False" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="369" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="screen_name" value="11145768" mod="32d542de1479464f922dff46e65be6e2" />
 			<enum name="selection_name" value="vehicle" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="squad_select" />
@@ -460,7 +460,7 @@
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_in_build_log" value="True" />
 			<bool name="show_entity_appearance" value="True" />
-			<locstring name="screen_name_world" value="370" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="screen_name_world" value="11145768" mod="32d542de1479464f922dff46e65be6e2" />
 			<locstring name="help_text_world" value="0" />
 			<locstring name="extra_text_world" value="11071655" />
 			<enum name="map_rotation_type_override" value="no_override" />

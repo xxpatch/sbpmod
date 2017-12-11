@@ -1,7 +1,7 @@
 <instance description="" template="commander_ability">
 	<group name="commander_ability_bag">
-		<locstring name="name" value="278" mod="32d542de1479464f922dff46e65be6e2" />
-		<locstring name="description" value="277" mod="32d542de1479464f922dff46e65be6e2" />
+		<locstring name="name" value="11145623" mod="32d542de1479464f922dff46e65be6e2" />
+		<locstring name="description" value="11145633" mod="32d542de1479464f922dff46e65be6e2" />
 		<icon name="icon" value="Icons_bob_upgrades_incendiary_barrage_increased_damage" />
 		<template_reference name="server_item" value="server_item">
 			<list name="search_tags">

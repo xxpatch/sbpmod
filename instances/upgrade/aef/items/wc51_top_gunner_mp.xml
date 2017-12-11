@@ -30,7 +30,7 @@
 		<enum name="ui_group" value="unit_upgrade_panel" />
 		<int name="ui_position" value="3" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="232" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11145618" mod="32d542de1479464f922dff46e65be6e2" />
 			<locstring name="help_text" value="11056106" />
 			<string name="hotkey_name" value="V" />
 			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_aef_m2_browning" />
@@ -51,7 +51,7 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_in_territory">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="322" mod="32d542de1479464f922dff46e65be6e2" />
+				<locstring name="ui_name" value="11145622" mod="32d542de1479464f922dff46e65be6e2" />
 				<bool name="in_supply" value="True" />
 				<bool name="is_secured" value="False" />
 				<bool name="is_secured_by_checkpoint" value="False" />

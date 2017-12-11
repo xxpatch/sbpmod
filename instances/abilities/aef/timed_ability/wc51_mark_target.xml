@@ -48,8 +48,8 @@
 						<template_reference name="action" value="action\ui_unit_modifier_action">
 							<bool name="die_with_creator" value="True" />
 							<template_reference name="ui_info" value="tables\ui_info">
-								<locstring name="screen_name" value="326" mod="32d542de1479464f922dff46e65be6e2" />
-								<locstring name="help_text" value="325" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="screen_name" value="11145651" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="help_text" value="11145734" mod="32d542de1479464f922dff46e65be6e2" />
 								<icon name="icon_name" value="Icons_abilities_ability_aef_priority_targeting_on" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
@@ -182,13 +182,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="327" mod="32d542de1479464f922dff46e65be6e2" />
-			<locstring name="help_text" value="323" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11145552" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="help_text" value="11145498" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="Icons_abilities_ability_aef_priority_targeting_on" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="324" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="screen_name" value="11145651" mod="32d542de1479464f922dff46e65be6e2" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />

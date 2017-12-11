@@ -30,14 +30,14 @@
 		<enum name="ui_group" value="unit_upgrade_panel" />
 		<int name="ui_position" value="1" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="243" mod="32d542de1479464f922dff46e65be6e2" />
-			<locstring name="help_text" value="244" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11145620" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="help_text" value="11145598" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="X" />
 			<icon name="icon_name" value="Icons_bob_upgrades_bazookas" />
 			<bool name="reveal_for_decryption" value="True" />
 			<locstring name="screen_name" value="11116692" />
-			<locstring name="brief_text" value="245" mod="32d542de1479464f922dff46e65be6e2" />
-			<locstring name="screen_name_short" value="242" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="brief_text" value="11145598" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="screen_name_short" value="11145539" mod="32d542de1479464f922dff46e65be6e2" />
 			<enum name="ui_style" value="default" />
 		</group>
 		<bool name="validate_actions" value="False" />
@@ -56,7 +56,7 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_slot_item_size">
 				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="248" mod="32d542de1479464f922dff46e65be6e2" />
+				<locstring name="ui_name" value="11145482" mod="32d542de1479464f922dff46e65be6e2" />
 				<float name="required_free_slot_size" value="2" />
 			</template_reference>
 		</list>

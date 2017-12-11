@@ -132,8 +132,8 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="305" mod="32d542de1479464f922dff46e65be6e2" />
-			<locstring name="help_text" value="306" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11145555" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="help_text" value="11145649" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_bob_abilities_m83_cluster_bomb" />
 			<string name="overlay_name" value="" />
@@ -152,7 +152,7 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="307" mod="32d542de1479464f922dff46e65be6e2" />
+				<locstring name="ui_name" value="11145486" mod="32d542de1479464f922dff46e65be6e2" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
 					<float name="command" value="7" />

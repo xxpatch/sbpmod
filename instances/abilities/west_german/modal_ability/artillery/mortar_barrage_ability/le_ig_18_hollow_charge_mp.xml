@@ -124,13 +124,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="26" mod="32d542de1479464f922dff46e65be6e2" />
-			<locstring name="help_text" value="25" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11145641" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="help_text" value="11145704" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="Icons_abilities_ability_west_german_hollow_charge_rounds" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="24" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="screen_name" value="11145616" mod="32d542de1479464f922dff46e65be6e2" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -144,7 +144,7 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_squad_veterancy">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="23" mod="32d542de1479464f922dff46e65be6e2" />
+				<locstring name="ui_name" value="11145763" mod="32d542de1479464f922dff46e65be6e2" />
 				<float name="veterancy_rank" value="1" />
 			</template_reference>
 		</list>

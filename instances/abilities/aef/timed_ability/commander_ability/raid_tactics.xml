@@ -68,8 +68,8 @@
 						<template_reference name="action" value="action\ui_unit_modifier_action">
 							<bool name="die_with_creator" value="False" />
 							<template_reference name="ui_info" value="tables\ui_info">
-								<locstring name="screen_name" value="303" mod="32d542de1479464f922dff46e65be6e2" />
-								<locstring name="help_text" value="304" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="screen_name" value="11145680" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="help_text" value="11145747" mod="32d542de1479464f922dff46e65be6e2" />
 								<icon name="icon_name" value="Icons_bob_specializations_support_tactics" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
@@ -122,8 +122,8 @@
 						<template_reference name="action" value="action\ui_unit_modifier_action">
 							<bool name="die_with_creator" value="False" />
 							<template_reference name="ui_info" value="tables\ui_info">
-								<locstring name="screen_name" value="303" mod="32d542de1479464f922dff46e65be6e2" />
-								<locstring name="help_text" value="304" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="screen_name" value="11145680" mod="32d542de1479464f922dff46e65be6e2" />
+								<locstring name="help_text" value="11145747" mod="32d542de1479464f922dff46e65be6e2" />
 								<icon name="icon_name" value="Icons_commander_cmdr_aef_forward_observers" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
@@ -248,13 +248,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="345" mod="32d542de1479464f922dff46e65be6e2" />
-			<locstring name="help_text" value="302" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11145560" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="help_text" value="11145517" mod="32d542de1479464f922dff46e65be6e2" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_bob_specializations_support_tactics" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="301" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="screen_name" value="11145680" mod="32d542de1479464f922dff46e65be6e2" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
