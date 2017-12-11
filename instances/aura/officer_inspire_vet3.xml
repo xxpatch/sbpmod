@@ -17,19 +17,10 @@
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<enum name="unit_type" value="infantry" />
-								<template_reference name="qualify_option" value="options\none">
-								</template_reference>
-								<bool name="search_load_out" value="False" />
-								<bool name="owned_by_player_only" value="True" />
-							</template_reference>
-							<template_reference name="requirement" value="requirements\required_unit_type">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<enum name="unit_type" value="team_weapon" />
 								<template_reference name="qualify_option" value="options\requirements\required_unit_type_option\any">
 									<int name="min_count" value="1" />
 								</template_reference>
-								<bool name="search_load_out" value="False" />
+								<bool name="search_load_out" value="True" />
 								<bool name="owned_by_player_only" value="True" />
 							</template_reference>
 						</list>
