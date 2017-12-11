@@ -174,6 +174,8 @@
 			<instance_reference name="ability" value="abilities\soviet\modal_ability\dispatch\sherman_soviet_dispatch" />
 			<instance_reference name="ability" value="abilities\soviet\modal_ability\dispatch\m5_halftrack_assault" />
 			<instance_reference name="ability" value="abilities\soviet\timed_ability\throw_away_hack_ui\cmd_tank_hunter_ambush_tactics_mp" mod="32d542de1479464f922dff46e65be6e2" />
+			<instance_reference name="ability" value="abilities\aef\timed_ability\commander_ability\kv1_delete_me_mp" mod="32d542de1479464f922dff46e65be6e2" />
+			<instance_reference name="ability" value="abilities\aef\timed_ability\commander_ability\tank_hunters_delete_me_mp" mod="32d542de1479464f922dff46e65be6e2" />
 		</list>
 		<group name="resource_max_cap">
 			<template_reference name="resource" value="tables\resource_table">

@@ -468,14 +468,6 @@
 							<float name="min_completed" value="1" />
 							<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv1_unlock" />
 						</template_reference>
-						<template_reference name="requirement" value="requirements\required_player_upgrade">
-							<enum name="reason" value="usage_and_display" />
-							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="True" />
-							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\conscript_evasive_tactics" mod="32d542de1479464f922dff46e65be6e2" />
-						</template_reference>
 					</list>
 				</template_reference>
 			</list>
