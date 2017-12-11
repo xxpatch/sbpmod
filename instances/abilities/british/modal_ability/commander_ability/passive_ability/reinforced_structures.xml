@@ -89,7 +89,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11082879" />
+			<locstring name="extra_text" value="11106549" />
 			<locstring name="help_text" value="11082798" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_british_stand_fast_operation" />
@@ -107,19 +107,13 @@
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_resource">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11094975" />
-				<template_reference name="resource" value="tables\resource_table">
-					<float name="action" value="0" />
-					<float name="command" value="2" />
-					<float name="fuel" value="0" />
-					<float name="manpower" value="0" />
-					<float name="munition" value="0" />
-					<float name="popcap" value="0" />
-					<float name="soviet_progression" value="0" />
-					<float name="soviet_227" value="0" />
-				</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="is_present" value="False" />
+				<float name="max_completed" value="100" />
+				<float name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\british\commander\passive\stand_fast_unlock_ability_mp" mod="32d542de1479464f922dff46e65be6e2" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />

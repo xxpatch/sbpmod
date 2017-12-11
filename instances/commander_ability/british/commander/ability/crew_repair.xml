@@ -1,25 +1,25 @@
 <instance description="" template="commander_ability">
 	<group name="commander_ability_bag">
-		<locstring name="name" value="11089940" />
-		<locstring name="description" value="11089939" />
-		<icon name="icon" value="Icons_commander_cmdr_british_assault_operation" />
+		<locstring name="name" value="11090870" />
+		<locstring name="description" value="11090872" />
+		<icon name="icon" value="Icons_commander_cmdr_british_crew_repair_operation" />
 		<template_reference name="server_item" value="server_item">
 			<list name="search_tags">
 				<locstring name="tag" value="0" />
 				<locstring name="tag" value="0" />
 			</list>
-			<enum name="rarity" value="uncommon" />
+			<enum name="rarity" value="rare" />
 			<list name="races">
 				<instance_reference name="race" value="racebps\british" />
 			</list>
 			<bool name="is_in_default_bundle" value="False" />
 			<list name="default_metadata">
 			</list>
-			<uniqueid name="server_id" value="1073741823" />
+			<uniqueid name="server_id" value="1073741853" />
 			<instance_reference name="inventory_item_category" value="" />
 		</template_reference>
-		<instance_reference name="upgrade" value="upgrade\british\commander\passive\assault" />
-		<instance_reference name="ability" value="abilities\british\timed_ability\commander_ability\assault" mod="32d542de1479464f922dff46e65be6e2" />
+		<instance_reference name="upgrade" value="upgrade\british\commander\passive\brit_vehicle_repairs_unlock_ability_mp" mod="32d542de1479464f922dff46e65be6e2" />
+		<instance_reference name="ability" value="" />
 	</group>
-	<uniqueid name="pbgid" value="92558" />
+	<uniqueid name="pbgid" value="93425" />
 </instance>
