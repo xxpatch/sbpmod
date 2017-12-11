@@ -100,14 +100,6 @@
 				<float name="min_completed" value="1" />
 				<instance_reference name="upgrade_name" value="upgrade\west_german\commander\passive\through_salvage" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade">
-				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="False" />
-				<float name="max_completed" value="100" />
-				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\west_german\commander\passive\pyro_volks" mod="32d542de1479464f922dff46e65be6e2" />
-			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
 		<int name="ui_position" value="0" />

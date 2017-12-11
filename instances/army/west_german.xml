@@ -154,6 +154,8 @@
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\howitzer_105mm_emplacement_unlock_okw" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\opel_blitz_reinforce_truck_dispatch" mod="32d542de1479464f922dff46e65be6e2" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\incendiary_munitions_mp" mod="32d542de1479464f922dff46e65be6e2" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\pyro_volks" />
+			<instance_reference name="ability" value="abilities\aef\timed_ability\commander_ability\firestorm_delete_me_mp" mod="32d542de1479464f922dff46e65be6e2" />
 		</list>
 		<group name="resource_max_cap">
 			<template_reference name="resource" value="tables\resource_table">
