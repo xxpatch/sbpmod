@@ -71,7 +71,7 @@
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="False" />
-		<float name="duration_time" value="90" />
+		<float name="duration_time" value="45" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
@@ -128,7 +128,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="105" mod="32d542de1479464f922dff46e65be6e2" />
+			<locstring name="extra_text" value="11090679" />
 			<locstring name="help_text" value="11090678" />
 			<string name="hotkey_name" value="P" />
 			<icon name="icon_name" value="Icons_abilities_ability_british_command_vehicle_air_support" />
